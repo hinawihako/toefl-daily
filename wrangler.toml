@@ -1,0 +1,11 @@
+name = "toefl-daily"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "."
+
+# Cloudflare Workers AI：口语评测用 Whisper 转写 + 打分
+[ai]
+binding = "AI"
+
+# 可选：给静态资源加缓存头（Pages 会忽略未知键，保留作说明）
+[vars]
+APP_NAME = "TOEFL 每日"

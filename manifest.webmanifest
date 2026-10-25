@@ -1,0 +1,14 @@
+{
+  "name": "TOEFL 每日",
+  "short_name": "TOEFL每日",
+  "description": "托福单词（番茄+间隔重复）、每日新闻精读、听力跟读、口语录音",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

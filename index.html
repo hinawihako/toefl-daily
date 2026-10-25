@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0f172a">
+<title>TOEFL 每日 · 单词 / 新闻 / 听力 / 口语</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{
+  --bg:#0f172a; --bg2:#131f38; --card:#1b2740; --line:#2a3a58; --ink:#e8eefc; --muted:#93a4c4;
+  --accent:#4f9cf9; --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%}
+body{
+  background:linear-gradient(180deg,#0c1425,#0f172a 40%,#0b1220);
+  color:var(--ink);font:16px/1.6 -apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
+  padding-bottom:calc(72px + env(safe-area-inset-bottom));
+}
+header{padding:14px 16px 8px;display:flex;align-items:baseline;gap:10px}
+header h1{font-size:19px;margin:0;font-weight:800;letter-spacing:.5px}
+header .sub{color:var(--muted);font-size:12px}
+main{padding:0 14px 20px;max-width:760px;margin:0 auto}
+.view{display:none}
+.view.on{display:block}
+.card{background:linear-gradient(180deg,var(--card),#16213a);border:1px solid var(--line);border-radius:16px;padding:16px;margin:12px 0}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.spread{justify-content:space-between}
+button{
+  font:inherit;color:var(--ink);background:#22304d;border:1px solid var(--line);
+  border-radius:12px;padding:10px 14px;cursor:pointer;transition:.15s;
+}
+button:active{transform:scale(.97)}
+button.primary{background:linear-gradient(180deg,#3b82f6,#2563eb);border-color:#2563eb;font-weight:700}
+button.ghost{background:transparent}
+button:disabled{opacity:.45}
+.pill{font-size:12px;padding:4px 10px;border-radius:999px;background:#22304d;color:var(--muted);border:1px solid var(--line)}
+.pill.ok{color:#0b2e22;background:var(--ok);border-color:var(--ok);font-weight:700}
+.pill.warn{color:#3b2a06;background:var(--warn);border-color:var(--warn);font-weight:700}
+
+/* 单词卡 */
+.word{font-size:42px;font-weight:800;letter-spacing:.5px;line-height:1.15;word-break:break-word}
+.pos{color:var(--accent);font-size:14px;margin-top:2px}
+.zh{font-size:22px;margin-top:12px}
+.ex{color:var(--muted);font-size:14.5px;margin-top:10px;border-left:3px solid var(--line);padding-left:10px}
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.grades button{padding:12px 6px;font-size:13px;border-radius:12px}
+.g0{background:#3f1d24;border-color:#7f2b36}
+.g1{background:#3a2f18;border-color:#87642a}
+.g2{background:#16342b;border-color:#2f7a5f}
+.g3{background:#16304a;border-color:#2e6ea8}
+
+/* 番茄 */
+.timer{font-variant-numeric:tabular-nums;font-size:56px;font-weight:800;text-align:center;letter-spacing:2px}
+.timer.break{color:var(--ok)}
+.bar{height:8px;border-radius:99px;background:#22304d;overflow:hidden;margin-top:10px}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,#3b82f6,#22d3ee);width:0%}
+
+/* 新闻 */
+.news-item{border-bottom:1px solid var(--line);padding:12px 0}
+.news-item:last-child{border-bottom:0}
+.news-item h3{margin:0 0 6px;font-size:16.5px}
+.en{font-size:15px}
+.en ul{margin:8px 0 0;padding-left:18px}
+.en li{margin:4px 0}
+.zhblock{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);color:#c9d6ee}
+.vocab{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.vocab .v{background:#1f2c47;border:1px solid var(--line);border-radius:10px;padding:6px 10px;font-size:13.5px;cursor:pointer}
+.vocab .v b{color:#fff}
+.vocab .v span{color:var(--muted);margin-left:4px}
+.tag{font-size:11px;padding:2px 8px;border-radius:999px;background:#24314d;color:#9fb3d6;margin-left:6px}
+
+/* 口语 */
+.rec{width:74px;height:74px;border-radius:50%;background:#3f1d24;border:2px solid #7f2b36;font-size:26px}
+.rec.on{background:#7f2b36;animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(248,113,113,.5)}50%{box-shadow:0 0 0 14px rgba(248,113,113,0)}}
+
+nav{
+  position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);
+  background:rgba(12,20,37,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);
+  padding-bottom:env(safe-area-inset-bottom);z-index:20;
+}
+nav button{background:none;border:0;border-radius:0;padding:10px 4px 12px;color:var(--muted);font-size:12px;display:flex;flex-direction:column;gap:2px;align-items:center}
+nav button.on{color:var(--accent);font-weight:700}
+nav .ico{font-size:19px;line-height:1}
+.hint{color:var(--muted);font-size:12.5px}
+.audio-row{display:flex;align-items:center;gap:10px;margin:10px 0}
+audio{width:100%}
+select,input{font:inherit;color:var(--ink);background:#22304d;border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.stat{font-variant-numeric:tabular-nums}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);opacity:0;
+  background:#0b1220;border:1px solid var(--line);padding:10px 16px;border-radius:12px;transition:.25s;z-index:50;font-size:14px}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+<header>
+  <h1>TOEFL 每日</h1>
+  <span class="sub" id="todayLabel"></span>
+</header>
+
+<main>
+  <!-- ========== 单词 ========== -->
+  <section class="view on" id="view-words">
+    <div class="card">
+      <div class="row spread">
+        <div>
+          <div class="stat" style="font-size:13px;color:var(--muted)">今日进度</div>
+          <div class="stat"><b id="wDone">0</b> / <span id="wGoal">12</span> 词</div>
+        </div>
+        <div class="row">
+          <span class="pill" id="streak">连续 0 天</span>
+          <button class="ghost" id="resetWords">重置</button>
+        </div>
+      </div>
+      <div class="bar" style="margin-top:12px"><i id="wBar"></i></div>
+    </div>
+
+    <div class="card" id="wordCard">
+      <div class="row spread">
+        <span class="pill" id="wpState">新词</span>
+        <button class="ghost" id="speakWord">🔊 发音</button>
+      </div>
+      <div class="word" id="wpWord">—</div>
+      <div class="pos" id="wpPos"></div>
+      <div id="answer" style="display:none">
+        <div class="zh" id="wpZh"></div>
+        <div class="ex" id="wpEx"></div>
+      </div>
+      <div class="row" style="margin-top:14px">
+        <button class="primary" id="showAnswer" style="flex:1">显示释义</button>
+      </div>
+      <div class="grades" id="grades" style="display:none">
+        <button class="g0" data-g="0">忘记<br><small>&lt;1分</small></button>
+        <button class="g1" data-g="1">困难<br><small>慢</small></button>
+        <button class="g2" data-g="2">良好<br><small>正常</small></button>
+        <button class="g3" data-g="3">容易<br><small>快</small></button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row spread">
+        <div><b>番茄钟</b> <span class="hint" id="pomoMode">专注 25:00</span></div>
+        <button class="ghost" id="pomoReset">重置</button>
+      </div>
+      <div class="timer" id="pomoTime">25:00</div>
+      <div class="bar"><i id="pomoBar"></i></div>
+      <div class="row" style="margin-top:12px">
+        <button class="primary" id="pomoStart" style="flex:1">开始专注</button>
+      </div>
+      <div class="hint" style="margin-top:10px">专注 25 分钟 → 休息 5 分钟，4 轮后长休息。统计显示今天完成了几个番茄。</div>
+    </div>
+  </section>
+
+  <!-- ========== 新闻 ========== -->
+  <section class="view" id="view-news">
+    <div class="row" style="margin:12px 0 0">
+      <select id="newsCat">
+        <option value="all">全部</option>
+        <option value="finance">金融</option>
+        <option value="ai">AI</option>
+        <option value="tech">科技</option>
+        <option value="policy">政策</option>
+      </select>
+      <span class="pill" id="newsDate">—</span>
+      <span class="hint" id="newsCount"></span>
+    </div>
+    <div id="newsList"></div>
+  </section>
+
+  <!-- ========== 听力 ========== -->
+  <section class="view" id="view-listen">
+    <div class="card">
+      <b>今日听力</b>
+      <div class="hint" id="listenMeta">等待音频生成…</div>
+      <div class="audio-row"><audio id="player" controls preload="metadata"></audio></div>
+      <div class="row">
+        <button id="slow" class="ghost">0.85×</button>
+        <button id="rate" class="ghost">1.0×</button>
+        <button id="fast" class="ghost">1.15×</button>
+        <button id="toggleScript" class="ghost">显示原文</button>
+      </div>
+      <div id="script" style="display:none;margin-top:12px" class="ex"></div>
+    </div>
+    <div class="card">
+      <b>精听方法</b>
+      <ol class="hint" style="margin:8px 0 0;padding-left:20px">
+        <li>第一遍不看原文，抓大意</li>
+        <li>第二遍逐句暂停，听写出你听不懂的词</li>
+        <li>对原文，只记 3–5 个新词</li>
+        <li>把今天的新词加进单词本</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ========== 口语 ========== -->
+  <section class="view" id="view-speak">
+    <div class="card">
+      <b>跟读练习</b>
+      <div class="hint">先听刚才那段音频 → 跟读 → 录音 → 回听对比。重点看：语速、停顿、重音。</div>
+      <div class="row" style="margin-top:14px;justify-content:center">
+        <button class="rec" id="recBtn">🎙</button>
+      </div>
+      <div class="hint" id="recState" style="text-align:center;margin-top:8px">点一下开始录音</div>
+      <div class="audio-row"><audio id="recPlay" controls style="display:none"></audio></div>
+      <div class="row" style="margin-top:10px">
+        <button id="recClear" class="ghost">删除</button>
+        <button id="recEval" class="primary" disabled>上传评测</button>
+      </div>
+      <div id="recResult" style="display:none;margin-top:12px"></div>
+    </div>
+    <div class="card">
+      <b>今日口语题</b>
+      <div id="speakPrompt" class="ex"></div>
+      <div class="hint" style="margin-top:10px">评测开启后会给：流利度（每秒词数）、停顿次数、发音可疑词、改写建议。</div>
+    </div>
+  </section>
+</main>
+
+<nav>
+  <button data-v="words" class="on"><span class="ico">📚</span>单词</button>
+  <button data-v="news"><span class="ico">📰</span>新闻</button>
+  <button data-v="listen"><span class="ico">🎧</span>听力</button>
+  <button data-v="speak"><span class="ico">🗣</span>口语</button>
+</nav>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------------- 数据：占位词表（真实词条，后续可从云端拉全量） ---------------- */
+const DEMO_WORDS = [
+ ["abundant","adj.","丰富的，大量的","The region is abundant in natural resources.","这个地区自然资源丰富。"],
+ ["ambiguous","adj.","模棱两可的","His answer was ambiguous and satisfied no one.","他的回答含糊其辞，谁都不满意。"],
+ ["anticipate","v.","预料，期望","We anticipate a rise in demand next quarter.","我们预计下季度需求会上升。"],
+ ["apparent","adj.","明显的；表面上的","It became apparent that the plan would fail.","这个计划注定失败已变得很明显。"],
+ ["arbitrary","adj.","武断的，任意的","The rule seemed arbitrary to the students.","这条规定在学生看来很武断。"],
+ ["assess","v.","评估","The committee will assess the proposal next week.","委员会下周评估这项提案。"],
+ ["assume","v.","假定；承担","Do not assume the data are accurate.","不要假定数据是准确的。"],
+ ["attribute","v./n.","归因于；属性","She attributes her success to hard work.","她把成功归因于努力。"],
+ ["coherent","adj.","连贯的","The essay needs a more coherent structure.","这篇文章需要更连贯的结构。"],
+ ["compel","v.","迫使","The evidence compelled him to admit the error.","证据迫使他承认错误。"],
+ ["comprehensive","adj.","全面的","The report gives a comprehensive overview.","报告给出了全面的概览。"],
+ ["concede","v.","承认；让步","He conceded that the criticism was fair.","他承认批评是公允的。"],
+ ["constitute","v.","构成","Women constitute half of the workforce.","女性构成劳动力的一半。"],
+ ["contradict","v.","反驳；与…矛盾","The results contradict the earlier study.","结果与早先研究相矛盾。"],
+ ["conventional","adj.","传统的，常规的","Conventional methods no longer work here.","常规方法在这里行不通了。"],
+ ["crucial","adj.","关键的","Timing is crucial in this experiment.","时机在这个实验中很关键。"],
+ ["cumulative","adj.","累积的","The cumulative effect was significant.","累积效应很显著。"],
+ ["deteriorate","v.","恶化","The situation deteriorated rapidly.","局势迅速恶化。"],
+ ["diminish","v.","减少，减弱","The noise gradually diminished.","噪音逐渐减弱。"],
+ ["discrete","adj.","分离的，离散的","The process has three discrete stages.","该过程有三个分离的阶段。"],
+ ["distort","v.","歪曲，扭曲","The media distorted his statement.","媒体歪曲了他的话。"],
+ ["diverse","adj.","多样的","The city has a diverse population.","这座城市人口多样。"],
+ ["elaborate","adj./v.","精心制作的；详述","Could you elaborate on that point?","你能详述那一点吗？"],
+ ["emerge","v.","出现，浮现","A new pattern is emerging in the data.","数据中正在浮现新的模式。"],
+ ["empirical","adj.","经验主义的，实证的","We need empirical evidence, not opinion.","我们需要实证证据，不是意见。"],
+ ["enhance","v.","增强，提升","The update enhances security.","这次更新提升了安全性。"],
+ ["equivalent","adj./n.","等同的；等价物","One mile is roughly equivalent to 1.6 km.","一英里约等于 1.6 公里。"],
+ ["exceed","v.","超过","Sales exceeded expectations.","销售超出预期。"],
+ ["explicit","adj.","明确的","The instructions were explicit.","说明很清楚。"],
+ ["facilitate","v.","促进，使便利","The tool facilitates data cleaning.","这个工具让数据清洗更便利。"],
+ ["fluctuate","v.","波动","Prices fluctuate with demand.","价格随需求波动。"],
+ ["fundamental","adj.","根本的","There is a fundamental flaw in the design.","设计里有根本性缺陷。"],
+ ["hypothesis","n.","假设","The hypothesis was rejected by the data.","这个假设被数据否定。"],
+ ["implement","v.","实施","They implemented the policy last month.","他们上月实施了该政策。"],
+ ["implication","n.","含义，影响","The implications for policy are large.","对政策的影响很大。"],
+ ["incentive","n.","激励，动机","Tax breaks are an incentive to invest.","税收减免是投资的激励。"],
+ ["inevitable","adj.","不可避免的","Some delay was inevitable.","有些延迟不可避免。"],
+ ["infer","v.","推断","We infer the cause from the pattern.","我们从模式推断原因。"],
+ ["integrate","v.","整合","The system integrates three modules.","系统整合了三个模块。"],
+ ["interpret","v.","解释；口译","How do you interpret these results?","你如何解读这些结果？"],
+ ["intrinsic","adj.","内在的","Curiosity has intrinsic value.","好奇心有内在价值。"],
+ ["justify","v.","证明…正当","Nothing can justify that decision.","没有什么能为那个决定辩护。"],
+ ["magnitude","n.","量级；重要性","The magnitude of the change surprised us.","变化的量级让我们吃惊。"],
+ ["modify","v.","修改","We modified the protocol slightly.","我们稍作修改了流程。"],
+ ["negligible","adj.","微不足道的","The difference is negligible.","差异微不足道。"],
+ ["obscure","adj./v.","模糊的；遮蔽","The reason remains obscure.","原因仍不清楚。"],
+ ["perceive","v.","察觉，认为","She perceived a change in tone.","她察觉到语气变化。"],
+ ["persistent","adj.","持续的，坚持不懈的","A persistent problem needs a new approach.","顽固的问题需要新思路。"],
+ ["phenomenon","n.","现象","The phenomenon is well documented.","这一现象有充分记载。"],
+ ["plausible","adj.","貌似合理的","A plausible explanation is not proof.","貌似合理的解释不是证据。"],
+ ["preliminary","adj.","初步的","These are preliminary findings.","这些是初步发现。"],
+ ["presumably","adv.","大概，据推测","Presumably, the data will be released soon.","数据大概很快会公布。"],
+ ["prevail","v.","盛行；获胜","Calm finally prevailed.","冷静最终占了上风。"],
+ ["profound","adj.","深刻的","The change had a profound effect.","这一变化影响深远。"],
+ ["reinforce","v.","加强","The results reinforce our conclusion.","结果强化了我们的结论。"],
+ ["reluctant","adj.","不情愿的","He was reluctant to comment.","他不愿置评。"],
+ ["restrict","v.","限制","The rule restricts access to the data.","该规定限制数据访问。"],
+ ["scrutiny","n.","仔细审查","The plan came under scrutiny.","该计划受到严格审查。"],
+ ["subsequent","adj.","随后的","Subsequent tests confirmed it.","随后的测试证实了这一点。"],
+ ["substantial","adj.","大量的；实质的","A substantial share of users left.","相当大比例的用户流失了。"],
+ ["vulnerable","adj.","脆弱的，易受影响的","Small firms are vulnerable to shocks.","小公司易受冲击。"]
+];
+
+/* ---------------- 存储 ---------------- */
+const LS = {
+  get(k,d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d }catch{ return d } },
+  set(k,v){ localStorage.setItem(k, JSON.stringify(v)) }
+};
+const today = () => new Date().toISOString().slice(0,10);
+
+let SRS = LS.get('toefl.srs', {});
+let STATS = LS.get('toefl.stats', {date:today(), done:0, streak:0, lastDay:'', pomos:0});
+
+/* SM-2 简化版 */
+function schedule(word, grade){
+  const s = SRS[word] || {ease:2.5, interval:0, reps:0, due:0};
+  if (grade === 0){ s.reps = 0; s.interval = 0; }
+  else {
+    s.reps += 1;
+    if (s.reps === 1) s.interval = 1;
+    else if (s.reps === 2) s.interval = 3;
+    else s.interval = Math.round(s.interval * s.ease);
+    s.ease = Math.max(1.3, s.ease + (grade === 3 ? 0.15 : grade === 1 ? -0.2 : 0));
+  }
+  s.due = Date.now() + (grade === 0 ? 60*1000 : s.interval * 86400000);
+  s.last = Date.now();
+  SRS[word] = s;
+  LS.set('toefl.srs', SRS);
+  return s;
+}
+let WORDS = DEMO_WORDS.map(x => [x[0], x[1], x[2], x[3], x[4]]);
+
+async function loadWords(){
+  try{
+    const r = await fetch('data/words.json?t=' + Date.now());
+    const j = await r.json();
+    if (j && Array.isArray(j.words) && j.words.length){
+      WORDS = j.words.map(x => [x.w, x.pos || '', x.zh || '', x.ph || '', x.phz || '', x.t || 0]);
+      renderWord();
+    }
+  }catch(e){ /* 用内置词表兜底 */ }
+}
+
+function playWord(word, rate=0.95){
+  // 优先用预生成的真人级发音；没有就退回浏览器语音合成
+  const a = new Audio('data/audio/words/' + encodeURIComponent(word) + '.mp3');
+  a.playbackRate = rate;
+  a.onerror = () => speak(word, rate);
+  a.play().catch(() => speak(word, rate));
+}
+
+function dueWords(){
+  const now = Date.now();
+  const due = WORDS.filter(w => { const s = SRS[w[0]]; return s && s.due <= now; });
+  const fresh = WORDS.filter(w => !SRS[w[0]]);
+  return [...due, ...fresh];
+}
+
+/* ---------------- 单词卡 ---------------- */
+let cur = null, shown = false;
+const $ = s => document.querySelector(s);
+function setTodayStats(){
+  if (STATS.date !== today()){
+    const y = STATS.date;
+    const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+    STATS.streak = (STATS.done >= STATS.goal && y === yesterday) ? (STATS.streak||0)+1 : STATS.streak||0;
+    STATS = {date: today(), done:0, goal: STATS.goal||12, streak: STATS.streak, pomos:0};
+    LS.set('toefl.stats', STATS);
+  }
+  if (!STATS.goal) STATS.goal = 12;
+}
+function renderWord(){
+  setTodayStats();
+  const pool = dueWords();
+  cur = pool[0] || null;
+  shown = false;
+  $('#answer').style.display = 'none';
+  $('#grades').style.display = 'none';
+  $('#showAnswer').style.display = 'block';
+  $('#wDone').textContent = STATS.done;
+  $('#wGoal').textContent = STATS.goal;
+  $('#streak').textContent = `连续 ${STATS.streak||0} 天`;
+  $('#wBar').style.width = Math.min(100, STATS.done/STATS.goal*100) + '%';
+  if (!cur){
+    $('#wpWord').textContent = '今天的词都过完了 🎉';
+    $('#wpPos').textContent = '';
+    $('#showAnswer').style.display = 'none';
+    $('#wpState').textContent = '完成';
+    return;
+  }
+  $('#wpWord').textContent = cur[0];
+  $('#wpPos').textContent = cur[1];
+  $('#wpZh').textContent = cur[2];
+  $('#wpEx').textContent = cur[3] + ' — ' + cur[4];
+  const s = SRS[cur[0]];
+  const tier = cur[5] === 1 ? ' · 基础' : cur[5] === 2 ? ' · 高中' : '';
+  $('#wpState').textContent = (s ? ('复习 · ' + s.reps + ' 次') : '新词') + tier;
+}
+$('#showAnswer').onclick = () => {
+  shown = true;
+  $('#answer').style.display = 'block';
+  $('#grades').style.display = 'grid';
+  $('#showAnswer').style.display = 'none';
+};
+document.querySelectorAll('#grades button').forEach(b => {
+  b.onclick = () => {
+    if (!cur) return;
+    schedule(cur[0], Number(b.dataset.g));
+    STATS.done = (STATS.done||0) + 1;
+    LS.set('toefl.stats', STATS);
+    toast(b.dataset.g === '0' ? '1 分钟后再见' : '已加入下次复习');
+    renderWord();
+  };
+});
+$('#speakWord').onclick = () => playWord(cur ? cur[0] : '');
+function speak(text, rate=0.95){
+  if (!text || !window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US'; u.rate = rate;
+  const vs = speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+  if (vs.length) u.voice = vs[0];
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+$('#resetWords').onclick = () => {
+  if (!confirm('清空所有记忆进度？')) return;
+  SRS = {}; LS.set('toefl.srs', SRS);
+  STATS = {date: today(), done:0, goal:12, streak:0, pomos:0}; LS.set('toefl.stats', STATS);
+  renderWord();
+};
+
+/* ---------------- 番茄钟 ---------------- */
+let pomo = {running:false, mode:'work', left:25*60, total:25*60, timer:null};
+function fmt(s){ return String(Math.floor(s/60)).padStart(2,'0') + ':' + String(s%60).padStart(2,'0') }
+function renderPomo(){
+  $('#pomoTime').textContent = fmt(pomo.left);
+  $('#pomoTime').className = 'timer' + (pomo.mode === 'break' ? ' break' : '');
+  $('#pomoBar').style.width = (100 - pomo.left/pomo.total*100) + '%';
+  $('#pomoMode').textContent = (pomo.mode === 'work' ? '专注 ' : '休息 ') + fmt(pomo.total);
+  $('#pomoStart').textContent = pomo.running ? '暂停' : (pomo.mode === 'work' ? '开始专注' : '开始休息');
+}
+function tick(){
+  if (!pomo.running) return;
+  pomo.left--;
+  if (pomo.left <= 0){
+    pomo.running = false;
+    if (pomo.mode === 'work'){
+      STATS.pomos = (STATS.pomos||0) + 1; LS.set('toefl.stats', STATS);
+      toast('🍅 一个番茄完成，休息 5 分钟');
+      pomo = {running:false, mode:'break', left:5*60, total:5*60, timer:null};
+    } else {
+      toast('休息结束，继续');
+      pomo = {running:false, mode:'work', left:25*60, total:25*60, timer:null};
+    }
+    renderPomo();
+    return;
+  }
+  renderPomo();
+}
+$('#pomoStart').onclick = () => {
+  pomo.running = !pomo.running;
+  if (pomo.running && !pomo.timer) pomo.timer = setInterval(tick, 1000);
+  renderPomo();
+};
+$('#pomoReset').onclick = () => {
+  pomo = {running:false, mode:'work', left:25*60, total:25*60, timer:pomo.timer};
+  renderPomo();
+};
+
+/* ---------------- 新闻 ---------------- */
+let NEWS = null;
+async function loadNews(){
+  try{
+    const r = await fetch('data/news/index.json?t=' + Date.now());
+    NEWS = await r.json();
+  }catch(e){
+    NEWS = {date: '—', items: []};
+  }
+  renderNews();
+}
+function renderNews(){
+  const cat = $('#newsCat').value;
+  const items = (NEWS.items||[]).filter(x => cat === 'all' || x.category === cat);
+  $('#newsDate').textContent = NEWS.date || '—';
+  $('#newsCount').textContent = items.length + ' 条';
+  const box = $('#newsList');
+  if (!items.length){
+    box.innerHTML = '<div class="card"><b>还没有今天的新闻</b><div class="hint" style="margin-top:8px">新闻由每日管线生成：抓取 → 英文摘要 → 中文翻译 → 生词与发音 → 打标 → 上云。管线跑通后这里会自动出现内容。</div></div>';
+    return;
+  }
+  box.innerHTML = items.map((it, i) => `
+    <div class="card">
+      <div class="row spread">
+        <b>${it.title_en || ''}</b>
+      </div>
+      <div class="row" style="margin:6px 0 10px">
+        <span class="pill">${it.category || ''}</span>
+        ${(it.tags||[]).map(t => `<span class="tag">${t}</span>`).join('')}
+        <span class="hint">${it.source || ''}</span>
+      </div>
+      <div class="en">
+        ${(it.summary_en||[]).map(p => `<p>${p}</p>`).join('')}
+        ${(it.key_points_en||[]).length ? `<ul>${it.key_points_en.map(p=>`<li>${p}</li>`).join('')}</ul>` : ''}
+      </div>
+      <div class="zhblock">
+        ${(it.translation_zh||[]).map(p => `<p>${p}</p>`).join('')}
+      </div>
+      <div class="vocab">
+        ${(it.vocab||[]).map(v => `<div class="v" onclick="speak('${v.word.replace(/'/g,'')}')"><b>${v.word}</b><span>${v.zh||''}</span></div>`).join('')}
+      </div>
+      ${it.link ? `<div class="hint" style="margin-top:10px">来源：<a href="${it.link}" target="_blank" rel="noopener" style="color:var(--accent)">${it.source||'原文'}</a></div>` : ''}
+    </div>`).join('');
+}
+$('#newsCat').onchange = renderNews;
+
+/* ---------------- 听力 ---------------- */
+let LIS = {items: []};
+async function loadListen(){
+  try{
+    const r = await fetch('data/audio/index.json?t=' + Date.now());
+    LIS = await r.json();
+  }catch(e){ LIS = {items: []}; }
+  const first = (LIS.items||[])[0];
+  if (first){
+    $('#player').src = first.file;
+    $('#listenMeta').textContent = `${first.title || ''} · ${first.duration || ''}`;
+    $('#script').textContent = first.script || '';
+  } else {
+    $('#listenMeta').textContent = '今天还没有音频（由管线每天生成）';
+  }
+}
+$('#toggleScript').onclick = () => {
+  const s = $('#script');
+  const on = s.style.display === 'none';
+  s.style.display = on ? 'block' : 'none';
+  $('#toggleScript').textContent = on ? '隐藏原文' : '显示原文';
+};
+const setRate = r => { $('#player').playbackRate = r; toast('播放速度 ' + r + '×') };
+$('#slow').onclick = () => setRate(0.85);
+$('#rate').onclick = () => setRate(1.0);
+$('#fast').onclick = () => setRate(1.15);
+
+/* ---------------- 口语录音 ---------------- */
+let mediaRec = null, chunks = [], recUrl = null, lastBlob = null, lastDuration = 0, recStart = 0;
+$('#recBtn').onclick = async () => {
+  if (mediaRec && mediaRec.state === 'recording'){
+    mediaRec.stop();
+    return;
+  }
+  try{
+    const stream = await navigator.mediaDevices.getUserMedia({audio:true});
+    chunks = [];
+    mediaRec = new MediaRecorder(stream);
+    mediaRec.ondataavailable = e => chunks.push(e.data);
+    mediaRec.onstop = () => {
+      lastDuration = (Date.now() - recStart) / 1000;
+      const blob = new Blob(chunks, {type:'audio/webm'});
+      recUrl = URL.createObjectURL(blob);
+      lastBlob = blob;
+      const p = $('#recPlay');
+      p.src = recUrl; p.style.display = 'block';
+      $('#recState').textContent = '录好了，点播放回听';
+      $('#recEval').disabled = false;
+      stream.getTracks().forEach(t => t.stop());
+      $('#recBtn').classList.remove('on');
+    };
+    recStart = Date.now();
+    mediaRec.start();
+    $('#recBtn').classList.add('on');
+    $('#recState').textContent = '录音中…再点一下停止';
+  }catch(e){
+    toast('拿不到麦克风权限：' + e.name);
+  }
+};
+$('#recClear').onclick = () => {
+  const p = $('#recPlay'); p.src = ''; p.style.display = 'none';
+  $('#recState').textContent = '点一下开始录音';
+  $('#recEval').disabled = true;
+};
+$('#recEval').onclick = async () => {
+  if (!lastBlob) return toast('先录一段');
+  const box = $('#recResult');
+  box.style.display = 'block';
+  box.innerHTML = '<div class="hint">上传中，云端转写与打分…</div>';
+  const fd = new FormData();
+  fd.append('audio', lastBlob, 'answer.webm');
+  fd.append('duration', String(lastDuration.toFixed(2)));
+  try{
+    const r = await fetch('api/evaluate', {method:'POST', body: fd});
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || 'failed');
+    box.innerHTML = `
+      <div class="row spread"><b>评测结果</b><span class="pill ${j.score>=75?'ok':'warn'}">${j.score} 分</span></div>
+      <div class="hint" style="margin-top:8px">语速 ${j.wpm} wpm · 词数 ${j.word_count} · 停顿 ${j.long_pauses} 次 · 填充词 ${j.fillers} 个</div>
+      <div style="margin-top:10px;color:var(--muted);font-size:14px;line-height:1.7">${j.transcript}</div>
+      <ul style="margin:10px 0 0;padding-left:18px;font-size:14px">${j.feedback.map(f=>`<li>${f}</li>`).join('')}</ul>`;
+  }catch(e){
+    box.innerHTML = '<div class="hint">评测失败：' + e.message + '（本地预览时没有后端是正常的）</div>';
+  }
+};
+
+/* ---------------- Tabs ---------------- */
+document.querySelectorAll('nav button').forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll('nav button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('on'));
+    $('#view-' + b.dataset.v).classList.add('on');
+    if (b.dataset.v === 'news' && !NEWS) loadNews();
+    if (b.dataset.v === 'listen' && !LIS.items.length) loadListen();
+  };
+});
+
+/* ---------------- 启动 ---------------- */
+function toast(msg){
+  const t = $('#toast');
+  t.textContent = msg; t.classList.add('on');
+  clearTimeout(t._h);
+  t._h = setTimeout(() => t.classList.remove('on'), 1600);
+}
+$('#todayLabel').textContent = today();
+renderWord(); renderPomo(); loadNews(); loadListen(); loadWords();
+$('#speakPrompt').textContent = 'Describe a time when you had to learn something quickly. Explain the situation and what you did. (45s preparation, 60s response)';
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>

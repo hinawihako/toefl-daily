@@ -1,0 +1,9 @@
+﻿# 管线原始素材（不入库，太大）
+pipeline/_toefl-raw.json
+pipeline/junior.txt
+pipeline/senior.txt
+pipeline/logs/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
