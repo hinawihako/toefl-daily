@@ -4,7 +4,7 @@
     {
       "title": "Daily Briefing",
       "date": "2026-10-25",
-      "file": "audio/2026-10-25-briefing.mp3",
+      "file": "data/audio/2026-10-25-briefing.mp3",
       "script": "Here is your daily briefing. Retail investors are not more skilled than they were 30 years ago, according to a former hedge fund manager. French riots have caused bond yields to reach a 24-year high as investors evaluate risks related to the budget, economic growth, and specific sectors. Most executives think about AI costs in terms of GPUs and silicon, but data storage is often overlooked. A scalable AI system needs data, engineering, and governance to work together. This session discusses how to create such a foundation in regulated environments.",
       "duration": "214 KB"
     }

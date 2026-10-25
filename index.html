@@ -512,7 +512,9 @@ async function loadListen(){
   }catch(e){ LIS = {items: []}; }
   const first = (LIS.items||[])[0];
   if (first){
-    $('#player').src = first.file;
+    const src = (first.file || '').startsWith('data/') || (first.file || '').startsWith('http')
+      ? first.file : 'data/' + first.file;
+    $('#player').src = src;
     $('#listenMeta').textContent = `${first.title || ''} · ${first.duration || ''}`;
     $('#script').textContent = first.script || '';
   } else {

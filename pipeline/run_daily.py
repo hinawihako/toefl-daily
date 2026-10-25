@@ -242,7 +242,7 @@ def main():
             size = os.path.getsize(mp3) / 1024
             audio_index["items"].append({
                 "title": "Daily Briefing", "date": today,
-                "file": "audio/" + os.path.basename(mp3),
+                "file": "data/audio/" + os.path.basename(mp3),
                 "script": script, "duration": f"{size:.0f} KB"})
             print(f"5) 音频 {mp3}（{size:.0f} KB）")
         except Exception as e:
