@@ -19,8 +19,20 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Android SDK 环境检查（runner 自带）
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
+          ls "$ANDROID_HOME" || true
+          which sdkmanager || ls "$ANDROID_HOME/cmdline-tools/latest/bin" || true
+
+      - name: 安装编译所需的 SDK 组件
+        run: |
+          set -e
+          SDKM=$(command -v sdkmanager || echo "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager")
+          yes | "$SDKM" --licenses > /dev/null 2>&1 || true
+          "$SDKM" "platform-tools" "platforms;android-34" "build-tools;34.0.0" > /dev/null
+          echo "sdk 组件就绪"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
