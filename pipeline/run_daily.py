@@ -149,6 +149,33 @@ def make_audio(items, out_mp3, cfg):
     return script
 
 
+HISTORY_PATH = os.path.join(CFG["out"]["app_dir"], CFG["out"]["news_dir"], "history.json")
+
+
+def load_history():
+    """返回 {link_or_title_hash: date} ；超过 history_days 天的自动丢弃。"""
+    if not os.path.exists(HISTORY_PATH):
+        return {}
+    try:
+        data = json.load(open(HISTORY_PATH, encoding="utf-8"))
+    except Exception:
+        return {}
+    keep = int(CFG.get("history_days", 14))
+    cutoff = (dt.date.today() - dt.timedelta(days=keep)).isoformat()
+    return {k: v for k, v in (data.get("seen") or {}).items() if v >= cutoff}
+
+
+def save_history(seen):
+    data = {"updated": dt.datetime.now().astimezone().isoformat(timespec="seconds"),
+            "seen": seen}
+    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+
+
+def item_key(it):
+    return (it.get("link") or "").strip() or re.sub(r"\W+", "", it.get("title", "").lower())[:120]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=CFG["max_items"])
@@ -202,6 +229,12 @@ def main():
             s -= 3
         return s
 
+    # 跨天去重：历史里出现过的链接/标题直接丢掉
+    hist = load_history()
+    before = len(uniq)
+    uniq = [it for it in uniq if item_key(it) not in hist]
+    print(f"   历史去重：{before} -> {len(uniq)} 条（历史记录 {len(hist)} 条）")
+
     scored = sorted(uniq, key=score, reverse=True)
     print(f"2) 选稿（去重后 {len(uniq)} 条，目标 {args.limit}，按相关性排序）")
     picked, per_cat = [], {}
@@ -209,7 +242,7 @@ def main():
         if score(it) < 1:
             continue
         c = it["category"]
-        if per_cat.get(c, 0) >= 2:
+        if per_cat.get(c, 0) >= int(CFG.get("per_category_cap", 2)):
             continue
         picked.append(it)
         per_cat[c] = per_cat.get(c, 0) + 1
@@ -237,7 +270,9 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
     with open(os.path.join(out_dir, today + ".json"), "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
-    print(f"4) 写入 {path}（{len(items)} 条）")
+    hist.update({item_key(it): today for it in items if item_key(it)})
+    save_history(hist)
+    print(f"4) 写入 {path}（{len(items)} 条），历史累计 {len(hist)} 条")
 
     audio_index = {"generated_at": payload["generated_at"], "items": []}
     if not args.no_tts and items:

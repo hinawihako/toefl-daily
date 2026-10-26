@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-26T10:56:04+08:00",
+  "generated_at": "2026-10-26T11:10:00+08:00",
   "items": [
     {
       "title": "Daily Briefing",
       "date": "2026-10-26",
       "file": "data/audio/2026-10-26-briefing.mp3",
-      "script": "Here is your daily briefing. Retail investors who try to beat the market by buying individual stocks or complex ETFs may not be more skilled than they were 30 years ago. French riots caused bond yields to reach a 24-year high as investors evaluate risks from budget policies, economic growth, and sector stability. Most executives think about AI costs in terms of powerful GPUs and silicon shortages, but they often forget about data storage expenses. A scalable AI system needs many parts working together, like data, engineering, and governance.",
-      "duration": "211 KB"
+      "script": "Here is your daily briefing. This week's financial turmoil includes falling stock prices, companies canceling IPOs, and increased credit default swap spreads, signaling potential problems for major tech firms. The world's pension systems are dealing with a crisis caused by people living longer and having fewer children. Nvidia is shifting from being a chipmaker to an AI industry financier, according to investors. Intel asked for a waiver to use foreign-made robots in US chip factories",
+      "duration": "184 KB"
     }
   ]
 }

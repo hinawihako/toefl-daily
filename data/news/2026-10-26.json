@@ -1,249 +1,444 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T10:56:04+08:00",
+  "generated_at": "2026-10-26T11:10:00+08:00",
   "items": [
     {
-      "title_en": "Retail Investors Still Lack Sophistication, Says Ex-Hedge Fund Manager",
+      "title_en": "AI Industry Faces Challenges as Companies Struggle with Credit Risks and IPO Withdrawals",
       "summary_en": [
-        "Retail investors who try to beat the market by buying individual stocks or complex ETFs may not be more skilled than they were 30 years ago.",
-        "Experts suggest that broad market index funds could be a better choice for long-term gains."
+        "This week's financial turmoil includes falling stock prices, companies canceling IPOs, and increased credit default swap spreads, signaling potential problems for major tech firms.",
+        "Rising credit risks and recent IPO withdrawals highlight growing instability in the AI and cloud computing sectors."
       ],
       "key_points_en": [
-        "Retail investors haven't become more sophisticated in 30 years",
-        "Trying to beat the market with individual stocks and complex ETFs may not be effective",
-        "Broad market index funds are recommended for better long-term results"
+        "Solidigm withdrew its IPO plans",
+        "Credit default swap spreads are widening",
+        "Hyperscaler earnings will be closely watched"
       ],
       "translation_zh": [
-        "试图通过购买个股或复杂ETF击败市场的散户投资者，30年来并没有变得更熟练。",
-        "专家建议，长期来看，广泛市场指数基金可能是更好的选择。"
+        "本周的金融动荡包括股价下跌、公司取消IPO以及信用违约互换利差扩大，显示出大型科技公司可能面临的问题。",
+        "信用风险上升和最近的IPO撤回凸显了人工智能和云计算行业的不稳定性。"
       ],
       "vocab": [
         {
-          "word": "beat the market",
-          "zh": "击败市场"
+          "word": "credit default swaps",
+          "zh": "信用违约互换，用于衡量借贷违约风险的金融工具"
         },
         {
-          "word": "individual stocks",
-          "zh": "个股"
+          "word": "pulled IPO",
+          "zh": "撤回首次公开募股，指公司取消上市计划"
         },
         {
-          "word": "complex ETFs",
-          "zh": "复杂ETF"
+          "word": "stock slumps",
+          "zh": "股价暴跌，指股票价格急剧下跌"
         },
         {
-          "word": "broad market index funds",
-          "zh": "广泛市场指数基金"
+          "word": "hyperscaler earnings",
+          "zh": "超大规模云服务商的财报，指大型云计算公司的财务表现"
         },
         {
-          "word": "exchange-traded funds",
-          "zh": "交易所交易基金"
+          "word": "credit risks",
+          "zh": "信用风险，指借款人无法偿还债务的可能性"
         }
       ],
       "category": "finance",
       "tags": [
-        "investing",
-        "index funds",
-        "market strategies"
+        "ai",
+        "ipo",
+        "credit risk",
+        "stock market"
       ],
-      "id": "retail-investors-still-lack-sophistication-says",
+      "id": "ai-industry-faces-challenges-as-companies-strugg",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html"
+      "link": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html"
     },
     {
-      "title_en": "France's Unrest and Market Impact: Key Questions for Investors",
+      "title_en": "Global Pension Systems Face Aging Crisis",
       "summary_en": [
-        "French riots caused bond yields to reach a 24-year high as investors evaluate risks from budget policies, economic growth, and sector stability.",
-        "Protests may worsen market uncertainty before upcoming demonstrations.",
-        "Investors are closely watching government responses to manage social tensions."
+        "The world's pension systems are dealing with a crisis caused by people living longer and having fewer children.",
+        "This situation is putting pressure on retirement funds as there are fewer workers to support more retirees."
       ],
       "key_points_en": [
-        "Bond yields hit 24-year peak due to unrest",
-        "Investors assess budget, growth, and sector risks",
-        "More protests expected to increase market volatility"
+        "Aging populations are increasing the number of retirees",
+        "Longer lifespans mean pensions must last longer",
+        "Low birth rates reduce the number of future workers"
       ],
       "translation_zh": [
-        "法国的骚乱导致债券收益率达到24年来的高点，投资者正在评估预算政策、经济增长和行业稳定性的风险。",
-        "抗议活动可能在即将举行的示威活动前加剧市场不确定性。",
-        "投资者密切关注政府应对措施以管理社会紧张局势。"
+        "全球养老金体系正面临因寿命延长和生育率下降引发的危机",
+        "这一情况导致退休金压力增大，因为未来的工作者数量减少"
       ],
       "vocab": [
         {
-          "word": "bond yields",
-          "zh": "债券收益率"
+          "word": "aging crisis",
+          "zh": "老龄化危机"
         },
         {
-          "word": "pushed to a high",
-          "zh": "推高至高位"
+          "word": "dwindling birth rates",
+          "zh": "生育率下降"
         },
         {
-          "word": "investors weigh",
-          "zh": "投资者权衡"
+          "word": "stretch retirement finances",
+          "zh": "拉长退休金支出"
         },
         {
-          "word": "ahead of",
-          "zh": "在...之前"
+          "word": "demographic crisis",
+          "zh": "人口结构危机"
         },
         {
-          "word": "sector risks",
-          "zh": "行业风险"
+          "word": "longer lifespans",
+          "zh": "寿命延长"
         }
       ],
       "category": "finance",
       "tags": [
-        "riots",
-        "bond yields",
-        "investor concerns",
-        "protests"
+        "pension",
+        "aging",
+        "demographics",
+        "crisis"
       ],
-      "id": "france-s-unrest-and-market-impact-key-questions",
+      "id": "global-pension-systems-face-aging-crisis",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html"
+      "link": "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html"
     },
     {
-      "title_en": "The Hidden Cost of AI: Data Storage After Inference",
+      "title_en": "Nvidia's AI Financing Strategy Faces Challenges as Neocloud Market Slumps",
       "summary_en": [
-        "Most executives think about AI costs in terms of powerful GPUs and silicon shortages, but they often forget about data storage expenses.",
-        "After AI models process requests, vast amounts of data from daily prompts, images, and videos must be stored.",
-        ""
-      ],
-      "translation_zh": [
-        "大多数高管在想象AI成本时，会想到GPU——满载的加速器和耗电量巨大的电力——以及硅芯片的等待名单。但这一画面忽略了一个关键点：数据存储成本。",
-        "模型响应后会发生什么？大量由每日提示、图像和视频生成的后台数据需要存储。"
+        "Nvidia is shifting from being a chipmaker to an AI industry financier, according to investors.",
+        "This move has raised concerns about increased financial risks tied to AI development.",
+        "The neocloud market's recent downturn adds pressure to Nvidia's new business model."
       ],
       "key_points_en": [
-        "AI storage costs are often overlooked compared to hardware expenses",
-        "Billions of daily prompts generate massive data volumes",
-        "Storage requirements include images, videos, and text"
+        "Nvidia is expanding into AI financing beyond hardware",
+        "Investors warn of significant risks in AI infrastructure investments",
+        "Neocloud market declines threaten Nvidia's financial strategy"
+      ],
+      "translation_zh": [
+        "英伟达正在从芯片制造商转型为人工智能行业的金融支持者，据投资者称。",
+        "这一转变引发了人们对人工智能基础设施投资带来重大风险的担忧。",
+        "新云市场最近的下滑给英伟达的新商业模式带来了压力。"
       ],
       "vocab": [
         {
-          "word": "hidden storage bill",
-          "zh": "未被注意到的存储成本"
+          "word": "outsized risk",
+          "zh": "不成比例的风险"
         },
         {
-          "word": "back-end data",
-          "zh": "后台生成的数据"
+          "word": "AI buildout",
+          "zh": "人工智能基础设施扩张"
         },
         {
-          "word": "generated from",
-          "zh": "由...产生的"
+          "word": "industry financier",
+          "zh": "行业金融支持者"
         },
         {
-          "word": "daily prompts",
-          "zh": "日常请求"
+          "word": "market hit",
+          "zh": "市场冲击"
         },
         {
-          "word": "gigawatts of power",
-          "zh": "兆瓦级电力消耗"
+          "word": "take on risk",
+          "zh": "承担风险"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "nvidia",
+        "ai finance",
+        "market risk",
+        "tech investment"
+      ],
+      "id": "nvidia-s-ai-financing-strategy-faces-challenges",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+    },
+    {
+      "title_en": "US considers relaxing ban on foreign robots for chipmakers",
+      "summary_en": [
+        "Intel asked for a waiver to use foreign-made robots in US chip factories",
+        "Foreign robots are vital for advanced chip production",
+        "The waiver would avoid disruptions in US semiconductor manufacturing"
+      ],
+      "key_points_en": [
+        "Intel requested a waiver for foreign robots",
+        "Foreign-made robots are essential for chipmaking",
+        "Waiver prevents production delays"
+      ],
+      "translation_zh": [
+        "英特尔请求豁免使用外国制造的机器人进行美国芯片工厂生产",
+        "外国机器人对先进芯片制造至关重要",
+        "豁免将避免美国半导体制造的延误"
+      ],
+      "vocab": [
+        {
+          "word": "waiver request",
+          "zh": "豁免请求"
+        },
+        {
+          "word": "foreign-made robots",
+          "zh": "外国制造的机器人"
+        },
+        {
+          "word": "chip production",
+          "zh": "芯片生产"
+        },
+        {
+          "word": "manufacturing disruptions",
+          "zh": "制造中断"
+        },
+        {
+          "word": "regulatory concerns",
+          "zh": "监管担忧"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "intel",
+        "us policy",
+        "chip manufacturing",
+        "regulation"
+      ],
+      "id": "us-considers-relaxing-ban-on-foreign-robots-for",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/"
+    },
+    {
+      "title_en": "Building Durable AI Infrastructure for Enterprise Use",
+      "summary_en": [
+        "The focus in enterprise AI is shifting from model capabilities to the infrastructure supporting them. Companies now prioritize scalability, reliability, and system integration over simply using larger models.",
+        "Advances in AI have moved beyond bigger models to include robust frameworks that ensure long-term performance and adaptability."
+      ],
+      "key_points_en": [
+        "Competitive advantage now depends on AI infrastructure, not just model size",
+        "Scalability and reliability are critical for enterprise AI systems",
+        "Integration with existing systems is essential for practical AI deployment"
+      ],
+      "translation_zh": [
+        "企业AI的关注点已从模型能力转向支撑它们的基础设施。公司现在优先考虑可扩展性、可靠性和系统集成，而不是仅仅使用更大的模型。",
+        "AI的进步已超越更大的模型，包括确保长期性能和适应性的强大框架。"
+      ],
+      "vocab": [
+        {
+          "word": "competitive advantage",
+          "zh": "竞争优势"
+        },
+        {
+          "word": "model capability",
+          "zh": "模型能力"
+        },
+        {
+          "word": "larger context windows",
+          "zh": "更大的上下文窗口"
+        },
+        {
+          "word": "benchmark scores",
+          "zh": "基准测试得分"
+        },
+        {
+          "word": "infrastructure",
+          "zh": "基础设施"
         }
       ],
       "category": "ai",
       "tags": [
-        "ai_cost",
-        "data_storage",
-        "infrastructure"
+        "ai infrastructure",
+        "enterprise ai",
+        "ai scalability",
+        "ai integration"
       ],
-      "id": "the-hidden-cost-of-ai-data-storage-after-inferen",
+      "id": "building-durable-ai-infrastructure-for-enterpris",
       "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/"
+      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
     },
     {
-      "title_en": "Building a Strong Base for Scalable AI",
+      "title_en": "The Importance of Context in Enterprise AI",
       "summary_en": [
-        "A scalable AI system needs many parts working together, like data, engineering, and governance.",
-        "This session discusses how to create such systems in regulated environments while ensuring trustworthiness."
+        "Enterprise AI can help businesses make faster decisions and automate tasks.",
+        "However, without understanding how a company operates, AI might miss important business details.",
+        "Companies need context-aware AI to ensure decisions are correct in real-world situations."
       ],
       "key_points_en": [
-        "Five areas must align: data, engineering, platforms, models, and governance",
-        "Regulation plays a key role in implementation",
-        "Trustworthy AI requires responsible development"
+        "AI can automate tasks and speed up decisions",
+        "Lack of business context may lead to wrong decisions",
+        "Context-aware AI is needed for reliable operations"
       ],
       "translation_zh": [
-        "可扩展的AI系统需要数据、工程和治理等多个部分协同工作",
-        "该会议探讨了如何在受监管的环境中构建此类系统并确保其可信度"
+        "企业AI可以帮助公司更快地做决定并自动执行任务。",
+        "然而，如果不了解公司如何运作，AI可能会忽略重要的商业细节。",
+        "公司需要具备上下文感知能力的AI来确保现实世界中的决定是正确的。"
       ],
       "vocab": [
         {
-          "word": "strong foundation",
-          "zh": "坚实的基础"
+          "word": "context-aware AI",
+          "zh": "能理解业务环境的人工智能"
         },
         {
-          "word": "highly regulated",
-          "zh": "高度监管的"
+          "word": "enterprise AI",
+          "zh": "用于企业的智能系统"
         },
         {
-          "word": "responsible implementation",
-          "zh": "负责任的实施"
+          "word": "miss the constraints",
+          "zh": "忽略限制条件"
         },
         {
-          "word": "emerging capabilities",
-          "zh": "新兴能力"
+          "word": "everyday operations",
+          "zh": "日常运营"
         },
         {
-          "word": "trustworthy AI",
-          "zh": "可信AI"
+          "word": "make decisions",
+          "zh": "做出决策"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
+        "enterprise",
+        "context-aware",
+        "decision-making"
+      ],
+      "id": "the-importance-of-context-in-enterprise-ai",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/"
+    },
+    {
+      "title_en": "Federal Reserve Releases 2025 Survey on U.S. Family Finances",
+      "summary_en": [
+        "The Federal Reserve Board has published the 2025 Survey of Consumer Finances, offering detailed information about American families' financial situations.",
+        "This data helps both the public and government officials understand economic trends and challenges faced by households."
+      ],
+      "key_points_en": [
+        "Survey results show family financial health data",
+        "Includes insights for policymakers and citizens",
+        "Released by the Federal Reserve Board"
+      ],
+      "translation_zh": [
+        "美联储已发布2025年消费者财务调查结果，提供关于美国家庭财务状况的详细信息。",
+        "这些数据帮助公众和政府官员了解家庭面临的经济趋势和挑战。"
+      ],
+      "vocab": [
+        {
+          "word": "releases results",
+          "zh": "发布调查结果"
+        },
+        {
+          "word": "detailed insights",
+          "zh": "详细分析"
+        },
+        {
+          "word": "economic condition",
+          "zh": "经济状况"
+        },
+        {
+          "word": "policymakers",
+          "zh": "政策制定者"
+        },
+        {
+          "word": "survey of consumer finances",
+          "zh": "消费者财务调查"
+        }
+      ],
+      "category": "policy",
+      "tags": [
+        "fed survey",
+        "consumer finance",
+        "economic data",
+        "policy analysis"
+      ],
+      "id": "federal-reserve-releases-2025-survey-on-u-s-fami",
+      "source": "Fed Press",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm"
+    },
+    {
+      "title_en": "Federal Reserve Extends Comment Period for Regulation O Modernization Proposal",
+      "summary_en": [
+        "The Federal Reserve has extended the time for public comments on its plan to update Regulation O until November 4.",
+        "This move allows more feedback on how to modernize banking rules related to credit extensions."
+      ],
+      "key_points_en": [
+        "Comment period now ends November 4",
+        "Regulation O modernization proposal",
+        "Public feedback sought for rule changes"
+      ],
+      "translation_zh": [
+        "美联储将更新 Regulation O 的公众意见征求期限延长至11月4日",
+        "此举允许就如何现代化与信贷发放相关的银行规则收集更多反馈"
+      ],
+      "vocab": [
+        {
+          "word": "extend the comment period",
+          "zh": "延长意见征求期限"
+        },
+        {
+          "word": "modernize Regulation O",
+          "zh": "更新 Regulation O 规则"
+        },
+        {
+          "word": "public feedback",
+          "zh": "公众反馈"
+        },
+        {
+          "word": "credit extensions",
+          "zh": "信贷发放"
+        },
+        {
+          "word": "proposal to modernize",
+          "zh": "现代化提案"
+        }
+      ],
+      "category": "policy",
+      "tags": [
         "regulation",
-        "scalability",
-        "ethics"
+        "fed",
+        "comment period",
+        "policy update"
       ],
-      "id": "building-a-strong-base-for-scalable-ai",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+      "id": "federal-reserve-extends-comment-period-for-regul",
+      "source": "Fed Press",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm"
     },
     {
-      "title_en": "Failed AI Projects and Startups: A List of Disappointments",
+      "title_en": "Federal Reserve Seeks Public Input on Stablecoin Regulations",
       "summary_en": [
-        "Many AI projects and startups have failed or missed expectations, including Apple's delayed Siri and OpenAI's chaotic app launch.",
-        "This list highlights common challenges in AI development and innovation.",
-        "It serves as a reminder of the risks involved in tech ventures."
+        "The Federal Reserve Board is asking for public feedback on two proposals to create rules for stablecoin issuers under the GENIUS Act.",
+        "These rules aim to establish a regulatory framework for payment stablecoins supervised by the Board."
       ],
       "key_points_en": [
-        "Apple repeatedly delayed its Siri AI",
-        "OpenAI's super app launch was disorganized",
-        "Many AI projects shut down or underperformed"
+        "Fed requests public comments on two proposals",
+        "Proposals target payment stablecoin regulation",
+        "Rules fall under the GENIUS Act"
       ],
       "translation_zh": [
-        "许多人工智能项目和初创公司未能成功，包括苹果公司多次推迟的Siri和OpenAI混乱的应用程序发布。",
-        "这份清单突显了人工智能开发和创新中的常见挑战。",
-        "它提醒人们科技创业的风险。"
+        "美联储正在就两项提案征求公众意见，以在GENIUS法案下为稳定币发行方建立监管框架。",
+        "这些规则旨在为美联储监督的支付稳定币制定监管框架。"
       ],
       "vocab": [
         {
-          "word": "repeatedly delayed",
-          "zh": "多次推迟"
+          "word": "requests public comment",
+          "zh": "征求公众意见"
         },
         {
-          "word": "messy launch",
-          "zh": "混乱的发布"
+          "word": "regulatory framework",
+          "zh": "监管框架"
         },
         {
-          "word": "shut down",
-          "zh": "关闭"
+          "word": "payment stablecoin issuers",
+          "zh": "支付稳定币发行方"
         },
         {
-          "word": "missed expectations",
-          "zh": "未达预期"
+          "word": "Board-supervised",
+          "zh": "美联储监督的"
         },
         {
-          "word": "running list",
-          "zh": "持续更新的清单"
+          "word": "establishing rules",
+          "zh": "制定规则"
         }
       ],
-      "category": "ai",
+      "category": "policy",
       "tags": [
-        "ai",
-        "startupfailures",
-        "innovationchallenges",
-        "techindustry"
+        "regulation",
+        "stablecoin",
+        "fed",
+        "public comment"
       ],
-      "id": "failed-ai-projects-and-startups-a-list-of-disapp",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+      "id": "federal-reserve-seeks-public-input-on-stablecoin",
+      "source": "Fed Press",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
     }
   ]
 }
