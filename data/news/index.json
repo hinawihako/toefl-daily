@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25T22:12:43+08:00",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T10:56:04+08:00",
   "items": [
     {
-      "title_en": "Retail Investors May Benefit from Index Funds Over Individual stocks, Says Former Hedge Fund Manager",
+      "title_en": "Retail Investors Still Lack Sophistication, Says Ex-Hedge Fund Manager",
       "summary_en": [
-        "Retail investors are not more skilled than they were 30 years ago, according to a former hedge fund manager.",
-        "Trying to beat the market with individual stocks or complex ETFs might be less effective than using broad market index funds."
+        "Retail investors who try to beat the market by buying individual stocks or complex ETFs may not be more skilled than they were 30 years ago.",
+        "Experts suggest that broad market index funds could be a better choice for long-term gains."
       ],
       "key_points_en": [
-        "Retail investors' sophistication hasn't increased in 30 years",
-        "Pursuing individual stocks and complex ETFs may not be optimal",
-        "Broad market index funds are recommended as a better option"
+        "Retail investors haven't become more sophisticated in 30 years",
+        "Trying to beat the market with individual stocks and complex ETFs may not be effective",
+        "Broad market index funds are recommended for better long-term results"
       ],
       "translation_zh": [
-        "据一位前对冲基金经理称，零售投资者的技能水平与30年前相比并没有提高。",
-        "试图通过购买个股或复杂ETF来击败市场可能不如使用宽基指数基金有效。"
+        "试图通过购买个股或复杂ETF击败市场的散户投资者，30年来并没有变得更熟练。",
+        "专家建议，长期来看，广泛市场指数基金可能是更好的选择。"
       ],
       "vocab": [
         {
@@ -27,16 +27,16 @@
           "zh": "个股"
         },
         {
-          "word": "exchange-traded funds",
-          "zh": "交易所交易基金"
-        },
-        {
           "word": "complex ETFs",
           "zh": "复杂ETF"
         },
         {
           "word": "broad market index funds",
-          "zh": "宽基指数基金"
+          "zh": "广泛市场指数基金"
+        },
+        {
+          "word": "exchange-traded funds",
+          "zh": "交易所交易基金"
         }
       ],
       "category": "finance",
@@ -45,145 +45,143 @@
         "index funds",
         "market strategies"
       ],
-      "id": "retail-investors-may-benefit-from-index-funds-ov",
+      "id": "retail-investors-still-lack-sophistication-says",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html"
     },
     {
-      "title_en": "France's Unrest and Market Volatility: What Investors Should Know",
+      "title_en": "France's Unrest and Market Impact: Key Questions for Investors",
       "summary_en": [
-        "French riots have caused bond yields to reach a 24-year high as investors evaluate risks related to the budget, economic growth, and specific sectors.",
-        "Market uncertainty increases ahead of planned protests, affecting investor confidence and financial markets.",
-        "The situation highlights concerns about France's economic stability and its impact on global markets."
+        "French riots caused bond yields to reach a 24-year high as investors evaluate risks from budget policies, economic growth, and sector stability.",
+        "Protests may worsen market uncertainty before upcoming demonstrations.",
+        "Investors are closely watching government responses to manage social tensions."
       ],
       "key_points_en": [
-        "Bond yields hit 24-year high due to unrest",
-        "Investors assess budget and growth risks",
-        "Protests expected to continue impacting markets"
+        "Bond yields hit 24-year peak due to unrest",
+        "Investors assess budget, growth, and sector risks",
+        "More protests expected to increase market volatility"
       ],
       "translation_zh": [
-        "法国的骚乱导致债券收益率达到24年来的高点，投资者正在评估与预算、经济增长和特定行业相关的风险。",
-        "在计划中的抗议活动之前，市场不确定性增加，影响投资者信心和金融市场。",
-        "这一情况凸显了对法国经济稳定的担忧及其对全球市场的影响。"
+        "法国的骚乱导致债券收益率达到24年来的高点，投资者正在评估预算政策、经济增长和行业稳定性的风险。",
+        "抗议活动可能在即将举行的示威活动前加剧市场不确定性。",
+        "投资者密切关注政府应对措施以管理社会紧张局势。"
       ],
       "vocab": [
         {
-          "word": "pushed bond yields",
-          "zh": "推高债券收益率"
+          "word": "bond yields",
+          "zh": "债券收益率"
+        },
+        {
+          "word": "pushed to a high",
+          "zh": "推高至高位"
         },
         {
           "word": "investors weigh",
           "zh": "投资者权衡"
         },
         {
-          "word": "budget risks",
-          "zh": "预算风险"
+          "word": "ahead of",
+          "zh": "在...之前"
         },
         {
-          "word": "growth risks",
-          "zh": "增长风险"
-        },
-        {
-          "word": "market volatility",
-          "zh": "市场波动"
+          "word": "sector risks",
+          "zh": "行业风险"
         }
       ],
       "category": "finance",
       "tags": [
-        "markets",
-        "protests",
-        "investors",
-        "economic impact"
+        "riots",
+        "bond yields",
+        "investor concerns",
+        "protests"
       ],
-      "id": "france-s-unrest-and-market-volatility-what-inves",
+      "id": "france-s-unrest-and-market-impact-key-questions",
       "source": "CNBC",
       "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html"
     },
     {
-      "title_en": "AI's Hidden Storage Costs: What Happens After Inference?",
+      "title_en": "The Hidden Cost of AI: Data Storage After Inference",
       "summary_en": [
-        "Most executives think about AI costs in terms of GPUs and silicon, but data storage is often overlooked.",
-        "After a model responds, billions of daily prompts, images, and videos create back-end data that needs storage.",
-        "This hidden storage expense is growing as AI usage increases."
-      ],
-      "key_points_en": [
-        "Executives focus on hardware costs, not storage",
-        "Billions of prompts/images/videos generate data",
-        "Storage is a major but overlooked AI expense"
+        "Most executives think about AI costs in terms of powerful GPUs and silicon shortages, but they often forget about data storage expenses.",
+        "After AI models process requests, vast amounts of data from daily prompts, images, and videos must be stored.",
+        ""
       ],
       "translation_zh": [
-        "大多数高管认为人工智能成本主要体现在GPU和硅芯片上，但数据存储常被忽视",
-        "模型响应后，数十亿的每日提示、图像和视频会产生需要存储的后台数据",
-        "这种隐藏的存储费用随着人工智能使用量增加而增长"
+        "大多数高管在想象AI成本时，会想到GPU——满载的加速器和耗电量巨大的电力——以及硅芯片的等待名单。但这一画面忽略了一个关键点：数据存储成本。",
+        "模型响应后会发生什么？大量由每日提示、图像和视频生成的后台数据需要存储。"
+      ],
+      "key_points_en": [
+        "AI storage costs are often overlooked compared to hardware expenses",
+        "Billions of daily prompts generate massive data volumes",
+        "Storage requirements include images, videos, and text"
       ],
       "vocab": [
         {
           "word": "hidden storage bill",
-          "zh": "隐藏的存储费用"
-        },
-        {
-          "word": "inference",
-          "zh": "模型响应过程"
+          "zh": "未被注意到的存储成本"
         },
         {
           "word": "back-end data",
-          "zh": "后台数据"
+          "zh": "后台生成的数据"
         },
         {
-          "word": "generated",
-          "zh": "产生的"
+          "word": "generated from",
+          "zh": "由...产生的"
         },
         {
           "word": "daily prompts",
-          "zh": "日常提示"
+          "zh": "日常请求"
+        },
+        {
+          "word": "gigawatts of power",
+          "zh": "兆瓦级电力消耗"
         }
       ],
       "category": "ai",
       "tags": [
-        "ai",
-        "storage",
-        "costs",
-        "data"
+        "ai_cost",
+        "data_storage",
+        "infrastructure"
       ],
-      "id": "ai-s-hidden-storage-costs-what-happens-after-inf",
+      "id": "the-hidden-cost-of-ai-data-storage-after-inferen",
       "source": "MIT Tech Review",
       "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/"
     },
     {
-      "title_en": "Building a Strong Base for Scalable AI Systems",
+      "title_en": "Building a Strong Base for Scalable AI",
       "summary_en": [
-        "A scalable AI system needs data, engineering, and governance to work together. This session discusses how to create such a foundation in regulated environments.",
-        "Responsible implementation ensures emerging AI capabilities are trustworthy and effective."
+        "A scalable AI system needs many parts working together, like data, engineering, and governance.",
+        "This session discusses how to create such systems in regulated environments while ensuring trustworthiness."
       ],
       "key_points_en": [
-        "Integration of data, engineering, and governance is essential.",
-        "Regulated environments require careful AI implementation.",
-        "Trustworthy systems turn new AI capabilities into reliable solutions."
+        "Five areas must align: data, engineering, platforms, models, and governance",
+        "Regulation plays a key role in implementation",
+        "Trustworthy AI requires responsible development"
       ],
       "translation_zh": [
-        "可扩展的AI系统需要数据、工程和治理协同工作。该会议讨论了如何在受监管的环境中构建这样的基础。",
-        "负责任的实施确保新兴的AI能力值得信赖且有效。"
+        "可扩展的AI系统需要数据、工程和治理等多个部分协同工作",
+        "该会议探讨了如何在受监管的环境中构建此类系统并确保其可信度"
       ],
       "vocab": [
         {
           "word": "strong foundation",
-          "zh": "稳固的基础"
+          "zh": "坚实的基础"
         },
         {
-          "word": "highly regulated environment",
-          "zh": "高度监管的环境"
+          "word": "highly regulated",
+          "zh": "高度监管的"
         },
         {
           "word": "responsible implementation",
           "zh": "负责任的实施"
         },
         {
-          "word": "trustworthy implementation",
-          "zh": "可信赖的实施"
-        },
-        {
           "word": "emerging capabilities",
           "zh": "新兴能力"
+        },
+        {
+          "word": "trustworthy AI",
+          "zh": "可信AI"
         }
       ],
       "category": "ai",
@@ -191,26 +189,28 @@
         "ai",
         "regulation",
         "scalability",
-        "responsible_ai"
+        "ethics"
       ],
-      "id": "building-a-strong-base-for-scalable-ai-systems",
+      "id": "building-a-strong-base-for-scalable-ai",
       "source": "MIT Tech Review",
       "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
     },
     {
       "title_en": "Failed AI Projects and Startups: A List of Disappointments",
       "summary_en": [
-        "Many AI projects and startups have failed or fallen short of expectations, as seen in Apple's delayed Siri and OpenAI's troubled app launch.",
-        "This list highlights companies that either shut down or did not meet their goals in the AI field."
+        "Many AI projects and startups have failed or missed expectations, including Apple's delayed Siri and OpenAI's chaotic app launch.",
+        "This list highlights common challenges in AI development and innovation.",
+        "It serves as a reminder of the risks involved in tech ventures."
       ],
       "key_points_en": [
-        "Apple's Siri faced multiple delays",
-        "OpenAI's super app had a chaotic launch",
-        "The list includes both shutdowns and unmet expectations"
+        "Apple repeatedly delayed its Siri AI",
+        "OpenAI's super app launch was disorganized",
+        "Many AI projects shut down or underperformed"
       ],
       "translation_zh": [
-        "许多人工智能项目和初创公司未能达到预期或已失败，例如苹果的Siri多次推迟和OpenAI的混乱应用发布。",
-        "这份清单包括了在人工智能领域未能实现目标的公司。"
+        "许多人工智能项目和初创公司未能成功，包括苹果公司多次推迟的Siri和OpenAI混乱的应用程序发布。",
+        "这份清单突显了人工智能开发和创新中的常见挑战。",
+        "它提醒人们科技创业的风险。"
       ],
       "vocab": [
         {
@@ -237,9 +237,9 @@
       "category": "ai",
       "tags": [
         "ai",
-        "startup",
-        "failure",
-        "innovation"
+        "startupfailures",
+        "innovationchallenges",
+        "techindustry"
       ],
       "id": "failed-ai-projects-and-startups-a-list-of-disapp",
       "source": "TechCrunch",

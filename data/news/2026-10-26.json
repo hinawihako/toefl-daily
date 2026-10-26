@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T10:56:04+08:00",
+  "items": [
+    {
+      "title_en": "Retail Investors Still Lack Sophistication, Says Ex-Hedge Fund Manager",
+      "summary_en": [
+        "Retail investors who try to beat the market by buying individual stocks or complex ETFs may not be more skilled than they were 30 years ago.",
+        "Experts suggest that broad market index funds could be a better choice for long-term gains."
+      ],
+      "key_points_en": [
+        "Retail investors haven't become more sophisticated in 30 years",
+        "Trying to beat the market with individual stocks and complex ETFs may not be effective",
+        "Broad market index funds are recommended for better long-term results"
+      ],
+      "translation_zh": [
+        "试图通过购买个股或复杂ETF击败市场的散户投资者，30年来并没有变得更熟练。",
+        "专家建议，长期来看，广泛市场指数基金可能是更好的选择。"
+      ],
+      "vocab": [
+        {
+          "word": "beat the market",
+          "zh": "击败市场"
+        },
+        {
+          "word": "individual stocks",
+          "zh": "个股"
+        },
+        {
+          "word": "complex ETFs",
+          "zh": "复杂ETF"
+        },
+        {
+          "word": "broad market index funds",
+          "zh": "广泛市场指数基金"
+        },
+        {
+          "word": "exchange-traded funds",
+          "zh": "交易所交易基金"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "investing",
+        "index funds",
+        "market strategies"
+      ],
+      "id": "retail-investors-still-lack-sophistication-says",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html"
+    },
+    {
+      "title_en": "France's Unrest and Market Impact: Key Questions for Investors",
+      "summary_en": [
+        "French riots caused bond yields to reach a 24-year high as investors evaluate risks from budget policies, economic growth, and sector stability.",
+        "Protests may worsen market uncertainty before upcoming demonstrations.",
+        "Investors are closely watching government responses to manage social tensions."
+      ],
+      "key_points_en": [
+        "Bond yields hit 24-year peak due to unrest",
+        "Investors assess budget, growth, and sector risks",
+        "More protests expected to increase market volatility"
+      ],
+      "translation_zh": [
+        "法国的骚乱导致债券收益率达到24年来的高点，投资者正在评估预算政策、经济增长和行业稳定性的风险。",
+        "抗议活动可能在即将举行的示威活动前加剧市场不确定性。",
+        "投资者密切关注政府应对措施以管理社会紧张局势。"
+      ],
+      "vocab": [
+        {
+          "word": "bond yields",
+          "zh": "债券收益率"
+        },
+        {
+          "word": "pushed to a high",
+          "zh": "推高至高位"
+        },
+        {
+          "word": "investors weigh",
+          "zh": "投资者权衡"
+        },
+        {
+          "word": "ahead of",
+          "zh": "在...之前"
+        },
+        {
+          "word": "sector risks",
+          "zh": "行业风险"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "riots",
+        "bond yields",
+        "investor concerns",
+        "protests"
+      ],
+      "id": "france-s-unrest-and-market-impact-key-questions",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html"
+    },
+    {
+      "title_en": "The Hidden Cost of AI: Data Storage After Inference",
+      "summary_en": [
+        "Most executives think about AI costs in terms of powerful GPUs and silicon shortages, but they often forget about data storage expenses.",
+        "After AI models process requests, vast amounts of data from daily prompts, images, and videos must be stored.",
+        ""
+      ],
+      "translation_zh": [
+        "大多数高管在想象AI成本时，会想到GPU——满载的加速器和耗电量巨大的电力——以及硅芯片的等待名单。但这一画面忽略了一个关键点：数据存储成本。",
+        "模型响应后会发生什么？大量由每日提示、图像和视频生成的后台数据需要存储。"
+      ],
+      "key_points_en": [
+        "AI storage costs are often overlooked compared to hardware expenses",
+        "Billions of daily prompts generate massive data volumes",
+        "Storage requirements include images, videos, and text"
+      ],
+      "vocab": [
+        {
+          "word": "hidden storage bill",
+          "zh": "未被注意到的存储成本"
+        },
+        {
+          "word": "back-end data",
+          "zh": "后台生成的数据"
+        },
+        {
+          "word": "generated from",
+          "zh": "由...产生的"
+        },
+        {
+          "word": "daily prompts",
+          "zh": "日常请求"
+        },
+        {
+          "word": "gigawatts of power",
+          "zh": "兆瓦级电力消耗"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai_cost",
+        "data_storage",
+        "infrastructure"
+      ],
+      "id": "the-hidden-cost-of-ai-data-storage-after-inferen",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/"
+    },
+    {
+      "title_en": "Building a Strong Base for Scalable AI",
+      "summary_en": [
+        "A scalable AI system needs many parts working together, like data, engineering, and governance.",
+        "This session discusses how to create such systems in regulated environments while ensuring trustworthiness."
+      ],
+      "key_points_en": [
+        "Five areas must align: data, engineering, platforms, models, and governance",
+        "Regulation plays a key role in implementation",
+        "Trustworthy AI requires responsible development"
+      ],
+      "translation_zh": [
+        "可扩展的AI系统需要数据、工程和治理等多个部分协同工作",
+        "该会议探讨了如何在受监管的环境中构建此类系统并确保其可信度"
+      ],
+      "vocab": [
+        {
+          "word": "strong foundation",
+          "zh": "坚实的基础"
+        },
+        {
+          "word": "highly regulated",
+          "zh": "高度监管的"
+        },
+        {
+          "word": "responsible implementation",
+          "zh": "负责任的实施"
+        },
+        {
+          "word": "emerging capabilities",
+          "zh": "新兴能力"
+        },
+        {
+          "word": "trustworthy AI",
+          "zh": "可信AI"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "regulation",
+        "scalability",
+        "ethics"
+      ],
+      "id": "building-a-strong-base-for-scalable-ai",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
+    },
+    {
+      "title_en": "Failed AI Projects and Startups: A List of Disappointments",
+      "summary_en": [
+        "Many AI projects and startups have failed or missed expectations, including Apple's delayed Siri and OpenAI's chaotic app launch.",
+        "This list highlights common challenges in AI development and innovation.",
+        "It serves as a reminder of the risks involved in tech ventures."
+      ],
+      "key_points_en": [
+        "Apple repeatedly delayed its Siri AI",
+        "OpenAI's super app launch was disorganized",
+        "Many AI projects shut down or underperformed"
+      ],
+      "translation_zh": [
+        "许多人工智能项目和初创公司未能成功，包括苹果公司多次推迟的Siri和OpenAI混乱的应用程序发布。",
+        "这份清单突显了人工智能开发和创新中的常见挑战。",
+        "它提醒人们科技创业的风险。"
+      ],
+      "vocab": [
+        {
+          "word": "repeatedly delayed",
+          "zh": "多次推迟"
+        },
+        {
+          "word": "messy launch",
+          "zh": "混乱的发布"
+        },
+        {
+          "word": "shut down",
+          "zh": "关闭"
+        },
+        {
+          "word": "missed expectations",
+          "zh": "未达预期"
+        },
+        {
+          "word": "running list",
+          "zh": "持续更新的清单"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "startupfailures",
+        "innovationchallenges",
+        "techindustry"
+      ],
+      "id": "failed-ai-projects-and-startups-a-list-of-disapp",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    }
+  ]
+}

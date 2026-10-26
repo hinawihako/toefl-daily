@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T22:12:43+08:00",
+  "generated_at": "2026-10-26T10:56:04+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-10-25",
-      "file": "data/audio/2026-10-25-briefing.mp3",
-      "script": "Here is your daily briefing. Retail investors are not more skilled than they were 30 years ago, according to a former hedge fund manager. French riots have caused bond yields to reach a 24-year high as investors evaluate risks related to the budget, economic growth, and specific sectors. Most executives think about AI costs in terms of GPUs and silicon, but data storage is often overlooked. A scalable AI system needs data, engineering, and governance to work together. This session discusses how to create such a foundation in regulated environments.",
-      "duration": "214 KB"
+      "date": "2026-10-26",
+      "file": "data/audio/2026-10-26-briefing.mp3",
+      "script": "Here is your daily briefing. Retail investors who try to beat the market by buying individual stocks or complex ETFs may not be more skilled than they were 30 years ago. French riots caused bond yields to reach a 24-year high as investors evaluate risks from budget policies, economic growth, and sector stability. Most executives think about AI costs in terms of powerful GPUs and silicon shortages, but they often forget about data storage expenses. A scalable AI system needs many parts working together, like data, engineering, and governance.",
+      "duration": "211 KB"
     }
   ]
 }
