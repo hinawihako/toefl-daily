@@ -489,11 +489,11 @@ function renderNews(){
         <span class="hint">${it.source || ''}</span>
       </div>
       <div class="en">
-        ${(it.summary_en||[]).map(p => `<p>${p}</p>`).join('')}
+        ${(it.summary_en||[]).filter(p=>p&&p.trim()).map(p => `<p>${p}</p>`).join('')}
         ${(it.key_points_en||[]).length ? `<ul>${it.key_points_en.map(p=>`<li>${p}</li>`).join('')}</ul>` : ''}
       </div>
       <div class="zhblock">
-        ${(it.translation_zh||[]).map(p => `<p>${p}</p>`).join('')}
+        ${(it.translation_zh||[]).filter(p=>p&&p.trim()).map(p => `<p>${p}</p>`).join('')}
       </div>
       <div class="vocab">
         ${(it.vocab||[]).map(v => `<div class="v" onclick="speak('${v.word.replace(/'/g,'')}')"><b>${v.word}</b><span>${v.zh||''}</span></div>`).join('')}

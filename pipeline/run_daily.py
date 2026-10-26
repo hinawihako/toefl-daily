@@ -123,6 +123,11 @@ def summarize(item, cfg):
     data["link"] = item["link"]
     for k in ("summary_en", "key_points_en", "translation_zh", "vocab", "tags"):
         data.setdefault(k, [])
+    # 过滤空串（模型偶尔会吐空段落）
+    for k in ("summary_en", "key_points_en", "translation_zh"):
+        data[k] = [str(x).strip() for x in data[k] if str(x).strip()]
+    data["vocab"] = [v for v in data["vocab"] if v.get("word")]
+    data["tags"] = [t for t in data["tags"] if str(t).strip()]
     return data
 
 
