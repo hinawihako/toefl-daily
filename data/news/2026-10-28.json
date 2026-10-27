@@ -1,0 +1,438 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T07:13:25+08:00",
+  "items": [
+    {
+      "title_en": "AI in Satellite Networks: Challenges and Solutions for LEO Constellations",
+      "summary_en": [
+        "The growth of orbital data and need for real-time services are forcing LEO satellites to use AI processing instead of simple relays. However, AI training needs lots of computing power, memory, and stable connections, which are hard to get in satellite networks with limited resources.",
+        "Researchers are rethinking AI workflows to address these challenges, focusing on distributed training and collaborative inference methods suitable for LEO constellations."
+      ],
+      "key_points_en": [
+        "Satellite networks face severe resource limitations for AI tasks",
+        "AI workflows must be redesigned for dynamic satellite environments",
+        "LEO constellations require new approaches to training and inference"
+      ],
+      "translation_zh": [
+        "轨道数据的增长和对实时服务的需求迫使低地球轨道卫星使用人工智能处理，而不是简单的中继。然而，人工智能训练需要大量的计算能力、内存和稳定的连接，这在资源有限的卫星网络中难以实现。",
+        "研究人员正在重新设计人工智能工作流程，以解决这些挑战，重点是适合低地球轨道星座的分布式训练和协作推理方法。"
+      ],
+      "vocab": [
+        {
+          "word": "proliferation",
+          "zh": "激增"
+        },
+        {
+          "word": "real-time demands",
+          "zh": "实时需求"
+        },
+        {
+          "word": "dynamic topologies",
+          "zh": "动态拓扑结构"
+        },
+        {
+          "word": "intermittent links",
+          "zh": "间歇性连接"
+        },
+        {
+          "word": "SWaP constraints",
+          "zh": "尺寸重量功率限制"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "satellite",
+        "ai",
+        "leo",
+        "constellations"
+      ],
+      "id": "ai-in-satellite-networks-challenges-and-solution",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.35282"
+    },
+    {
+      "title_en": "Building Modern Diffusion Language Models: A New Approach",
+      "summary_en": [
+        "Large language models (LLMs) have improved quickly by using scaling laws for training on big text collections.",
+        "However, they generate text one token at a time, which slows down processing and wastes GPU power.",
+        "Diffusion models solve these problems by allowing parallel computation and correcting errors"
+      ],
+      "key_points_en": [
+        "LLMs generate text sequentially, slowing performance",
+        "Parallel GPUs are underused during inference",
+        "Diffusion models enable error correction and parallel processing"
+      ],
+      "translation_zh": [
+        "大型语言模型（LLM）通过使用扩展定律在大量文本集合上训练，进步迅速。",
+        "然而，它们逐个生成文本标记，导致处理速度变慢且浪费GPU资源。",
+        "扩散模型通过并行计算和错误修正解决了这些问题。"
+      ],
+      "vocab": [
+        {
+          "word": "scaling laws",
+          "zh": "扩展定律（指模型训练中性能与参数规模的关系）"
+        },
+        {
+          "word": "autoregressive generation",
+          "zh": "自回归生成（逐个生成文本标记的过程）"
+        },
+        {
+          "word": "parallel GPU hardware",
+          "zh": "并行GPU硬件（可同时处理多个计算任务的硬件）"
+        },
+        {
+          "word": "inference-time compute",
+          "zh": "推理阶段计算（模型生成输出时的计算过程）"
+        },
+        {
+          "word": "discrete diffusion models",
+          "zh": "离散扩散模型（改进传统生成方式的新模型类型）"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "language models",
+        "ai research",
+        "diffusion models",
+        "gpu utilization"
+      ],
+      "id": "building-modern-diffusion-language-models-a-new",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.33391"
+    },
+    {
+      "title_en": "Fast Decision-Making with System 1 Models: A New Approach Beyond LLMs",
+      "summary_en": [
+        "Large Language Models (LLMs) are good at reasoning but too slow for quick decisions needed by AI systems. System 1 models solve this by making decisions in one step instead of token-by-token.",
+        "This guide explains how System 1 models work and categorizes them into five types for practical use in AI development."
+      ],
+      "key_points_en": [
+        "LLMs are slow for routine decisions",
+        "System 1 models use single-pass processing",
+        "Five-family taxonomy classifies decision models"
+      ],
+      "translation_zh": [
+        "大型语言模型（LLM）擅长推理，但处理AI系统需要的快速决策时太慢。System 1模型通过一步到位的决策解决这个问题。",
+        "这份指南解释了System 1模型的工作原理，并将其分为五类，便于AI开发中的实际应用。"
+      ],
+      "vocab": [
+        {
+          "word": "autoregressive inference",
+          "zh": "逐词生成推理"
+        },
+        {
+          "word": "structured decision",
+          "zh": "结构化决策"
+        },
+        {
+          "word": "single forward pass",
+          "zh": "单次前向传递"
+        },
+        {
+          "word": "practitioner-oriented",
+          "zh": "面向实践者"
+        },
+        {
+          "word": "five-family taxonomy",
+          "zh": "五类分类法"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "llm",
+        "decision-making",
+        "model-architecture"
+      ],
+      "id": "fast-decision-making-with-system-1-models-a-new",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.33775"
+    },
+    {
+      "title_en": "Apple releases iOS 27.2 update with new Siri features and security improvements",
+      "summary_en": [
+        "Apple has released iOS 27.2, adding new Siri AI language support and important security updates.",
+        "The update improves device security and expands Siri's ability to understand different languages"
+      ],
+      "key_points_en": [
+        "Adds support for new languages in Siri's AI capabilities",
+        "Includes important security updates to protect devices",
+        "Available for iPhones and iPads running iOS 27.2"
+      ],
+      "translation_zh": [
+        "Apple 已发布 iOS 27.2，新增 Siri 人工智能语言支持并包含重要的安全更新",
+        "该更新提升了设备安全性，并扩展了 Siri 理解不同语言的能力"
+      ],
+      "vocab": [
+        {
+          "word": "software update",
+          "zh": "软件更新"
+        },
+        {
+          "word": "security updates",
+          "zh": "安全更新"
+        },
+        {
+          "word": "AI languages",
+          "zh": "人工智能语言"
+        },
+        {
+          "word": "new features",
+          "zh": "新功能"
+        },
+        {
+          "word": "rolls out",
+          "zh": "发布"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ios update",
+        "siri ai",
+        "security patches",
+        "apple news"
+      ],
+      "id": "apple-releases-ios-27-2-update-with-new-siri-fea",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/"
+    },
+    {
+      "title_en": "JetBlue's Stock Rises as Cost-Cutting Plan Eases Investor Concerns",
+      "summary_en": [
+        "JetBlue Airways is implementing a cost-cutting strategy to boost premium revenue, which has led to a rise in its stock price as investors grow more confident in the company's future.",
+        "The airline's plan to reduce expenses while focusing on higher-paying services has reassured market participants about its financial direction."
+      ],
+      "key_points_en": [
+        "JetBlue is cutting costs to improve profitability",
+        "Premium revenue growth is a key focus of the strategy",
+        "Stock prices have increased due to improved investor sentiment"
+      ],
+      "translation_zh": [
+        "捷蓝航空正在实施一项削减成本的策略，以增加高利润收入，这使得投资者对公司未来的信心增强，股价随之上涨。",
+        "该航空公司通过减少开支并专注于高收入服务，使市场参与者对其财务前景更加放心。"
+      ],
+      "vocab": [
+        {
+          "word": "cost-cutting plan",
+          "zh": "削减成本的计划"
+        },
+        {
+          "word": "premium revenue",
+          "zh": "高利润收入"
+        },
+        {
+          "word": "stock surges",
+          "zh": "股价飙升"
+        },
+        {
+          "word": "calms investors",
+          "zh": "安抚投资者"
+        },
+        {
+          "word": "company outlook",
+          "zh": "公司前景"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "cost reduction",
+        "investor confidence",
+        "airline industry"
+      ],
+      "id": "jetblue-s-stock-rises-as-cost-cutting-plan-eases",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html"
+    },
+    {
+      "title_en": "Coca-Cola Raises Earnings Forecast Despite Weak North American Demand",
+      "summary_en": [
+        "Coca-Cola has increased its earnings forecast for the year, despite weak consumer demand in North America. The company's stock has risen about 32% this year, boosting its market value to approximately $398 billion."
+      ],
+      "key_points_en": [
+        "Earnings outlook raised for 2023",
+        "Stock price up 32% year-to-date",
+        "Market capitalization reaches $398 billion"
+      ],
+      "translation_zh": [
+        "可口可乐公司提高了今年的盈利预期，尽管北美地区消费者需求疲软。该公司今年股价上涨了约32%，使其市值达到约3980亿美元。"
+      ],
+      "vocab": [
+        {
+          "word": "hikes earnings outlook",
+          "zh": "提高盈利预期"
+        },
+        {
+          "word": "lackluster demand",
+          "zh": "需求疲软"
+        },
+        {
+          "word": "stock climbed",
+          "zh": "股价上涨"
+        },
+        {
+          "word": "market cap",
+          "zh": "市值"
+        },
+        {
+          "word": "raises market cap",
+          "zh": "提升市值"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "earnings forecast",
+        "consumer demand",
+        "market value"
+      ],
+      "id": "coca-cola-raises-earnings-forecast-despite-weak",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
+    },
+    {
+      "title_en": "Apple Launches 14-inch MacBook Pro with M6 Chip and Enhanced Features",
+      "summary_en": [
+        "The new 14-inch MacBook Pro has 24 hours of battery life and supports Wi-Fi 7 and Bluetooth 6 connectivity.",
+        "Apple is improving performance and connectivity with the latest chip and wireless technologies."
+      ],
+      "key_points_en": [
+        "24-hour battery life",
+        "Wi-Fi 7 support",
+        "Bluetooth 6 support"
+      ],
+      "translation_zh": [
+        "苹果推出搭载M6芯片的14英寸MacBook Pro，电池续航达24小时，并支持最新的Wi-Fi 7和蓝牙6技术。",
+        "苹果通过最新芯片和无线技术提升性能和连接性。"
+      ],
+      "vocab": [
+        {
+          "word": "battery life",
+          "zh": "电池续航时间"
+        },
+        {
+          "word": "Wi-Fi 7",
+          "zh": "第七代Wi-Fi技术"
+        },
+        {
+          "word": "Bluetooth 6",
+          "zh": "第六代蓝牙技术"
+        },
+        {
+          "word": "enhanced features",
+          "zh": "增强功能"
+        },
+        {
+          "word": "connectivity",
+          "zh": "连接性"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "apple",
+        "m6 chip",
+        "wi-fi 7",
+        "bluetooth 6"
+      ],
+      "id": "apple-launches-14-inch-macbook-pro-with-m6-chip",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/"
+    },
+    {
+      "title_en": "U.S. Consumer Spending Remains Strong Despite High Inflation",
+      "summary_en": [
+        "Companies like Royal Caribbean, Coca-Cola, and UPS report steady consumer spending in early third-quarter earnings.",
+        "This suggests resilience in the U.S. economy even with high inflation pressures."
+      ],
+      "key_points_en": [
+        "Major companies report stable spending",
+        "High inflation continues",
+        "Third-quarter earnings show resilience"
+      ],
+      "translation_zh": [
+        "皇家加勒比、可口可乐和UPS等公司报告早前第三季度的稳定消费支出",
+        "这表明即使面临高通胀压力，美国经济仍表现出韧性"
+      ],
+      "vocab": [
+        {
+          "word": "steady consumer spending",
+          "zh": "稳定的消费者支出"
+        },
+        {
+          "word": "high inflation",
+          "zh": "高通胀"
+        },
+        {
+          "word": "third-quarter earnings",
+          "zh": "第三季度财报"
+        },
+        {
+          "word": "signs of strain",
+          "zh": "出现压力迹象"
+        },
+        {
+          "word": "resilient U.S. consumer",
+          "zh": "具有韧性的美国消费者"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "consumer spending",
+        "inflation",
+        "earnings report",
+        "economic resilience"
+      ],
+      "id": "u-s-consumer-spending-remains-strong-despite-hig",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html"
+    },
+    {
+      "title_en": "Disruptive secures $10 billion fund for major investments in tech startups",
+      "summary_en": [
+        "Disruptive has recently invested in companies like Groq and ElevenLabs",
+        "The firm now plans to use a $10 billion fund to invest in at least 10 companies"
+      ],
+      "key_points_en": [
+        "Raised $10 billion for new investments",
+        "Previously invested in Groq and ElevenLabs",
+        "Focus on tech startups"
+      ],
+      "translation_zh": [
+        "Disruptive 最近向 Groq 和 ElevenLabs 等公司进行了投资",
+        "该机构现在计划使用 100 亿美元基金投资至少 10 家公司"
+      ],
+      "vocab": [
+        {
+          "word": "make big bets",
+          "zh": "进行重大投资"
+        },
+        {
+          "word": "pour money into",
+          "zh": "向...投入资金"
+        },
+        {
+          "word": "AI voice-generation",
+          "zh": "人工智能语音生成"
+        },
+        {
+          "word": "chip startup",
+          "zh": "芯片初创公司"
+        },
+        {
+          "word": "major investments",
+          "zh": "重大投资"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "venture capital",
+        "tech startups",
+        "AI",
+        "funding"
+      ],
+      "id": "disruptive-secures-10-billion-fund-for-major-inv",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
+    }
+  ]
+}

@@ -1,445 +1,438 @@
 {
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T17:07:58+08:00",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T07:13:25+08:00",
   "items": [
     {
-      "title_en": "Understanding Large Language Models for Engineers",
+      "title_en": "AI in Satellite Networks: Challenges and Solutions for LEO Constellations",
       "summary_en": [
-        "Large language models (LLMs) are neural networks trained on vast text collections to predict and generate text. They use Transformers for context connections and pre-training to learn text prediction.",
-        "Fine-tuning and retrieval-augmented generation (RAG) help adapt models to specific tasks and improve responses."
+        "The growth of orbital data and need for real-time services are forcing LEO satellites to use AI processing instead of simple relays. However, AI training needs lots of computing power, memory, and stable connections, which are hard to get in satellite networks with limited resources.",
+        "Researchers are rethinking AI workflows to address these challenges, focusing on distributed training and collaborative inference methods suitable for LEO constellations."
       ],
       "key_points_en": [
-        "LLMs use Transformers and pre-training to understand text context",
-        "Fine-tuning improves model performance with human feedback",
-        "RAG combines external documents with model responses"
+        "Satellite networks face severe resource limitations for AI tasks",
+        "AI workflows must be redesigned for dynamic satellite environments",
+        "LEO constellations require new approaches to training and inference"
       ],
       "translation_zh": [
-        "大型语言模型（LLMs）是通过大量文本训练的神经网络，用于预测和生成文本。它们使用Transformer进行上下文关联，并通过预训练学习文本预测。",
-        "微调和检索增强生成（RAG）帮助模型适应特定任务并改进响应。"
+        "轨道数据的增长和对实时服务的需求迫使低地球轨道卫星使用人工智能处理，而不是简单的中继。然而，人工智能训练需要大量的计算能力、内存和稳定的连接，这在资源有限的卫星网络中难以实现。",
+        "研究人员正在重新设计人工智能工作流程，以解决这些挑战，重点是适合低地球轨道星座的分布式训练和协作推理方法。"
       ],
       "vocab": [
         {
-          "word": "neural networks",
-          "zh": "神经网络"
+          "word": "proliferation",
+          "zh": "激增"
         },
         {
-          "word": "context connections",
-          "zh": "上下文关联"
+          "word": "real-time demands",
+          "zh": "实时需求"
         },
         {
-          "word": "pre-training",
-          "zh": "预训练"
+          "word": "dynamic topologies",
+          "zh": "动态拓扑结构"
         },
         {
-          "word": "fine-tuning",
-          "zh": "微调"
+          "word": "intermittent links",
+          "zh": "间歇性连接"
         },
         {
-          "word": "retrieval-augmented generation",
-          "zh": "检索增强生成"
+          "word": "SWaP constraints",
+          "zh": "尺寸重量功率限制"
         }
       ],
       "category": "ai",
       "tags": [
+        "satellite",
         "ai",
+        "leo",
+        "constellations"
+      ],
+      "id": "ai-in-satellite-networks-challenges-and-solution",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.35282"
+    },
+    {
+      "title_en": "Building Modern Diffusion Language Models: A New Approach",
+      "summary_en": [
+        "Large language models (LLMs) have improved quickly by using scaling laws for training on big text collections.",
+        "However, they generate text one token at a time, which slows down processing and wastes GPU power.",
+        "Diffusion models solve these problems by allowing parallel computation and correcting errors"
+      ],
+      "key_points_en": [
+        "LLMs generate text sequentially, slowing performance",
+        "Parallel GPUs are underused during inference",
+        "Diffusion models enable error correction and parallel processing"
+      ],
+      "translation_zh": [
+        "大型语言模型（LLM）通过使用扩展定律在大量文本集合上训练，进步迅速。",
+        "然而，它们逐个生成文本标记，导致处理速度变慢且浪费GPU资源。",
+        "扩散模型通过并行计算和错误修正解决了这些问题。"
+      ],
+      "vocab": [
+        {
+          "word": "scaling laws",
+          "zh": "扩展定律（指模型训练中性能与参数规模的关系）"
+        },
+        {
+          "word": "autoregressive generation",
+          "zh": "自回归生成（逐个生成文本标记的过程）"
+        },
+        {
+          "word": "parallel GPU hardware",
+          "zh": "并行GPU硬件（可同时处理多个计算任务的硬件）"
+        },
+        {
+          "word": "inference-time compute",
+          "zh": "推理阶段计算（模型生成输出时的计算过程）"
+        },
+        {
+          "word": "discrete diffusion models",
+          "zh": "离散扩散模型（改进传统生成方式的新模型类型）"
+        }
+      ],
+      "category": "ai",
+      "tags": [
         "language models",
-        "machine learning",
-        "engineering"
+        "ai research",
+        "diffusion models",
+        "gpu utilization"
       ],
-      "id": "understanding-large-language-models-for-engineer",
+      "id": "building-modern-diffusion-language-models-a-new",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.34585"
+      "link": "https://arxiv.org/abs/2610.33391"
     },
     {
-      "title_en": "NoiseFormer: A New Approach to Reduce Memory Use in AI Models",
+      "title_en": "Fast Decision-Making with System 1 Models: A New Approach Beyond LLMs",
       "summary_en": [
-        "Transformer models are widely used in AI but face challenges with memory and computing costs as they grow larger.",
-        "Researchers are working on ways to reduce activation memory and model size to make training and inference more efficient.",
-        "NoiseFormer introduces a symmetric attention mechanism to address these challenges."
+        "Large Language Models (LLMs) are good at reasoning but too slow for quick decisions needed by AI systems. System 1 models solve this by making decisions in one step instead of token-by-token.",
+        "This guide explains how System 1 models work and categorizes them into five types for practical use in AI development."
       ],
       "key_points_en": [
-        "Transformers are popular but require more memory as they scale",
-        "Reducing model size and activation memory lowers computing costs",
-        "NoiseFormer uses symmetric attention to improve efficiency"
+        "LLMs are slow for routine decisions",
+        "System 1 models use single-pass processing",
+        "Five-family taxonomy classifies decision models"
       ],
       "translation_zh": [
-        "Transformer模型在AI领域广泛应用，但随着规模扩大面临内存和计算成本的挑战",
-        "研究人员正在寻找减少激活内存和模型大小的方法，以提高训练和推理效率",
-        "NoiseFormer通过对称注意力机制解决这些问题"
+        "大型语言模型（LLM）擅长推理，但处理AI系统需要的快速决策时太慢。System 1模型通过一步到位的决策解决这个问题。",
+        "这份指南解释了System 1模型的工作原理，并将其分为五类，便于AI开发中的实际应用。"
       ],
       "vocab": [
         {
-          "word": "memory footprint",
-          "zh": "内存占用"
+          "word": "autoregressive inference",
+          "zh": "逐词生成推理"
         },
         {
-          "word": "computing cost",
-          "zh": "计算成本"
+          "word": "structured decision",
+          "zh": "结构化决策"
         },
         {
-          "word": "activation memory",
-          "zh": "激活内存"
+          "word": "single forward pass",
+          "zh": "单次前向传递"
         },
         {
-          "word": "model size reduction",
-          "zh": "模型大小缩减"
+          "word": "practitioner-oriented",
+          "zh": "面向实践者"
         },
         {
-          "word": "symmetric attention",
-          "zh": "对称注意力"
+          "word": "five-family taxonomy",
+          "zh": "五类分类法"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "deep learning",
-        "model optimization",
-        "transformer"
+        "llm",
+        "decision-making",
+        "model-architecture"
       ],
-      "id": "noiseformer-a-new-approach-to-reduce-memory-use",
+      "id": "fast-decision-making-with-system-1-models-a-new",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2601.11619"
+      "link": "https://arxiv.org/abs/2610.33775"
     },
     {
-      "title_en": "Auditing AI Systems for Rare Disease Diagnosis: Data Leakage and Evaluation Issues",
+      "title_en": "Apple releases iOS 27.2 update with new Siri features and security improvements",
       "summary_en": [
-        "Augmented large language models (LLMs) show high accuracy in rare disease diagnosis tests, but their real-world medical usefulness is still unproven.",
-        "A recent study found these AI systems may have biased results due to data leakage, but the exact effects on model performance need more research.",
-        "This research uses over 60,000 clinical cases to examine how evaluation flaws affect AI diagnostic systems."
+        "Apple has released iOS 27.2, adding new Siri AI language support and important security updates.",
+        "The update improves device security and expands Siri's ability to understand different languages"
       ],
       "key_points_en": [
-        "LLMs achieve high test scores but lack real-world medical validation",
-        "Data leakage risks create biased evaluation results",
-        "Study analyzes 60,000+ clinical cases to audit AI systems"
+        "Adds support for new languages in Siri's AI capabilities",
+        "Includes important security updates to protect devices",
+        "Available for iPhones and iPads running iOS 27.2"
       ],
       "translation_zh": [
-        "增强型大型语言模型（LLM）在罕见病诊断测试中表现优异，但其实际医疗应用价值尚未得到验证。",
-        "最近的研究发现这些AI系统可能存在由于数据泄露导致的偏差，但对模型性能的具体影响仍需进一步研究。",
-        "该研究使用超过60,000个临床案例分析评估缺陷如何影响AI诊断系统。"
+        "Apple 已发布 iOS 27.2，新增 Siri 人工智能语言支持并包含重要的安全更新",
+        "该更新提升了设备安全性，并扩展了 Siri 理解不同语言的能力"
       ],
       "vocab": [
         {
-          "word": "data leakage",
-          "zh": "数据泄露（指训练数据意外影响测试结果）"
+          "word": "software update",
+          "zh": "软件更新"
         },
         {
-          "word": "evaluation artifacts",
-          "zh": "评估缺陷（指测试过程中出现的系统性偏差）"
+          "word": "security updates",
+          "zh": "安全更新"
         },
         {
-          "word": "clinical utility",
-          "zh": "临床实用性（指医疗应用的实际效果）"
+          "word": "AI languages",
+          "zh": "人工智能语言"
         },
         {
-          "word": "state-of-the-art",
-          "zh": "最先进的（指当前技术的最高水平）"
+          "word": "new features",
+          "zh": "新功能"
         },
         {
-          "word": "quantify impact",
-          "zh": "量化影响（指用数据衡量某种因素的影响程度）"
+          "word": "rolls out",
+          "zh": "发布"
         }
       ],
-      "category": "ai",
+      "category": "tech",
       "tags": [
-        "ai",
-        "healthcare",
-        "data bias",
-        "llm"
+        "ios update",
+        "siri ai",
+        "security patches",
+        "apple news"
       ],
-      "id": "auditing-ai-systems-for-rare-disease-diagnosis-d",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.33592"
+      "id": "apple-releases-ios-27-2-update-with-new-siri-fea",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/"
     },
     {
-      "title_en": "Anthropic's IPO Could Boost AI Industry Amid Economic Challenges",
+      "title_en": "JetBlue's Stock Rises as Cost-Cutting Plan Eases Investor Concerns",
       "summary_en": [
-        "Anthropic's IPO is becoming more important as the AI trade slows and interest rates rise.",
-        "The IPO might create a 'trickle-down effect' that helps the broader AI industry grow.",
-        "Investors are watching closely due to uncertain economic conditions."
+        "JetBlue Airways is implementing a cost-cutting strategy to boost premium revenue, which has led to a rise in its stock price as investors grow more confident in the company's future.",
+        "The airline's plan to reduce expenses while focusing on higher-paying services has reassured market participants about its financial direction."
       ],
       "key_points_en": [
-        "Anthropic's IPO gains significance during economic uncertainty",
-        "AI sector faces challenges with slowing growth",
-        "Rising interest rates increase IPO's importance"
+        "JetBlue is cutting costs to improve profitability",
+        "Premium revenue growth is a key focus of the strategy",
+        "Stock prices have increased due to improved investor sentiment"
       ],
       "translation_zh": [
-        "Anthropic的首次公开募股在人工智能行业增长放缓和利率上升的背景下变得越来越重要。",
-        "该IPO可能产生‘涓滴效应’，促进整个人工智能行业的发展。",
-        "由于经济状况不确定，投资者正在密切关注。"
+        "捷蓝航空正在实施一项削减成本的策略，以增加高利润收入，这使得投资者对公司未来的信心增强，股价随之上涨。",
+        "该航空公司通过减少开支并专注于高收入服务，使市场参与者对其财务前景更加放心。"
       ],
       "vocab": [
         {
-          "word": "take on outsized importance",
-          "zh": "变得非常重要"
+          "word": "cost-cutting plan",
+          "zh": "削减成本的计划"
         },
         {
-          "word": "sputtering trade",
-          "zh": "停滞的交易"
+          "word": "premium revenue",
+          "zh": "高利润收入"
         },
         {
-          "word": "trickle-down effect",
-          "zh": "涓滴效应"
+          "word": "stock surges",
+          "zh": "股价飙升"
         },
         {
-          "word": "interest rates on the rise",
-          "zh": "利率上升"
+          "word": "calms investors",
+          "zh": "安抚投资者"
         },
         {
-          "word": "poised to have",
-          "zh": "准备产生"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "ipo",
-        "ai",
-        "economy",
-        "market trends"
-      ],
-      "id": "anthropic-s-ipo-could-boost-ai-industry-amid-eco",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html"
-    },
-    {
-      "title_en": "Bank of Japan to Keep Rates Unchanged but Signal Future Hike",
-      "summary_en": [
-        "A CNBC survey suggests the Bank of Japan will maintain current interest rates this week but indicate plans for a future increase.",
-        "Rising inflation and wages are seen as key reasons for the potential rate hike in late 2023."
-      ],
-      "key_points_en": [
-        "All respondents predict a rate hike in December or January 2024.",
-        "Rising inflation and wages are driving the potential increase.",
-        "The BOJ is maintaining a hawkish stance despite holding rates now."
-      ],
-      "translation_zh": [
-        "CNBC的一项调查显示，日本央行本周将维持当前利率不变，但暗示未来将加息。",
-        "不断上升的通货膨胀和工资被视为2023年底加息的主要原因。"
-      ],
-      "vocab": [
-        {
-          "word": "set the stage for",
-          "zh": "为...做准备"
-        },
-        {
-          "word": "rate hike",
-          "zh": "加息"
-        },
-        {
-          "word": "rising inflation",
-          "zh": "通货膨胀上升"
-        },
-        {
-          "word": "stay hawkish",
-          "zh": "保持鹰派立场"
-        },
-        {
-          "word": "hold rates",
-          "zh": "维持利率不变"
+          "word": "company outlook",
+          "zh": "公司前景"
         }
       ],
       "category": "finance",
       "tags": [
-        "interest rates",
+        "stock market",
+        "cost reduction",
+        "investor confidence",
+        "airline industry"
+      ],
+      "id": "jetblue-s-stock-rises-as-cost-cutting-plan-eases",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html"
+    },
+    {
+      "title_en": "Coca-Cola Raises Earnings Forecast Despite Weak North American Demand",
+      "summary_en": [
+        "Coca-Cola has increased its earnings forecast for the year, despite weak consumer demand in North America. The company's stock has risen about 32% this year, boosting its market value to approximately $398 billion."
+      ],
+      "key_points_en": [
+        "Earnings outlook raised for 2023",
+        "Stock price up 32% year-to-date",
+        "Market capitalization reaches $398 billion"
+      ],
+      "translation_zh": [
+        "可口可乐公司提高了今年的盈利预期，尽管北美地区消费者需求疲软。该公司今年股价上涨了约32%，使其市值达到约3980亿美元。"
+      ],
+      "vocab": [
+        {
+          "word": "hikes earnings outlook",
+          "zh": "提高盈利预期"
+        },
+        {
+          "word": "lackluster demand",
+          "zh": "需求疲软"
+        },
+        {
+          "word": "stock climbed",
+          "zh": "股价上涨"
+        },
+        {
+          "word": "market cap",
+          "zh": "市值"
+        },
+        {
+          "word": "raises market cap",
+          "zh": "提升市值"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "earnings forecast",
+        "consumer demand",
+        "market value"
+      ],
+      "id": "coca-cola-raises-earnings-forecast-despite-weak",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
+    },
+    {
+      "title_en": "Apple Launches 14-inch MacBook Pro with M6 Chip and Enhanced Features",
+      "summary_en": [
+        "The new 14-inch MacBook Pro has 24 hours of battery life and supports Wi-Fi 7 and Bluetooth 6 connectivity.",
+        "Apple is improving performance and connectivity with the latest chip and wireless technologies."
+      ],
+      "key_points_en": [
+        "24-hour battery life",
+        "Wi-Fi 7 support",
+        "Bluetooth 6 support"
+      ],
+      "translation_zh": [
+        "苹果推出搭载M6芯片的14英寸MacBook Pro，电池续航达24小时，并支持最新的Wi-Fi 7和蓝牙6技术。",
+        "苹果通过最新芯片和无线技术提升性能和连接性。"
+      ],
+      "vocab": [
+        {
+          "word": "battery life",
+          "zh": "电池续航时间"
+        },
+        {
+          "word": "Wi-Fi 7",
+          "zh": "第七代Wi-Fi技术"
+        },
+        {
+          "word": "Bluetooth 6",
+          "zh": "第六代蓝牙技术"
+        },
+        {
+          "word": "enhanced features",
+          "zh": "增强功能"
+        },
+        {
+          "word": "connectivity",
+          "zh": "连接性"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "apple",
+        "m6 chip",
+        "wi-fi 7",
+        "bluetooth 6"
+      ],
+      "id": "apple-launches-14-inch-macbook-pro-with-m6-chip",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/"
+    },
+    {
+      "title_en": "U.S. Consumer Spending Remains Strong Despite High Inflation",
+      "summary_en": [
+        "Companies like Royal Caribbean, Coca-Cola, and UPS report steady consumer spending in early third-quarter earnings.",
+        "This suggests resilience in the U.S. economy even with high inflation pressures."
+      ],
+      "key_points_en": [
+        "Major companies report stable spending",
+        "High inflation continues",
+        "Third-quarter earnings show resilience"
+      ],
+      "translation_zh": [
+        "皇家加勒比、可口可乐和UPS等公司报告早前第三季度的稳定消费支出",
+        "这表明即使面临高通胀压力，美国经济仍表现出韧性"
+      ],
+      "vocab": [
+        {
+          "word": "steady consumer spending",
+          "zh": "稳定的消费者支出"
+        },
+        {
+          "word": "high inflation",
+          "zh": "高通胀"
+        },
+        {
+          "word": "third-quarter earnings",
+          "zh": "第三季度财报"
+        },
+        {
+          "word": "signs of strain",
+          "zh": "出现压力迹象"
+        },
+        {
+          "word": "resilient U.S. consumer",
+          "zh": "具有韧性的美国消费者"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "consumer spending",
         "inflation",
-        "central bank",
-        "economic policy"
+        "earnings report",
+        "economic resilience"
       ],
-      "id": "bank-of-japan-to-keep-rates-unchanged-but-signal",
+      "id": "u-s-consumer-spending-remains-strong-despite-hig",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html"
+      "link": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html"
     },
     {
-      "title_en": "Investors Thrive by Avoiding AI Stocks as Tech Trade Weakens",
+      "title_en": "Disruptive secures $10 billion fund for major investments in tech startups",
       "summary_en": [
-        "An S&P 500 index without AI stocks is outperforming the traditional index this year.",
-        "Investors may find better returns by focusing on sectors unrelated to AI if the tech trade continues to decline."
+        "Disruptive has recently invested in companies like Groq and ElevenLabs",
+        "The firm now plans to use a $10 billion fund to invest in at least 10 companies"
       ],
       "key_points_en": [
-        "S&P 500 without AI stocks beats traditional index",
-        "AI trade is losing momentum",
-        "Other sectors may offer better investment opportunities"
+        "Raised $10 billion for new investments",
+        "Previously invested in Groq and ElevenLabs",
+        "Focus on tech startups"
       ],
       "translation_zh": [
-        "没有AI股票的标普500指数今年表现优于传统指数",
-        "如果科技交易持续低迷，投资者可能通过关注非AI领域获得更好回报",
-        "其他行业可能提供更好的投资机会"
+        "Disruptive 最近向 Groq 和 ElevenLabs 等公司进行了投资",
+        "该机构现在计划使用 100 亿美元基金投资至少 10 家公司"
       ],
       "vocab": [
         {
-          "word": "shunning AI",
-          "zh": "避开人工智能"
+          "word": "make big bets",
+          "zh": "进行重大投资"
         },
         {
-          "word": "outperforming the index",
-          "zh": "跑赢指数"
+          "word": "pour money into",
+          "zh": "向...投入资金"
         },
         {
-          "word": "tech trade",
-          "zh": "科技交易"
+          "word": "AI voice-generation",
+          "zh": "人工智能语音生成"
         },
         {
-          "word": "fizzling",
-          "zh": "逐渐消退"
+          "word": "chip startup",
+          "zh": "芯片初创公司"
         },
         {
-          "word": "investment opportunities",
-          "zh": "投资机会"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "AI investment",
-        "market trends",
-        "S&P 500",
-        "tech sector"
-      ],
-      "id": "investors-thrive-by-avoiding-ai-stocks-as-tech-t",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/sp-500-ex-ai-index-tech-selloff.html"
-    },
-    {
-      "title_en": "Startup's Self-Driving Excavators Attract $600M in Funding",
-      "summary_en": [
-        "Bedrock Robotics, now valued at $4.1 billion, develops autonomous excavators to address a growing shortage of skilled operators.",
-        "The company's focus on self-driving machinery has helped it secure $600 million in new funding."
-      ],
-      "key_points_en": [
-        "Company valued at $4.1 billion",
-        "Focus on autonomous excavators",
-        "Funding driven by operator shortage"
-      ],
-      "translation_zh": [
-        "Bedrock Robotics目前估值41亿美元，开发自主挖掘机以应对熟练操作员短缺的问题。",
-        "该公司对无人驾驶机械的关注帮助其获得了6亿美元的新资金。"
-      ],
-      "vocab": [
-        {
-          "word": "autonomous excavators",
-          "zh": "自主挖掘机"
-        },
-        {
-          "word": "shortage of skilled operators",
-          "zh": "熟练操作员短缺"
-        },
-        {
-          "word": "valued at",
-          "zh": "估值为"
-        },
-        {
-          "word": "attract funding",
-          "zh": "吸引资金"
-        },
-        {
-          "word": "self-driving technology",
-          "zh": "自动驾驶技术"
+          "word": "major investments",
+          "zh": "重大投资"
         }
       ],
       "category": "tech",
       "tags": [
-        "autonomous vehicles",
-        "startup funding",
-        "construction tech",
-        "robotics"
+        "venture capital",
+        "tech startups",
+        "AI",
+        "funding"
       ],
-      "id": "startup-s-self-driving-excavators-attract-600m-i",
+      "id": "disruptive-secures-10-billion-fund-for-major-inv",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/"
-    },
-    {
-      "title_en": "Anthropic's IPO Filing Shows Strategy to Retain Enterprise Customers",
-      "summary_en": [
-        "Anthropic's IPO documents show that over 50% of its high-value customers use both its Claude Platform and a first-party app.",
-        "This cross-selling approach, similar to Amazon's strategy, helps keep enterprise clients more loyal."
-      ],
-      "key_points_en": [
-        "Over half of $100k+ customers use two Anthropic products",
-        "Cross-selling strategy mirrors Amazon's playbook",
-        "Dual product usage increases customer retention"
-      ],
-      "translation_zh": [
-        "Anthropic的IPO文件显示，超过50%的高价值客户同时使用Claude平台和第一方应用。",
-        "这种类似亚马逊的交叉销售策略有助于提高企业客户的忠诚度。"
-      ],
-      "vocab": [
-        {
-          "word": "cross-selling playbook",
-          "zh": "交叉销售策略"
-        },
-        {
-          "word": "enterprise customers",
-          "zh": "企业客户"
-        },
-        {
-          "word": "stickier",
-          "zh": "更难以流失的"
-        },
-        {
-          "word": "first-party app",
-          "zh": "自主开发的应用程序"
-        },
-        {
-          "word": "IPO filing",
-          "zh": "首次公开募股文件"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "ipo",
-        "cross-selling",
-        "enterprise",
-        "ai"
-      ],
-      "id": "anthropic-s-ipo-filing-shows-strategy-to-retain",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
-    },
-    {
-      "title_en": "Apple Introduces New iPad Mini with OLED Screen and Upgraded Chip",
-      "summary_en": [
-        "The new iPad mini is thinner and lighter than the previous model. It uses an OLED display and includes a faster A20 Pro chip for better performance.",
-        "Apple's latest tablet features improved design and advanced technology to compete in the market."
-      ],
-      "key_points_en": [
-        "OLED display for better visuals",
-        "Thinner and lighter than previous models",
-        "A20 Pro chip for faster processing"
-      ],
-      "translation_zh": [
-        "新款iPad mini比前代产品更薄更轻。它采用OLED显示屏并配备更快的A20 Pro芯片，性能更优。",
-        "苹果最新的平板电脑采用改进的设计和先进技术，以在市场中竞争。"
-      ],
-      "vocab": [
-        {
-          "word": "OLED display",
-          "zh": "有机发光二极管屏幕，提供更鲜艳的色彩"
-        },
-        {
-          "word": "faster chip",
-          "zh": "更快的处理器，提升设备运行速度"
-        },
-        {
-          "word": "thinner and lighter",
-          "zh": "更薄更轻，便于携带"
-        },
-        {
-          "word": "upgraded technology",
-          "zh": "升级技术，提升整体性能"
-        },
-        {
-          "word": "product launch",
-          "zh": "产品发布，公司推出新产品的活动"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "iPad",
-        "OLED",
-        "chip technology",
-        "product launch"
-      ],
-      "id": "apple-introduces-new-ipad-mini-with-oled-screen",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/"
+      "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
     }
   ]
 }

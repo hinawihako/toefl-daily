@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-27T17:07:58+08:00",
+  "generated_at": "2026-10-28T07:13:25+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-10-27",
-      "file": "data/audio/2026-10-27-briefing.mp3",
-      "script": "Here is your daily briefing. Large language models (LLMs) are neural networks trained on vast text collections to predict and generate text. They use Transformers for context connections and pre-training to learn text prediction. Transformer models are widely used in AI but face challenges with memory and computing costs as they grow larger. Augmented large language models (LLMs) show high accuracy in rare disease diagnosis tests, but their real-world medical usefulness is still unproven. Anthropic's IPO is becoming more important as the AI trade slows and interest rates rise.",
-      "duration": "224 KB"
+      "date": "2026-10-28",
+      "file": "data/audio/2026-10-28-briefing.mp3",
+      "script": "Here is your daily briefing. The growth of orbital data and need for real-time services are forcing LEO satellites to use AI processing instead of simple relays. However, AI training needs lots of computing power, memory, and stable connections, which are hard to get in satellite networks with limited resources. Large language models (LLMs) have improved quickly by using scaling laws for training on big text collections. Large Language Models (LLMs) are good at reasoning but too slow for quick decisions needed by AI systems. System 1 models solve this by making decisions in one step instead of token-by-token. Apple has released iOS 27.2, adding new Siri AI language support and important security updates.",
+      "duration": "281 KB"
     }
   ]
 }
