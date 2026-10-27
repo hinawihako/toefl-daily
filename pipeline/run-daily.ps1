@@ -1,4 +1,4 @@
-# TOEFL daily pipeline runner (called by Windows Task Scheduler)
+﻿# TOEFL daily pipeline runner (called by Windows Task Scheduler)
 # NOTE: keep this file ASCII-only. PowerShell 5.1 reads .ps1 as ANSI when no BOM,
 # so non-ASCII text here gets corrupted and causes parse errors.
 # Logs go to pipeline\logs, falling back to %TEMP%\toefl-logs.
@@ -62,6 +62,13 @@ try {
   $result.pyExit = $pyExit
   Log ("pipeline exit code: " + $pyExit)
   if ($pyExit -ne 0) { throw "pipeline failed with exit code $pyExit" }
+  $result.stage = "notify"
+  $notifyScript = Join-Path $AppDir "pipeline\notify_qq.py"
+  if (Test-Path $notifyScript) {
+    & $Py $notifyScript *>> $Log
+    Log ("qq notify exit code: " + $LASTEXITCODE)
+  }
+
 
   $result.stage = "git"
   Set-Location $AppDir
@@ -94,3 +101,4 @@ finally {
   $result.durationSec = [int]((Get-Date) - $started).TotalSeconds
   Save-Status $result
 }
+
