@@ -1,5 +1,5 @@
-/* 离线缓存：HTML 走 network-first（保证更新能生效），静态资源走 cache-first，数据/音频走 network-first 并回填缓存 */
-const CACHE = 'toefl-v2';
+﻿/* 绂荤嚎缂撳瓨锛欻TML 璧?network-first锛堜繚璇佹洿鏂拌兘鐢熸晥锛夛紝闈欐€佽祫婧愯蛋 cache-first锛屾暟鎹?闊抽璧?network-first 骞跺洖濉紦瀛?*/
+const CACHE = 'toefl-v3';
 const CORE = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', e => {
@@ -22,7 +22,7 @@ self.addEventListener('fetch', e => {
 
   const isHtml = req.mode === 'navigate' || url.pathname.endsWith('/') || url.pathname.endsWith('.html');
   if (isHtml) {
-    // network-first：拿到新的就用新的，断网才用缓存
+    // network-first锛氭嬁鍒版柊鐨勫氨鐢ㄦ柊鐨勶紝鏂綉鎵嶇敤缂撳瓨
     e.respondWith(
       fetch(req).then(r => {
         const copy = r.clone();
@@ -33,7 +33,7 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // 其它资源：cache-first，未命中再请求并回填
+  // 鍏跺畠璧勬簮锛歝ache-first锛屾湭鍛戒腑鍐嶈姹傚苟鍥炲～
   e.respondWith(
     caches.match(req).then(hit => hit || fetch(req).then(r => {
       if (r && r.status === 200) {
@@ -44,3 +44,4 @@ self.addEventListener('fetch', e => {
     }).catch(() => hit))
   );
 });
+
