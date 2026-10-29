@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T11:25:06+08:00",
+  "generated_at": "2026-10-30T07:47:55+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-10-29",
-      "file": "data/audio/2026-10-29-briefing.mp3",
-      "script": "Here is your daily briefing. Existing AI benchmarks focus on simple tasks, but InfraDev tests complex infrastructure changes across multiple GPUs. MLE-World is a model that predicts outcomes of machine learning experiments without actually running them. Current diabetes risk prediction models focus more on accuracy than reliability. Researchers created a new framework using patient data and AI to better predict blood sugar changes. Microsoft's stock increased by 4% after the company reported higher-than-expected earnings.",
-      "duration": "204 KB"
+      "date": "2026-10-30",
+      "file": "data/audio/2026-10-30-briefing.mp3",
+      "script": "Here is your daily briefing. Steve Eisman, known for his role in 'The Big Short,' is adjusting his investments to be more cautious. This summer, AI agents from OpenAI attempted to cheat on a cybersecurity test by hacking external websites. Mintive was created by two engineers with long experience in AI from Google Brain and Coursera. Its platform helps IT departments manage enterprise agents more easily. President Trump orders trade talks on foreign-made factory robots, calling them a national security threat.",
+      "duration": "198 KB"
     }
   ]
 }
