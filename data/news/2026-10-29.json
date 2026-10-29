@@ -1,0 +1,446 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T11:25:06+08:00",
+  "items": [
+    {
+      "title_en": "Testing AI's Ability to Build Infrastructure with InfraDev",
+      "summary_en": [
+        "Existing AI benchmarks focus on simple tasks, but InfraDev tests complex infrastructure changes across multiple GPUs.",
+        "InfraDev uses 36 real-world tasks from AI projects to evaluate coding agents' ability to fix and improve systems.",
+        "Hidden probes help assess whether agents' code works correctly in real infrastructure scenarios."
+      ],
+      "key_points_en": [
+        "InfraDev tests infrastructure changes across multiple GPUs",
+        "36 tasks from real AI projects like Megatron-LM",
+        "Hidden probes evaluate code correctness"
+      ],
+      "translation_zh": [
+        "现有AI基准测试关注简单任务，但InfraDev测试跨多个GPU的复杂基础设施更改。",
+        "InfraDev使用来自Megatron-LM等AI项目的36个真实任务来评估编码代理改进系统的能力。",
+        "隐藏探针用于评估代码在真实基础设施场景中的正确性。"
+      ],
+      "vocab": [
+        {
+          "word": "production-grade AI infrastructure",
+          "zh": "可投入实际使用的AI基础设施"
+        },
+        {
+          "word": "single-GPU tasks",
+          "zh": "单GPU任务"
+        },
+        {
+          "word": "reimplement a real change",
+          "zh": "重新实现真实更改"
+        },
+        {
+          "word": "hidden probes",
+          "zh": "隐藏探针"
+        },
+        {
+          "word": "jointly synthesize",
+          "zh": "联合合成"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "benchmarking",
+        "infrastructure",
+        "coding agents"
+      ],
+      "id": "testing-ai-s-ability-to-build-infrastructure-wit",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.36589"
+    },
+    {
+      "title_en": "MLE-World: A New Tool for Predicting ML Experiment Results",
+      "summary_en": [
+        "MLE-World is a model that predicts outcomes of machine learning experiments without actually running them.",
+        "It uses a confidence score to show how reliable its predictions are.",
+        "This approach saves time by avoiding expensive training runs."
+      ],
+      "key_points_en": [
+        "Predicts experiment results without executing code",
+        "Includes confidence scores for predictions",
+        "Reduces need for training runs"
+      ],
+      "translation_zh": [
+        "MLE-World是一种无需实际运行机器学习实验即可预测结果的模型。",
+        "它使用置信度分数来显示预测的可靠性。",
+        "这种方法通过避免耗时的训练过程来节省时间。"
+      ],
+      "vocab": [
+        {
+          "word": "predicts outcomes",
+          "zh": "预测结果"
+        },
+        {
+          "word": "confidence score",
+          "zh": "置信度分数"
+        },
+        {
+          "word": "training run",
+          "zh": "训练过程"
+        },
+        {
+          "word": "test time scaling",
+          "zh": "测试时间扩展"
+        },
+        {
+          "word": "inference call",
+          "zh": "推理调用"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "machine learning",
+        "world model",
+        "efficiency",
+        "AI research"
+      ],
+      "id": "mle-world-a-new-tool-for-predicting-ml-experimen",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.37175"
+    },
+    {
+      "title_en": "New AI Method Improves Diabetes Risk Prediction Accuracy",
+      "summary_en": [
+        "Current diabetes risk prediction models focus more on accuracy than reliability. Researchers created a new framework using patient data and AI to better predict blood sugar changes.",
+        "The study used data from 736 type 1 diabetes patients to test predictions at 30, 60, and 120-minute intervals."
+      ],
+      "key_points_en": [
+        "AI framework improves reliability of diabetes predictions",
+        "Uses data from 736 type 1 diabetes patients",
+        "Tests predictions at 30-120 minute intervals"
+      ],
+      "translation_zh": [
+        "当前糖尿病风险预测模型更关注准确性而非可靠性。研究人员创建了一个新框架，利用患者数据和AI更好地预测血糖变化。",
+        "该研究使用736名1型糖尿病患者的数据，在30-120分钟的时间间隔内测试预测效果。"
+      ],
+      "vocab": [
+        {
+          "word": "predictive performance",
+          "zh": "预测准确性"
+        },
+        {
+          "word": "benchmarking framework",
+          "zh": "基准测试框架"
+        },
+        {
+          "word": "multimodal patient information",
+          "zh": "多模态患者信息"
+        },
+        {
+          "word": "standardized prediction anchors",
+          "zh": "标准化预测锚点"
+        },
+        {
+          "word": "neural architectures",
+          "zh": "神经网络结构"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "diabetes management",
+        "machine learning",
+        "predictive analytics",
+        "healthcare ai"
+      ],
+      "id": "new-ai-method-improves-diabetes-risk-prediction",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.36363"
+    },
+    {
+      "title_en": "Microsoft Stock Rises 4% on Strong Cloud Revenue Growth",
+      "summary_en": [
+        "Microsoft's stock increased by 4% after the company reported higher-than-expected earnings.",
+        "The growth was mainly due to a 48% increase in Azure revenue, driven by strong demand in the cloud computing sector."
+      ],
+      "key_points_en": [
+        "Microsoft stock rose 4% following strong earnings",
+        "Azure revenue grew 48% year-over-year",
+        "Cloud computing demand drove the financial results"
+      ],
+      "translation_zh": [
+        "微软的股价上涨了4%，因为公司报告了超出预期的收益。",
+        "这一增长主要归功于Azure收入增长48%，这是云计算领域强劲需求的结果。"
+      ],
+      "vocab": [
+        {
+          "word": "better-than-expected",
+          "zh": "超出预期的"
+        },
+        {
+          "word": "driven by",
+          "zh": "由...驱动"
+        },
+        {
+          "word": "cloud growth",
+          "zh": "云计算增长"
+        },
+        {
+          "word": "revenue beat",
+          "zh": "收入超出预期"
+        },
+        {
+          "word": "earnings and revenue beat",
+          "zh": "收益和收入超出预期"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "cloud computing",
+        "financial results",
+        "azure growth"
+      ],
+      "id": "microsoft-stock-rises-4-on-strong-cloud-revenue",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+    },
+    {
+      "title_en": "Jeff Gundlach Questions Fed's Rate Pause Decision",
+      "summary_en": [
+        "Bond investor Jeff Gundlach asked the Federal Reserve why it paused interest rates during an interview on CNBC's 'Closing Bell'.",
+        "The Fed decided to keep rates unchanged after a meeting, prompting Gundlach's public reaction.",
+        "Gundlach's comments highlight concerns about the timing of monetary policy decisions."
+      ],
+      "key_points_en": [
+        "Fed held interest rates steady",
+        "Gundlach questioned the pause decision",
+        "Interview occurred on CNBC's 'Closing Bell'"
+      ],
+      "translation_zh": [
+        "债券投资者杰夫·冈德拉奇在CNBC的《收盘钟》节目中询问美联储为何暂停利率。",
+        "美联储在会议后决定保持利率不变，引发冈德拉奇的公开反应。",
+        "冈德拉奇的评论凸显了对货币政策时机的担忧。"
+      ],
+      "vocab": [
+        {
+          "word": "rate pause",
+          "zh": "暂停利率"
+        },
+        {
+          "word": "hold rates steady",
+          "zh": "维持利率不变"
+        },
+        {
+          "word": "question the decision",
+          "zh": "质疑这一决定"
+        },
+        {
+          "word": "comment on",
+          "zh": "评论"
+        },
+        {
+          "word": "interview on",
+          "zh": "接受采访"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "fed policy",
+        "bond market",
+        "interest rates",
+        "investor comments"
+      ],
+      "id": "jeff-gundlach-questions-fed-s-rate-pause-decisio",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html"
+    },
+    {
+      "title_en": "10-Year Treasury Yield Rises as Fed Holds Rates Steady",
+      "summary_en": [
+        "The 10-year Treasury yield increased slightly as investors wait for the Federal Reserve's next monetary policy move.",
+        "Despite the Fed maintaining current interest rates, market expectations for future changes may be influencing bond prices."
+      ],
+      "key_points_en": [
+        "The 10-year Treasury yield increased slightly.",
+        "The Federal Reserve has kept interest rates unchanged.",
+        "Market participants are waiting for the Fed's next policy decision."
+      ],
+      "translation_zh": [
+        "10年期美国国债收益率小幅上涨，投资者正等待美联储下一步货币政策决定。",
+        "尽管美联储维持当前利率不变，但市场对未来变化的预期可能影响债券价格。"
+      ],
+      "vocab": [
+        {
+          "word": "edged higher",
+          "zh": "小幅上涨"
+        },
+        {
+          "word": "monetary policy",
+          "zh": "货币政策"
+        },
+        {
+          "word": "keeps rates the same",
+          "zh": "维持利率不变"
+        },
+        {
+          "word": "traders await",
+          "zh": "投资者等待"
+        },
+        {
+          "word": "Treasury yields",
+          "zh": "国债收益率"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "interest rates",
+        "bond market",
+        "fed policy",
+        "economic indicators"
+      ],
+      "id": "10-year-treasury-yield-rises-as-fed-holds-rates",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html"
+    },
+    {
+      "title_en": "Upwind Secures $400M Funding Instead of Accepting Datadog Buyout Offer",
+      "summary_en": [
+        "Cloud security company Upwind raised $400 million in Series C funding at a $3.8 billion valuation.",
+        "The startup chose to reject Datadog's acquisition offer for the same price.",
+        "This decision shows confidence in Upwind's growth potential."
+      ],
+      "key_points_en": [
+        "Upwind raised $400M in Series C funding",
+        "Rejected Datadog's acquisition offer",
+        "Valuation reached $3.8 billion"
+      ],
+      "translation_zh": [
+        "云安全公司Upwind以38亿美元估值筹集了4亿美元的C轮融资",
+        "该初创公司拒绝了Datadog以相同价格收购的提议",
+        "这一决定显示出对Upwind增长潜力的信心"
+      ],
+      "vocab": [
+        {
+          "word": "series C funding",
+          "zh": "C轮融资"
+        },
+        {
+          "word": "acquisition offer",
+          "zh": "收购提议"
+        },
+        {
+          "word": "valuation",
+          "zh": "估值"
+        },
+        {
+          "word": "walk away",
+          "zh": "放弃"
+        },
+        {
+          "word": "buyout",
+          "zh": "收购"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "startup funding",
+        "acquisition",
+        "valuation",
+        "tech company"
+      ],
+      "id": "upwind-secures-400m-funding-instead-of-accepting",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/"
+    },
+    {
+      "title_en": "New Wired Headset Xreal Aura Uses Android XR Technology",
+      "summary_en": [
+        "Xreal Aura is a new wired headset that runs on Android XR technology.",
+        "It will be available starting at $1,279 and will come with several XR-specific apps when it launches."
+      ],
+      "key_points_en": [
+        "Priced at $1,279 starting",
+        "Powered by Android XR",
+        "Includes multiple XR apps at launch"
+      ],
+      "translation_zh": [
+        "Xreal Aura是一款使用安卓XR技术的有线头显。",
+        "它将从1279美元起售，并在发布时附带多个XR专用应用。"
+      ],
+      "vocab": [
+        {
+          "word": "wired headset",
+          "zh": "有线头显"
+        },
+        {
+          "word": "Android XR",
+          "zh": "安卓XR技术"
+        },
+        {
+          "word": "XR-specific apps",
+          "zh": "XR专用应用"
+        },
+        {
+          "word": "start at",
+          "zh": "起售价为"
+        },
+        {
+          "word": "multiple apps",
+          "zh": "多个应用"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "headset",
+        "android xr",
+        "xr apps",
+        "tech launch"
+      ],
+      "id": "new-wired-headset-xreal-aura-uses-android-xr-tec",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/"
+    },
+    {
+      "title_en": "Google Expands AI Integration for Developers",
+      "summary_en": [
+        "Google has launched a new platform allowing businesses to integrate their services with AI tools like Gemini and Search.",
+        "This move could change how users find and use apps on the internet."
+      ],
+      "key_points_en": [
+        "New developer platform enables business integration with Google's AI tools",
+        "Gemini and Search are now accessible to third-party apps",
+        "Potential shift in app discovery methods for consumers"
+      ],
+      "translation_zh": [
+        "谷歌推出新平台，允许企业将其服务与Gemini和搜索等AI工具集成。",
+        "此举可能改变用户在互联网上发现和使用应用程序的方式。"
+      ],
+      "vocab": [
+        {
+          "word": "developer platform",
+          "zh": "开发者平台"
+        },
+        {
+          "word": "AI experiences",
+          "zh": "人工智能体验"
+        },
+        {
+          "word": "integrate services",
+          "zh": "整合服务"
+        },
+        {
+          "word": "change how",
+          "zh": "改变方式"
+        },
+        {
+          "word": "discover and use",
+          "zh": "发现并使用"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "google",
+        "apps",
+        "development"
+      ],
+      "id": "google-expands-ai-integration-for-developers",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+    }
+  ]
+}

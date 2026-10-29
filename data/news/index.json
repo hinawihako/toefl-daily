@@ -1,438 +1,446 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T07:13:25+08:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T11:25:06+08:00",
   "items": [
     {
-      "title_en": "AI in Satellite Networks: Challenges and Solutions for LEO Constellations",
+      "title_en": "Testing AI's Ability to Build Infrastructure with InfraDev",
       "summary_en": [
-        "The growth of orbital data and need for real-time services are forcing LEO satellites to use AI processing instead of simple relays. However, AI training needs lots of computing power, memory, and stable connections, which are hard to get in satellite networks with limited resources.",
-        "Researchers are rethinking AI workflows to address these challenges, focusing on distributed training and collaborative inference methods suitable for LEO constellations."
+        "Existing AI benchmarks focus on simple tasks, but InfraDev tests complex infrastructure changes across multiple GPUs.",
+        "InfraDev uses 36 real-world tasks from AI projects to evaluate coding agents' ability to fix and improve systems.",
+        "Hidden probes help assess whether agents' code works correctly in real infrastructure scenarios."
       ],
       "key_points_en": [
-        "Satellite networks face severe resource limitations for AI tasks",
-        "AI workflows must be redesigned for dynamic satellite environments",
-        "LEO constellations require new approaches to training and inference"
+        "InfraDev tests infrastructure changes across multiple GPUs",
+        "36 tasks from real AI projects like Megatron-LM",
+        "Hidden probes evaluate code correctness"
       ],
       "translation_zh": [
-        "轨道数据的增长和对实时服务的需求迫使低地球轨道卫星使用人工智能处理，而不是简单的中继。然而，人工智能训练需要大量的计算能力、内存和稳定的连接，这在资源有限的卫星网络中难以实现。",
-        "研究人员正在重新设计人工智能工作流程，以解决这些挑战，重点是适合低地球轨道星座的分布式训练和协作推理方法。"
+        "现有AI基准测试关注简单任务，但InfraDev测试跨多个GPU的复杂基础设施更改。",
+        "InfraDev使用来自Megatron-LM等AI项目的36个真实任务来评估编码代理改进系统的能力。",
+        "隐藏探针用于评估代码在真实基础设施场景中的正确性。"
       ],
       "vocab": [
         {
-          "word": "proliferation",
-          "zh": "激增"
+          "word": "production-grade AI infrastructure",
+          "zh": "可投入实际使用的AI基础设施"
         },
         {
-          "word": "real-time demands",
-          "zh": "实时需求"
+          "word": "single-GPU tasks",
+          "zh": "单GPU任务"
         },
         {
-          "word": "dynamic topologies",
-          "zh": "动态拓扑结构"
+          "word": "reimplement a real change",
+          "zh": "重新实现真实更改"
         },
         {
-          "word": "intermittent links",
-          "zh": "间歇性连接"
+          "word": "hidden probes",
+          "zh": "隐藏探针"
         },
         {
-          "word": "SWaP constraints",
-          "zh": "尺寸重量功率限制"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "satellite",
-        "ai",
-        "leo",
-        "constellations"
-      ],
-      "id": "ai-in-satellite-networks-challenges-and-solution",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.35282"
-    },
-    {
-      "title_en": "Building Modern Diffusion Language Models: A New Approach",
-      "summary_en": [
-        "Large language models (LLMs) have improved quickly by using scaling laws for training on big text collections.",
-        "However, they generate text one token at a time, which slows down processing and wastes GPU power.",
-        "Diffusion models solve these problems by allowing parallel computation and correcting errors"
-      ],
-      "key_points_en": [
-        "LLMs generate text sequentially, slowing performance",
-        "Parallel GPUs are underused during inference",
-        "Diffusion models enable error correction and parallel processing"
-      ],
-      "translation_zh": [
-        "大型语言模型（LLM）通过使用扩展定律在大量文本集合上训练，进步迅速。",
-        "然而，它们逐个生成文本标记，导致处理速度变慢且浪费GPU资源。",
-        "扩散模型通过并行计算和错误修正解决了这些问题。"
-      ],
-      "vocab": [
-        {
-          "word": "scaling laws",
-          "zh": "扩展定律（指模型训练中性能与参数规模的关系）"
-        },
-        {
-          "word": "autoregressive generation",
-          "zh": "自回归生成（逐个生成文本标记的过程）"
-        },
-        {
-          "word": "parallel GPU hardware",
-          "zh": "并行GPU硬件（可同时处理多个计算任务的硬件）"
-        },
-        {
-          "word": "inference-time compute",
-          "zh": "推理阶段计算（模型生成输出时的计算过程）"
-        },
-        {
-          "word": "discrete diffusion models",
-          "zh": "离散扩散模型（改进传统生成方式的新模型类型）"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "language models",
-        "ai research",
-        "diffusion models",
-        "gpu utilization"
-      ],
-      "id": "building-modern-diffusion-language-models-a-new",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.33391"
-    },
-    {
-      "title_en": "Fast Decision-Making with System 1 Models: A New Approach Beyond LLMs",
-      "summary_en": [
-        "Large Language Models (LLMs) are good at reasoning but too slow for quick decisions needed by AI systems. System 1 models solve this by making decisions in one step instead of token-by-token.",
-        "This guide explains how System 1 models work and categorizes them into five types for practical use in AI development."
-      ],
-      "key_points_en": [
-        "LLMs are slow for routine decisions",
-        "System 1 models use single-pass processing",
-        "Five-family taxonomy classifies decision models"
-      ],
-      "translation_zh": [
-        "大型语言模型（LLM）擅长推理，但处理AI系统需要的快速决策时太慢。System 1模型通过一步到位的决策解决这个问题。",
-        "这份指南解释了System 1模型的工作原理，并将其分为五类，便于AI开发中的实际应用。"
-      ],
-      "vocab": [
-        {
-          "word": "autoregressive inference",
-          "zh": "逐词生成推理"
-        },
-        {
-          "word": "structured decision",
-          "zh": "结构化决策"
-        },
-        {
-          "word": "single forward pass",
-          "zh": "单次前向传递"
-        },
-        {
-          "word": "practitioner-oriented",
-          "zh": "面向实践者"
-        },
-        {
-          "word": "five-family taxonomy",
-          "zh": "五类分类法"
+          "word": "jointly synthesize",
+          "zh": "联合合成"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "llm",
-        "decision-making",
-        "model-architecture"
+        "benchmarking",
+        "infrastructure",
+        "coding agents"
       ],
-      "id": "fast-decision-making-with-system-1-models-a-new",
+      "id": "testing-ai-s-ability-to-build-infrastructure-wit",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.33775"
+      "link": "https://arxiv.org/abs/2610.36589"
     },
     {
-      "title_en": "Apple releases iOS 27.2 update with new Siri features and security improvements",
+      "title_en": "MLE-World: A New Tool for Predicting ML Experiment Results",
       "summary_en": [
-        "Apple has released iOS 27.2, adding new Siri AI language support and important security updates.",
-        "The update improves device security and expands Siri's ability to understand different languages"
+        "MLE-World is a model that predicts outcomes of machine learning experiments without actually running them.",
+        "It uses a confidence score to show how reliable its predictions are.",
+        "This approach saves time by avoiding expensive training runs."
       ],
       "key_points_en": [
-        "Adds support for new languages in Siri's AI capabilities",
-        "Includes important security updates to protect devices",
-        "Available for iPhones and iPads running iOS 27.2"
+        "Predicts experiment results without executing code",
+        "Includes confidence scores for predictions",
+        "Reduces need for training runs"
       ],
       "translation_zh": [
-        "Apple 已发布 iOS 27.2，新增 Siri 人工智能语言支持并包含重要的安全更新",
-        "该更新提升了设备安全性，并扩展了 Siri 理解不同语言的能力"
+        "MLE-World是一种无需实际运行机器学习实验即可预测结果的模型。",
+        "它使用置信度分数来显示预测的可靠性。",
+        "这种方法通过避免耗时的训练过程来节省时间。"
       ],
       "vocab": [
         {
-          "word": "software update",
-          "zh": "软件更新"
+          "word": "predicts outcomes",
+          "zh": "预测结果"
         },
         {
-          "word": "security updates",
-          "zh": "安全更新"
+          "word": "confidence score",
+          "zh": "置信度分数"
         },
         {
-          "word": "AI languages",
-          "zh": "人工智能语言"
+          "word": "training run",
+          "zh": "训练过程"
         },
         {
-          "word": "new features",
-          "zh": "新功能"
+          "word": "test time scaling",
+          "zh": "测试时间扩展"
         },
         {
-          "word": "rolls out",
-          "zh": "发布"
+          "word": "inference call",
+          "zh": "推理调用"
         }
       ],
-      "category": "tech",
+      "category": "ai",
       "tags": [
-        "ios update",
-        "siri ai",
-        "security patches",
-        "apple news"
+        "machine learning",
+        "world model",
+        "efficiency",
+        "AI research"
       ],
-      "id": "apple-releases-ios-27-2-update-with-new-siri-fea",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/"
+      "id": "mle-world-a-new-tool-for-predicting-ml-experimen",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.37175"
     },
     {
-      "title_en": "JetBlue's Stock Rises as Cost-Cutting Plan Eases Investor Concerns",
+      "title_en": "New AI Method Improves Diabetes Risk Prediction Accuracy",
       "summary_en": [
-        "JetBlue Airways is implementing a cost-cutting strategy to boost premium revenue, which has led to a rise in its stock price as investors grow more confident in the company's future.",
-        "The airline's plan to reduce expenses while focusing on higher-paying services has reassured market participants about its financial direction."
+        "Current diabetes risk prediction models focus more on accuracy than reliability. Researchers created a new framework using patient data and AI to better predict blood sugar changes.",
+        "The study used data from 736 type 1 diabetes patients to test predictions at 30, 60, and 120-minute intervals."
       ],
       "key_points_en": [
-        "JetBlue is cutting costs to improve profitability",
-        "Premium revenue growth is a key focus of the strategy",
-        "Stock prices have increased due to improved investor sentiment"
+        "AI framework improves reliability of diabetes predictions",
+        "Uses data from 736 type 1 diabetes patients",
+        "Tests predictions at 30-120 minute intervals"
       ],
       "translation_zh": [
-        "捷蓝航空正在实施一项削减成本的策略，以增加高利润收入，这使得投资者对公司未来的信心增强，股价随之上涨。",
-        "该航空公司通过减少开支并专注于高收入服务，使市场参与者对其财务前景更加放心。"
+        "当前糖尿病风险预测模型更关注准确性而非可靠性。研究人员创建了一个新框架，利用患者数据和AI更好地预测血糖变化。",
+        "该研究使用736名1型糖尿病患者的数据，在30-120分钟的时间间隔内测试预测效果。"
       ],
       "vocab": [
         {
-          "word": "cost-cutting plan",
-          "zh": "削减成本的计划"
+          "word": "predictive performance",
+          "zh": "预测准确性"
         },
         {
-          "word": "premium revenue",
-          "zh": "高利润收入"
+          "word": "benchmarking framework",
+          "zh": "基准测试框架"
         },
         {
-          "word": "stock surges",
-          "zh": "股价飙升"
+          "word": "multimodal patient information",
+          "zh": "多模态患者信息"
         },
         {
-          "word": "calms investors",
-          "zh": "安抚投资者"
+          "word": "standardized prediction anchors",
+          "zh": "标准化预测锚点"
         },
         {
-          "word": "company outlook",
-          "zh": "公司前景"
+          "word": "neural architectures",
+          "zh": "神经网络结构"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "diabetes management",
+        "machine learning",
+        "predictive analytics",
+        "healthcare ai"
+      ],
+      "id": "new-ai-method-improves-diabetes-risk-prediction",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.36363"
+    },
+    {
+      "title_en": "Microsoft Stock Rises 4% on Strong Cloud Revenue Growth",
+      "summary_en": [
+        "Microsoft's stock increased by 4% after the company reported higher-than-expected earnings.",
+        "The growth was mainly due to a 48% increase in Azure revenue, driven by strong demand in the cloud computing sector."
+      ],
+      "key_points_en": [
+        "Microsoft stock rose 4% following strong earnings",
+        "Azure revenue grew 48% year-over-year",
+        "Cloud computing demand drove the financial results"
+      ],
+      "translation_zh": [
+        "微软的股价上涨了4%，因为公司报告了超出预期的收益。",
+        "这一增长主要归功于Azure收入增长48%，这是云计算领域强劲需求的结果。"
+      ],
+      "vocab": [
+        {
+          "word": "better-than-expected",
+          "zh": "超出预期的"
+        },
+        {
+          "word": "driven by",
+          "zh": "由...驱动"
+        },
+        {
+          "word": "cloud growth",
+          "zh": "云计算增长"
+        },
+        {
+          "word": "revenue beat",
+          "zh": "收入超出预期"
+        },
+        {
+          "word": "earnings and revenue beat",
+          "zh": "收益和收入超出预期"
         }
       ],
       "category": "finance",
       "tags": [
         "stock market",
-        "cost reduction",
-        "investor confidence",
-        "airline industry"
+        "cloud computing",
+        "financial results",
+        "azure growth"
       ],
-      "id": "jetblue-s-stock-rises-as-cost-cutting-plan-eases",
+      "id": "microsoft-stock-rises-4-on-strong-cloud-revenue",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html"
+      "link": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
     },
     {
-      "title_en": "Coca-Cola Raises Earnings Forecast Despite Weak North American Demand",
+      "title_en": "Jeff Gundlach Questions Fed's Rate Pause Decision",
       "summary_en": [
-        "Coca-Cola has increased its earnings forecast for the year, despite weak consumer demand in North America. The company's stock has risen about 32% this year, boosting its market value to approximately $398 billion."
+        "Bond investor Jeff Gundlach asked the Federal Reserve why it paused interest rates during an interview on CNBC's 'Closing Bell'.",
+        "The Fed decided to keep rates unchanged after a meeting, prompting Gundlach's public reaction.",
+        "Gundlach's comments highlight concerns about the timing of monetary policy decisions."
       ],
       "key_points_en": [
-        "Earnings outlook raised for 2023",
-        "Stock price up 32% year-to-date",
-        "Market capitalization reaches $398 billion"
+        "Fed held interest rates steady",
+        "Gundlach questioned the pause decision",
+        "Interview occurred on CNBC's 'Closing Bell'"
       ],
       "translation_zh": [
-        "可口可乐公司提高了今年的盈利预期，尽管北美地区消费者需求疲软。该公司今年股价上涨了约32%，使其市值达到约3980亿美元。"
+        "债券投资者杰夫·冈德拉奇在CNBC的《收盘钟》节目中询问美联储为何暂停利率。",
+        "美联储在会议后决定保持利率不变，引发冈德拉奇的公开反应。",
+        "冈德拉奇的评论凸显了对货币政策时机的担忧。"
       ],
       "vocab": [
         {
-          "word": "hikes earnings outlook",
-          "zh": "提高盈利预期"
+          "word": "rate pause",
+          "zh": "暂停利率"
         },
         {
-          "word": "lackluster demand",
-          "zh": "需求疲软"
+          "word": "hold rates steady",
+          "zh": "维持利率不变"
         },
         {
-          "word": "stock climbed",
-          "zh": "股价上涨"
+          "word": "question the decision",
+          "zh": "质疑这一决定"
         },
         {
-          "word": "market cap",
-          "zh": "市值"
+          "word": "comment on",
+          "zh": "评论"
         },
         {
-          "word": "raises market cap",
-          "zh": "提升市值"
+          "word": "interview on",
+          "zh": "接受采访"
         }
       ],
       "category": "finance",
       "tags": [
-        "stock market",
-        "earnings forecast",
-        "consumer demand",
-        "market value"
+        "fed policy",
+        "bond market",
+        "interest rates",
+        "investor comments"
       ],
-      "id": "coca-cola-raises-earnings-forecast-despite-weak",
+      "id": "jeff-gundlach-questions-fed-s-rate-pause-decisio",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html"
+      "link": "https://www.cnbc.com/2026/10/28/bond-investor-jeff-gundlach-talks-feds-rate-pause-with-cnbc.html"
     },
     {
-      "title_en": "Apple Launches 14-inch MacBook Pro with M6 Chip and Enhanced Features",
+      "title_en": "10-Year Treasury Yield Rises as Fed Holds Rates Steady",
       "summary_en": [
-        "The new 14-inch MacBook Pro has 24 hours of battery life and supports Wi-Fi 7 and Bluetooth 6 connectivity.",
-        "Apple is improving performance and connectivity with the latest chip and wireless technologies."
+        "The 10-year Treasury yield increased slightly as investors wait for the Federal Reserve's next monetary policy move.",
+        "Despite the Fed maintaining current interest rates, market expectations for future changes may be influencing bond prices."
       ],
       "key_points_en": [
-        "24-hour battery life",
-        "Wi-Fi 7 support",
-        "Bluetooth 6 support"
+        "The 10-year Treasury yield increased slightly.",
+        "The Federal Reserve has kept interest rates unchanged.",
+        "Market participants are waiting for the Fed's next policy decision."
       ],
       "translation_zh": [
-        "苹果推出搭载M6芯片的14英寸MacBook Pro，电池续航达24小时，并支持最新的Wi-Fi 7和蓝牙6技术。",
-        "苹果通过最新芯片和无线技术提升性能和连接性。"
+        "10年期美国国债收益率小幅上涨，投资者正等待美联储下一步货币政策决定。",
+        "尽管美联储维持当前利率不变，但市场对未来变化的预期可能影响债券价格。"
       ],
       "vocab": [
         {
-          "word": "battery life",
-          "zh": "电池续航时间"
+          "word": "edged higher",
+          "zh": "小幅上涨"
         },
         {
-          "word": "Wi-Fi 7",
-          "zh": "第七代Wi-Fi技术"
+          "word": "monetary policy",
+          "zh": "货币政策"
         },
         {
-          "word": "Bluetooth 6",
-          "zh": "第六代蓝牙技术"
+          "word": "keeps rates the same",
+          "zh": "维持利率不变"
         },
         {
-          "word": "enhanced features",
-          "zh": "增强功能"
+          "word": "traders await",
+          "zh": "投资者等待"
         },
         {
-          "word": "connectivity",
-          "zh": "连接性"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "apple",
-        "m6 chip",
-        "wi-fi 7",
-        "bluetooth 6"
-      ],
-      "id": "apple-launches-14-inch-macbook-pro-with-m6-chip",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/"
-    },
-    {
-      "title_en": "U.S. Consumer Spending Remains Strong Despite High Inflation",
-      "summary_en": [
-        "Companies like Royal Caribbean, Coca-Cola, and UPS report steady consumer spending in early third-quarter earnings.",
-        "This suggests resilience in the U.S. economy even with high inflation pressures."
-      ],
-      "key_points_en": [
-        "Major companies report stable spending",
-        "High inflation continues",
-        "Third-quarter earnings show resilience"
-      ],
-      "translation_zh": [
-        "皇家加勒比、可口可乐和UPS等公司报告早前第三季度的稳定消费支出",
-        "这表明即使面临高通胀压力，美国经济仍表现出韧性"
-      ],
-      "vocab": [
-        {
-          "word": "steady consumer spending",
-          "zh": "稳定的消费者支出"
-        },
-        {
-          "word": "high inflation",
-          "zh": "高通胀"
-        },
-        {
-          "word": "third-quarter earnings",
-          "zh": "第三季度财报"
-        },
-        {
-          "word": "signs of strain",
-          "zh": "出现压力迹象"
-        },
-        {
-          "word": "resilient U.S. consumer",
-          "zh": "具有韧性的美国消费者"
+          "word": "Treasury yields",
+          "zh": "国债收益率"
         }
       ],
       "category": "finance",
       "tags": [
-        "consumer spending",
-        "inflation",
-        "earnings report",
-        "economic resilience"
+        "interest rates",
+        "bond market",
+        "fed policy",
+        "economic indicators"
       ],
-      "id": "u-s-consumer-spending-remains-strong-despite-hig",
+      "id": "10-year-treasury-yield-rises-as-fed-holds-rates",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/27/q3-earnings-resilient-consumer.html"
+      "link": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html"
     },
     {
-      "title_en": "Disruptive secures $10 billion fund for major investments in tech startups",
+      "title_en": "Upwind Secures $400M Funding Instead of Accepting Datadog Buyout Offer",
       "summary_en": [
-        "Disruptive has recently invested in companies like Groq and ElevenLabs",
-        "The firm now plans to use a $10 billion fund to invest in at least 10 companies"
+        "Cloud security company Upwind raised $400 million in Series C funding at a $3.8 billion valuation.",
+        "The startup chose to reject Datadog's acquisition offer for the same price.",
+        "This decision shows confidence in Upwind's growth potential."
       ],
       "key_points_en": [
-        "Raised $10 billion for new investments",
-        "Previously invested in Groq and ElevenLabs",
-        "Focus on tech startups"
+        "Upwind raised $400M in Series C funding",
+        "Rejected Datadog's acquisition offer",
+        "Valuation reached $3.8 billion"
       ],
       "translation_zh": [
-        "Disruptive 最近向 Groq 和 ElevenLabs 等公司进行了投资",
-        "该机构现在计划使用 100 亿美元基金投资至少 10 家公司"
+        "云安全公司Upwind以38亿美元估值筹集了4亿美元的C轮融资",
+        "该初创公司拒绝了Datadog以相同价格收购的提议",
+        "这一决定显示出对Upwind增长潜力的信心"
       ],
       "vocab": [
         {
-          "word": "make big bets",
-          "zh": "进行重大投资"
+          "word": "series C funding",
+          "zh": "C轮融资"
         },
         {
-          "word": "pour money into",
-          "zh": "向...投入资金"
+          "word": "acquisition offer",
+          "zh": "收购提议"
         },
         {
-          "word": "AI voice-generation",
-          "zh": "人工智能语音生成"
+          "word": "valuation",
+          "zh": "估值"
         },
         {
-          "word": "chip startup",
-          "zh": "芯片初创公司"
+          "word": "walk away",
+          "zh": "放弃"
         },
         {
-          "word": "major investments",
-          "zh": "重大投资"
+          "word": "buyout",
+          "zh": "收购"
         }
       ],
       "category": "tech",
       "tags": [
-        "venture capital",
-        "tech startups",
-        "AI",
-        "funding"
+        "startup funding",
+        "acquisition",
+        "valuation",
+        "tech company"
       ],
-      "id": "disruptive-secures-10-billion-fund-for-major-inv",
+      "id": "upwind-secures-400m-funding-instead-of-accepting",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/"
+      "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/"
+    },
+    {
+      "title_en": "New Wired Headset Xreal Aura Uses Android XR Technology",
+      "summary_en": [
+        "Xreal Aura is a new wired headset that runs on Android XR technology.",
+        "It will be available starting at $1,279 and will come with several XR-specific apps when it launches."
+      ],
+      "key_points_en": [
+        "Priced at $1,279 starting",
+        "Powered by Android XR",
+        "Includes multiple XR apps at launch"
+      ],
+      "translation_zh": [
+        "Xreal Aura是一款使用安卓XR技术的有线头显。",
+        "它将从1279美元起售，并在发布时附带多个XR专用应用。"
+      ],
+      "vocab": [
+        {
+          "word": "wired headset",
+          "zh": "有线头显"
+        },
+        {
+          "word": "Android XR",
+          "zh": "安卓XR技术"
+        },
+        {
+          "word": "XR-specific apps",
+          "zh": "XR专用应用"
+        },
+        {
+          "word": "start at",
+          "zh": "起售价为"
+        },
+        {
+          "word": "multiple apps",
+          "zh": "多个应用"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "headset",
+        "android xr",
+        "xr apps",
+        "tech launch"
+      ],
+      "id": "new-wired-headset-xreal-aura-uses-android-xr-tec",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/"
+    },
+    {
+      "title_en": "Google Expands AI Integration for Developers",
+      "summary_en": [
+        "Google has launched a new platform allowing businesses to integrate their services with AI tools like Gemini and Search.",
+        "This move could change how users find and use apps on the internet."
+      ],
+      "key_points_en": [
+        "New developer platform enables business integration with Google's AI tools",
+        "Gemini and Search are now accessible to third-party apps",
+        "Potential shift in app discovery methods for consumers"
+      ],
+      "translation_zh": [
+        "谷歌推出新平台，允许企业将其服务与Gemini和搜索等AI工具集成。",
+        "此举可能改变用户在互联网上发现和使用应用程序的方式。"
+      ],
+      "vocab": [
+        {
+          "word": "developer platform",
+          "zh": "开发者平台"
+        },
+        {
+          "word": "AI experiences",
+          "zh": "人工智能体验"
+        },
+        {
+          "word": "integrate services",
+          "zh": "整合服务"
+        },
+        {
+          "word": "change how",
+          "zh": "改变方式"
+        },
+        {
+          "word": "discover and use",
+          "zh": "发现并使用"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "google",
+        "apps",
+        "development"
+      ],
+      "id": "google-expands-ai-integration-for-developers",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
     }
   ]
 }
