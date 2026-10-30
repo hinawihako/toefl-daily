@@ -1,0 +1,435 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T07:22:31+08:00",
+  "items": [
+    {
+      "title_en": "Jim Cramer advises investors to diversify into consumer stocks beyond tech",
+      "summary_en": [
+        "Jim Cramer suggests investors should diversify their portfolios by focusing on consumer stocks instead of relying only on struggling AI-related investments.",
+        "He highlights four consumer staples companies as promising alternatives for risk-averse investors."
+      ],
+      "key_points_en": [
+        "Investors should diversify beyond AI-focused tech stocks",
+        "Consumer staples are recommended as stable alternatives",
+        "Four specific consumer stock recommendations are mentioned"
+      ],
+      "translation_zh": [
+        "吉姆·克拉默建议投资者应通过关注消费类股票来分散投资组合，而不是只依赖表现不佳的人工智能相关投资。",
+        "他指出四只消费必需品公司的股票是风险规避型投资者的有前景的替代选择。"
+      ],
+      "vocab": [
+        {
+          "word": "diversify beyond",
+          "zh": "分散投资到...之外"
+        },
+        {
+          "word": "struggling AI trade",
+          "zh": "艰难的人工智能交易领域"
+        },
+        {
+          "word": "consumer staples",
+          "zh": "消费必需品股票"
+        },
+        {
+          "word": "look beyond tech",
+          "zh": "超越科技领域"
+        },
+        {
+          "word": "risk-averse investors",
+          "zh": "风险规避型投资者"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "diversification",
+        "consumer stocks",
+        "AI industry"
+      ],
+      "id": "jim-cramer-advises-investors-to-diversify-into-c",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html"
+    },
+    {
+      "title_en": "Google's Stock Falls to Six-Month Low as AI Search Affects Ad Revenue",
+      "summary_en": [
+        "Google's stock fell to a six-month low after its AI-powered search summaries reduced ad revenue.",
+        "Investors were worried about the impact on Google's advertising business, which is a major income source."
+      ],
+      "key_points_en": [
+        "Stock hit six-month low",
+        "AI search summaries hurt ad revenue",
+        "Ad sales are Google's main income"
+      ],
+      "translation_zh": [
+        "谷歌的股票跌至六个月来的最低点，因为其AI驱动的搜索摘要减少了广告收入。",
+        "投资者担心这对谷歌的广告业务的影响，而广告业务是其主要收入来源。"
+      ],
+      "vocab": [
+        {
+          "word": "plunge in value",
+          "zh": "价值暴跌"
+        },
+        {
+          "word": "spooked investors",
+          "zh": "吓退投资者"
+        },
+        {
+          "word": "AI search summaries",
+          "zh": "AI搜索摘要"
+        },
+        {
+          "word": "ad revenue",
+          "zh": "广告收入"
+        },
+        {
+          "word": "six-month low",
+          "zh": "六个月低点"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ai",
+        "stock market",
+        "ad revenue"
+      ],
+      "id": "google-s-stock-falls-to-six-month-low-as-ai-sear",
+      "source": "BBC Business",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title_en": "Intel Stock Plummets to 1970s Levels, $12 Billion Lost in Government Stake",
+      "summary_en": [
+        "Intel's stock fell to its lowest point since the 1970s, losing about $12 billion in value from the government's ownership.",
+        "Investors are worried that big tech companies' spending on AI might not lead to profits."
+      ],
+      "key_points_en": [
+        "Intel stock had its worst day since the 1970s",
+        "Government lost $12 billion in value from Intel shares",
+        "Investors doubt AI spending will generate returns"
+      ],
+      "translation_zh": [
+        "英特尔的股价跌至1970年代以来的最低点，政府持有的股份价值损失约120亿美元。",
+        "投资者担心科技巨头在人工智能上的巨额支出可能不会带来利润。"
+      ],
+      "vocab": [
+        {
+          "word": "wiping off",
+          "zh": "使...损失价值"
+        },
+        {
+          "word": "massive AI spending",
+          "zh": "巨额的人工智能投资"
+        },
+        {
+          "word": "tech giants",
+          "zh": "科技巨头"
+        },
+        {
+          "word": "pay off",
+          "zh": "带来回报"
+        },
+        {
+          "word": "nervous about",
+          "zh": "对...感到担忧"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "AI",
+        "investment",
+        "tech companies"
+      ],
+      "id": "intel-stock-plummets-to-1970s-levels-12-billion",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+      "title_en": "Applebee's App Leaked Customer Data Due to Hardcoded Password",
+      "summary_en": [
+        "A security researcher found a hardcoded password in Applebee's app, which let hackers access customer data freely.",
+        "This mistake exposed personal information of many users without their knowledge."
+      ],
+      "key_points_en": [
+        "Hardcoded password was left in the app code",
+        "Hackers could access customer data without limits",
+        "Security researcher discovered the vulnerability"
+      ],
+      "translation_zh": [
+        "安全研究人员在Applebee的应用程序中发现了一个硬编码密码，这让黑客可以自由访问客户数据。",
+        "这个错误暴露了许多用户的信息，而用户对此毫不知情。"
+      ],
+      "vocab": [
+        {
+          "word": "hardcoded credential",
+          "zh": "直接写入代码的凭证"
+        },
+        {
+          "word": "unrestricted access",
+          "zh": "无限制的访问权限"
+        },
+        {
+          "word": "exposed data",
+          "zh": "被泄露的数据"
+        },
+        {
+          "word": "security researcher",
+          "zh": "安全研究人员"
+        },
+        {
+          "word": "database password",
+          "zh": "数据库密码"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "data security",
+        "app vulnerability",
+        "privacy breach",
+        "cybersecurity"
+      ],
+      "id": "applebee-s-app-leaked-customer-data-due-to-hardc",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/"
+    },
+    {
+      "title_en": "Satlyt advances plan to use satellites as space data centers",
+      "summary_en": [
+        "Satlyt recently conducted a successful test, moving them closer to transforming satellites into virtual data centers.",
+        "This could revolutionize how data is processed in space."
+      ],
+      "key_points_en": [
+        "Test was successful",
+        "Focus on satellites first",
+        "Goal is virtual data centers"
+      ],
+      "translation_zh": [
+        "Satlyt最近进行了一次成功的测试，使他们更接近将卫星转变为虚拟数据中心。",
+        "这可能彻底改变太空中的数据处理方式。"
+      ],
+      "vocab": [
+        {
+          "word": "successful test",
+          "zh": "成功的测试"
+        },
+        {
+          "word": "virtual data centers",
+          "zh": "虚拟数据中心"
+        },
+        {
+          "word": "spacecraft",
+          "zh": "航天器"
+        },
+        {
+          "word": "data processing",
+          "zh": "数据处理"
+        },
+        {
+          "word": "transforming satellites",
+          "zh": "将卫星转变"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "space technology",
+        "data centers",
+        "satellite innovation"
+      ],
+      "id": "satlyt-advances-plan-to-use-satellites-as-space",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/"
+    },
+    {
+      "title_en": "Google Launches Satellite Data Center with AI Poetry Capabilities",
+      "summary_en": [
+        "Google has launched its first satellite data center, which uses AI to generate poetry.",
+        "The satellite, equipped with a TPU, runs the Gemma 4 model developed by DeepMind, demonstrating advanced AI capabilities in space."
+      ],
+      "key_points_en": [
+        "First satellite data center deployed by Google",
+        "TPU (Tensor Processing Unit) operates in space",
+        "AI model generates poetry"
+      ],
+      "translation_zh": [
+        "谷歌已发射首个卫星数据中心，该中心使用人工智能生成诗歌。",
+        "该卫星配备TPU（张量处理单元），运行由DeepMind开发的Gemma 4模型，展示了太空中的先进人工智能能力。"
+      ],
+      "vocab": [
+        {
+          "word": "data center satellite",
+          "zh": "用于数据处理的卫星"
+        },
+        {
+          "word": "AI poetry",
+          "zh": "人工智能生成的诗歌"
+        },
+        {
+          "word": "TPU in space",
+          "zh": "在太空运行的TPU"
+        },
+        {
+          "word": "machine learning model",
+          "zh": "机器学习模型"
+        },
+        {
+          "word": "space technology",
+          "zh": "太空技术"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "space technology",
+        "google",
+        "data center"
+      ],
+      "id": "google-launches-satellite-data-center-with-ai-po",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
+    },
+    {
+      "title_en": "Climate Models Miss Critical Feedback Loops in Warming",
+      "summary_en": [
+        "Climate change is accelerating itself through feedback loops that current models and emissions targets fail to fully address. Scientists have long warned about these self-reinforcing cycles, but recent research highlights their growing impact on global warming projections"
+      ],
+      "key_points_en": [
+        "Feedback loops from climate change are accelerating global warming beyond current models' predictions",
+        "Existing climate models and emissions targets fail to fully account for these self-reinforcing cycles",
+        "Recent research emphasizes the growing urgency of addressing these overlooked feedback mechanisms"
+      ],
+      "translation_zh": [
+        "气候变化正通过当前模型和减排目标未能充分考虑的反馈循环加速自身。科学家们长期以来警告过这些自我强化的循环，但最近的研究突显了它们对全球变暖预测的日益影响。"
+      ],
+      "vocab": [
+        {
+          "word": "feedback loops",
+          "zh": "反馈循环（指气候系统中相互强化的连锁反应）"
+        },
+        {
+          "word": "climate models",
+          "zh": "气候模型（用于预测气候变化的计算机模拟系统）"
+        },
+        {
+          "word": "emissions-reduction goals",
+          "zh": "减排目标（为降低温室气体排放设定的量化指标）"
+        },
+        {
+          "word": "self-reinforcing cycles",
+          "zh": "自我强化循环（指气候变暖引发更多变暖的恶性循环）"
+        },
+        {
+          "word": "global warming projections",
+          "zh": "全球变暖预测（对未来气温上升幅度的科学估算）"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "climate feedback",
+        "model limitations",
+        "global warming",
+        "emissions targets"
+      ],
+      "id": "climate-models-miss-critical-feedback-loops-in-w",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/"
+    },
+    {
+      "title_en": "Challenges of Integrating AI Tools in Businesses",
+      "summary_en": [
+        "Many companies use various AI systems like customer platforms and automation tools, each working well individually.",
+        "However, combining these tools can lead to errors or unclear results due to lack of coordination."
+      ],
+      "key_points_en": [
+        "Businesses use multiple AI systems simultaneously",
+        "Each AI tool is advanced and fast",
+        "Combined use may cause wrong or confusing outcomes"
+      ],
+      "translation_zh": [
+        "许多公司同时使用各种AI系统，如客户平台和自动化工具，每个系统单独使用时表现良好。",
+        "然而，这些工具的结合可能导致错误或模糊的结果，因为缺乏协调。"
+      ],
+      "vocab": [
+        {
+          "word": "AI-powered customer platforms",
+          "zh": "由人工智能驱动的客户服务平台"
+        },
+        {
+          "word": "workflow automation",
+          "zh": "工作流程自动化"
+        },
+        {
+          "word": "sophisticated systems",
+          "zh": "复杂的系统"
+        },
+        {
+          "word": "confused outcomes",
+          "zh": "混乱的结果"
+        },
+        {
+          "word": "lacking coordination",
+          "zh": "缺乏协调"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai_integration",
+        "enterprise_challenges",
+        "automation_tools",
+        "system_conflicts"
+      ],
+      "id": "challenges-of-integrating-ai-tools-in-businesses",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
+    },
+    {
+      "title_en": "Balancing AI and Human Roles in Industry",
+      "summary_en": [
+        "New research explores how industrial AI systems can work with humans instead of replacing them.",
+        "The study shows that combining AI autonomy with human oversight improves safety and efficiency in factories.",
+        "Experts say this approach helps avoid mistakes and keeps workers involved in decision-making."
+      ],
+      "key_points_en": [
+        "AI handles repetitive tasks in factories",
+        "Humans monitor and correct AI decisions",
+        "Collaboration reduces workplace errors"
+      ],
+      "translation_zh": [
+        "新研究探讨了工业AI系统如何与人类合作而不是取代人类",
+        "研究表明，将AI自主性与人类监督结合可以提高工厂的安全性和效率",
+        "专家表示，这种方法有助于避免错误并让工人参与决策"
+      ],
+      "vocab": [
+        {
+          "word": "autonomy",
+          "zh": "自主性"
+        },
+        {
+          "word": "oversight",
+          "zh": "监督"
+        },
+        {
+          "word": "collaboration",
+          "zh": "协作"
+        },
+        {
+          "word": "repetitive tasks",
+          "zh": "重复性任务"
+        },
+        {
+          "word": "decision-making",
+          "zh": "决策"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai ethics",
+        "human-machine collaboration",
+        "industrial automation"
+      ],
+      "id": "balancing-ai-and-human-roles-in-industry",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
+    }
+  ]
+}
