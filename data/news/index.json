@@ -1,435 +1,448 @@
 {
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T07:22:31+08:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T07:19:05+08:00",
   "items": [
     {
-      "title_en": "Jim Cramer advises investors to diversify into consumer stocks beyond tech",
+      "title_en": "New Dataset Tracks GPU Power Usage for AI Computing",
       "summary_en": [
-        "Jim Cramer suggests investors should diversify their portfolios by focusing on consumer stocks instead of relying only on struggling AI-related investments.",
-        "He highlights four consumer staples companies as promising alternatives for risk-averse investors."
+        "AI computing uses a lot of electricity, and its effects on power systems depend on how power usage changes quickly over time.",
+        "Current benchmarks for AI models don't provide detailed time-based power data, making it hard to study these patterns.",
+        "LLM-PowerTrace is an open dataset that records detailed GPU power measurements over time"
       ],
       "key_points_en": [
-        "Investors should diversify beyond AI-focused tech stocks",
-        "Consumer staples are recommended as stable alternatives",
-        "Four specific consumer stock recommendations are mentioned"
+        "AI computing creates fast-changing power demands",
+        "Existing benchmarks lack time-series power data",
+        "LLM-PowerTrace provides per-GPU power traces"
       ],
       "translation_zh": [
-        "吉姆·克拉默建议投资者应通过关注消费类股票来分散投资组合，而不是只依赖表现不佳的人工智能相关投资。",
-        "他指出四只消费必需品公司的股票是风险规避型投资者的有前景的替代选择。"
+        "人工智能计算消耗大量电力，其对电力系统的影响取决于电力使用随时间的快速变化",
+        "当前的人工智能模型基准缺乏时间序列电力数据，使得研究这些模式变得困难",
+        "LLM-PowerTrace是一个提供每块GPU电力追踪的开放数据集"
       ],
       "vocab": [
         {
-          "word": "diversify beyond",
-          "zh": "分散投资到...之外"
+          "word": "time-resolved",
+          "zh": "随时间变化的"
         },
         {
-          "word": "struggling AI trade",
-          "zh": "艰难的人工智能交易领域"
+          "word": "power draw",
+          "zh": "电力消耗"
         },
         {
-          "word": "consumer staples",
-          "zh": "消费必需品股票"
+          "word": "synchronized fluctuations",
+          "zh": "同步波动"
         },
         {
-          "word": "look beyond tech",
-          "zh": "超越科技领域"
+          "word": "aggregate quantities",
+          "zh": "汇总数据"
         },
         {
-          "word": "risk-averse investors",
-          "zh": "风险规避型投资者"
+          "word": "time-series measurements",
+          "zh": "时间序列测量"
         }
       ],
-      "category": "finance",
-      "tags": [
-        "stock market",
-        "diversification",
-        "consumer stocks",
-        "AI industry"
-      ],
-      "id": "jim-cramer-advises-investors-to-diversify-into-c",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html"
-    },
-    {
-      "title_en": "Google's Stock Falls to Six-Month Low as AI Search Affects Ad Revenue",
-      "summary_en": [
-        "Google's stock fell to a six-month low after its AI-powered search summaries reduced ad revenue.",
-        "Investors were worried about the impact on Google's advertising business, which is a major income source."
-      ],
-      "key_points_en": [
-        "Stock hit six-month low",
-        "AI search summaries hurt ad revenue",
-        "Ad sales are Google's main income"
-      ],
-      "translation_zh": [
-        "谷歌的股票跌至六个月来的最低点，因为其AI驱动的搜索摘要减少了广告收入。",
-        "投资者担心这对谷歌的广告业务的影响，而广告业务是其主要收入来源。"
-      ],
-      "vocab": [
-        {
-          "word": "plunge in value",
-          "zh": "价值暴跌"
-        },
-        {
-          "word": "spooked investors",
-          "zh": "吓退投资者"
-        },
-        {
-          "word": "AI search summaries",
-          "zh": "AI搜索摘要"
-        },
-        {
-          "word": "ad revenue",
-          "zh": "广告收入"
-        },
-        {
-          "word": "six-month low",
-          "zh": "六个月低点"
-        }
-      ],
-      "category": "finance",
+      "category": "ai",
       "tags": [
         "ai",
-        "stock market",
-        "ad revenue"
+        "data",
+        "energy",
+        "research"
       ],
-      "id": "google-s-stock-falls-to-six-month-low-as-ai-sear",
-      "source": "BBC Business",
-      "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss"
+      "id": "new-dataset-tracks-gpu-power-usage-for-ai-comput",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.38315"
     },
     {
-      "title_en": "Intel Stock Plummets to 1970s Levels, $12 Billion Lost in Government Stake",
+      "title_en": "A New Framework for Trustworthy AI Collaboration",
       "summary_en": [
-        "Intel's stock fell to its lowest point since the 1970s, losing about $12 billion in value from the government's ownership.",
-        "Investors are worried that big tech companies' spending on AI might not lead to profits."
+        "Federated Learning (FL) allows AI systems to train together without sharing raw data, but traditional FL lacks proper governance features. This paper introduces GAFL, a method that adds verification, fairness checks, and secure logging to ensure trustworthy collaboration.",
+        "GAFL authenticates client data, enforces policies, and detects anomalies to improve AI system reliability."
       ],
       "key_points_en": [
-        "Intel stock had its worst day since the 1970s",
-        "Government lost $12 billion in value from Intel shares",
-        "Investors doubt AI spending will generate returns"
+        "Adds governance checks to FL processes",
+        "Enforces policies during model training",
+        "Secures data with tamper-proof logging"
       ],
       "translation_zh": [
-        "英特尔的股价跌至1970年代以来的最低点，政府持有的股份价值损失约120亿美元。",
-        "投资者担心科技巨头在人工智能上的巨额支出可能不会带来利润。"
+        "联邦学习（FL）允许AI系统在不共享原始数据的情况下共同训练，但传统FL缺乏治理功能。本文介绍了GAFL，一种添加验证、公平性检查和安全日志以确保可信协作的方法。",
+        "GAFL验证客户端数据，执行政策，并检测异常以提高AI系统的可靠性。"
       ],
       "vocab": [
         {
-          "word": "wiping off",
-          "zh": "使...损失价值"
+          "word": "governance-aware",
+          "zh": "关注治理的"
         },
         {
-          "word": "massive AI spending",
-          "zh": "巨额的人工智能投资"
+          "word": "evidence verification",
+          "zh": "证据验证"
         },
         {
-          "word": "tech giants",
-          "zh": "科技巨头"
+          "word": "fairness assessment",
+          "zh": "公平性评估"
         },
         {
-          "word": "pay off",
-          "zh": "带来回报"
+          "word": "policy enforcement",
+          "zh": "政策执行"
         },
         {
-          "word": "nervous about",
-          "zh": "对...感到担忧"
+          "word": "tamper-evident",
+          "zh": "防篡改的"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "federated learning",
+        "ai governance",
+        "trustworthy ai",
+        "multi-agent systems"
+      ],
+      "id": "a-new-framework-for-trustworthy-ai-collaboration",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.38411"
+    },
+    {
+      "title_en": "Improving Model Training with Agentic Dataset Search",
+      "summary_en": [
+        "Finding training data in large repositories requires more than text relevance because queries include specific constraints like task and license.",
+        "Current methods fail to verify if datasets meet these constraints due to missing metadata and flawed verification processes.",
+        "Agentic approaches show promise but lack systems to ensure query requirements are actually satisfied."
+      ],
+      "key_points_en": [
+        "Queries combine semantic goals with strict constraints",
+        "Text retrieval can't enforce hard constraints",
+        "Free-form agents don't verify constraint compliance"
+      ],
+      "translation_zh": [
+        "在大型数据仓库中寻找训练数据需要超越文本相关性，因为查询包含任务和许可等具体约束",
+        "现有方法由于元数据缺失和验证流程缺陷，无法确认数据集是否满足约束",
+        "智能代理方法虽有潜力但缺乏确保查询要求被满足的系统"
+      ],
+      "vocab": [
+        {
+          "word": "training data",
+          "zh": "训练数据（用于机器学习模型的输入数据）"
+        },
+        {
+          "word": "semantic training goal",
+          "zh": "语义训练目标（描述模型需要学习的抽象概念）"
+        },
+        {
+          "word": "license constraints",
+          "zh": "许可约束（数据使用条款的限制条件）"
+        },
+        {
+          "word": "metadata verification",
+          "zh": "元数据验证（检查数据集属性是否符合要求的过程）"
+        },
+        {
+          "word": "free-form agents",
+          "zh": "自由形式代理（能自主执行任务的智能系统）"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "dataset search",
+        "ai training",
+        "machine learning",
+        "data constraints"
+      ],
+      "id": "improving-model-training-with-agentic-dataset-se",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.39608"
+    },
+    {
+      "title_en": "Stocks Opened Optimistically but Closed in Decline Amid AI Fears",
+      "summary_en": [
+        "Big Tech companies' recent earnings reports raised concerns about increased AI spending, causing stock prices to drop.",
+        "Investors shifted their money to safer stocks, like those in utilities and healthcare, to protect their investments."
+      ],
+      "key_points_en": [
+        "Big Tech earnings reignited AI spending fears",
+        "Investors moved to defensive stocks",
+        "Market reversal occurred within a week"
+      ],
+      "translation_zh": [
+        "大型科技公司的最新财报引发了人们对人工智能支出增加的担忧，导致股价下跌。",
+        "投资者将资金转向了公用事业和医疗保健等更安全的股票，以保护自己的投资。"
+      ],
+      "vocab": [
+        {
+          "word": "reignited fears",
+          "zh": "重新引发担忧"
+        },
+        {
+          "word": "shifted to defensive stocks",
+          "zh": "转向防御性股票"
+        },
+        {
+          "word": "sent investors into",
+          "zh": "使投资者转向"
+        },
+        {
+          "word": "big tech earnings",
+          "zh": "大型科技公司财报"
+        },
+        {
+          "word": "ai spending fears",
+          "zh": "人工智能支出担忧"
         }
       ],
       "category": "finance",
       "tags": [
         "stock market",
-        "AI",
-        "investment",
-        "tech companies"
+        "ai impact",
+        "investor behavior",
+        "tech earnings"
       ],
-      "id": "intel-stock-plummets-to-1970s-levels-12-billion",
+      "id": "stocks-opened-optimistically-but-closed-in-decli",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+      "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
     },
     {
-      "title_en": "Applebee's App Leaked Customer Data Due to Hardcoded Password",
+      "title_en": "Trump's Energy Cost Promise Fails as Fuel Prices Rise",
       "summary_en": [
-        "A security researcher found a hardcoded password in Applebee's app, which let hackers access customer data freely.",
-        "This mistake exposed personal information of many users without their knowledge."
+        "President Trump promised to lower gasoline prices below $2 per gallon during his first term.",
+        "However, gasoline, diesel, and jet fuel prices increased instead, contradicting his claims.",
+        "This outcome has raised questions about his energy policies"
       ],
       "key_points_en": [
-        "Hardcoded password was left in the app code",
-        "Hackers could access customer data without limits",
-        "Security researcher discovered the vulnerability"
+        "Trump pledged to cut gasoline prices below $2/gallon in his first year",
+        "Gasoline, diesel, and jet fuel prices all increased",
+        "His energy policies faced criticism for not meeting expectations"
       ],
       "translation_zh": [
-        "安全研究人员在Applebee的应用程序中发现了一个硬编码密码，这让黑客可以自由访问客户数据。",
-        "这个错误暴露了许多用户的信息，而用户对此毫不知情。"
+        "总统特朗普承诺在他任职的第一年将汽油价格降至每加仑2美元以下。",
+        "然而，汽油、柴油和航空燃油价格反而上涨了，这与他的承诺相矛盾。",
+        "这一结果引发了人们对他的能源政策的质疑。"
       ],
       "vocab": [
         {
-          "word": "hardcoded credential",
-          "zh": "直接写入代码的凭证"
+          "word": "slash energy costs",
+          "zh": "削减能源成本"
         },
         {
-          "word": "unrestricted access",
-          "zh": "无限制的访问权限"
+          "word": "soared instead",
+          "zh": "反而上涨"
         },
         {
-          "word": "exposed data",
-          "zh": "被泄露的数据"
+          "word": "below $2 a gallon",
+          "zh": "低于每加仑2美元"
         },
         {
-          "word": "security researcher",
-          "zh": "安全研究人员"
+          "word": "promised voters",
+          "zh": "向选民承诺"
         },
         {
-          "word": "database password",
-          "zh": "数据库密码"
+          "word": "energy policies",
+          "zh": "能源政策"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "energy_prices",
+        "trump_promise",
+        "inflation",
+        "policy_failure"
+      ],
+      "id": "trump-s-energy-cost-promise-fails-as-fuel-prices",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
+    },
+    {
+      "title_en": "U.S. Treasury sets new 5.51% bond rate for six months",
+      "summary_en": [
+        "The U.S. Treasury has announced a new 5.51% interest rate for Series I bonds starting now.",
+        "This rate will remain valid through April 2027 and helps protect against inflation."
+      ],
+      "key_points_en": [
+        "5.51% is the new bond rate",
+        "Rate applies until April 2027",
+        "Bonds help protect against inflation"
+      ],
+      "translation_zh": [
+        "美国财政部宣布新的5.51%储蓄债券利率，立即生效。",
+        "该利率将持续到2027年4月，有助于抵御通货膨胀。"
+      ],
+      "vocab": [
+        {
+          "word": "inflation protection",
+          "zh": "抗通胀保障"
+        },
+        {
+          "word": "valid through",
+          "zh": "有效至"
+        },
+        {
+          "word": "six-month period",
+          "zh": "六个月期间"
+        },
+        {
+          "word": "bond rate",
+          "zh": "债券利率"
+        },
+        {
+          "word": "announces new",
+          "zh": "宣布新的"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "bond rates",
+        "inflation",
+        "Treasury",
+        "U.S. economy"
+      ],
+      "id": "u-s-treasury-sets-new-5-51-bond-rate-for-six-mon",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html"
+    },
+    {
+      "title_en": "Nvidia Considers Cosigning Loan for Nscale's West Virginia AI Data Center",
+      "summary_en": [
+        "Nvidia might help fund Nscale's AI data center in West Virginia by cosigning a loan.",
+        "This move could ease investor concerns about spending on AI projects.",
+        "Chipmakers like Nvidia often support infrastructure needed for AI technology."
+      ],
+      "key_points_en": [
+        "Nvidia is considering cosigning a loan for Nscale's data center",
+        "Investors are cautious about AI spending",
+        "Chipmakers can help fund AI infrastructure"
+      ],
+      "translation_zh": [
+        "英伟达可能通过为Nscale在西弗吉尼亚州的AI数据中心贷款提供担保来帮助融资。",
+        "此举可能缓解投资者对AI项目支出的担忧。",
+        "像英伟达这样的芯片制造商经常支持AI技术所需的基础设施。"
+      ],
+      "vocab": [
+        {
+          "word": "cosign the loan",
+          "zh": "为贷款提供担保"
+        },
+        {
+          "word": "AI data center",
+          "zh": "人工智能数据中心"
+        },
+        {
+          "word": "chipmaker",
+          "zh": "芯片制造商"
+        },
+        {
+          "word": "investor concerns",
+          "zh": "投资者担忧"
+        },
+        {
+          "word": "AI infrastructure",
+          "zh": "人工智能基础设施"
         }
       ],
       "category": "tech",
       "tags": [
-        "data security",
-        "app vulnerability",
-        "privacy breach",
-        "cybersecurity"
-      ],
-      "id": "applebee-s-app-leaked-customer-data-due-to-hardc",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/"
-    },
-    {
-      "title_en": "Satlyt advances plan to use satellites as space data centers",
-      "summary_en": [
-        "Satlyt recently conducted a successful test, moving them closer to transforming satellites into virtual data centers.",
-        "This could revolutionize how data is processed in space."
-      ],
-      "key_points_en": [
-        "Test was successful",
-        "Focus on satellites first",
-        "Goal is virtual data centers"
-      ],
-      "translation_zh": [
-        "Satlyt最近进行了一次成功的测试，使他们更接近将卫星转变为虚拟数据中心。",
-        "这可能彻底改变太空中的数据处理方式。"
-      ],
-      "vocab": [
-        {
-          "word": "successful test",
-          "zh": "成功的测试"
-        },
-        {
-          "word": "virtual data centers",
-          "zh": "虚拟数据中心"
-        },
-        {
-          "word": "spacecraft",
-          "zh": "航天器"
-        },
-        {
-          "word": "data processing",
-          "zh": "数据处理"
-        },
-        {
-          "word": "transforming satellites",
-          "zh": "将卫星转变"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "space technology",
+        "ai",
         "data centers",
-        "satellite innovation"
+        "financing",
+        "tech investment"
       ],
-      "id": "satlyt-advances-plan-to-use-satellites-as-space",
+      "id": "nvidia-considers-cosigning-loan-for-nscale-s-wes",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/"
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
     },
     {
-      "title_en": "Google Launches Satellite Data Center with AI Poetry Capabilities",
+      "title_en": "Salesforce Acquires Defense Tech Startup Rune in $375M Deal",
       "summary_en": [
-        "Google has launched its first satellite data center, which uses AI to generate poetry.",
-        "The satellite, equipped with a TPU, runs the Gemma 4 model developed by DeepMind, demonstrating advanced AI capabilities in space."
+        "Salesforce is buying Rune, a defense technology company, for $375 million. Rune's AI logistics tools will improve Salesforce's Missionforce defense platform.",
+        "The deal shows Salesforce's focus on expanding its military technology offerings."
       ],
       "key_points_en": [
-        "First satellite data center deployed by Google",
-        "TPU (Tensor Processing Unit) operates in space",
-        "AI model generates poetry"
+        "$375M acquisition of Rune by Salesforce",
+        "Rune specializes in AI logistics for defense",
+        "Missionforce platform gets enhanced"
       ],
       "translation_zh": [
-        "谷歌已发射首个卫星数据中心，该中心使用人工智能生成诗歌。",
-        "该卫星配备TPU（张量处理单元），运行由DeepMind开发的Gemma 4模型，展示了太空中的先进人工智能能力。"
+        "Salesforce以3.75亿美元收购国防科技公司Rune，Rune的人工智能物流工具将提升Salesforce的Missionforce国防平台。",
+        "这笔交易表明Salesforce正在扩大其军事技术业务。"
       ],
       "vocab": [
         {
-          "word": "data center satellite",
-          "zh": "用于数据处理的卫星"
+          "word": "acquisition",
+          "zh": "收购"
         },
         {
-          "word": "AI poetry",
-          "zh": "人工智能生成的诗歌"
+          "word": "defense tech",
+          "zh": "国防科技"
         },
         {
-          "word": "TPU in space",
-          "zh": "在太空运行的TPU"
+          "word": "AI logistics",
+          "zh": "人工智能物流"
         },
         {
-          "word": "machine learning model",
-          "zh": "机器学习模型"
+          "word": "enhance platform",
+          "zh": "增强平台功能"
         },
         {
-          "word": "space technology",
-          "zh": "太空技术"
+          "word": "M&A spree",
+          "zh": "并购热潮"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "m&a",
+        "ai",
+        "defense tech",
+        "salesforce"
+      ],
+      "id": "salesforce-acquires-defense-tech-startup-rune-in",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/"
+    },
+    {
+      "title_en": "Apple CEO Emphasizes Purpose-Driven AI Development",
+      "summary_en": [
+        "Apple's new CEO stated the company prioritizes meaningful AI integration over unnecessary AI features.",
+        "The leader defended Apple's cautious approach in the competitive AI landscape.",
+        "Focus remains on enhancing user experience rather than rushing AI innovations."
+      ],
+      "key_points_en": [
+        "Apple avoids AI for AI's sake",
+        "Prioritizes user-centric AI applications",
+        "Cautious strategy in AI development"
+      ],
+      "translation_zh": [
+        "苹果新任CEO表示，公司优先考虑有意义的AI整合，而非不必要的AI功能。",
+        "该负责人捍卫了苹果在竞争激烈的AI领域中的谨慎策略。",
+        "重点放在提升用户体验，而非仓促推出AI创新。"
+      ],
+      "vocab": [
+        {
+          "word": "ship AI",
+          "zh": "推出AI产品"
+        },
+        {
+          "word": "for AI's sake",
+          "zh": "为了AI本身的目的"
+        },
+        {
+          "word": "current position",
+          "zh": "当前立场"
+        },
+        {
+          "word": "AI landscape",
+          "zh": "AI领域格局"
+        },
+        {
+          "word": "defended the company's position",
+          "zh": "捍卫公司立场"
         }
       ],
       "category": "tech",
       "tags": [
         "ai",
-        "space technology",
-        "google",
-        "data center"
+        "apple",
+        "ceo",
+        "strategy"
       ],
-      "id": "google-launches-satellite-data-center-with-ai-po",
+      "id": "apple-ceo-emphasizes-purpose-driven-ai-developme",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/"
-    },
-    {
-      "title_en": "Climate Models Miss Critical Feedback Loops in Warming",
-      "summary_en": [
-        "Climate change is accelerating itself through feedback loops that current models and emissions targets fail to fully address. Scientists have long warned about these self-reinforcing cycles, but recent research highlights their growing impact on global warming projections"
-      ],
-      "key_points_en": [
-        "Feedback loops from climate change are accelerating global warming beyond current models' predictions",
-        "Existing climate models and emissions targets fail to fully account for these self-reinforcing cycles",
-        "Recent research emphasizes the growing urgency of addressing these overlooked feedback mechanisms"
-      ],
-      "translation_zh": [
-        "气候变化正通过当前模型和减排目标未能充分考虑的反馈循环加速自身。科学家们长期以来警告过这些自我强化的循环，但最近的研究突显了它们对全球变暖预测的日益影响。"
-      ],
-      "vocab": [
-        {
-          "word": "feedback loops",
-          "zh": "反馈循环（指气候系统中相互强化的连锁反应）"
-        },
-        {
-          "word": "climate models",
-          "zh": "气候模型（用于预测气候变化的计算机模拟系统）"
-        },
-        {
-          "word": "emissions-reduction goals",
-          "zh": "减排目标（为降低温室气体排放设定的量化指标）"
-        },
-        {
-          "word": "self-reinforcing cycles",
-          "zh": "自我强化循环（指气候变暖引发更多变暖的恶性循环）"
-        },
-        {
-          "word": "global warming projections",
-          "zh": "全球变暖预测（对未来气温上升幅度的科学估算）"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "climate feedback",
-        "model limitations",
-        "global warming",
-        "emissions targets"
-      ],
-      "id": "climate-models-miss-critical-feedback-loops-in-w",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/"
-    },
-    {
-      "title_en": "Challenges of Integrating AI Tools in Businesses",
-      "summary_en": [
-        "Many companies use various AI systems like customer platforms and automation tools, each working well individually.",
-        "However, combining these tools can lead to errors or unclear results due to lack of coordination."
-      ],
-      "key_points_en": [
-        "Businesses use multiple AI systems simultaneously",
-        "Each AI tool is advanced and fast",
-        "Combined use may cause wrong or confusing outcomes"
-      ],
-      "translation_zh": [
-        "许多公司同时使用各种AI系统，如客户平台和自动化工具，每个系统单独使用时表现良好。",
-        "然而，这些工具的结合可能导致错误或模糊的结果，因为缺乏协调。"
-      ],
-      "vocab": [
-        {
-          "word": "AI-powered customer platforms",
-          "zh": "由人工智能驱动的客户服务平台"
-        },
-        {
-          "word": "workflow automation",
-          "zh": "工作流程自动化"
-        },
-        {
-          "word": "sophisticated systems",
-          "zh": "复杂的系统"
-        },
-        {
-          "word": "confused outcomes",
-          "zh": "混乱的结果"
-        },
-        {
-          "word": "lacking coordination",
-          "zh": "缺乏协调"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "ai_integration",
-        "enterprise_challenges",
-        "automation_tools",
-        "system_conflicts"
-      ],
-      "id": "challenges-of-integrating-ai-tools-in-businesses",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
-    },
-    {
-      "title_en": "Balancing AI and Human Roles in Industry",
-      "summary_en": [
-        "New research explores how industrial AI systems can work with humans instead of replacing them.",
-        "The study shows that combining AI autonomy with human oversight improves safety and efficiency in factories.",
-        "Experts say this approach helps avoid mistakes and keeps workers involved in decision-making."
-      ],
-      "key_points_en": [
-        "AI handles repetitive tasks in factories",
-        "Humans monitor and correct AI decisions",
-        "Collaboration reduces workplace errors"
-      ],
-      "translation_zh": [
-        "新研究探讨了工业AI系统如何与人类合作而不是取代人类",
-        "研究表明，将AI自主性与人类监督结合可以提高工厂的安全性和效率",
-        "专家表示，这种方法有助于避免错误并让工人参与决策"
-      ],
-      "vocab": [
-        {
-          "word": "autonomy",
-          "zh": "自主性"
-        },
-        {
-          "word": "oversight",
-          "zh": "监督"
-        },
-        {
-          "word": "collaboration",
-          "zh": "协作"
-        },
-        {
-          "word": "repetitive tasks",
-          "zh": "重复性任务"
-        },
-        {
-          "word": "decision-making",
-          "zh": "决策"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "ai ethics",
-        "human-machine collaboration",
-        "industrial automation"
-      ],
-      "id": "balancing-ai-and-human-roles-in-industry",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
+      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
     }
   ]
 }

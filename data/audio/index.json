@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T07:22:31+08:00",
+  "generated_at": "2026-11-01T07:19:05+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-10-31",
-      "file": "data/audio/2026-10-31-briefing.mp3",
-      "script": "Here is your daily briefing. Jim Cramer suggests investors should diversify their portfolios by focusing on consumer stocks instead of relying only on struggling AI-related investments. Google's stock fell to a six-month low after its AI-powered search summaries reduced ad revenue. Intel's stock fell to its lowest point since the 1970s, losing about $12 billion in value from the government's ownership. A security researcher found a hardcoded password in Applebee's app, which let hackers access customer data freely.",
-      "duration": "197 KB"
+      "date": "2026-11-01",
+      "file": "data/audio/2026-11-01-briefing.mp3",
+      "script": "Here is your daily briefing. AI computing uses a lot of electricity, and its effects on power systems depend on how power usage changes quickly over time. Federated Learning (FL) allows AI systems to train together without sharing raw data, but traditional FL lacks proper governance features. This paper introduces GAFL, a method that adds verification, fairness checks, and secure logging to ensure trustworthy collaboration. Finding training data in large repositories requires more than text relevance because queries include specific constraints like task and license. Big Tech companies' recent earnings reports raised concerns about increased AI spending, causing stock prices to drop.",
+      "duration": "263 KB"
     }
   ]
 }
