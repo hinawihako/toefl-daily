@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-01T07:19:05+08:00",
+  "generated_at": "2026-11-02T07:05:21+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-01",
-      "file": "data/audio/2026-11-01-briefing.mp3",
-      "script": "Here is your daily briefing. AI computing uses a lot of electricity, and its effects on power systems depend on how power usage changes quickly over time. Federated Learning (FL) allows AI systems to train together without sharing raw data, but traditional FL lacks proper governance features. This paper introduces GAFL, a method that adds verification, fairness checks, and secure logging to ensure trustworthy collaboration. Finding training data in large repositories requires more than text relevance because queries include specific constraints like task and license. Big Tech companies' recent earnings reports raised concerns about increased AI spending, causing stock prices to drop.",
-      "duration": "263 KB"
+      "date": "2026-11-02",
+      "file": "data/audio/2026-11-02-briefing.mp3",
+      "script": "Here is your daily briefing. Over the past month, markets have seen significant changes in oil, AI, and bond trades. While oil prices are expected to rise, treasury yields have fallen, suggesting investors may be more concerned about potential AI industry issues than inflation. Companies like Santander and Novartis report AI is increasing revenue, reducing costs, and improving profits. Investors seeking long-term gains can follow top analysts' recommendations. Data centers are often viewed negatively due to their environmental impact and high energy consumption.",
+      "duration": "218 KB"
     }
   ]
 }

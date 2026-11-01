@@ -1,448 +1,289 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T07:19:05+08:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:05:21+08:00",
   "items": [
     {
-      "title_en": "New Dataset Tracks GPU Power Usage for AI Computing",
+      "title_en": "Market Shifts: Oil, AI, and Bonds in Focus",
       "summary_en": [
-        "AI computing uses a lot of electricity, and its effects on power systems depend on how power usage changes quickly over time.",
-        "Current benchmarks for AI models don't provide detailed time-based power data, making it hard to study these patterns.",
-        "LLM-PowerTrace is an open dataset that records detailed GPU power measurements over time"
+        "Over the past month, markets have seen significant changes in oil, AI, and bond trades. While oil prices are expected to rise, treasury yields have fallen, suggesting investors may be more concerned about potential AI industry issues than inflation.",
+        "The decline in treasury yields contrasts with rising oil expectations, highlighting shifting investor priorities toward AI risks over traditional inflation concerns."
       ],
       "key_points_en": [
-        "AI computing creates fast-changing power demands",
-        "Existing benchmarks lack time-series power data",
-        "LLM-PowerTrace provides per-GPU power traces"
+        "Oil prices expected to continue rising",
+        "Treasury yields have declined recently",
+        "Investors prioritize AI risks over inflation worries"
       ],
       "translation_zh": [
-        "人工智能计算消耗大量电力，其对电力系统的影响取决于电力使用随时间的快速变化",
-        "当前的人工智能模型基准缺乏时间序列电力数据，使得研究这些模式变得困难",
-        "LLM-PowerTrace是一个提供每块GPU电力追踪的开放数据集"
+        "过去一个月，石油、人工智能和债券交易市场发生了重大变化。尽管预计石油价格会上涨，但国债收益率下降，表明投资者可能更担心人工智能行业的潜在问题，而不是通货膨胀。",
+        "国债收益率的下降与石油价格预期的上涨形成对比，凸显了投资者优先关注人工智能风险而非传统通胀担忧。"
       ],
       "vocab": [
         {
-          "word": "time-resolved",
-          "zh": "随时间变化的"
+          "word": "market expects",
+          "zh": "市场预期"
         },
         {
-          "word": "power draw",
-          "zh": "电力消耗"
+          "word": "treasury yields",
+          "zh": "国债收益率"
         },
         {
-          "word": "synchronized fluctuations",
-          "zh": "同步波动"
+          "word": "AI crash",
+          "zh": "AI崩溃"
         },
         {
-          "word": "aggregate quantities",
-          "zh": "汇总数据"
+          "word": "inflation concerns",
+          "zh": "通胀担忧"
         },
         {
-          "word": "time-series measurements",
-          "zh": "时间序列测量"
+          "word": "bond trades",
+          "zh": "债券交易"
         }
       ],
-      "category": "ai",
+      "category": "finance",
       "tags": [
-        "ai",
-        "data",
-        "energy",
-        "research"
+        "oil_prices",
+        "ai_risks",
+        "bond_markets",
+        "inflation"
       ],
-      "id": "new-dataset-tracks-gpu-power-usage-for-ai-comput",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.38315"
+      "id": "market-shifts-oil-ai-and-bonds-in-focus",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html"
     },
     {
-      "title_en": "A New Framework for Trustworthy AI Collaboration",
+      "title_en": "AI Investments Deliver Results: How Companies Are Boosting Earnings",
       "summary_en": [
-        "Federated Learning (FL) allows AI systems to train together without sharing raw data, but traditional FL lacks proper governance features. This paper introduces GAFL, a method that adds verification, fairness checks, and secure logging to ensure trustworthy collaboration.",
-        "GAFL authenticates client data, enforces policies, and detects anomalies to improve AI system reliability."
+        "Companies like Santander and Novartis report AI is increasing revenue, reducing costs, and improving profits.",
+        "Investors are closely watching these AI-driven financial improvements for potential returns."
       ],
       "key_points_en": [
-        "Adds governance checks to FL processes",
-        "Enforces policies during model training",
-        "Secures data with tamper-proof logging"
+        "AI helps companies grow revenue and cut expenses",
+        "Major firms show improved profitability from AI",
+        "Investors focus on AI's financial impact"
       ],
       "translation_zh": [
-        "联邦学习（FL）允许AI系统在不共享原始数据的情况下共同训练，但传统FL缺乏治理功能。本文介绍了GAFL，一种添加验证、公平性检查和安全日志以确保可信协作的方法。",
-        "GAFL验证客户端数据，执行政策，并检测异常以提高AI系统的可靠性。"
+        "桑坦德银行和诺华制药等公司报告称，人工智能正在增加收入、削减开支并提高利润。",
+        "投资者正在密切关注这些由人工智能驱动的财务改善，以寻求潜在回报。"
       ],
       "vocab": [
         {
-          "word": "governance-aware",
-          "zh": "关注治理的"
+          "word": "AI gains",
+          "zh": "人工智能带来的收益"
         },
         {
-          "word": "evidence verification",
-          "zh": "证据验证"
+          "word": "cut costs",
+          "zh": "削减成本"
         },
         {
-          "word": "fairness assessment",
-          "zh": "公平性评估"
+          "word": "profitability",
+          "zh": "盈利能力"
         },
         {
-          "word": "policy enforcement",
-          "zh": "政策执行"
-        },
-        {
-          "word": "tamper-evident",
-          "zh": "防篡改的"
+          "word": "investors seek returns",
+          "zh": "投资者寻求回报"
         }
       ],
-      "category": "ai",
+      "category": "finance",
       "tags": [
-        "federated learning",
-        "ai governance",
-        "trustworthy ai",
-        "multi-agent systems"
+        "ai_in_business",
+        "financial_performance",
+        "investor_returns"
       ],
-      "id": "a-new-framework-for-trustworthy-ai-collaboration",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.38411"
+      "id": "ai-investments-deliver-results-how-companies-are",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html"
     },
     {
-      "title_en": "Improving Model Training with Agentic Dataset Search",
+      "title_en": "Leading Analysts Recommend Three Stocks for Long-Term Growth",
       "summary_en": [
-        "Finding training data in large repositories requires more than text relevance because queries include specific constraints like task and license.",
-        "Current methods fail to verify if datasets meet these constraints due to missing metadata and flawed verification processes.",
-        "Agentic approaches show promise but lack systems to ensure query requirements are actually satisfied."
+        "Investors seeking long-term gains can follow top analysts' recommendations.",
+        "These experts highlight three stocks with strong research backing, suggesting potential for sustained growth."
       ],
       "key_points_en": [
-        "Queries combine semantic goals with strict constraints",
-        "Text retrieval can't enforce hard constraints",
-        "Free-form agents don't verify constraint compliance"
+        "Leading analysts are optimistic about three specific stocks.",
+        "The recommendations are based on thorough research.",
+        "The stocks are considered good long-term investments."
       ],
       "translation_zh": [
-        "在大型数据仓库中寻找训练数据需要超越文本相关性，因为查询包含任务和许可等具体约束",
-        "现有方法由于元数据缺失和验证流程缺陷，无法确认数据集是否满足约束",
-        "智能代理方法虽有潜力但缺乏确保查询要求被满足的系统"
+        "寻求长期收益的投资者可以关注顶级分析师的建议。",
+        "这些专家指出的三只股票有扎实的研究支持，预示着持续增长的潜力。"
       ],
       "vocab": [
         {
-          "word": "training data",
-          "zh": "训练数据（用于机器学习模型的输入数据）"
+          "word": "bullish on",
+          "zh": "对（某股票）看涨的"
         },
         {
-          "word": "semantic training goal",
-          "zh": "语义训练目标（描述模型需要学习的抽象概念）"
+          "word": "long-term returns",
+          "zh": "长期回报"
         },
         {
-          "word": "license constraints",
-          "zh": "许可约束（数据使用条款的限制条件）"
+          "word": "track analysts",
+          "zh": "跟踪分析师"
         },
         {
-          "word": "metadata verification",
-          "zh": "元数据验证（检查数据集属性是否符合要求的过程）"
+          "word": "strong research",
+          "zh": "扎实的研究"
         },
         {
-          "word": "free-form agents",
-          "zh": "自由形式代理（能自主执行任务的智能系统）"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "dataset search",
-        "ai training",
-        "machine learning",
-        "data constraints"
-      ],
-      "id": "improving-model-training-with-agentic-dataset-se",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.39608"
-    },
-    {
-      "title_en": "Stocks Opened Optimistically but Closed in Decline Amid AI Fears",
-      "summary_en": [
-        "Big Tech companies' recent earnings reports raised concerns about increased AI spending, causing stock prices to drop.",
-        "Investors shifted their money to safer stocks, like those in utilities and healthcare, to protect their investments."
-      ],
-      "key_points_en": [
-        "Big Tech earnings reignited AI spending fears",
-        "Investors moved to defensive stocks",
-        "Market reversal occurred within a week"
-      ],
-      "translation_zh": [
-        "大型科技公司的最新财报引发了人们对人工智能支出增加的担忧，导致股价下跌。",
-        "投资者将资金转向了公用事业和医疗保健等更安全的股票，以保护自己的投资。"
-      ],
-      "vocab": [
-        {
-          "word": "reignited fears",
-          "zh": "重新引发担忧"
-        },
-        {
-          "word": "shifted to defensive stocks",
-          "zh": "转向防御性股票"
-        },
-        {
-          "word": "sent investors into",
-          "zh": "使投资者转向"
-        },
-        {
-          "word": "big tech earnings",
-          "zh": "大型科技公司财报"
-        },
-        {
-          "word": "ai spending fears",
-          "zh": "人工智能支出担忧"
+          "word": "sustained growth",
+          "zh": "持续增长"
         }
       ],
       "category": "finance",
       "tags": [
         "stock market",
-        "ai impact",
-        "investor behavior",
-        "tech earnings"
+        "investment advice",
+        "analyst recommendations",
+        "long-term strategy"
       ],
-      "id": "stocks-opened-optimistically-but-closed-in-decli",
+      "id": "leading-analysts-recommend-three-stocks-for-long",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html"
+      "link": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html"
     },
     {
-      "title_en": "Trump's Energy Cost Promise Fails as Fuel Prices Rise",
+      "title_en": "OpenAI Considers Renaming Data Centers to 'AI Compute Campuses'",
       "summary_en": [
-        "President Trump promised to lower gasoline prices below $2 per gallon during his first term.",
-        "However, gasoline, diesel, and jet fuel prices increased instead, contradicting his claims.",
-        "This outcome has raised questions about his energy policies"
+        "Data centers are often viewed negatively due to their environmental impact and high energy consumption.",
+        "OpenAI is considering renaming its data centers to 'AI compute campuses' to improve public perception and highlight their role in advancing artificial intelligence."
       ],
       "key_points_en": [
-        "Trump pledged to cut gasoline prices below $2/gallon in his first year",
-        "Gasoline, diesel, and jet fuel prices all increased",
-        "His energy policies faced criticism for not meeting expectations"
+        "Data centers face public criticism for environmental impact.",
+        "OpenAI plans to rebrand them as 'AI compute campuses'.",
+        "The goal is to enhance public perception of AI infrastructure."
       ],
       "translation_zh": [
-        "总统特朗普承诺在他任职的第一年将汽油价格降至每加仑2美元以下。",
-        "然而，汽油、柴油和航空燃油价格反而上涨了，这与他的承诺相矛盾。",
-        "这一结果引发了人们对他的能源政策的质疑。"
+        "数据中心因环境影响和高能耗常受到负面评价。",
+        "OpenAI正考虑将其数据中心更名为‘AI计算园区’，以改善公众认知并突出其在人工智能发展中的作用。"
       ],
       "vocab": [
         {
-          "word": "slash energy costs",
-          "zh": "削减能源成本"
+          "word": "rebrand",
+          "zh": "重新命名"
         },
         {
-          "word": "soared instead",
-          "zh": "反而上涨"
+          "word": "data centers",
+          "zh": "数据中心"
         },
         {
-          "word": "below $2 a gallon",
-          "zh": "低于每加仑2美元"
+          "word": "compute campuses",
+          "zh": "计算园区"
         },
         {
-          "word": "promised voters",
-          "zh": "向选民承诺"
+          "word": "public perception",
+          "zh": "公众认知"
         },
         {
-          "word": "energy policies",
-          "zh": "能源政策"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "energy_prices",
-        "trump_promise",
-        "inflation",
-        "policy_failure"
-      ],
-      "id": "trump-s-energy-cost-promise-fails-as-fuel-prices",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
-    },
-    {
-      "title_en": "U.S. Treasury sets new 5.51% bond rate for six months",
-      "summary_en": [
-        "The U.S. Treasury has announced a new 5.51% interest rate for Series I bonds starting now.",
-        "This rate will remain valid through April 2027 and helps protect against inflation."
-      ],
-      "key_points_en": [
-        "5.51% is the new bond rate",
-        "Rate applies until April 2027",
-        "Bonds help protect against inflation"
-      ],
-      "translation_zh": [
-        "美国财政部宣布新的5.51%储蓄债券利率，立即生效。",
-        "该利率将持续到2027年4月，有助于抵御通货膨胀。"
-      ],
-      "vocab": [
-        {
-          "word": "inflation protection",
-          "zh": "抗通胀保障"
-        },
-        {
-          "word": "valid through",
-          "zh": "有效至"
-        },
-        {
-          "word": "six-month period",
-          "zh": "六个月期间"
-        },
-        {
-          "word": "bond rate",
-          "zh": "债券利率"
-        },
-        {
-          "word": "announces new",
-          "zh": "宣布新的"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "bond rates",
-        "inflation",
-        "Treasury",
-        "U.S. economy"
-      ],
-      "id": "u-s-treasury-sets-new-5-51-bond-rate-for-six-mon",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html"
-    },
-    {
-      "title_en": "Nvidia Considers Cosigning Loan for Nscale's West Virginia AI Data Center",
-      "summary_en": [
-        "Nvidia might help fund Nscale's AI data center in West Virginia by cosigning a loan.",
-        "This move could ease investor concerns about spending on AI projects.",
-        "Chipmakers like Nvidia often support infrastructure needed for AI technology."
-      ],
-      "key_points_en": [
-        "Nvidia is considering cosigning a loan for Nscale's data center",
-        "Investors are cautious about AI spending",
-        "Chipmakers can help fund AI infrastructure"
-      ],
-      "translation_zh": [
-        "英伟达可能通过为Nscale在西弗吉尼亚州的AI数据中心贷款提供担保来帮助融资。",
-        "此举可能缓解投资者对AI项目支出的担忧。",
-        "像英伟达这样的芯片制造商经常支持AI技术所需的基础设施。"
-      ],
-      "vocab": [
-        {
-          "word": "cosign the loan",
-          "zh": "为贷款提供担保"
-        },
-        {
-          "word": "AI data center",
-          "zh": "人工智能数据中心"
-        },
-        {
-          "word": "chipmaker",
-          "zh": "芯片制造商"
-        },
-        {
-          "word": "investor concerns",
-          "zh": "投资者担忧"
-        },
-        {
-          "word": "AI infrastructure",
-          "zh": "人工智能基础设施"
+          "word": "environmental impact",
+          "zh": "环境影响"
         }
       ],
       "category": "tech",
       "tags": [
-        "ai",
-        "data centers",
-        "financing",
-        "tech investment"
+        "rebranding",
+        "ai infrastructure",
+        "public perception",
+        "data centers"
       ],
-      "id": "nvidia-considers-cosigning-loan-for-nscale-s-wes",
+      "id": "openai-considers-renaming-data-centers-to-ai-com",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/"
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
     },
     {
-      "title_en": "Salesforce Acquires Defense Tech Startup Rune in $375M Deal",
+      "title_en": "Renoa: The First New Fiber in 25 Years",
       "summary_en": [
-        "Salesforce is buying Rune, a defense technology company, for $375 million. Rune's AI logistics tools will improve Salesforce's Missionforce defense platform.",
-        "The deal shows Salesforce's focus on expanding its military technology offerings."
+        "Startup Everbloom created renoa, a new fiber not seen in 25 years.",
+        "The material feels familiar to users despite being innovative"
       ],
       "key_points_en": [
-        "$375M acquisition of Rune by Salesforce",
-        "Rune specializes in AI logistics for defense",
-        "Missionforce platform gets enhanced"
+        "Renoa is the first new fiber in 25 years",
+        "Developed by startup Everbloom",
+        "Feels familiar to users"
       ],
       "translation_zh": [
-        "Salesforce以3.75亿美元收购国防科技公司Rune，Rune的人工智能物流工具将提升Salesforce的Missionforce国防平台。",
-        "这笔交易表明Salesforce正在扩大其军事技术业务。"
+        "初创公司Everbloom研发了renoa，这是25年来首次出现的新纤维",
+        "这种材料虽然创新但触感熟悉"
       ],
       "vocab": [
         {
-          "word": "acquisition",
-          "zh": "收购"
+          "word": "first new fiber",
+          "zh": "首次出现的新纤维"
         },
         {
-          "word": "defense tech",
-          "zh": "国防科技"
+          "word": "feels familiar",
+          "zh": "触感熟悉"
         },
         {
-          "word": "AI logistics",
-          "zh": "人工智能物流"
+          "word": "startup company",
+          "zh": "初创公司"
         },
         {
-          "word": "enhance platform",
-          "zh": "增强平台功能"
+          "word": "material",
+          "zh": "材料"
         },
         {
-          "word": "M&A spree",
-          "zh": "并购热潮"
+          "word": "created renoa",
+          "zh": "研发了renoa"
         }
       ],
       "category": "tech",
       "tags": [
-        "m&a",
-        "ai",
-        "defense tech",
-        "salesforce"
+        "innovation",
+        "materials",
+        "textiles",
+        "new technology"
       ],
-      "id": "salesforce-acquires-defense-tech-startup-rune-in",
+      "id": "renoa-the-first-new-fiber-in-25-years",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/"
+      "link": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/"
     },
     {
-      "title_en": "Apple CEO Emphasizes Purpose-Driven AI Development",
+      "title_en": "Anthropic's IPO and Innovations in Tech",
       "summary_en": [
-        "Apple's new CEO stated the company prioritizes meaningful AI integration over unnecessary AI features.",
-        "The leader defended Apple's cautious approach in the competitive AI landscape.",
-        "Focus remains on enhancing user experience rather than rushing AI innovations."
+        "Anthropic has filed its IPO prospectus, revealing risks in a 335-page document. The article also discusses smarter power grids and potential exercise pills.",
+        "The newsletter highlights Anthropic's IPO and other tech developments, including energy and health innovations."
       ],
       "key_points_en": [
-        "Apple avoids AI for AI's sake",
-        "Prioritizes user-centric AI applications",
-        "Cautious strategy in AI development"
+        "Anthropic filed an IPO prospectus with risk details",
+        "The document is 335 pages long",
+        "Other topics include smart grids and exercise pills"
       ],
       "translation_zh": [
-        "苹果新任CEO表示，公司优先考虑有意义的AI整合，而非不必要的AI功能。",
-        "该负责人捍卫了苹果在竞争激烈的AI领域中的谨慎策略。",
-        "重点放在提升用户体验，而非仓促推出AI创新。"
+        "Anthropic已提交IPO招股书，披露了一份335页文件中的风险。文章还讨论了更智能的电网和潜在的运动药片。",
+        "这封电子邮件重点介绍了Anthropic的IPO及其他技术发展，包括能源和健康创新。"
       ],
       "vocab": [
         {
-          "word": "ship AI",
-          "zh": "推出AI产品"
+          "word": "filed its IPO prospectus",
+          "zh": "提交IPO招股书"
         },
         {
-          "word": "for AI's sake",
-          "zh": "为了AI本身的目的"
+          "word": "frenzied speculation",
+          "zh": "疯狂猜测"
         },
         {
-          "word": "current position",
-          "zh": "当前立场"
+          "word": "daily dose",
+          "zh": "每日剂量"
         },
         {
-          "word": "AI landscape",
-          "zh": "AI领域格局"
+          "word": "laid out",
+          "zh": "详细列出"
         },
         {
-          "word": "defended the company's position",
-          "zh": "捍卫公司立场"
+          "word": "innovations",
+          "zh": "创新"
         }
       ],
-      "category": "tech",
+      "category": "ai",
       "tags": [
-        "ai",
-        "apple",
-        "ceo",
-        "strategy"
+        "ipo",
+        "tech news",
+        "innovation",
+        "mit tech review"
       ],
-      "id": "apple-ceo-emphasizes-purpose-driven-ai-developme",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+      "id": "anthropic-s-ipo-and-innovations-in-tech",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
     }
   ]
 }

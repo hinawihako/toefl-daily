@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T07:05:21+08:00",
+  "items": [
+    {
+      "title_en": "Market Shifts: Oil, AI, and Bonds in Focus",
+      "summary_en": [
+        "Over the past month, markets have seen significant changes in oil, AI, and bond trades. While oil prices are expected to rise, treasury yields have fallen, suggesting investors may be more concerned about potential AI industry issues than inflation.",
+        "The decline in treasury yields contrasts with rising oil expectations, highlighting shifting investor priorities toward AI risks over traditional inflation concerns."
+      ],
+      "key_points_en": [
+        "Oil prices expected to continue rising",
+        "Treasury yields have declined recently",
+        "Investors prioritize AI risks over inflation worries"
+      ],
+      "translation_zh": [
+        "过去一个月，石油、人工智能和债券交易市场发生了重大变化。尽管预计石油价格会上涨，但国债收益率下降，表明投资者可能更担心人工智能行业的潜在问题，而不是通货膨胀。",
+        "国债收益率的下降与石油价格预期的上涨形成对比，凸显了投资者优先关注人工智能风险而非传统通胀担忧。"
+      ],
+      "vocab": [
+        {
+          "word": "market expects",
+          "zh": "市场预期"
+        },
+        {
+          "word": "treasury yields",
+          "zh": "国债收益率"
+        },
+        {
+          "word": "AI crash",
+          "zh": "AI崩溃"
+        },
+        {
+          "word": "inflation concerns",
+          "zh": "通胀担忧"
+        },
+        {
+          "word": "bond trades",
+          "zh": "债券交易"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "oil_prices",
+        "ai_risks",
+        "bond_markets",
+        "inflation"
+      ],
+      "id": "market-shifts-oil-ai-and-bonds-in-focus",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html"
+    },
+    {
+      "title_en": "AI Investments Deliver Results: How Companies Are Boosting Earnings",
+      "summary_en": [
+        "Companies like Santander and Novartis report AI is increasing revenue, reducing costs, and improving profits.",
+        "Investors are closely watching these AI-driven financial improvements for potential returns."
+      ],
+      "key_points_en": [
+        "AI helps companies grow revenue and cut expenses",
+        "Major firms show improved profitability from AI",
+        "Investors focus on AI's financial impact"
+      ],
+      "translation_zh": [
+        "桑坦德银行和诺华制药等公司报告称，人工智能正在增加收入、削减开支并提高利润。",
+        "投资者正在密切关注这些由人工智能驱动的财务改善，以寻求潜在回报。"
+      ],
+      "vocab": [
+        {
+          "word": "AI gains",
+          "zh": "人工智能带来的收益"
+        },
+        {
+          "word": "cut costs",
+          "zh": "削减成本"
+        },
+        {
+          "word": "profitability",
+          "zh": "盈利能力"
+        },
+        {
+          "word": "investors seek returns",
+          "zh": "投资者寻求回报"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ai_in_business",
+        "financial_performance",
+        "investor_returns"
+      ],
+      "id": "ai-investments-deliver-results-how-companies-are",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html"
+    },
+    {
+      "title_en": "Leading Analysts Recommend Three Stocks for Long-Term Growth",
+      "summary_en": [
+        "Investors seeking long-term gains can follow top analysts' recommendations.",
+        "These experts highlight three stocks with strong research backing, suggesting potential for sustained growth."
+      ],
+      "key_points_en": [
+        "Leading analysts are optimistic about three specific stocks.",
+        "The recommendations are based on thorough research.",
+        "The stocks are considered good long-term investments."
+      ],
+      "translation_zh": [
+        "寻求长期收益的投资者可以关注顶级分析师的建议。",
+        "这些专家指出的三只股票有扎实的研究支持，预示着持续增长的潜力。"
+      ],
+      "vocab": [
+        {
+          "word": "bullish on",
+          "zh": "对（某股票）看涨的"
+        },
+        {
+          "word": "long-term returns",
+          "zh": "长期回报"
+        },
+        {
+          "word": "track analysts",
+          "zh": "跟踪分析师"
+        },
+        {
+          "word": "strong research",
+          "zh": "扎实的研究"
+        },
+        {
+          "word": "sustained growth",
+          "zh": "持续增长"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "investment advice",
+        "analyst recommendations",
+        "long-term strategy"
+      ],
+      "id": "leading-analysts-recommend-three-stocks-for-long",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/01/top-analysts-are-bullish-on-these-3-stocks-for-the-long-haul.html"
+    },
+    {
+      "title_en": "OpenAI Considers Renaming Data Centers to 'AI Compute Campuses'",
+      "summary_en": [
+        "Data centers are often viewed negatively due to their environmental impact and high energy consumption.",
+        "OpenAI is considering renaming its data centers to 'AI compute campuses' to improve public perception and highlight their role in advancing artificial intelligence."
+      ],
+      "key_points_en": [
+        "Data centers face public criticism for environmental impact.",
+        "OpenAI plans to rebrand them as 'AI compute campuses'.",
+        "The goal is to enhance public perception of AI infrastructure."
+      ],
+      "translation_zh": [
+        "数据中心因环境影响和高能耗常受到负面评价。",
+        "OpenAI正考虑将其数据中心更名为‘AI计算园区’，以改善公众认知并突出其在人工智能发展中的作用。"
+      ],
+      "vocab": [
+        {
+          "word": "rebrand",
+          "zh": "重新命名"
+        },
+        {
+          "word": "data centers",
+          "zh": "数据中心"
+        },
+        {
+          "word": "compute campuses",
+          "zh": "计算园区"
+        },
+        {
+          "word": "public perception",
+          "zh": "公众认知"
+        },
+        {
+          "word": "environmental impact",
+          "zh": "环境影响"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "rebranding",
+        "ai infrastructure",
+        "public perception",
+        "data centers"
+      ],
+      "id": "openai-considers-renaming-data-centers-to-ai-com",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+    },
+    {
+      "title_en": "Renoa: The First New Fiber in 25 Years",
+      "summary_en": [
+        "Startup Everbloom created renoa, a new fiber not seen in 25 years.",
+        "The material feels familiar to users despite being innovative"
+      ],
+      "key_points_en": [
+        "Renoa is the first new fiber in 25 years",
+        "Developed by startup Everbloom",
+        "Feels familiar to users"
+      ],
+      "translation_zh": [
+        "初创公司Everbloom研发了renoa，这是25年来首次出现的新纤维",
+        "这种材料虽然创新但触感熟悉"
+      ],
+      "vocab": [
+        {
+          "word": "first new fiber",
+          "zh": "首次出现的新纤维"
+        },
+        {
+          "word": "feels familiar",
+          "zh": "触感熟悉"
+        },
+        {
+          "word": "startup company",
+          "zh": "初创公司"
+        },
+        {
+          "word": "material",
+          "zh": "材料"
+        },
+        {
+          "word": "created renoa",
+          "zh": "研发了renoa"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "innovation",
+        "materials",
+        "textiles",
+        "new technology"
+      ],
+      "id": "renoa-the-first-new-fiber-in-25-years",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/"
+    },
+    {
+      "title_en": "Anthropic's IPO and Innovations in Tech",
+      "summary_en": [
+        "Anthropic has filed its IPO prospectus, revealing risks in a 335-page document. The article also discusses smarter power grids and potential exercise pills.",
+        "The newsletter highlights Anthropic's IPO and other tech developments, including energy and health innovations."
+      ],
+      "key_points_en": [
+        "Anthropic filed an IPO prospectus with risk details",
+        "The document is 335 pages long",
+        "Other topics include smart grids and exercise pills"
+      ],
+      "translation_zh": [
+        "Anthropic已提交IPO招股书，披露了一份335页文件中的风险。文章还讨论了更智能的电网和潜在的运动药片。",
+        "这封电子邮件重点介绍了Anthropic的IPO及其他技术发展，包括能源和健康创新。"
+      ],
+      "vocab": [
+        {
+          "word": "filed its IPO prospectus",
+          "zh": "提交IPO招股书"
+        },
+        {
+          "word": "frenzied speculation",
+          "zh": "疯狂猜测"
+        },
+        {
+          "word": "daily dose",
+          "zh": "每日剂量"
+        },
+        {
+          "word": "laid out",
+          "zh": "详细列出"
+        },
+        {
+          "word": "innovations",
+          "zh": "创新"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ipo",
+        "tech news",
+        "innovation",
+        "mit tech review"
+      ],
+      "id": "anthropic-s-ipo-and-innovations-in-tech",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/"
+    }
+  ]
+}
