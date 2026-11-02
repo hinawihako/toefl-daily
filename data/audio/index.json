@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-02T07:05:21+08:00",
+  "generated_at": "2026-11-03T07:02:18+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-02",
-      "file": "data/audio/2026-11-02-briefing.mp3",
-      "script": "Here is your daily briefing. Over the past month, markets have seen significant changes in oil, AI, and bond trades. While oil prices are expected to rise, treasury yields have fallen, suggesting investors may be more concerned about potential AI industry issues than inflation. Companies like Santander and Novartis report AI is increasing revenue, reducing costs, and improving profits. Investors seeking long-term gains can follow top analysts' recommendations. Data centers are often viewed negatively due to their environmental impact and high energy consumption.",
-      "duration": "218 KB"
+      "date": "2026-11-03",
+      "file": "data/audio/2026-11-03-briefing.mp3",
+      "script": "Here is your daily briefing. Crude oil prices fell more than 7% after reports suggested the U.S. and Iran are exploring diplomatic solutions to Middle East tensions. I bonds currently offer a 5.51% interest rate, making them attractive for investors. Just before the midterms, traders on Kalshi predict Democrats have a 74% chance to control the Senate. Two startups working on water solutions for data centers are merging in a $16 million deal.",
+      "duration": "183 KB"
     }
   ]
 }
