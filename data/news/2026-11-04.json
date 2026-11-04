@@ -1,0 +1,390 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T08:10:43+08:00",
+  "items": [
+    {
+      "title_en": "Testing If AI Models Recognize Secret Training Data",
+      "summary_en": [
+        "Researchers used 34 copyrighted books to test if OpenAI models can identify content they weren't allowed to train on.",
+        "The study found GPT-4o showed signs of recognizing non-public books with an 82% accuracy score.",
+        "This suggests AI models might remember information they shouldn't have access to."
+      ],
+      "key_points_en": [
+        "Study used 34 O'Reilly books in testing",
+        "DE-COP attack method was applied",
+        "GPT-4o showed 82% recognition accuracy"
+      ],
+      "translation_zh": [
+        "研究人员使用34本版权书籍测试OpenAI模型是否能识别它们未被允许训练的内容",
+        "研究发现GPT-4o表现出82%的识别非公开书籍的准确性",
+        "这表明AI模型可能记住了不应访问的信息"
+      ],
+      "vocab": [
+        {
+          "word": "membership inference attack",
+          "zh": "一种检测模型是否能识别特定数据的攻击方法"
+        },
+        {
+          "word": "AUROC score",
+          "zh": "衡量模型识别能力的指标"
+        },
+        {
+          "word": "non-public content",
+          "zh": "未公开的训练数据"
+        },
+        {
+          "word": "training inclusion",
+          "zh": "训练数据包含情况"
+        },
+        {
+          "word": "bootstrapped CI",
+          "zh": "统计置信区间计算方法"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "data privacy",
+        "machine learning",
+        "copyright"
+      ],
+      "id": "testing-if-ai-models-recognize-secret-training-d",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2505.00020"
+    },
+    {
+      "title_en": "New Method to Improve AI Security Against Prompt Injections",
+      "summary_en": [
+        "Prompt injection is a major security risk where AI systems can be tricked by malicious inputs from emails or websites.",
+        "Current top AI defenses like Meta-SecAlign still fail against advanced attacks because they rely on insecure reference models.",
+        "Researchers propose SecPO - a new training method that approximates a secure, ideal reference model for better protection"
+      ],
+      "translation_zh": [
+        "提示注入是一种重大安全风险，AI系统可能被来自电子邮件或网站的恶意输入欺骗。",
+        "当前顶级AI防御措施如Meta-SecAlign仍无法抵御高级攻击，因为它们依赖不安全的参考模型。",
+        "研究人员提出SecPO - 一种新训练方法，可近似安全的理想参考模型以实现更好的防护"
+      ],
+      "vocab": [
+        {
+          "word": "prompt injection",
+          "zh": "通过恶意指令操控AI系统的行为"
+        },
+        {
+          "word": "adversarial training",
+          "zh": "对抗性训练方法"
+        },
+        {
+          "word": "attack success rates",
+          "zh": "攻击成功率指标"
+        },
+        {
+          "word": "reference model",
+          "zh": "训练时作为基准的模型"
+        },
+        {
+          "word": "utility-preserving",
+          "zh": "保持原有功能特性的"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai security",
+        "llm",
+        "adversarial training",
+        "prompt injection"
+      ],
+      "id": "new-method-to-improve-ai-security-against-prompt",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.41998",
+      "key_points_en": []
+    },
+    {
+      "title_en": "AMD Stock Rises 8% on Strong Earnings and Growing Data Center Sales",
+      "summary_en": [
+        "AMD's stock increased by 8% after the company reported stronger-than-expected third-quarter earnings.",
+        "Data center revenue almost doubled, driven by high demand for AI chips."
+      ],
+      "key_points_en": [
+        "Stock price rose 8%",
+        "Data center revenue nearly doubled",
+        "AI chip sales boosted results"
+      ],
+      "translation_zh": [
+        "AMD的股价上涨了8%，因为该公司公布的第三季度财报好于预期。",
+        "数据中心收入几乎翻倍，因为对AI芯片的需求很高。"
+      ],
+      "vocab": [
+        {
+          "word": "stock jumps",
+          "zh": "股价上涨"
+        },
+        {
+          "word": "data center revenue",
+          "zh": "数据中心收入"
+        },
+        {
+          "word": "booming sales",
+          "zh": "销售激增"
+        },
+        {
+          "word": "better-than-expected results",
+          "zh": "超出预期的业绩"
+        },
+        {
+          "word": "driven by",
+          "zh": "由...驱动"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "AI technology",
+        "company earnings",
+        "data centers"
+      ],
+      "id": "amd-stock-rises-8-on-strong-earnings-and-growing",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+    },
+    {
+      "title_en": "Crude oil prices drop again as markets hope for diplomatic solution to Iran conflict",
+      "summary_en": [
+        "Crude oil prices fell for the second day as traders hoped for a diplomatic resolution to the Iran war.",
+        "This came after U.S. and Iranian leaders showed openness to negotiating a peaceful solution."
+      ],
+      "key_points_en": [
+        "Oil prices dropped for two consecutive days",
+        "U.S. and Iran discussed diplomatic talks",
+        "Prices rose the day before the news"
+      ],
+      "translation_zh": [
+        "原油价格连续第二天下跌，因为交易员希望找到解决伊朗战争的外交方案。",
+        "这发生在美伊领导人表示愿意就和平解决方案进行谈判之后。"
+      ],
+      "vocab": [
+        {
+          "word": "rebound",
+          "zh": "回升"
+        },
+        {
+          "word": "diplomatic resolution",
+          "zh": "外交解决方案"
+        },
+        {
+          "word": "market hopes",
+          "zh": "市场希望"
+        },
+        {
+          "word": "crude oil prices",
+          "zh": "原油价格"
+        },
+        {
+          "word": "signalled",
+          "zh": "暗示"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "oil prices",
+        "diplomacy",
+        "iran conflict",
+        "market trends"
+      ],
+      "id": "crude-oil-prices-drop-again-as-markets-hope-for",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+    },
+    {
+      "title_en": "CrowdStrike to spend nearly $500 million on two AI security startups as agent security market grows",
+      "summary_en": [
+        "CrowdStrike plans to buy two AI security companies, Fiddler AI and Dreadnode, for almost $500 million.",
+        "The deal reflects growing demand for tools that monitor and test AI systems in businesses."
+      ],
+      "key_points_en": [
+        "CrowdStrike will acquire Fiddler AI and Dreadnode",
+        "The purchase totals nearly $500 million",
+        "The market for AI security tools is expanding"
+      ],
+      "translation_zh": [
+        "CrowdStrike计划以近5亿美元收购两家AI安全公司Fiddler AI和Dreadnode。",
+        "这笔交易反映了企业对监控和测试AI系统的工具需求增加。"
+      ],
+      "vocab": [
+        {
+          "word": "shell out",
+          "zh": "花费大量金钱"
+        },
+        {
+          "word": "AI security startups",
+          "zh": "人工智能安全初创公司"
+        },
+        {
+          "word": "agent security market",
+          "zh": "代理安全市场"
+        },
+        {
+          "word": "observability software",
+          "zh": "可观测性软件"
+        },
+        {
+          "word": "automate security testing",
+          "zh": "自动化安全测试"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "security",
+        "acquisition",
+        "startup"
+      ],
+      "id": "crowdstrike-to-spend-nearly-500-million-on-two-a",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
+    },
+    {
+      "title_en": "AMD's Earnings Disappointment and Trading Opportunities",
+      "summary_en": [
+        "AMD's recent earnings report fell short of expectations, leading to a significant drop in its stock price.",
+        "One trading strategy involves using options to capitalize on the volatility caused by the earnings miss."
+      ],
+      "key_points_en": [
+        "AMD's earnings were below analyst expectations",
+        "Stock price declined sharply after the report",
+        "Options trading is suggested as a potential strategy"
+      ],
+      "translation_zh": [
+        "AMD最近的财报表现未达预期，导致股价大幅下跌。",
+        "一种交易策略是利用期权来应对财报不及预期带来的波动。"
+      ],
+      "vocab": [
+        {
+          "word": "crushed into earnings",
+          "zh": "财报表现不佳"
+        },
+        {
+          "word": "trading strategy",
+          "zh": "交易策略"
+        },
+        {
+          "word": "earnings disappointment",
+          "zh": "财报令人失望"
+        },
+        {
+          "word": "stock price drop",
+          "zh": "股价下跌"
+        },
+        {
+          "word": "options trading",
+          "zh": "期权交易"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "trading strategies",
+        "earnings report",
+        "options trading"
+      ],
+      "id": "amd-s-earnings-disappointment-and-trading-opport",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html"
+    },
+    {
+      "title_en": "Apple's 2027 Home Robot: Expensive and Limited Features",
+      "summary_en": [
+        "Apple plans to release a home robot in 2027 that can handle FaceTime calls and control lights, but it may cost $1,000.",
+        "The robot project is supported by Apple's CEO John Ternus, though its practical uses might be limited."
+      ],
+      "key_points_en": [
+        "Releases in 2027",
+        "Priced at $1,000",
+        "Limited functionality"
+      ],
+      "translation_zh": [
+        "苹果计划在2027年推出一款家用机器人，可以处理FaceTime通话和控制灯光，但价格可能高达1000美元。",
+        "该机器人项目由苹果首席执行官约翰·特努斯支持，但其实际用途可能有限。"
+      ],
+      "vocab": [
+        {
+          "word": "hefty price tag",
+          "zh": "高昂的价格"
+        },
+        {
+          "word": "limited uses",
+          "zh": "有限的用途"
+        },
+        {
+          "word": "backed by CEO",
+          "zh": "得到首席执行官支持"
+        },
+        {
+          "word": "switching on lights",
+          "zh": "打开灯光"
+        },
+        {
+          "word": "home robot",
+          "zh": "家用机器人"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "apple",
+        "home robot",
+        "future tech",
+        "price"
+      ],
+      "id": "apple-s-2027-home-robot-expensive-and-limited-fe",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
+    },
+    {
+      "title_en": "Data centers use old jet engines due to power delays",
+      "summary_en": [
+        "Data centers are using old jet engines because they face long delays in getting power from the grid.",
+        "This solution is less efficient and worse for the environment compared to modern alternatives."
+      ],
+      "key_points_en": [
+        "Long waits for grid power force data centers to use old jet engines",
+        "Old engines are less efficient and environmentally friendly",
+        "Delays in new turbine installations drive this unusual choice"
+      ],
+      "translation_zh": [
+        "数据中心因电网供电延迟而使用旧喷气发动机",
+        "这种解决方案效率较低且对环境不友好"
+      ],
+      "vocab": [
+        {
+          "word": "turn to",
+          "zh": "转向（使用）"
+        },
+        {
+          "word": "unusual solution",
+          "zh": "不寻常的解决方案"
+        },
+        {
+          "word": "less efficient",
+          "zh": "效率较低"
+        },
+        {
+          "word": "environmentally friendly",
+          "zh": "环保的"
+        },
+        {
+          "word": "power delays",
+          "zh": "供电延迟"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "data centers",
+        "renewable energy",
+        "infrastructure",
+        "environmental impact"
+      ],
+      "id": "data-centers-use-old-jet-engines-due-to-power-de",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+    }
+  ]
+}

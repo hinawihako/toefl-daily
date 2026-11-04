@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T07:02:18+08:00",
+  "generated_at": "2026-11-04T08:10:43+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-03",
-      "file": "data/audio/2026-11-03-briefing.mp3",
-      "script": "Here is your daily briefing. Crude oil prices fell more than 7% after reports suggested the U.S. and Iran are exploring diplomatic solutions to Middle East tensions. I bonds currently offer a 5.51% interest rate, making them attractive for investors. Just before the midterms, traders on Kalshi predict Democrats have a 74% chance to control the Senate. Two startups working on water solutions for data centers are merging in a $16 million deal.",
-      "duration": "183 KB"
+      "date": "2026-11-04",
+      "file": "data/audio/2026-11-04-briefing.mp3",
+      "script": "Here is your daily briefing. Researchers used 34 copyrighted books to test if OpenAI models can identify content they weren't allowed to train on. Prompt injection is a major security risk where AI systems can be tricked by malicious inputs from emails or websites. AMD's stock increased by 8% after the company reported stronger-than-expected third-quarter earnings. Crude oil prices fell for the second day as traders hoped for a diplomatic resolution to the Iran war.",
+      "duration": "178 KB"
     }
   ]
 }

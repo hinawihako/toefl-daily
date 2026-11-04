@@ -1,390 +1,390 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T07:02:18+08:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T08:10:43+08:00",
   "items": [
     {
-      "title_en": "Crude Oil Prices Drop Over 7% as Peace Talks Between U.S. and Iran Spark Hope",
+      "title_en": "Testing If AI Models Recognize Secret Training Data",
       "summary_en": [
-        "Crude oil prices fell more than 7% after reports suggested the U.S. and Iran are exploring diplomatic solutions to Middle East tensions.",
-        "The drop came as investors reacted to news of potential peace talks ahead of U.S. midterm elections."
+        "Researchers used 34 copyrighted books to test if OpenAI models can identify content they weren't allowed to train on.",
+        "The study found GPT-4o showed signs of recognizing non-public books with an 82% accuracy score.",
+        "This suggests AI models might remember information they shouldn't have access to."
       ],
       "key_points_en": [
-        "Oil prices dropped over 7% in one day",
-        "U.S. and Iran are discussing peace talks",
-        "Midterm elections influenced market reactions"
+        "Study used 34 O'Reilly books in testing",
+        "DE-COP attack method was applied",
+        "GPT-4o showed 82% recognition accuracy"
       ],
       "translation_zh": [
-        "原油价格因美国和伊朗可能进行和平谈判的报道而下跌超过7%",
-        "这一跌幅发生在投资者得知潜在和平谈判消息之际，正值美国中期选举前"
+        "研究人员使用34本版权书籍测试OpenAI模型是否能识别它们未被允许训练的内容",
+        "研究发现GPT-4o表现出82%的识别非公开书籍的准确性",
+        "这表明AI模型可能记住了不应访问的信息"
       ],
       "vocab": [
         {
-          "word": "sell off",
-          "zh": "（价格）急剧下跌"
+          "word": "membership inference attack",
+          "zh": "一种检测模型是否能识别特定数据的攻击方法"
         },
         {
-          "word": "peace talks",
-          "zh": "和平谈判"
+          "word": "AUROC score",
+          "zh": "衡量模型识别能力的指标"
         },
         {
-          "word": "midterm elections",
-          "zh": "中期选举"
+          "word": "non-public content",
+          "zh": "未公开的训练数据"
         },
         {
-          "word": "diplomacy",
-          "zh": "外交手段"
+          "word": "training inclusion",
+          "zh": "训练数据包含情况"
         },
         {
-          "word": "Mideast tensions",
-          "zh": "中东紧张局势"
+          "word": "bootstrapped CI",
+          "zh": "统计置信区间计算方法"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "data privacy",
+        "machine learning",
+        "copyright"
+      ],
+      "id": "testing-if-ai-models-recognize-secret-training-d",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2505.00020"
+    },
+    {
+      "title_en": "New Method to Improve AI Security Against Prompt Injections",
+      "summary_en": [
+        "Prompt injection is a major security risk where AI systems can be tricked by malicious inputs from emails or websites.",
+        "Current top AI defenses like Meta-SecAlign still fail against advanced attacks because they rely on insecure reference models.",
+        "Researchers propose SecPO - a new training method that approximates a secure, ideal reference model for better protection"
+      ],
+      "translation_zh": [
+        "提示注入是一种重大安全风险，AI系统可能被来自电子邮件或网站的恶意输入欺骗。",
+        "当前顶级AI防御措施如Meta-SecAlign仍无法抵御高级攻击，因为它们依赖不安全的参考模型。",
+        "研究人员提出SecPO - 一种新训练方法，可近似安全的理想参考模型以实现更好的防护"
+      ],
+      "vocab": [
+        {
+          "word": "prompt injection",
+          "zh": "通过恶意指令操控AI系统的行为"
+        },
+        {
+          "word": "adversarial training",
+          "zh": "对抗性训练方法"
+        },
+        {
+          "word": "attack success rates",
+          "zh": "攻击成功率指标"
+        },
+        {
+          "word": "reference model",
+          "zh": "训练时作为基准的模型"
+        },
+        {
+          "word": "utility-preserving",
+          "zh": "保持原有功能特性的"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai security",
+        "llm",
+        "adversarial training",
+        "prompt injection"
+      ],
+      "id": "new-method-to-improve-ai-security-against-prompt",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2610.41998",
+      "key_points_en": []
+    },
+    {
+      "title_en": "AMD Stock Rises 8% on Strong Earnings and Growing Data Center Sales",
+      "summary_en": [
+        "AMD's stock increased by 8% after the company reported stronger-than-expected third-quarter earnings.",
+        "Data center revenue almost doubled, driven by high demand for AI chips."
+      ],
+      "key_points_en": [
+        "Stock price rose 8%",
+        "Data center revenue nearly doubled",
+        "AI chip sales boosted results"
+      ],
+      "translation_zh": [
+        "AMD的股价上涨了8%，因为该公司公布的第三季度财报好于预期。",
+        "数据中心收入几乎翻倍，因为对AI芯片的需求很高。"
+      ],
+      "vocab": [
+        {
+          "word": "stock jumps",
+          "zh": "股价上涨"
+        },
+        {
+          "word": "data center revenue",
+          "zh": "数据中心收入"
+        },
+        {
+          "word": "booming sales",
+          "zh": "销售激增"
+        },
+        {
+          "word": "better-than-expected results",
+          "zh": "超出预期的业绩"
+        },
+        {
+          "word": "driven by",
+          "zh": "由...驱动"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "AI technology",
+        "company earnings",
+        "data centers"
+      ],
+      "id": "amd-stock-rises-8-on-strong-earnings-and-growing",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+    },
+    {
+      "title_en": "Crude oil prices drop again as markets hope for diplomatic solution to Iran conflict",
+      "summary_en": [
+        "Crude oil prices fell for the second day as traders hoped for a diplomatic resolution to the Iran war.",
+        "This came after U.S. and Iranian leaders showed openness to negotiating a peaceful solution."
+      ],
+      "key_points_en": [
+        "Oil prices dropped for two consecutive days",
+        "U.S. and Iran discussed diplomatic talks",
+        "Prices rose the day before the news"
+      ],
+      "translation_zh": [
+        "原油价格连续第二天下跌，因为交易员希望找到解决伊朗战争的外交方案。",
+        "这发生在美伊领导人表示愿意就和平解决方案进行谈判之后。"
+      ],
+      "vocab": [
+        {
+          "word": "rebound",
+          "zh": "回升"
+        },
+        {
+          "word": "diplomatic resolution",
+          "zh": "外交解决方案"
+        },
+        {
+          "word": "market hopes",
+          "zh": "市场希望"
+        },
+        {
+          "word": "crude oil prices",
+          "zh": "原油价格"
+        },
+        {
+          "word": "signalled",
+          "zh": "暗示"
         }
       ],
       "category": "finance",
       "tags": [
         "oil prices",
         "diplomacy",
-        "market reaction",
-        "U.S. politics"
+        "iran conflict",
+        "market trends"
       ],
-      "id": "crude-oil-prices-drop-over-7-as-peace-talks-betw",
+      "id": "crude-oil-prices-drop-again-as-markets-hope-for",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+      "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
     },
     {
-      "title_en": "I Bonds Offer 5.51% Rate, But Consider Trade-Offs Before Investing",
+      "title_en": "CrowdStrike to spend nearly $500 million on two AI security startups as agent security market grows",
       "summary_en": [
-        "I bonds currently offer a 5.51% interest rate, making them attractive for investors.",
-        "However, financial experts warn that there are trade-offs to consider before purchasing these bonds."
+        "CrowdStrike plans to buy two AI security companies, Fiddler AI and Dreadnode, for almost $500 million.",
+        "The deal reflects growing demand for tools that monitor and test AI systems in businesses."
       ],
       "key_points_en": [
-        "Current I bond interest rate is 5.51%.",
-        "Early redemption may result in penalties.",
-        "Availability of I bonds is limited."
+        "CrowdStrike will acquire Fiddler AI and Dreadnode",
+        "The purchase totals nearly $500 million",
+        "The market for AI security tools is expanding"
       ],
       "translation_zh": [
-        "I债券目前提供5.51%的利率，这对投资者来说具有吸引力。",
-        "然而，金融专家警告称，在购买这些债券之前需要考虑一些权衡因素。"
+        "CrowdStrike计划以近5亿美元收购两家AI安全公司Fiddler AI和Dreadnode。",
+        "这笔交易反映了企业对监控和测试AI系统的工具需求增加。"
       ],
       "vocab": [
         {
-          "word": "interest rate",
-          "zh": "利率"
+          "word": "shell out",
+          "zh": "花费大量金钱"
         },
         {
-          "word": "trade-offs",
-          "zh": "权衡因素"
+          "word": "AI security startups",
+          "zh": "人工智能安全初创公司"
         },
         {
-          "word": "early redemption",
-          "zh": "提前赎回"
+          "word": "agent security market",
+          "zh": "代理安全市场"
         },
         {
-          "word": "penalties",
-          "zh": "罚金"
+          "word": "observability software",
+          "zh": "可观测性软件"
         },
         {
-          "word": "availability",
-          "zh": "可用性"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "investing",
-        "bonds",
-        "interest rates",
-        "financial advice"
-      ],
-      "id": "i-bonds-offer-5-51-rate-but-consider-trade-offs",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/02/i-bonds-rate.html"
-    },
-    {
-      "title_en": "Prediction market traders estimate 74% chance of Democrats winning Senate control",
-      "summary_en": [
-        "Just before the midterms, traders on Kalshi predict Democrats have a 74% chance to control the Senate.",
-        "This shows growing confidence in Democratic performance in upcoming elections."
-      ],
-      "key_points_en": [
-        "Democrats have 74% chance of Senate control",
-        "Prediction based on Kalshi market data",
-        "Midterm elections approaching"
-      ],
-      "translation_zh": [
-        "中期选举前，Kalshi市场的交易员预测民主党有74%的几率控制参议院。",
-        "这表明人们对民主党在即将到来的选举中的表现越来越有信心。"
-      ],
-      "vocab": [
-        {
-          "word": "prediction market",
-          "zh": "预测市场，通过交易预测事件结果的金融市场"
-        },
-        {
-          "word": "control the Senate",
-          "zh": "控制参议院，指在参议院中占据多数席位"
-        },
-        {
-          "word": "estimate chance",
-          "zh": "估算几率，根据数据推测可能性"
-        },
-        {
-          "word": "midterm elections",
-          "zh": "中期选举，美国每两年举行一次的选举"
-        },
-        {
-          "word": "political forecast",
-          "zh": "政治预测，对选举结果的预先判断"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "prediction market",
-        "midterm elections",
-        "political forecast"
-      ],
-      "id": "prediction-market-traders-estimate-74-chance-of",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html"
-    },
-    {
-      "title_en": "Omen AI Acquires Aquatic Labs for $16 Million to Boost Liquid Cooling Tech",
-      "summary_en": [
-        "Two startups working on water solutions for data centers are merging in a $16 million deal.",
-        "The acquisition aims to improve liquid cooling technology to reduce data center water usage."
-      ],
-      "key_points_en": [
-        "Omen AI bought Aquatic Labs for $16 million",
-        "The deal focuses on water management in data centers",
-        "Both companies address data center cooling challenges"
-      ],
-      "translation_zh": [
-        "两家致力于解决数据中心用水问题的初创公司以1600万美元合并",
-        "此次收购旨在改进液冷技术以减少数据中心用水"
-      ],
-      "vocab": [
-        {
-          "word": "liquid cooling",
-          "zh": "液冷技术"
-        },
-        {
-          "word": "data center",
-          "zh": "数据中心"
-        },
-        {
-          "word": "joining forces",
-          "zh": "联手合作"
-        },
-        {
-          "word": "tackling",
-          "zh": "解决"
-        },
-        {
-          "word": "acquisition",
-          "zh": "收购"
+          "word": "automate security testing",
+          "zh": "自动化安全测试"
         }
       ],
       "category": "tech",
       "tags": [
+        "ai",
+        "security",
         "acquisition",
-        "data center",
-        "cooling tech",
-        "startup merger"
+        "startup"
       ],
-      "id": "omen-ai-acquires-aquatic-labs-for-16-million-to",
+      "id": "crowdstrike-to-spend-nearly-500-million-on-two-a",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+      "link": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
     },
     {
-      "title_en": "Improving Insight Quality in Agentic Analytics",
+      "title_en": "AMD's Earnings Disappointment and Trading Opportunities",
       "summary_en": [
-        "Generative AI has made analytics easier for all employees in companies. Agentic AI aims to automate tasks and take actions based on insights. However, current AI systems often produce low-quality insights.",
-        "生成式人工智能使公司所有员工都能更容易地使用分析工具。代理人工智能旨在通过自动化任务和基于洞察采取行动来提升效率。然而，当前的人工智能系统经常产生质量较低的洞察。"
+        "AMD's recent earnings report fell short of expectations, leading to a significant drop in its stock price.",
+        "One trading strategy involves using options to capitalize on the volatility caused by the earnings miss."
       ],
       "key_points_en": [
-        "Generative AI improved analytics accessibility",
-        "Agentic AI automates workflows and actions",
-        "Current agents generate low-quality insights"
+        "AMD's earnings were below analyst expectations",
+        "Stock price declined sharply after the report",
+        "Options trading is suggested as a potential strategy"
       ],
       "translation_zh": [
-        "生成式人工智能提高了分析工具的可访问性",
-        "代理人工智能自动化工作流程和行动",
-        "当前的代理生成低质量的洞察"
+        "AMD最近的财报表现未达预期，导致股价大幅下跌。",
+        "一种交易策略是利用期权来应对财报不及预期带来的波动。"
       ],
       "vocab": [
         {
-          "word": "generative AI",
-          "zh": "生成式人工智能"
+          "word": "crushed into earnings",
+          "zh": "财报表现不佳"
         },
         {
-          "word": "enterprise analytics",
-          "zh": "企业分析"
+          "word": "trading strategy",
+          "zh": "交易策略"
         },
         {
-          "word": "agentic AI",
-          "zh": "代理人工智能"
+          "word": "earnings disappointment",
+          "zh": "财报令人失望"
         },
         {
-          "word": "automating workflows",
-          "zh": "自动化工作流程"
+          "word": "stock price drop",
+          "zh": "股价下跌"
         },
         {
-          "word": "quality of insights",
-          "zh": "洞察质量"
+          "word": "options trading",
+          "zh": "期权交易"
         }
       ],
-      "category": "ai",
+      "category": "finance",
       "tags": [
-        "ai",
-        "analytics",
-        "automation",
-        "enterprise tech"
+        "stock market",
+        "trading strategies",
+        "earnings report",
+        "options trading"
       ],
-      "id": "improving-insight-quality-in-agentic-analytics",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/"
+      "id": "amd-s-earnings-disappointment-and-trading-opport",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html"
     },
     {
-      "title_en": "AI Coding Agents Use Far More Tokens Than Chatbots",
+      "title_en": "Apple's 2027 Home Robot: Expensive and Limited Features",
       "summary_en": [
-        "When developers use AI agents for coding, the agents perform multiple steps like planning, generating code, and running tests repeatedly.",
-        "A single coding task can use 10-50 times more tokens than a simple chat prompt"
+        "Apple plans to release a home robot in 2027 that can handle FaceTime calls and control lights, but it may cost $1,000.",
+        "The robot project is supported by Apple's CEO John Ternus, though its practical uses might be limited."
       ],
       "key_points_en": [
-        "AI agents perform multiple steps to complete tasks",
-        "Coding tasks use much more tokens than basic chats",
-        "More useful agents require more token calls"
+        "Releases in 2027",
+        "Priced at $1,000",
+        "Limited functionality"
       ],
       "translation_zh": [
-        "当开发者使用AI代理进行编码时，代理会执行多个步骤，如规划、生成代码并重复运行测试",
-        "单个编码任务使用的令牌数量可能是简单聊天提示的10到50倍"
+        "苹果计划在2027年推出一款家用机器人，可以处理FaceTime通话和控制灯光，但价格可能高达1000美元。",
+        "该机器人项目由苹果首席执行官约翰·特努斯支持，但其实际用途可能有限。"
       ],
       "vocab": [
         {
-          "word": "token usage",
-          "zh": "令牌使用量"
+          "word": "hefty price tag",
+          "zh": "高昂的价格"
         },
         {
-          "word": "coding task",
-          "zh": "编码任务"
+          "word": "limited uses",
+          "zh": "有限的用途"
         },
         {
-          "word": "generate code",
-          "zh": "生成代码"
+          "word": "backed by CEO",
+          "zh": "得到首席执行官支持"
         },
         {
-          "word": "run tests",
-          "zh": "运行测试"
+          "word": "switching on lights",
+          "zh": "打开灯光"
         },
         {
-          "word": "correct errors",
-          "zh": "纠正错误"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "ai",
-        "tokens",
-        "coding",
-        "machine learning"
-      ],
-      "id": "ai-coding-agents-use-far-more-tokens-than-chatbo",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/"
-    },
-    {
-      "title_en": "German Lawmakers Warned of Possible iPhone Hacking via Spyware",
-      "summary_en": [
-        "German lawmakers and a filmmaker received alerts from Apple indicating their iPhones might have been infected with spyware.",
-        "The notifications suggest potential security breaches involving surveillance software."
-      ],
-      "key_points_en": [
-        "Apple alerted German lawmakers and a filmmaker about possible iPhone hacking.",
-        "The warnings suggest potential security breaches using spyware.",
-        "The incident highlights concerns about smartphone vulnerabilities."
-      ],
-      "translation_zh": [
-        "德国议员和一位电影制作人收到苹果公司的警告，称他们的iPhone可能被间谍软件感染。",
-        "这些警告表明可能存在使用间谍软件的安全漏洞。"
-      ],
-      "vocab": [
-        {
-          "word": "security breaches",
-          "zh": "安全漏洞事件"
-        },
-        {
-          "word": "surveillance software",
-          "zh": "监控软件"
-        },
-        {
-          "word": "potential threats",
-          "zh": "潜在威胁"
-        },
-        {
-          "word": "hacked devices",
-          "zh": "被入侵的设备"
-        },
-        {
-          "word": "notification alerts",
-          "zh": "通知警报"
+          "word": "home robot",
+          "zh": "家用机器人"
         }
       ],
       "category": "tech",
       "tags": [
-        "cybersecurity",
-        "iphone",
-        "spying",
-        "data privacy"
+        "apple",
+        "home robot",
+        "future tech",
+        "price"
       ],
-      "id": "german-lawmakers-warned-of-possible-iphone-hacki",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware/"
+      "id": "apple-s-2027-home-robot-expensive-and-limited-fe",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
     },
     {
-      "title_en": "Agentic Web Emerges and Efforts to Improve Road Safety",
+      "title_en": "Data centers use old jet engines due to power delays",
       "summary_en": [
-        "The agentic web, a concept first proposed by Tim Berners-Lee in 2001, is now becoming reality through autonomous software agents that navigate the internet. This week's technology updates also highlight new initiatives aimed at making roads safer through advanced driver assistance systems.",
-        "The agentic web vision involves software agents that can independently perform tasks online, while road safety efforts focus on reducing accidents using AI-powered technologies."
+        "Data centers are using old jet engines because they face long delays in getting power from the grid.",
+        "This solution is less efficient and worse for the environment compared to modern alternatives."
       ],
       "key_points_en": [
-        "The agentic web concept was introduced by Tim Berners-Lee in 2001",
-        "Autonomous software agents now navigate the internet independently",
-        "New technologies are being developed to improve road safety"
+        "Long waits for grid power force data centers to use old jet engines",
+        "Old engines are less efficient and environmentally friendly",
+        "Delays in new turbine installations drive this unusual choice"
       ],
       "translation_zh": [
-        "由蒂姆·伯纳斯-李于2001年提出的“智能代理网络”概念正在通过自主软件代理实现，这些代理可以自主浏览互联网。本周的技术更新还提到了旨在通过高级驾驶辅助系统提高道路安全性的新举措。",
-        "智能代理网络的愿景是让软件代理能够独立在线执行任务，而道路安全努力则聚焦于利用人工智能技术减少事故。"
+        "数据中心因电网供电延迟而使用旧喷气发动机",
+        "这种解决方案效率较低且对环境不友好"
       ],
       "vocab": [
         {
-          "word": "autonomous software agents",
-          "zh": "自主软件代理"
+          "word": "turn to",
+          "zh": "转向（使用）"
         },
         {
-          "word": "daily dose",
-          "zh": "每日信息量"
+          "word": "unusual solution",
+          "zh": "不寻常的解决方案"
         },
         {
-          "word": "navigated by",
-          "zh": "由...导航"
+          "word": "less efficient",
+          "zh": "效率较低"
         },
         {
-          "word": "articulated a vision",
-          "zh": "阐述了愿景"
+          "word": "environmentally friendly",
+          "zh": "环保的"
         },
         {
-          "word": "drive for safer roads",
-          "zh": "推动更安全的道路"
+          "word": "power delays",
+          "zh": "供电延迟"
         }
       ],
-      "category": "ai",
+      "category": "tech",
       "tags": [
-        "agentic web",
-        "road safety",
-        "technology trends",
-        "internet evolution"
+        "data centers",
+        "renewable energy",
+        "infrastructure",
+        "environmental impact"
       ],
-      "id": "agentic-web-emerges-and-efforts-to-improve-road",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/"
+      "id": "data-centers-use-old-jet-engines-due-to-power-de",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
     }
   ]
 }
