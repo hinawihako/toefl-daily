@@ -1,5 +1,5 @@
-﻿/* 绂荤嚎缂撳瓨锛欻TML 璧?network-first锛堜繚璇佹洿鏂拌兘鐢熸晥锛夛紝闈欐€佽祫婧愯蛋 cache-first锛屾暟鎹?闊抽璧?network-first 骞跺洖濉紦瀛?*/
-const CACHE = 'toefl-v3';
+/* 绂荤嚎缂撳瓨锛欻TML 璧?network-first锛堜繚璇佹洿鏂拌兘鐢熸晥锛夛紝闈欐€佽祫婧愯蛋 cache-first锛屾暟鎹?闊抽璧?network-first 骞跺洖濉紦瀛?*/
+const CACHE = 'toefl-v4';
 const CORE = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', e => {

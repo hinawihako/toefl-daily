@@ -297,7 +297,8 @@ const LS = {
   get(k,d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d }catch{ return d } },
   set(k,v){ localStorage.setItem(k, JSON.stringify(v)) }
 };
-const today = () => new Date().toISOString().slice(0,10);
+const fmtLocal = d => { const p = n => String(n).padStart(2, '0'); return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); };
+const today = () => fmtLocal(new Date());
 
 let SRS = LS.get('toefl.srs', {});
 let STATS = LS.get('toefl.stats', {date:today(), done:0, streak:0, lastDay:'', pomos:0});
@@ -353,7 +354,7 @@ const $ = s => document.querySelector(s);
 function setTodayStats(){
   if (STATS.date !== today()){
     const y = STATS.date;
-    const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+    const yesterday = fmtLocal(new Date(Date.now() - 86400000));
     STATS.streak = (STATS.done >= STATS.goal && y === yesterday) ? (STATS.streak||0)+1 : STATS.streak||0;
     STATS = {date: today(), done:0, goal: STATS.goal||12, streak: STATS.streak, pomos:0};
     LS.set('toefl.stats', STATS);
