@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T08:10:43+08:00",
+  "generated_at": "2026-11-06T00:45:28+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-04",
-      "file": "data/audio/2026-11-04-briefing.mp3",
-      "script": "Here is your daily briefing. Researchers used 34 copyrighted books to test if OpenAI models can identify content they weren't allowed to train on. Prompt injection is a major security risk where AI systems can be tricked by malicious inputs from emails or websites. AMD's stock increased by 8% after the company reported stronger-than-expected third-quarter earnings. Crude oil prices fell for the second day as traders hoped for a diplomatic resolution to the Iran war.",
-      "duration": "178 KB"
+      "date": "2026-11-06",
+      "file": "data/audio/2026-11-06-briefing.mp3",
+      "script": "Here is your daily briefing. Researchers tested how AI models can complete full data science projects by creating, grading, and revising work in multiple rounds. Large language models require massive computation, but GPUs often sit idle while waiting for data from slow memory or other GPUs. U.S. midterm election outcomes might slow data center expansion, making current AI infrastructure more valuable. In a CNBC interview, Barkin warned about inflation risks and emphasized the need for careful monetary policy adjustments.",
+      "duration": "209 KB"
     }
   ]
 }

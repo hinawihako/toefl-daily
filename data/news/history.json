@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:10:43+08:00",
+ "updated": "2026-11-06T00:45:28+08:00",
  "seen": {
   "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html": "2026-10-25",
   "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html": "2026-10-25",
@@ -87,6 +87,13 @@
   "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/": "2026-11-04",
   "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html": "2026-11-04",
   "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/": "2026-11-04",
-  "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/": "2026-11-04"
+  "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/": "2026-11-04",
+  "https://arxiv.org/abs/2611.05548": "2026-11-06",
+  "https://arxiv.org/abs/2611.05751": "2026-11-06",
+  "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html": "2026-11-06",
+  "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html": "2026-11-06",
+  "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/": "2026-11-06",
+  "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/": "2026-11-06",
+  "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/": "2026-11-06"
  }
 }

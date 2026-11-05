@@ -1,390 +1,344 @@
 {
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T08:10:43+08:00",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T00:45:28+08:00",
   "items": [
     {
-      "title_en": "Testing If AI Models Recognize Secret Training Data",
+      "title_en": "AI Models Improve Data Science Projects Through Iterative Feedback",
       "summary_en": [
-        "Researchers used 34 copyrighted books to test if OpenAI models can identify content they weren't allowed to train on.",
-        "The study found GPT-4o showed signs of recognizing non-public books with an 82% accuracy score.",
-        "This suggests AI models might remember information they shouldn't have access to."
+        "Researchers tested how AI models can complete full data science projects by creating, grading, and revising work in multiple rounds.",
+        "Seven models from five companies were evaluated using a system where a 'writer' builds projects and a 'grader' assesses them for improvements."
       ],
       "key_points_en": [
-        "Study used 34 O'Reilly books in testing",
-        "DE-COP attack method was applied",
-        "GPT-4o showed 82% recognition accuracy"
+        "AI models create, grade, and revise data science projects in three rounds",
+        "Seven models from five developers were tested",
+        "Each model acts as both writer and grader"
       ],
       "translation_zh": [
-        "研究人员使用34本版权书籍测试OpenAI模型是否能识别它们未被允许训练的内容",
-        "研究发现GPT-4o表现出82%的识别非公开书籍的准确性",
-        "这表明AI模型可能记住了不应访问的信息"
+        "研究人员测试了AI模型如何通过多轮创建、评分和修改来完成完整的数据科学项目。",
+        "来自五家公司的七种模型被评估，系统中‘作者’模型构建项目，‘评分者’模型评估改进。"
       ],
       "vocab": [
         {
-          "word": "membership inference attack",
-          "zh": "一种检测模型是否能识别特定数据的攻击方法"
+          "word": "iterated creation",
+          "zh": "反复创建"
         },
         {
-          "word": "AUROC score",
-          "zh": "衡量模型识别能力的指标"
+          "word": "end-to-end",
+          "zh": "全流程"
         },
         {
-          "word": "non-public content",
-          "zh": "未公开的训练数据"
+          "word": "feedback loop",
+          "zh": "反馈循环"
         },
         {
-          "word": "training inclusion",
-          "zh": "训练数据包含情况"
+          "word": "grader model",
+          "zh": "评分模型"
         },
         {
-          "word": "bootstrapped CI",
-          "zh": "统计置信区间计算方法"
+          "word": "revision process",
+          "zh": "修改过程"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "data privacy",
-        "machine learning",
-        "copyright"
+        "data science",
+        "feedback loops",
+        "model evaluation"
       ],
-      "id": "testing-if-ai-models-recognize-secret-training-d",
+      "id": "ai-models-improve-data-science-projects-through",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2505.00020"
+      "link": "https://arxiv.org/abs/2611.05548"
     },
     {
-      "title_en": "New Method to Improve AI Security Against Prompt Injections",
+      "title_en": "Optimizing Data Flow for Large Language Model Training on AMD GPUs",
       "summary_en": [
-        "Prompt injection is a major security risk where AI systems can be tricked by malicious inputs from emails or websites.",
-        "Current top AI defenses like Meta-SecAlign still fail against advanced attacks because they rely on insecure reference models.",
-        "Researchers propose SecPO - a new training method that approximates a secure, ideal reference model for better protection"
+        "Large language models require massive computation, but GPUs often sit idle while waiting for data from slow memory or other GPUs.",
+        "This paper addresses the bottleneck of data availability by focusing on hardware features that explicitly move data.",
+        "Improving data flow reduces wasted compute resources and lowers training costs."
+      ],
+      "key_points_en": [
+        "LLM training needs huge computational power",
+        "Data delays cause GPU compute units to idle",
+        "Hardware features optimize data movement"
       ],
       "translation_zh": [
-        "提示注入是一种重大安全风险，AI系统可能被来自电子邮件或网站的恶意输入欺骗。",
-        "当前顶级AI防御措施如Meta-SecAlign仍无法抵御高级攻击，因为它们依赖不安全的参考模型。",
-        "研究人员提出SecPO - 一种新训练方法，可近似安全的理想参考模型以实现更好的防护"
+        "大型语言模型需要巨大的计算能力，但GPU在等待来自慢速内存或其他GPU的数据时经常处于空闲状态。",
+        "这篇论文通过关注显式移动数据的硬件特性来解决数据可用性的瓶颈问题。",
+        "优化数据流可以减少浪费的计算资源并降低训练成本。"
       ],
       "vocab": [
         {
-          "word": "prompt injection",
-          "zh": "通过恶意指令操控AI系统的行为"
+          "word": "astronomical computation",
+          "zh": "天文数字般的计算需求"
         },
         {
-          "word": "adversarial training",
-          "zh": "对抗性训练方法"
+          "word": "idle compute",
+          "zh": "空闲的计算资源"
         },
         {
-          "word": "attack success rates",
-          "zh": "攻击成功率指标"
+          "word": "data movement",
+          "zh": "数据传输"
         },
         {
-          "word": "reference model",
-          "zh": "训练时作为基准的模型"
+          "word": "primary bottleneck",
+          "zh": "主要瓶颈"
         },
         {
-          "word": "utility-preserving",
-          "zh": "保持原有功能特性的"
+          "word": "hardware features",
+          "zh": "硬件特性"
         }
       ],
       "category": "ai",
       "tags": [
-        "ai security",
-        "llm",
-        "adversarial training",
-        "prompt injection"
+        "llm training",
+        "gpu optimization",
+        "data pipelining",
+        "hardware features"
       ],
-      "id": "new-method-to-improve-ai-security-against-prompt",
+      "id": "optimizing-data-flow-for-large-language-model-tr",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2610.41998",
-      "key_points_en": []
+      "link": "https://arxiv.org/abs/2611.05751"
     },
     {
-      "title_en": "AMD Stock Rises 8% on Strong Earnings and Growing Data Center Sales",
+      "title_en": "Midterm Elections May Shape AI Industry's K-Shaped Growth",
       "summary_en": [
-        "AMD's stock increased by 8% after the company reported stronger-than-expected third-quarter earnings.",
-        "Data center revenue almost doubled, driven by high demand for AI chips."
+        "U.S. midterm election outcomes might slow data center expansion, making current AI infrastructure more valuable.",
+        "This could create challenges for new cloud companies relying on debt to grow"
       ],
       "key_points_en": [
-        "Stock price rose 8%",
-        "Data center revenue nearly doubled",
-        "AI chip sales boosted results"
+        "Midterm results may slow data center development",
+        "Existing AI capacity could become more valuable",
+        "Debt-funded neoclouds face increased pressure"
       ],
       "translation_zh": [
-        "AMD的股价上涨了8%，因为该公司公布的第三季度财报好于预期。",
-        "数据中心收入几乎翻倍，因为对AI芯片的需求很高。"
+        "美国中期选举结果可能会减缓数据中心的扩张，使现有的AI基础设施变得更加有价值。",
+        "这可能会给依赖债务增长的新云公司带来挑战。"
       ],
       "vocab": [
         {
-          "word": "stock jumps",
-          "zh": "股价上涨"
+          "word": "slow down",
+          "zh": "减缓"
         },
         {
-          "word": "data center revenue",
-          "zh": "数据中心收入"
+          "word": "existing AI capacity",
+          "zh": "现有AI能力"
         },
         {
-          "word": "booming sales",
-          "zh": "销售激增"
+          "word": "increase pressure",
+          "zh": "增加压力"
         },
         {
-          "word": "better-than-expected results",
-          "zh": "超出预期的业绩"
+          "word": "debt-funded neoclouds",
+          "zh": "以债务融资的新云公司"
         },
         {
-          "word": "driven by",
-          "zh": "由...驱动"
+          "word": "K-shaped trade",
+          "zh": "K型交易"
         }
       ],
       "category": "finance",
       "tags": [
-        "stock market",
-        "AI technology",
-        "company earnings",
-        "data centers"
-      ],
-      "id": "amd-stock-rises-8-on-strong-earnings-and-growing",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
-    },
-    {
-      "title_en": "Crude oil prices drop again as markets hope for diplomatic solution to Iran conflict",
-      "summary_en": [
-        "Crude oil prices fell for the second day as traders hoped for a diplomatic resolution to the Iran war.",
-        "This came after U.S. and Iranian leaders showed openness to negotiating a peaceful solution."
-      ],
-      "key_points_en": [
-        "Oil prices dropped for two consecutive days",
-        "U.S. and Iran discussed diplomatic talks",
-        "Prices rose the day before the news"
-      ],
-      "translation_zh": [
-        "原油价格连续第二天下跌，因为交易员希望找到解决伊朗战争的外交方案。",
-        "这发生在美伊领导人表示愿意就和平解决方案进行谈判之后。"
-      ],
-      "vocab": [
-        {
-          "word": "rebound",
-          "zh": "回升"
-        },
-        {
-          "word": "diplomatic resolution",
-          "zh": "外交解决方案"
-        },
-        {
-          "word": "market hopes",
-          "zh": "市场希望"
-        },
-        {
-          "word": "crude oil prices",
-          "zh": "原油价格"
-        },
-        {
-          "word": "signalled",
-          "zh": "暗示"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "oil prices",
-        "diplomacy",
-        "iran conflict",
-        "market trends"
-      ],
-      "id": "crude-oil-prices-drop-again-as-markets-hope-for",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
-    },
-    {
-      "title_en": "CrowdStrike to spend nearly $500 million on two AI security startups as agent security market grows",
-      "summary_en": [
-        "CrowdStrike plans to buy two AI security companies, Fiddler AI and Dreadnode, for almost $500 million.",
-        "The deal reflects growing demand for tools that monitor and test AI systems in businesses."
-      ],
-      "key_points_en": [
-        "CrowdStrike will acquire Fiddler AI and Dreadnode",
-        "The purchase totals nearly $500 million",
-        "The market for AI security tools is expanding"
-      ],
-      "translation_zh": [
-        "CrowdStrike计划以近5亿美元收购两家AI安全公司Fiddler AI和Dreadnode。",
-        "这笔交易反映了企业对监控和测试AI系统的工具需求增加。"
-      ],
-      "vocab": [
-        {
-          "word": "shell out",
-          "zh": "花费大量金钱"
-        },
-        {
-          "word": "AI security startups",
-          "zh": "人工智能安全初创公司"
-        },
-        {
-          "word": "agent security market",
-          "zh": "代理安全市场"
-        },
-        {
-          "word": "observability software",
-          "zh": "可观测性软件"
-        },
-        {
-          "word": "automate security testing",
-          "zh": "自动化安全测试"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "ai",
-        "security",
-        "acquisition",
-        "startup"
-      ],
-      "id": "crowdstrike-to-spend-nearly-500-million-on-two-a",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/"
-    },
-    {
-      "title_en": "AMD's Earnings Disappointment and Trading Opportunities",
-      "summary_en": [
-        "AMD's recent earnings report fell short of expectations, leading to a significant drop in its stock price.",
-        "One trading strategy involves using options to capitalize on the volatility caused by the earnings miss."
-      ],
-      "key_points_en": [
-        "AMD's earnings were below analyst expectations",
-        "Stock price declined sharply after the report",
-        "Options trading is suggested as a potential strategy"
-      ],
-      "translation_zh": [
-        "AMD最近的财报表现未达预期，导致股价大幅下跌。",
-        "一种交易策略是利用期权来应对财报不及预期带来的波动。"
-      ],
-      "vocab": [
-        {
-          "word": "crushed into earnings",
-          "zh": "财报表现不佳"
-        },
-        {
-          "word": "trading strategy",
-          "zh": "交易策略"
-        },
-        {
-          "word": "earnings disappointment",
-          "zh": "财报令人失望"
-        },
-        {
-          "word": "stock price drop",
-          "zh": "股价下跌"
-        },
-        {
-          "word": "options trading",
-          "zh": "期权交易"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "stock market",
-        "trading strategies",
-        "earnings report",
-        "options trading"
-      ],
-      "id": "amd-s-earnings-disappointment-and-trading-opport",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html"
-    },
-    {
-      "title_en": "Apple's 2027 Home Robot: Expensive and Limited Features",
-      "summary_en": [
-        "Apple plans to release a home robot in 2027 that can handle FaceTime calls and control lights, but it may cost $1,000.",
-        "The robot project is supported by Apple's CEO John Ternus, though its practical uses might be limited."
-      ],
-      "key_points_en": [
-        "Releases in 2027",
-        "Priced at $1,000",
-        "Limited functionality"
-      ],
-      "translation_zh": [
-        "苹果计划在2027年推出一款家用机器人，可以处理FaceTime通话和控制灯光，但价格可能高达1000美元。",
-        "该机器人项目由苹果首席执行官约翰·特努斯支持，但其实际用途可能有限。"
-      ],
-      "vocab": [
-        {
-          "word": "hefty price tag",
-          "zh": "高昂的价格"
-        },
-        {
-          "word": "limited uses",
-          "zh": "有限的用途"
-        },
-        {
-          "word": "backed by CEO",
-          "zh": "得到首席执行官支持"
-        },
-        {
-          "word": "switching on lights",
-          "zh": "打开灯光"
-        },
-        {
-          "word": "home robot",
-          "zh": "家用机器人"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "apple",
-        "home robot",
-        "future tech",
-        "price"
-      ],
-      "id": "apple-s-2027-home-robot-expensive-and-limited-fe",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/"
-    },
-    {
-      "title_en": "Data centers use old jet engines due to power delays",
-      "summary_en": [
-        "Data centers are using old jet engines because they face long delays in getting power from the grid.",
-        "This solution is less efficient and worse for the environment compared to modern alternatives."
-      ],
-      "key_points_en": [
-        "Long waits for grid power force data centers to use old jet engines",
-        "Old engines are less efficient and environmentally friendly",
-        "Delays in new turbine installations drive this unusual choice"
-      ],
-      "translation_zh": [
-        "数据中心因电网供电延迟而使用旧喷气发动机",
-        "这种解决方案效率较低且对环境不友好"
-      ],
-      "vocab": [
-        {
-          "word": "turn to",
-          "zh": "转向（使用）"
-        },
-        {
-          "word": "unusual solution",
-          "zh": "不寻常的解决方案"
-        },
-        {
-          "word": "less efficient",
-          "zh": "效率较低"
-        },
-        {
-          "word": "environmentally friendly",
-          "zh": "环保的"
-        },
-        {
-          "word": "power delays",
-          "zh": "供电延迟"
-        }
-      ],
-      "category": "tech",
-      "tags": [
+        "midterm elections",
+        "AI industry",
         "data centers",
-        "renewable energy",
-        "infrastructure",
-        "environmental impact"
+        "neoclouds"
       ],
-      "id": "data-centers-use-old-jet-engines-due-to-power-de",
+      "id": "midterm-elections-may-shape-ai-industry-s-k-shap",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/05/ai-data-centers-midterms-capacity.html"
+    },
+    {
+      "title_en": "Barkin Foresees Gradual Interest Rate Increases Amid Inflation Concerns",
+      "summary_en": [
+        "In a CNBC interview, Barkin warned about inflation risks and emphasized the need for careful monetary policy adjustments.",
+        "Rate hikes are expected but will occur slowly to avoid economic disruption."
+      ],
+      "key_points_en": [
+        "Inflation concerns are driving potential rate hikes",
+        "Monetary policy adjustments are necessary",
+        "Rate increases will be implemented gradually"
+      ],
+      "translation_zh": [
+        "在CNBC采访中，Barkin警告了通胀风险，并强调需要谨慎调整货币政策。",
+        "加息是预期的，但将缓慢进行以避免经济动荡。"
+      ],
+      "vocab": [
+        {
+          "word": "interest rate hikes",
+          "zh": "加息措施"
+        },
+        {
+          "word": "gradual pace",
+          "zh": "逐步推进"
+        },
+        {
+          "word": "monetary policy",
+          "zh": "货币政策"
+        },
+        {
+          "word": "adjust",
+          "zh": "调整"
+        },
+        {
+          "word": "inflation concerns",
+          "zh": "通胀担忧"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "inflation",
+        "monetary policy",
+        "interest rates",
+        "central bank"
+      ],
+      "id": "barkin-foresees-gradual-interest-rate-increases",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html"
+    },
+    {
+      "title_en": "Dropbox buys Tigris Data for $350 million to improve AI tools",
+      "summary_en": [
+        "Dropbox has purchased Tigris Data for $350 million to strengthen its AI technology. The money will help create DBX Agent Cloud, a new platform for developers working on AI projects.",
+        "The acquisition aims to support tools that help build and run artificial intelligence systems more efficiently."
+      ],
+      "key_points_en": [
+        "Dropbox paid $350 million for Tigris Data",
+        "DBX Agent Cloud is a new storage platform for AI developers",
+        "The deal focuses on improving AI infrastructure"
+      ],
+      "translation_zh": [
+        "Dropbox以3.5亿美元收购Tigris Data以增强其人工智能技术。这笔资金将用于创建DBX Agent Cloud，这是一个为开发人工智能项目的开发者提供的新平台。",
+        "此次收购旨在支持更高效地构建和运行人工智能系统的工具。"
+      ],
+      "vocab": [
+        {
+          "word": "bolster",
+          "zh": "加强，增强"
+        },
+        {
+          "word": "infrastructure",
+          "zh": "基础设施"
+        },
+        {
+          "word": "storage platform",
+          "zh": "存储平台"
+        },
+        {
+          "word": "AI models",
+          "zh": "人工智能模型"
+        },
+        {
+          "word": "developers",
+          "zh": "开发者"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "acquisition",
+        "cloud computing",
+        "infrastructure"
+      ],
+      "id": "dropbox-buys-tigris-data-for-350-million-to-impr",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/"
+      "link": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+    },
+    {
+      "title_en": "YC Startup Offers $1M for AI Solutions to Materials Science Challenges",
+      "summary_en": [
+        "A young YC startup called Discovered Materials is using AI to discover new chip materials.",
+        "They will give $200,000 for each correct answer to five difficult materials science questions."
+      ],
+      "key_points_en": [
+        "Startup uses AI to find chip materials",
+        "$200,000 prize per problem solved",
+        "Focus on unsolved materials science issues"
+      ],
+      "translation_zh": [
+        "一家名为Discovered Materials的初创公司正在利用人工智能寻找芯片材料。",
+        "他们将为每个正确解答五个材料科学难题的人提供20万美元。"
+      ],
+      "vocab": [
+        {
+          "word": "AI solutions",
+          "zh": "人工智能解决方案"
+        },
+        {
+          "word": "chip materials",
+          "zh": "芯片材料"
+        },
+        {
+          "word": "unsolved problems",
+          "zh": "未解决的问题"
+        },
+        {
+          "word": "offering prizes",
+          "zh": "提供奖金"
+        },
+        {
+          "word": "materials science",
+          "zh": "材料科学"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "materials science",
+        "startup",
+        "prize money"
+      ],
+      "id": "yc-startup-offers-1m-for-ai-solutions-to-materia",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/"
+    },
+    {
+      "title_en": "Hackers Exploit iOS and Android Vulnerabilities to Target Diplomats",
+      "summary_en": [
+        "Researchers found hackers used security flaws in iOS and Android to infect phones.",
+        "The group may have been supported by the Kremlin and focused on diplomatic targets."
+      ],
+      "key_points_en": [
+        "Hackers exploited mobile operating system flaws",
+        "Possible Kremlin sponsorship identified",
+        "Diplomatic targets were the focus"
+      ],
+      "translation_zh": [
+        "研究人员发现黑客利用iOS和Android系统的安全漏洞感染手机。",
+        "该组织可能受到克里姆林宫支持，并针对外交目标。"
+      ],
+      "vocab": [
+        {
+          "word": "exploit flaws",
+          "zh": "利用漏洞"
+        },
+        {
+          "word": "sponsored group",
+          "zh": "受资助的组织"
+        },
+        {
+          "word": "targeted diplomats",
+          "zh": "针对外交官"
+        },
+        {
+          "word": "security vulnerabilities",
+          "zh": "安全漏洞"
+        },
+        {
+          "word": "hackers infiltrate",
+          "zh": "黑客入侵"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "cybersecurity",
+        "hacking",
+        "government",
+        "mobile security"
+      ],
+      "id": "hackers-exploit-ios-and-android-vulnerabilities",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/"
     }
   ]
 }
