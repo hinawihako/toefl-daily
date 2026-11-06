@@ -1,12 +1,4 @@
 {
-  "generated_at": "2026-11-06T00:45:28+08:00",
-  "items": [
-    {
-      "title": "Daily Briefing",
-      "date": "2026-11-06",
-      "file": "data/audio/2026-11-06-briefing.mp3",
-      "script": "Here is your daily briefing. Researchers tested how AI models can complete full data science projects by creating, grading, and revising work in multiple rounds. Large language models require massive computation, but GPUs often sit idle while waiting for data from slow memory or other GPUs. U.S. midterm election outcomes might slow data center expansion, making current AI infrastructure more valuable. In a CNBC interview, Barkin warned about inflation risks and emphasized the need for careful monetary policy adjustments.",
-      "duration": "209 KB"
-    }
-  ]
+  "generated_at": "2026-11-06T19:51:25+08:00",
+  "items": []
 }
