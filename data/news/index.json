@@ -1,5 +1,442 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T19:51:25+08:00",
-  "items": []
+  "generated_at": "2026-11-06T20:01:35+08:00",
+  "items": [
+    {
+      "title_en": "Study Shows Kernel Machines Vulnerable to Adversarial Attacks",
+      "summary_en": [
+        "This research examines how well kernel machines handle adversarial examples in machine learning.",
+        "The paper compares different models and proposes a new method to improve their robustness against attacks."
+      ],
+      "key_points_en": [
+        "Kernel machines' vulnerability to adversarial attacks is analyzed",
+        "White-box and black-box attack methods are tested",
+        "New algorithm for adversarial training is introduced"
+      ],
+      "translation_zh": [
+        "这项研究检查了核机器在机器学习中如何应对对抗性示例",
+        "论文比较了不同模型并提出了一种新方法来提高其抗攻击能力"
+      ],
+      "vocab": [
+        {
+          "word": "adversarial examples",
+          "zh": "对抗性示例"
+        },
+        {
+          "word": "robustness",
+          "zh": "鲁棒性"
+        },
+        {
+          "word": "white-box attacks",
+          "zh": "白盒攻击"
+        },
+        {
+          "word": "black-box evasion",
+          "zh": "黑盒规避"
+        },
+        {
+          "word": "adversarial training",
+          "zh": "对抗训练"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "machine learning",
+        "adversarial attacks",
+        "kernel machines",
+        "robustness"
+      ],
+      "id": "study-shows-kernel-machines-vulnerable-to-advers",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.07474"
+    },
+    {
+      "title_en": "Agentic Evolution: The Key to Adapting Large Language Models",
+      "summary_en": [
+        "As LLMs move into real-world environments, static training can't keep up with changing conditions",
+        "Current adaptation methods lack the ability to make lasting improvements",
+        "Agentic evolution offers a new way to bridge the training-deployment gap"
+      ],
+      "key_points_en": [
+        "Static training fails in dynamic environments",
+        "Existing methods lack strategic problem-solving",
+        "Agentic evolution enables self-improving systems"
+      ],
+      "translation_zh": [
+        "随着大语言模型进入现实环境，静态训练无法适应变化条件",
+        "现有方法缺乏解决问题的策略性",
+        "智能进化使系统能够自我改进"
+      ],
+      "vocab": [
+        {
+          "word": "static training",
+          "zh": "不随环境变化的训练方式"
+        },
+        {
+          "word": "train-deploy gap",
+          "zh": "训练与部署环境的差异"
+        },
+        {
+          "word": "strategic agency",
+          "zh": "战略性问题解决能力"
+        },
+        {
+          "word": "parametric fine-tuning",
+          "zh": "参数微调方法"
+        },
+        {
+          "word": "heuristic memory",
+          "zh": "启发式记忆积累"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "llm adaptation",
+        "evolutionary ai",
+        "ai training",
+        "machine learning"
+      ],
+      "id": "agentic-evolution-the-key-to-adapting-large-lang",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2602.00359"
+    },
+    {
+      "title_en": "AI Assistant Accelerates Materials Research",
+      "summary_en": [
+        "A new AI system called MIND helps scientists test material hypotheses automatically. It uses machine learning to refine ideas, run experiments, and validate results through debate.",
+        "The system combines text-based reasoning with computer simulations to speed up scientific discovery in materials science."
+      ],
+      "key_points_en": [
+        "MIND uses AI to refine scientific hypotheses",
+        "It performs experiments using machine learning models",
+        "The system validates results through automated debate"
+      ],
+      "translation_zh": [
+        "新的人工智能系统MIND帮助科学家自动测试材料假设。它利用机器学习来完善想法、进行实验并通过辩论验证结果。",
+        "该系统结合文本推理和计算机模拟，加速材料科学的发现过程。"
+      ],
+      "vocab": [
+        {
+          "word": "hypothesis refinement",
+          "zh": "完善假设"
+        },
+        {
+          "word": "experimental verification",
+          "zh": "实验验证"
+        },
+        {
+          "word": "multi-agent pipeline",
+          "zh": "多代理流程"
+        },
+        {
+          "word": "in-silico experiments",
+          "zh": "计算机模拟实验"
+        },
+        {
+          "word": "debate-based validation",
+          "zh": "基于辩论的验证"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "materials science",
+        "llm",
+        "research automation"
+      ],
+      "id": "ai-assistant-accelerates-materials-research",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2604.13699"
+    },
+    {
+      "title_en": "Neocloud IREN Delays $4 Billion in Annual Revenue Due to Customer Requests",
+      "summary_en": [
+        "Neocloud IREN is delaying $4 billion in annual revenue from 2026 to early next year because of customer requests.",
+        "The company's stock price dropped sharply after announcing the delay."
+      ],
+      "key_points_en": [
+        "$4 billion in revenue delayed until early next year",
+        "Stock price plunged after the announcement",
+        "Customer requests caused the delay"
+      ],
+      "translation_zh": [
+        "Neocloud IREN 因客户要求将 2026 年的 40 亿美元年收入推迟到明年年初。",
+        "公司在宣布延迟后股价大幅下跌。"
+      ],
+      "vocab": [
+        {
+          "word": "annualized revenue",
+          "zh": "年度化收入"
+        },
+        {
+          "word": "delayed due to",
+          "zh": "因...而延迟"
+        },
+        {
+          "word": "stock price plunge",
+          "zh": "股价暴跌"
+        },
+        {
+          "word": "customer request",
+          "zh": "客户需求"
+        },
+        {
+          "word": "annual revenue",
+          "zh": "年收入"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "revenue delay",
+        "stock market",
+        "customer impact",
+        "financial reporting"
+      ],
+      "id": "neocloud-iren-delays-4-billion-in-annual-revenue",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html"
+    },
+    {
+      "title_en": "Democratic election win prompts market rethink on interest rates",
+      "summary_en": [
+        "The article says that a Democratic victory might lead to changes in how interest rates are set.",
+        "Factors like resolving the Iran conflict, slower US growth, and new economic policies could influence rate hikes, but nothing is certain yet."
+      ],
+      "key_points_en": [
+        "Democratic sweep may change interest rate strategies",
+        "Iran resolution and US growth affect rate hikes",
+        "New fiscal policies could impact rates, but outcomes are uncertain"
+      ],
+      "translation_zh": [
+        "这篇文章指出，民主党在选举中的胜利可能导致市场重新考虑利率的设定方式。",
+        "文章提到，解决伊朗冲突、美国经济增长放缓以及新的经济政策可能会影响加息，但结果尚不确定。"
+      ],
+      "vocab": [
+        {
+          "word": "rethink path",
+          "zh": "重新考虑方法"
+        },
+        {
+          "word": "set in stone",
+          "zh": "确定无疑"
+        },
+        {
+          "word": "rate hikes",
+          "zh": "加息措施"
+        },
+        {
+          "word": "slower growth",
+          "zh": "增长放缓"
+        },
+        {
+          "word": "fiscal policy",
+          "zh": "财政政策"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "elections",
+        "interest rates",
+        "market reaction",
+        "fiscal policy"
+      ],
+      "id": "democratic-election-win-prompts-market-rethink-o",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html"
+    },
+    {
+      "title_en": "AI Trade Outlook and Investor Strategies According to CNBC Experts",
+      "summary_en": [
+        "A recent election result is influencing technology investments, according to CNBC analysts.",
+        "Experts suggest investors should reassess AI-related opportunities amid changing market conditions.",
+        "The article explores whether the AI investment trend will continue or slow down."
+      ],
+      "key_points_en": [
+        "Election outcomes affect tech investment calculations",
+        "AI trade dynamics are under review by financial experts",
+        "Investors need updated strategies for AI markets"
+      ],
+      "translation_zh": [
+        "最近的选举结果正在影响科技投资，CNBC分析师表示。",
+        "专家建议投资者应重新评估人工智能相关的机遇，因为市场状况正在变化。",
+        "文章探讨了人工智能投资趋势是否会继续或放缓。"
+      ],
+      "vocab": [
+        {
+          "word": "investment math",
+          "zh": "投资计算方式"
+        },
+        {
+          "word": "technology investment",
+          "zh": "科技投资"
+        },
+        {
+          "word": "AI trade",
+          "zh": "人工智能交易"
+        },
+        {
+          "word": "investor strategies",
+          "zh": "投资者策略"
+        },
+        {
+          "word": "changing market conditions",
+          "zh": "变化的市场环境"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ai",
+        "investing",
+        "election impact",
+        "market trends"
+      ],
+      "id": "ai-trade-outlook-and-investor-strategies-accordi",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html"
+    },
+    {
+      "title_en": "Palo Alto Networks Considering $500M Acquisition of AI Security Startup Clutch",
+      "summary_en": [
+        "Palo Alto Networks is discussing a $500 million purchase of Clutch, an AI security company. Clutch, previously valued at $85 million, has investors including Lightspeed and SignalFire.",
+        "The potential deal highlights growing interest in AI-driven cybersecurity solutions."
+      ],
+      "key_points_en": [
+        "Palo Alto Networks may buy Clutch for $500 million",
+        "Clutch was last valued at $85 million",
+        "Lightspeed and SignalFire invested in Clutch"
+      ],
+      "translation_zh": [
+        "帕洛阿尔托网络公司正在讨论以5亿美元收购人工智能安全公司Clutch。Clutch此前估值为8500万美元，投资者包括Lightspeed和SignalFire。",
+        "这笔潜在交易凸显了人们对人工智能驱动的网络安全解决方案日益增长的兴趣。"
+      ],
+      "vocab": [
+        {
+          "word": "acquisition talks",
+          "zh": "收购谈判"
+        },
+        {
+          "word": "AI agent security",
+          "zh": "人工智能代理安全"
+        },
+        {
+          "word": "backed by",
+          "zh": "由...投资"
+        },
+        {
+          "word": "valued at",
+          "zh": "估值为"
+        },
+        {
+          "word": "source",
+          "zh": "消息来源"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "acquisition",
+        "AI security",
+        "startup",
+        "valuation"
+      ],
+      "id": "palo-alto-networks-considering-500m-acquisition",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+    },
+    {
+      "title_en": "Harbinger Secures $240M Funding Expansion into Defense Sector",
+      "summary_en": [
+        "Harbinger, a Los Angeles-based startup, has raised over $650 million in total funding.",
+        "The company is now developing electric trucks, emergency vehicles, and a driverless platform for military use."
+      ],
+      "key_points_en": [
+        "Raised over $650 million in total funding",
+        "Developing electric and emergency vehicles",
+        "Creating a driverless platform for military use"
+      ],
+      "translation_zh": [
+        "Harbinger是一家位于洛杉矶的初创公司，已累计筹集超过6.5亿美元的资金。",
+        "该公司目前正在开发电动卡车、应急车辆以及用于军事用途的无人驾驶平台。"
+      ],
+      "vocab": [
+        {
+          "word": "raises funding",
+          "zh": "筹集资金"
+        },
+        {
+          "word": "electric trucks",
+          "zh": "电动卡车"
+        },
+        {
+          "word": "driverless platform",
+          "zh": "无人驾驶平台"
+        },
+        {
+          "word": "emergency vehicles",
+          "zh": "应急车辆"
+        },
+        {
+          "word": "expanding into",
+          "zh": "扩展进入"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "startup",
+        "funding",
+        "defense",
+        "electric vehicles"
+      ],
+      "id": "harbinger-secures-240m-funding-expansion-into-de",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/"
+    },
+    {
+      "title_en": "At least 10 local governments have removed Flock’s surveillance cameras since summer",
+      "summary_en": [
+        "At least 10 local governments have stopped using Flock’s surveillance cameras since summer.",
+        "Concerns include privacy issues, unclear data sharing practices, and problems with how the cameras were purchased."
+      ],
+      "key_points_en": [
+        "10+ local governments removed Flock cameras",
+        "Privacy and data sharing concerns raised",
+        "Procurement process questioned"
+      ],
+      "translation_zh": [
+        "至少有10个地方政府自夏季以来停止使用Flock的监控摄像头。",
+        "担忧包括隐私问题、数据共享的不明确做法以及摄像头采购过程的问题。"
+      ],
+      "vocab": [
+        {
+          "word": "move to drop",
+          "zh": "采取措施停止使用"
+        },
+        {
+          "word": "surveillance cameras",
+          "zh": "监控摄像头"
+        },
+        {
+          "word": "data sharing",
+          "zh": "数据共享"
+        },
+        {
+          "word": "procurement concerns",
+          "zh": "采购担忧"
+        },
+        {
+          "word": "local governments",
+          "zh": "地方政府"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "government",
+        "data_security"
+      ],
+      "id": "at-least-10-local-governments-have-removed-flock",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/"
+    }
+  ]
 }

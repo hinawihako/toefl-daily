@@ -1,4 +1,12 @@
 {
-  "generated_at": "2026-11-06T19:51:25+08:00",
-  "items": []
+  "generated_at": "2026-11-06T20:01:35+08:00",
+  "items": [
+    {
+      "title": "Daily Briefing",
+      "date": "2026-11-06",
+      "file": "data/audio/2026-11-06-briefing.mp3",
+      "script": "Here is your daily briefing. This research examines how well kernel machines handle adversarial examples in machine learning. As LLMs move into real-world environments, static training can't keep up with changing conditions A new AI system called MIND helps scientists test material hypotheses automatically. It uses machine learning to refine ideas, run experiments, and validate results through debate. Neocloud IREN is delaying $4 billion in annual revenue from 2026 to early next year because of customer requests.",
+      "duration": "202 KB"
+    }
+  ]
 }
