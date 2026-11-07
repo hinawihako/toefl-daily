@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T20:01:35+08:00",
+  "generated_at": "2026-11-08T07:02:36+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-06",
-      "file": "data/audio/2026-11-06-briefing.mp3",
-      "script": "Here is your daily briefing. This research examines how well kernel machines handle adversarial examples in machine learning. As LLMs move into real-world environments, static training can't keep up with changing conditions A new AI system called MIND helps scientists test material hypotheses automatically. It uses machine learning to refine ideas, run experiments, and validate results through debate. Neocloud IREN is delaying $4 billion in annual revenue from 2026 to early next year because of customer requests.",
-      "duration": "202 KB"
+      "date": "2026-11-08",
+      "file": "data/audio/2026-11-08-briefing.mp3",
+      "script": "Here is your daily briefing. The Pentagon has conditionally approved a $250 million loan to help 6K expand its battery production. This article discusses how reverse game theory might help manage powerful AI systems by creating incentives for cooperation. Anthropic is set to become the first AI-focused company to go public as public trust in AI declines. Berkshire Hathaway increased its share repurchases by more than double in the third quarter. This happened even though the company's operating and overall profits decreased.",
+      "duration": "201 KB"
     }
   ]
 }

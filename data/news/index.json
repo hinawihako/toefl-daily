@@ -1,442 +1,442 @@
 {
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T20:01:35+08:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T07:02:36+08:00",
   "items": [
     {
-      "title_en": "Study Shows Kernel Machines Vulnerable to Adversarial Attacks",
+      "title_en": "Pentagon Provides $250M Loan to Battery Startup 6K for US Factory",
       "summary_en": [
-        "This research examines how well kernel machines handle adversarial examples in machine learning.",
-        "The paper compares different models and proposes a new method to improve their robustness against attacks."
+        "The Pentagon has conditionally approved a $250 million loan to help 6K expand its battery production.",
+        "The loan aims to scale up 6K's microwave-plasma battery material manufacturing process in the US."
       ],
       "key_points_en": [
-        "Kernel machines' vulnerability to adversarial attacks is analyzed",
-        "White-box and black-box attack methods are tested",
-        "New algorithm for adversarial training is introduced"
+        "Pentagon approved a $250M loan for 6K",
+        "Loan is conditional on scaling production",
+        "6K uses microwave-plasma technology"
       ],
       "translation_zh": [
-        "这项研究检查了核机器在机器学习中如何应对对抗性示例",
-        "论文比较了不同模型并提出了一种新方法来提高其抗攻击能力"
+        "美国国防部有条件批准了2.5亿美元贷款，帮助6K扩大电池生产",
+        "这笔贷款旨在在美国扩大6K的微波等离子体电池材料制造工艺"
       ],
       "vocab": [
         {
-          "word": "adversarial examples",
-          "zh": "对抗性示例"
+          "word": "conditionally approved",
+          "zh": "有条件批准"
         },
         {
-          "word": "robustness",
-          "zh": "鲁棒性"
+          "word": "scale up",
+          "zh": "扩大规模"
         },
         {
-          "word": "white-box attacks",
-          "zh": "白盒攻击"
+          "word": "microwave-plasma battery",
+          "zh": "微波等离子体电池"
         },
         {
-          "word": "black-box evasion",
-          "zh": "黑盒规避"
+          "word": "manufacturing process",
+          "zh": "制造工艺"
         },
         {
-          "word": "adversarial training",
-          "zh": "对抗训练"
+          "word": "government loan",
+          "zh": "政府贷款"
         }
       ],
-      "category": "ai",
+      "category": "tech",
       "tags": [
-        "machine learning",
-        "adversarial attacks",
-        "kernel machines",
-        "robustness"
+        "battery technology",
+        "government funding",
+        "manufacturing",
+        "startup"
       ],
-      "id": "study-shows-kernel-machines-vulnerable-to-advers",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.07474"
+      "id": "pentagon-provides-250m-loan-to-battery-startup-6",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/"
     },
     {
-      "title_en": "Agentic Evolution: The Key to Adapting Large Language Models",
+      "title_en": "Controlling AI with Reverse Game Theory and Super Intelligence Tests",
       "summary_en": [
-        "As LLMs move into real-world environments, static training can't keep up with changing conditions",
-        "Current adaptation methods lack the ability to make lasting improvements",
-        "Agentic evolution offers a new way to bridge the training-deployment gap"
+        "This article discusses how reverse game theory might help manage powerful AI systems by creating incentives for cooperation.",
+        "It also explores loyalty tests designed to ensure super intelligent AI remains aligned with human goals."
       ],
       "key_points_en": [
-        "Static training fails in dynamic environments",
-        "Existing methods lack strategic problem-solving",
-        "Agentic evolution enables self-improving systems"
+        "Reverse game theory uses incentives to control AI",
+        "Loyalty tests aim to ensure AI loyalty",
+        "The Download is a tech newsletter"
       ],
       "translation_zh": [
-        "随着大语言模型进入现实环境，静态训练无法适应变化条件",
-        "现有方法缺乏解决问题的策略性",
-        "智能进化使系统能够自我改进"
+        "这篇文章讨论了如何通过反向博弈论来管理强大的AI系统，通过创造合作的激励措施。",
+        "它还探讨了旨在确保超级智能AI与人类目标保持一致的忠诚度测试。"
       ],
       "vocab": [
         {
-          "word": "static training",
-          "zh": "不随环境变化的训练方式"
+          "word": "incentivize them to",
+          "zh": "激励它们做某事"
         },
         {
-          "word": "train-deploy gap",
-          "zh": "训练与部署环境的差异"
+          "word": "powerful AI models",
+          "zh": "强大的AI模型"
         },
         {
-          "word": "strategic agency",
-          "zh": "战略性问题解决能力"
+          "word": "loyalty tests",
+          "zh": "忠诚度测试"
         },
         {
-          "word": "parametric fine-tuning",
-          "zh": "参数微调方法"
+          "word": "daily dose",
+          "zh": "每日剂量"
         },
         {
-          "word": "heuristic memory",
-          "zh": "启发式记忆积累"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "llm adaptation",
-        "evolutionary ai",
-        "ai training",
-        "machine learning"
-      ],
-      "id": "agentic-evolution-the-key-to-adapting-large-lang",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2602.00359"
-    },
-    {
-      "title_en": "AI Assistant Accelerates Materials Research",
-      "summary_en": [
-        "A new AI system called MIND helps scientists test material hypotheses automatically. It uses machine learning to refine ideas, run experiments, and validate results through debate.",
-        "The system combines text-based reasoning with computer simulations to speed up scientific discovery in materials science."
-      ],
-      "key_points_en": [
-        "MIND uses AI to refine scientific hypotheses",
-        "It performs experiments using machine learning models",
-        "The system validates results through automated debate"
-      ],
-      "translation_zh": [
-        "新的人工智能系统MIND帮助科学家自动测试材料假设。它利用机器学习来完善想法、进行实验并通过辩论验证结果。",
-        "该系统结合文本推理和计算机模拟，加速材料科学的发现过程。"
-      ],
-      "vocab": [
-        {
-          "word": "hypothesis refinement",
-          "zh": "完善假设"
-        },
-        {
-          "word": "experimental verification",
-          "zh": "实验验证"
-        },
-        {
-          "word": "multi-agent pipeline",
-          "zh": "多代理流程"
-        },
-        {
-          "word": "in-silico experiments",
-          "zh": "计算机模拟实验"
-        },
-        {
-          "word": "debate-based validation",
-          "zh": "基于辩论的验证"
+          "word": "keep in check",
+          "zh": "控制住"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "materials science",
-        "llm",
-        "research automation"
+        "control",
+        "intelligence",
+        "ethics"
       ],
-      "id": "ai-assistant-accelerates-materials-research",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2604.13699"
+      "id": "controlling-ai-with-reverse-game-theory-and-supe",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/"
     },
     {
-      "title_en": "Neocloud IREN Delays $4 Billion in Annual Revenue Due to Customer Requests",
+      "title_en": "Anthropic's IPO Faces AI Industry Backlash Amid Public Skepticism",
       "summary_en": [
-        "Neocloud IREN is delaying $4 billion in annual revenue from 2026 to early next year because of customer requests.",
-        "The company's stock price dropped sharply after announcing the delay."
+        "Anthropic is set to become the first AI-focused company to go public as public trust in AI declines.",
+        "Midterm election results have intensified criticism of data centers linked to AI expansion."
       ],
       "key_points_en": [
-        "$4 billion in revenue delayed until early next year",
-        "Stock price plunged after the announcement",
-        "Customer requests caused the delay"
+        "Anthropic aims to be first pure AI IPO",
+        "Public skepticism toward AI grows",
+        "Midterms highlight data center backlash"
       ],
       "translation_zh": [
-        "Neocloud IREN 因客户要求将 2026 年的 40 亿美元年收入推迟到明年年初。",
-        "公司在宣布延迟后股价大幅下跌。"
+        "Anthropic计划成为首家上市的人工智能公司，但公众对人工智能的信任正在下降。",
+        "中期选举结果加剧了对与人工智能扩张相关的数据中心的批评。"
       ],
       "vocab": [
         {
-          "word": "annualized revenue",
-          "zh": "年度化收入"
+          "word": "pure-play AI",
+          "zh": "专注于人工智能的"
         },
         {
-          "word": "delayed due to",
-          "zh": "因...而延迟"
+          "word": "increasingly leary",
+          "zh": "越来越怀疑的"
         },
         {
-          "word": "stock price plunge",
-          "zh": "股价暴跌"
+          "word": "stinging rebuke",
+          "zh": "严厉的谴责"
         },
         {
-          "word": "customer request",
-          "zh": "客户需求"
+          "word": "hit the public market",
+          "zh": "进入公开市场"
         },
         {
-          "word": "annual revenue",
-          "zh": "年收入"
+          "word": "data centers",
+          "zh": "数据中心"
         }
       ],
       "category": "finance",
       "tags": [
-        "revenue delay",
-        "stock market",
-        "customer impact",
-        "financial reporting"
+        "ipo",
+        "ai_backlash",
+        "data_centers",
+        "public_skepticism"
       ],
-      "id": "neocloud-iren-delays-4-billion-in-annual-revenue",
+      "id": "anthropic-s-ipo-faces-ai-industry-backlash-amid",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html"
+      "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html"
     },
     {
-      "title_en": "Democratic election win prompts market rethink on interest rates",
+      "title_en": "Berkshire Hathaway Doubles Share Buybacks in Q3 Amid Falling Earnings",
       "summary_en": [
-        "The article says that a Democratic victory might lead to changes in how interest rates are set.",
-        "Factors like resolving the Iran conflict, slower US growth, and new economic policies could influence rate hikes, but nothing is certain yet."
+        "Berkshire Hathaway increased its share repurchases by more than double in the third quarter. This happened even though the company's operating and overall profits decreased.",
+        "The company accelerated buybacks as earnings declined, showing a focus on returning value to shareholders despite lower profits."
       ],
       "key_points_en": [
-        "Democratic sweep may change interest rate strategies",
-        "Iran resolution and US growth affect rate hikes",
-        "New fiscal policies could impact rates, but outcomes are uncertain"
+        "Share buybacks more than doubled in Q3",
+        "Profits fell during the third quarter",
+        "Company prioritized buybacks over profit growth"
       ],
       "translation_zh": [
-        "这篇文章指出，民主党在选举中的胜利可能导致市场重新考虑利率的设定方式。",
-        "文章提到，解决伊朗冲突、美国经济增长放缓以及新的经济政策可能会影响加息，但结果尚不确定。"
+        "伯克希尔·哈撒韦公司在第三季度将股票回购量增加了一倍多。这发生在公司运营和整体利润下降的情况下。",
+        "该公司在盈利下滑时加速了回购，显示出即使利润下降，也优先向股东返还价值。"
       ],
       "vocab": [
         {
-          "word": "rethink path",
-          "zh": "重新考虑方法"
+          "word": "accelerate repurchases",
+          "zh": "加快回购股票"
         },
         {
-          "word": "set in stone",
-          "zh": "确定无疑"
+          "word": "take a hit",
+          "zh": "遭受打击"
         },
         {
-          "word": "rate hikes",
-          "zh": "加息措施"
+          "word": "share repurchases",
+          "zh": "股票回购"
         },
         {
-          "word": "slower growth",
-          "zh": "增长放缓"
+          "word": "third quarter",
+          "zh": "第三季度"
         },
         {
-          "word": "fiscal policy",
-          "zh": "财政政策"
+          "word": "earnings decline",
+          "zh": "盈利下降"
         }
       ],
       "category": "finance",
       "tags": [
-        "elections",
-        "interest rates",
-        "market reaction",
-        "fiscal policy"
+        "stock buybacks",
+        "earnings decline",
+        "third quarter",
+        "corporate finance"
       ],
-      "id": "democratic-election-win-prompts-market-rethink-o",
+      "id": "berkshire-hathaway-doubles-share-buybacks-in-q3",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/06/oil-prices-interest-rates-midterms.html"
+      "link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html"
     },
     {
-      "title_en": "AI Trade Outlook and Investor Strategies According to CNBC Experts",
+      "title_en": "How PSA's Grading Practices Influence Pokémon Card Values",
       "summary_en": [
-        "A recent election result is influencing technology investments, according to CNBC analysts.",
-        "Experts suggest investors should reassess AI-related opportunities amid changing market conditions.",
-        "The article explores whether the AI investment trend will continue or slow down."
+        "PSA's grading services significantly affect Pokémon card prices through resale premiums and market dominance.",
+        "A growing backlog of cards delays grading, impacting collector demand and pricing.",
+        "PSA's control over the grading market determines how much cards are worth to collectors."
       ],
       "key_points_en": [
-        "Election outcomes affect tech investment calculations",
-        "AI trade dynamics are under review by financial experts",
-        "Investors need updated strategies for AI markets"
+        "PSA charges a resale premium for graded cards",
+        "Grading delays create a backlog of unprocessed cards",
+        "PSA dominates the Pokémon card grading market"
       ],
       "translation_zh": [
-        "最近的选举结果正在影响科技投资，CNBC分析师表示。",
-        "专家建议投资者应重新评估人工智能相关的机遇，因为市场状况正在变化。",
-        "文章探讨了人工智能投资趋势是否会继续或放缓。"
+        "PSA的评级服务通过转售溢价和市场主导地位显著影响宝可梦卡的价格",
+        "不断增长的卡片积压导致评级延迟，影响收藏家的需求和定价",
+        "PSA对宝可梦卡评级市场的控制决定了卡片对收藏家的价值"
       ],
       "vocab": [
         {
-          "word": "investment math",
-          "zh": "投资计算方式"
+          "word": "resale premium",
+          "zh": "转售溢价"
         },
         {
-          "word": "technology investment",
-          "zh": "科技投资"
+          "word": "grading-market dominance",
+          "zh": "评级市场主导地位"
         },
         {
-          "word": "AI trade",
-          "zh": "人工智能交易"
+          "word": "backlog",
+          "zh": "积压"
         },
         {
-          "word": "investor strategies",
-          "zh": "投资者策略"
+          "word": "fetch",
+          "zh": "获得（价格）"
         },
         {
-          "word": "changing market conditions",
-          "zh": "变化的市场环境"
+          "word": "shape",
+          "zh": "塑造（价格）"
         }
       ],
       "category": "finance",
       "tags": [
-        "ai",
-        "investing",
-        "election impact",
-        "market trends"
+        "pokemon cards",
+        "collectibles",
+        "market influence",
+        "grading services"
       ],
-      "id": "ai-trade-outlook-and-investor-strategies-accordi",
+      "id": "how-psa-s-grading-practices-influence-pok-mon-ca",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/05/cnbcs-experts-on-whether-the-ai-trade-is-ending-and-what-investors-should-do-next.html"
+      "link": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html"
     },
     {
-      "title_en": "Palo Alto Networks Considering $500M Acquisition of AI Security Startup Clutch",
+      "title_en": "Securing AI-Driven Businesses with Data Lineage",
       "summary_en": [
-        "Palo Alto Networks is discussing a $500 million purchase of Clutch, an AI security company. Clutch, previously valued at $85 million, has investors including Lightspeed and SignalFire.",
-        "The potential deal highlights growing interest in AI-driven cybersecurity solutions."
+        "An AI agent collects pricing data from different sources like internal systems and old quotes to help a sales rep.",
+        "Another agent uses this data to create a proposal without human review, raising concerns about accuracy."
       ],
       "key_points_en": [
-        "Palo Alto Networks may buy Clutch for $500 million",
-        "Clutch was last valued at $85 million",
-        "Lightspeed and SignalFire invested in Clutch"
+        "AI agents gather data from multiple restricted systems",
+        "No human checks are performed between AI handoffs",
+        "Proposals are generated automatically without verification"
       ],
       "translation_zh": [
-        "帕洛阿尔托网络公司正在讨论以5亿美元收购人工智能安全公司Clutch。Clutch此前估值为8500万美元，投资者包括Lightspeed和SignalFire。",
-        "这笔潜在交易凸显了人们对人工智能驱动的网络安全解决方案日益增长的兴趣。"
+        "AI代理从内部系统和旧报价中收集定价数据以帮助销售代表",
+        "另一个代理在没有人工审核的情况下使用这些数据创建提案，引发准确性担忧"
       ],
       "vocab": [
         {
-          "word": "acquisition talks",
-          "zh": "收购谈判"
+          "word": "data lineage",
+          "zh": "数据来源追踪"
         },
         {
-          "word": "AI agent security",
-          "zh": "人工智能代理安全"
+          "word": "pull data",
+          "zh": "提取数据"
         },
         {
-          "word": "backed by",
-          "zh": "由...投资"
+          "word": "internal communications",
+          "zh": "内部沟通记录"
         },
         {
-          "word": "valued at",
-          "zh": "估值为"
+          "word": "archived quotes",
+          "zh": "存档的报价"
         },
         {
-          "word": "source",
-          "zh": "消息来源"
+          "word": "human checks",
+          "zh": "人工审核"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai_agents",
+        "data_security",
+        "enterprise_ai",
+        "data_lineage"
+      ],
+      "id": "securing-ai-driven-businesses-with-data-lineage",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
+    },
+    {
+      "title_en": "Elon Musk Faces Challenges in Data Center Expansion After Midterm Elections",
+      "summary_en": [
+        "The midterms have increased regulatory scrutiny on tech companies, particularly Elon Musk's data center projects.",
+        "Political shifts may delay infrastructure plans and raise costs for tech firms.",
+        "Musk's companies now face tougher oversight from new lawmakers."
+      ],
+      "translation_zh": [
+        "中期选举后，科技公司尤其是埃隆·马斯克的数据中心项目面临更严格的监管。",
+        "政治变化可能导致基础设施计划延迟并增加科技公司的成本。",
+        "马斯克的公司现在面临新立法者的更严格监督。"
+      ],
+      "key_points_en": [
+        "Midterm elections increased regulatory pressure on tech firms",
+        "Data center projects face potential delays and higher costs",
+        "New lawmakers are scrutinizing Musk's companies more closely"
+      ],
+      "vocab": [
+        {
+          "word": "rocky for",
+          "zh": "对...不利的"
+        },
+        {
+          "word": "data centers",
+          "zh": "数据中心"
+        },
+        {
+          "word": "midterm elections",
+          "zh": "中期选举"
+        },
+        {
+          "word": "regulatory scrutiny",
+          "zh": "监管审查"
+        },
+        {
+          "word": "political pressure",
+          "zh": "政治压力"
         }
       ],
       "category": "tech",
       "tags": [
-        "acquisition",
-        "AI security",
-        "startup",
-        "valuation"
+        "elonmusk",
+        "datacenters",
+        "midterms",
+        "techregulation"
       ],
-      "id": "palo-alto-networks-considering-500m-acquisition",
+      "id": "elon-musk-faces-challenges-in-data-center-expans",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
     },
     {
-      "title_en": "Harbinger Secures $240M Funding Expansion into Defense Sector",
+      "title_en": "Memo Claims Chinese Official Hired Tech Executive to Spy on Nvidia CEO",
       "summary_en": [
-        "Harbinger, a Los Angeles-based startup, has raised over $650 million in total funding.",
-        "The company is now developing electric trucks, emergency vehicles, and a driverless platform for military use."
+        "A US intelligence memo from earlier this year suggests that China's Ministry of State Security recruited a female tech executive to spy on Nvidia's CEO.",
+        "The document, which was shared among officials, highlights concerns about potential espionage activities targeting key technology companies."
       ],
       "key_points_en": [
-        "Raised over $650 million in total funding",
-        "Developing electric and emergency vehicles",
-        "Creating a driverless platform for military use"
+        "US intelligence memo claims Chinese recruitment",
+        "Target was Nvidia's CEO",
+        "Executive was female"
       ],
       "translation_zh": [
-        "Harbinger是一家位于洛杉矶的初创公司，已累计筹集超过6.5亿美元的资金。",
-        "该公司目前正在开发电动卡车、应急车辆以及用于军事用途的无人驾驶平台。"
+        "一份美国情报备忘录在今年早些时候声称，中国的国家安全部招募了一名女性科技高管来监视英伟达首席执行官。",
+        "这份文件在官员之间分享，突显了对针对关键技术公司的潜在间谍活动的担忧。"
       ],
       "vocab": [
         {
-          "word": "raises funding",
-          "zh": "筹集资金"
+          "word": "intelligence memo",
+          "zh": "情报备忘录"
         },
         {
-          "word": "electric trucks",
-          "zh": "电动卡车"
+          "word": "recruited to spy",
+          "zh": "被招募进行间谍活动"
         },
         {
-          "word": "driverless platform",
-          "zh": "无人驾驶平台"
+          "word": "tech executive",
+          "zh": "科技高管"
         },
         {
-          "word": "emergency vehicles",
-          "zh": "应急车辆"
+          "word": "potential espionage",
+          "zh": "潜在间谍活动"
         },
         {
-          "word": "expanding into",
-          "zh": "扩展进入"
+          "word": "key technology companies",
+          "zh": "关键技术公司"
         }
       ],
       "category": "tech",
       "tags": [
-        "startup",
-        "funding",
-        "defense",
-        "electric vehicles"
+        "espionage",
+        "tech security",
+        "intelligence",
+        "corporate spying"
       ],
-      "id": "harbinger-secures-240m-funding-expansion-into-de",
+      "id": "memo-claims-chinese-official-hired-tech-executiv",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/"
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
     },
     {
-      "title_en": "At least 10 local governments have removed Flock’s surveillance cameras since summer",
+      "title_en": "Humanoid Robots Clean Homes as Samsung Preps for AI Growth",
       "summary_en": [
-        "At least 10 local governments have stopped using Flock’s surveillance cameras since summer.",
-        "Concerns include privacy issues, unclear data sharing practices, and problems with how the cameras were purchased."
+        "A humanoid robot demonstrated home-cleaning capabilities, offering a glimpse into future automation.",
+        "Meanwhile, Samsung is expanding its AI infrastructure to meet growing demand."
       ],
       "key_points_en": [
-        "10+ local governments removed Flock cameras",
-        "Privacy and data sharing concerns raised",
-        "Procurement process questioned"
+        "A humanoid robot showcased home-cleaning skills.",
+        "The demonstration highlights potential future automation trends.",
+        "Samsung is investing in AI infrastructure to support the industry's growth."
       ],
       "translation_zh": [
-        "至少有10个地方政府自夏季以来停止使用Flock的监控摄像头。",
-        "担忧包括隐私问题、数据共享的不明确做法以及摄像头采购过程的问题。"
+        "一个人形机器人展示了家庭清洁技能，预示了未来自动化的发展。",
+        "同时，三星正在扩展其人工智能基础设施，以满足行业增长的需求。"
       ],
       "vocab": [
         {
-          "word": "move to drop",
-          "zh": "采取措施停止使用"
+          "word": "humanoid robot",
+          "zh": "人形机器人"
         },
         {
-          "word": "surveillance cameras",
-          "zh": "监控摄像头"
+          "word": "cleaning service",
+          "zh": "清洁服务"
         },
         {
-          "word": "data sharing",
-          "zh": "数据共享"
+          "word": "AI boom",
+          "zh": "人工智能热潮"
         },
         {
-          "word": "procurement concerns",
-          "zh": "采购担忧"
+          "word": "infrastructure",
+          "zh": "基础设施"
         },
         {
-          "word": "local governments",
-          "zh": "地方政府"
+          "word": "automation trends",
+          "zh": "自动化趋势"
         }
       ],
-      "category": "tech",
+      "category": "ai",
       "tags": [
-        "surveillance",
-        "privacy",
-        "government",
-        "data_security"
+        "robotics",
+        "ai_trends",
+        "automation",
+        "tech_news"
       ],
-      "id": "at-least-10-local-governments-have-removed-flock",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/"
+      "id": "humanoid-robots-clean-homes-as-samsung-preps-for",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/"
     }
   ]
 }
