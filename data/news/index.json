@@ -1,442 +1,440 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T07:02:36+08:00",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T07:28:52+08:00",
   "items": [
     {
-      "title_en": "Pentagon Provides $250M Loan to Battery Startup 6K for US Factory",
+      "title_en": "Goldman CEO States AI Investment Stays Strong Amid Market Uncertainty",
       "summary_en": [
-        "The Pentagon has conditionally approved a $250 million loan to help 6K expand its battery production.",
-        "The loan aims to scale up 6K's microwave-plasma battery material manufacturing process in the US."
+        "Goldman Sachs CEO David Solomon reports continued investor interest in AI infrastructure despite recent declines in AI stock prices and political concerns about data centers.",
+        "Market volatility and regulatory issues have not reduced funding for artificial intelligence development according to the bank's leader."
       ],
       "key_points_en": [
-        "Pentagon approved a $250M loan for 6K",
-        "Loan is conditional on scaling production",
-        "6K uses microwave-plasma technology"
+        "AI infrastructure investment remains robust",
+        "AI stock prices have declined recently",
+        "Political uncertainty affects data center regulations"
       ],
       "translation_zh": [
-        "美国国防部有条件批准了2.5亿美元贷款，帮助6K扩大电池生产",
-        "这笔贷款旨在在美国扩大6K的微波等离子体电池材料制造工艺"
+        "高盛首席执行官大卫·所罗门表示，尽管人工智能股票价格近期下跌且数据中心存在政治不确定性，投资者对人工智能基础设施的兴趣依然强劲。",
+        "市场波动和监管问题并未减少对人工智能开发的资金投入，据该银行负责人称。"
       ],
       "vocab": [
         {
-          "word": "conditionally approved",
-          "zh": "有条件批准"
+          "word": "investor appetite",
+          "zh": "投资者兴趣"
         },
         {
-          "word": "scale up",
-          "zh": "扩大规模"
+          "word": "AI infrastructure",
+          "zh": "人工智能基础设施"
         },
         {
-          "word": "microwave-plasma battery",
-          "zh": "微波等离子体电池"
+          "word": "market reset",
+          "zh": "市场调整"
         },
         {
-          "word": "manufacturing process",
-          "zh": "制造工艺"
+          "word": "political uncertainty",
+          "zh": "政治不确定性"
         },
         {
-          "word": "government loan",
-          "zh": "政府贷款"
+          "word": "data centers",
+          "zh": "数据中心"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "AI",
+        "investor behavior",
+        "market trends"
+      ],
+      "id": "goldman-ceo-states-ai-investment-stays-strong-am",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
+    },
+    {
+      "title_en": "Nvidia CEO's Departure Odds Remain Low in Prediction Markets",
+      "summary_en": [
+        "Prediction markets show low chances of Nvidia's CEO leaving soon.",
+        "A recent probe has not increased traders' belief that he will exit.",
+        "Traders continue to bet against his near-term departure."
+      ],
+      "key_points_en": [
+        "Low odds for CEO exit in prediction markets",
+        "Probe hasn't increased departure expectations",
+        "Traders price low probability of near-term exit"
+      ],
+      "translation_zh": [
+        "预测市场显示英伟达CEO短期内离职的可能性较低",
+        "最近的调查并未增加交易员对其离职的预期",
+        "交易员继续押注其不会短期内离职"
+      ],
+      "vocab": [
+        {
+          "word": "prediction markets",
+          "zh": "预测市场，用于交易未来事件概率的平台"
+        },
+        {
+          "word": "low odds",
+          "zh": "低赔率，表示事件可能性小"
+        },
+        {
+          "word": "depart",
+          "zh": "离职，离开职位"
+        },
+        {
+          "word": "probe",
+          "zh": "调查，官方审查"
+        },
+        {
+          "word": "traders price",
+          "zh": "交易员定价，指市场参与者对事件概率的评估"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ceo",
+        "prediction markets",
+        "stock analysis",
+        "corporate governance"
+      ],
+      "id": "nvidia-ceo-s-departure-odds-remain-low-in-predic",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html"
+    },
+    {
+      "title_en": "AI Hardware Startup Nominal Triples Valuation to $3 Billion in 8 Months",
+      "summary_en": [
+        "A startup called Nominal, which provides AI tools for hardware engineering, has increased its value three times to $3 billion in just eight months.",
+        "The company, which counts Anduril as a major client, recently secured significant funding"
+      ],
+      "key_points_en": [
+        "Triples valuation to $3 billion in 8 months",
+        "Offers AI platform for hardware engineering",
+        "Anduril is a major customer"
+      ],
+      "translation_zh": [
+        "一家名为Nominal的初创公司，提供用于硬件工程的AI工具，其估值在八个月内翻了三倍达到30亿美元。",
+        "该公司最近获得了大量资金，其主要客户包括Anduril。"
+      ],
+      "vocab": [
+        {
+          "word": "AI platform",
+          "zh": "人工智能平台"
+        },
+        {
+          "word": "hardware engineering",
+          "zh": "硬件工程"
+        },
+        {
+          "word": "triples valuation",
+          "zh": "估值翻三倍"
+        },
+        {
+          "word": "major customer",
+          "zh": "主要客户"
+        },
+        {
+          "word": "big round of financing",
+          "zh": "大额融资轮次"
         }
       ],
       "category": "tech",
       "tags": [
-        "battery technology",
-        "government funding",
-        "manufacturing",
-        "startup"
+        "ai",
+        "startup",
+        "valuation",
+        "hardware"
       ],
-      "id": "pentagon-provides-250m-loan-to-battery-startup-6",
+      "id": "ai-hardware-startup-nominal-triples-valuation-to",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/"
+      "link": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/"
     },
     {
-      "title_en": "Controlling AI with Reverse Game Theory and Super Intelligence Tests",
+      "title_en": "AI Drives Innovation in Specialty Chemicals Industry",
       "summary_en": [
-        "This article discusses how reverse game theory might help manage powerful AI systems by creating incentives for cooperation.",
-        "It also explores loyalty tests designed to ensure super intelligent AI remains aligned with human goals."
+        "Companies face challenges linking AI and cloud computing to reliable data and scientific expertise in the chemicals sector.",
+        "Lubrizol focuses on digital tools to speed up research and improve decision-making for product development."
       ],
       "key_points_en": [
-        "Reverse game theory uses incentives to control AI",
-        "Loyalty tests aim to ensure AI loyalty",
-        "The Download is a tech newsletter"
+        "Connecting AI to reliable data is a major challenge",
+        "Digital transformation aids faster testing of ideas",
+        "Better-informed decisions require practical market insights"
       ],
       "translation_zh": [
-        "这篇文章讨论了如何通过反向博弈论来管理强大的AI系统，通过创造合作的激励措施。",
-        "它还探讨了旨在确保超级智能AI与人类目标保持一致的忠诚度测试。"
+        "公司面临将人工智能和云计算与可靠数据和科学专业知识联系起来的挑战",
+        "路博润专注于数字工具，以加快研究并改进产品开发的决策过程"
       ],
       "vocab": [
         {
-          "word": "incentivize them to",
-          "zh": "激励它们做某事"
+          "word": "digital transformation",
+          "zh": "数字化转型"
         },
         {
-          "word": "powerful AI models",
-          "zh": "强大的AI模型"
+          "word": "scientific expertise",
+          "zh": "科学专业知识"
         },
         {
-          "word": "loyalty tests",
-          "zh": "忠诚度测试"
+          "word": "practical realities",
+          "zh": "实际现实情况"
         },
         {
-          "word": "daily dose",
-          "zh": "每日剂量"
+          "word": "advanced modeling",
+          "zh": "高级建模"
         },
         {
-          "word": "keep in check",
-          "zh": "控制住"
+          "word": "better-informed decisions",
+          "zh": "更明智的决策"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "control",
-        "intelligence",
-        "ethics"
+        "chemicals",
+        "innovation",
+        "digital transformation"
       ],
-      "id": "controlling-ai-with-reverse-game-theory-and-supe",
+      "id": "ai-drives-innovation-in-specialty-chemicals-indu",
       "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/"
+      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
     },
     {
-      "title_en": "Anthropic's IPO Faces AI Industry Backlash Amid Public Skepticism",
+      "title_en": "Lucid Fails to Meet Earnings Goals, Secures Larger Loan from Saudi Fund",
       "summary_en": [
-        "Anthropic is set to become the first AI-focused company to go public as public trust in AI declines.",
-        "Midterm election results have intensified criticism of data centers linked to AI expansion."
+        "Lucid Group missed Wall Street's earnings expectations in its latest quarterly report. The company also increased its loan from a Saudi Arabian investment fund as part of its financial strategy.",
+        "CEO Silvio Napoli, who took leadership in June, introduced a restructuring plan to address the company's challenges."
       ],
       "key_points_en": [
-        "Anthropic aims to be first pure AI IPO",
-        "Public skepticism toward AI grows",
-        "Midterms highlight data center backlash"
+        "Lucid's quarterly earnings fell below expectations",
+        "Loan from Saudi fund was expanded",
+        "New CEO announced restructuring plan"
       ],
       "translation_zh": [
-        "Anthropic计划成为首家上市的人工智能公司，但公众对人工智能的信任正在下降。",
-        "中期选举结果加剧了对与人工智能扩张相关的数据中心的批评。"
+        "Lucid集团最新季度报告显示，其收益未达华尔街预期。公司还扩大了来自沙特阿拉伯投资基金的贷款作为财务策略的一部分。",
+        "首席执行官西尔维奥·纳波利于今年6月上任，推出了重组计划以应对公司的挑战。"
       ],
       "vocab": [
         {
-          "word": "pure-play AI",
-          "zh": "专注于人工智能的"
+          "word": "miss expectations",
+          "zh": "未达到预期"
         },
         {
-          "word": "increasingly leary",
-          "zh": "越来越怀疑的"
+          "word": "expand loan",
+          "zh": "扩大贷款"
         },
         {
-          "word": "stinging rebuke",
-          "zh": "严厉的谴责"
+          "word": "restructuring plan",
+          "zh": "重组计划"
         },
         {
-          "word": "hit the public market",
-          "zh": "进入公开市场"
+          "word": "quarterly results",
+          "zh": "季度业绩"
         },
         {
-          "word": "data centers",
-          "zh": "数据中心"
+          "word": "Wall Street's expectations",
+          "zh": "华尔街预期"
         }
       ],
       "category": "finance",
       "tags": [
-        "ipo",
-        "ai_backlash",
-        "data_centers",
-        "public_skepticism"
+        "earnings",
+        "loan",
+        "restructuring",
+        "CEO"
       ],
-      "id": "anthropic-s-ipo-faces-ai-industry-backlash-amid",
+      "id": "lucid-fails-to-meet-earnings-goals-secures-large",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html"
+      "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html"
     },
     {
-      "title_en": "Berkshire Hathaway Doubles Share Buybacks in Q3 Amid Falling Earnings",
+      "title_en": "Waymo robotaxis still break rules by passing school buses after software update",
       "summary_en": [
-        "Berkshire Hathaway increased its share repurchases by more than double in the third quarter. This happened even though the company's operating and overall profits decreased.",
-        "The company accelerated buybacks as earnings declined, showing a focus on returning value to shareholders despite lower profits."
+        "Waymo's self-driving cars kept illegally passing school buses even after a software fix was applied a year ago.",
+        "Federal regulators say the update did not solve the problem.",
+        "The company is under scrutiny for ongoing traffic violations."
       ],
       "key_points_en": [
-        "Share buybacks more than doubled in Q3",
-        "Profits fell during the third quarter",
-        "Company prioritized buybacks over profit growth"
+        "Software update rolled out nearly a year ago",
+        "Robotaxis continued illegal passing",
+        "Federal authorities are investigating"
       ],
       "translation_zh": [
-        "伯克希尔·哈撒韦公司在第三季度将股票回购量增加了一倍多。这发生在公司运营和整体利润下降的情况下。",
-        "该公司在盈利下滑时加速了回购，显示出即使利润下降，也优先向股东返还价值。"
+        "Waymo的自动驾驶汽车在一年前安装软件修复后，仍然违法超车校车。",
+        "联邦监管机构表示，这次更新未能解决问题。",
+        "该公司因持续违反交通法规而受到调查。"
       ],
       "vocab": [
         {
-          "word": "accelerate repurchases",
-          "zh": "加快回购股票"
+          "word": "software update",
+          "zh": "软件更新"
         },
         {
-          "word": "take a hit",
-          "zh": "遭受打击"
+          "word": "illegal passing",
+          "zh": "非法超车"
         },
         {
-          "word": "share repurchases",
-          "zh": "股票回购"
+          "word": "self-driving system",
+          "zh": "自动驾驶系统"
         },
         {
-          "word": "third quarter",
-          "zh": "第三季度"
+          "word": "federal authorities",
+          "zh": "联邦当局"
         },
         {
-          "word": "earnings decline",
-          "zh": "盈利下降"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "stock buybacks",
-        "earnings decline",
-        "third quarter",
-        "corporate finance"
-      ],
-      "id": "berkshire-hathaway-doubles-share-buybacks-in-q3",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html"
-    },
-    {
-      "title_en": "How PSA's Grading Practices Influence Pokémon Card Values",
-      "summary_en": [
-        "PSA's grading services significantly affect Pokémon card prices through resale premiums and market dominance.",
-        "A growing backlog of cards delays grading, impacting collector demand and pricing.",
-        "PSA's control over the grading market determines how much cards are worth to collectors."
-      ],
-      "key_points_en": [
-        "PSA charges a resale premium for graded cards",
-        "Grading delays create a backlog of unprocessed cards",
-        "PSA dominates the Pokémon card grading market"
-      ],
-      "translation_zh": [
-        "PSA的评级服务通过转售溢价和市场主导地位显著影响宝可梦卡的价格",
-        "不断增长的卡片积压导致评级延迟，影响收藏家的需求和定价",
-        "PSA对宝可梦卡评级市场的控制决定了卡片对收藏家的价值"
-      ],
-      "vocab": [
-        {
-          "word": "resale premium",
-          "zh": "转售溢价"
-        },
-        {
-          "word": "grading-market dominance",
-          "zh": "评级市场主导地位"
-        },
-        {
-          "word": "backlog",
-          "zh": "积压"
-        },
-        {
-          "word": "fetch",
-          "zh": "获得（价格）"
-        },
-        {
-          "word": "shape",
-          "zh": "塑造（价格）"
-        }
-      ],
-      "category": "finance",
-      "tags": [
-        "pokemon cards",
-        "collectibles",
-        "market influence",
-        "grading services"
-      ],
-      "id": "how-psa-s-grading-practices-influence-pok-mon-ca",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html"
-    },
-    {
-      "title_en": "Securing AI-Driven Businesses with Data Lineage",
-      "summary_en": [
-        "An AI agent collects pricing data from different sources like internal systems and old quotes to help a sales rep.",
-        "Another agent uses this data to create a proposal without human review, raising concerns about accuracy."
-      ],
-      "key_points_en": [
-        "AI agents gather data from multiple restricted systems",
-        "No human checks are performed between AI handoffs",
-        "Proposals are generated automatically without verification"
-      ],
-      "translation_zh": [
-        "AI代理从内部系统和旧报价中收集定价数据以帮助销售代表",
-        "另一个代理在没有人工审核的情况下使用这些数据创建提案，引发准确性担忧"
-      ],
-      "vocab": [
-        {
-          "word": "data lineage",
-          "zh": "数据来源追踪"
-        },
-        {
-          "word": "pull data",
-          "zh": "提取数据"
-        },
-        {
-          "word": "internal communications",
-          "zh": "内部沟通记录"
-        },
-        {
-          "word": "archived quotes",
-          "zh": "存档的报价"
-        },
-        {
-          "word": "human checks",
-          "zh": "人工审核"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "ai_agents",
-        "data_security",
-        "enterprise_ai",
-        "data_lineage"
-      ],
-      "id": "securing-ai-driven-businesses-with-data-lineage",
-      "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/"
-    },
-    {
-      "title_en": "Elon Musk Faces Challenges in Data Center Expansion After Midterm Elections",
-      "summary_en": [
-        "The midterms have increased regulatory scrutiny on tech companies, particularly Elon Musk's data center projects.",
-        "Political shifts may delay infrastructure plans and raise costs for tech firms.",
-        "Musk's companies now face tougher oversight from new lawmakers."
-      ],
-      "translation_zh": [
-        "中期选举后，科技公司尤其是埃隆·马斯克的数据中心项目面临更严格的监管。",
-        "政治变化可能导致基础设施计划延迟并增加科技公司的成本。",
-        "马斯克的公司现在面临新立法者的更严格监督。"
-      ],
-      "key_points_en": [
-        "Midterm elections increased regulatory pressure on tech firms",
-        "Data center projects face potential delays and higher costs",
-        "New lawmakers are scrutinizing Musk's companies more closely"
-      ],
-      "vocab": [
-        {
-          "word": "rocky for",
-          "zh": "对...不利的"
-        },
-        {
-          "word": "data centers",
-          "zh": "数据中心"
-        },
-        {
-          "word": "midterm elections",
-          "zh": "中期选举"
-        },
-        {
-          "word": "regulatory scrutiny",
-          "zh": "监管审查"
-        },
-        {
-          "word": "political pressure",
-          "zh": "政治压力"
+          "word": "traffic violations",
+          "zh": "交通违规"
         }
       ],
       "category": "tech",
       "tags": [
-        "elonmusk",
-        "datacenters",
-        "midterms",
-        "techregulation"
+        "self-driving cars",
+        "software update",
+        "traffic laws",
+        "federal regulation"
       ],
-      "id": "elon-musk-faces-challenges-in-data-center-expans",
+      "id": "waymo-robotaxis-still-break-rules-by-passing-sch",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
+      "link": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/"
     },
     {
-      "title_en": "Memo Claims Chinese Official Hired Tech Executive to Spy on Nvidia CEO",
+      "title_en": "Automattic launches a new platform for vibe-coding apps as the internet evolves",
       "summary_en": [
-        "A US intelligence memo from earlier this year suggests that China's Ministry of State Security recruited a female tech executive to spy on Nvidia's CEO.",
-        "The document, which was shared among officials, highlights concerns about potential espionage activities targeting key technology companies."
+        "Automattic has launched a new platform to create vibe-coding apps, aiming to compete with companies like Lovable and Spacefast.",
+        "This move comes as the internet undergoes significant changes, prompting companies to adapt their strategies."
       ],
       "key_points_en": [
-        "US intelligence memo claims Chinese recruitment",
-        "Target was Nvidia's CEO",
-        "Executive was female"
+        "Automattic introduced a platform for vibe-coding apps",
+        "Competes with Lovable and Spacefast",
+        "Internet changes drive new business strategies"
       ],
       "translation_zh": [
-        "一份美国情报备忘录在今年早些时候声称，中国的国家安全部招募了一名女性科技高管来监视英伟达首席执行官。",
-        "这份文件在官员之间分享，突显了对针对关键技术公司的潜在间谍活动的担忧。"
+        "Automattic推出了一个新平台来创建vibe-coding应用，旨在与Lovable和Spacefast等公司竞争。",
+        "随着互联网发生重大变化，公司正在调整策略。"
       ],
       "vocab": [
         {
-          "word": "intelligence memo",
-          "zh": "情报备忘录"
+          "word": "launches a platform",
+          "zh": "推出一个平台"
         },
         {
-          "word": "recruited to spy",
-          "zh": "被招募进行间谍活动"
+          "word": "vibe-coding apps",
+          "zh": "基于氛围编码的应用程序"
         },
         {
-          "word": "tech executive",
-          "zh": "科技高管"
+          "word": "changing internet",
+          "zh": "变化中的互联网"
         },
         {
-          "word": "potential espionage",
-          "zh": "潜在间谍活动"
+          "word": "compete with",
+          "zh": "与...竞争"
         },
         {
-          "word": "key technology companies",
-          "zh": "关键技术公司"
+          "word": "evolving internet",
+          "zh": "不断发展的互联网"
         }
       ],
       "category": "tech",
       "tags": [
-        "espionage",
-        "tech security",
-        "intelligence",
-        "corporate spying"
+        "startup",
+        "competition",
+        "internet trends"
       ],
-      "id": "memo-claims-chinese-official-hired-tech-executiv",
+      "id": "automattic-launches-a-new-platform-for-vibe-codi",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+      "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"
     },
     {
-      "title_en": "Humanoid Robots Clean Homes as Samsung Preps for AI Growth",
+      "title_en": "The Case for AI in Climate Action Remains Unclear",
       "summary_en": [
-        "A humanoid robot demonstrated home-cleaning capabilities, offering a glimpse into future automation.",
-        "Meanwhile, Samsung is expanding its AI infrastructure to meet growing demand."
+        "As countries meet in Antalya for the UN climate conference, artificial intelligence is a major topic of discussion.",
+        "The host nation urges AI to support climate goals, but industries globally have not yet made clear commitments."
       ],
       "key_points_en": [
-        "A humanoid robot showcased home-cleaning skills.",
-        "The demonstration highlights potential future automation trends.",
-        "Samsung is investing in AI infrastructure to support the industry's growth."
+        "UN climate conference is happening in Antalya, Turkey",
+        "Host country wants AI to help with climate action",
+        "Industries have not committed to climate-friendly AI"
       ],
       "translation_zh": [
-        "一个人形机器人展示了家庭清洁技能，预示了未来自动化的发展。",
-        "同时，三星正在扩展其人工智能基础设施，以满足行业增长的需求。"
+        "随着各国在土耳其安塔利亚召开联合国气候会议，人工智能成为讨论的主要话题。",
+        "东道国呼吁人工智能支持气候目标，但全球行业尚未做出明确承诺。"
       ],
       "vocab": [
         {
-          "word": "humanoid robot",
-          "zh": "人形机器人"
+          "word": "climate action",
+          "zh": "应对气候变化的行动"
         },
         {
-          "word": "cleaning service",
-          "zh": "清洁服务"
+          "word": "artificial intelligence",
+          "zh": "人工智能"
         },
         {
-          "word": "AI boom",
-          "zh": "人工智能热潮"
+          "word": "deployed",
+          "zh": "部署（技术）"
         },
         {
-          "word": "infrastructure",
-          "zh": "基础设施"
+          "word": "commitments",
+          "zh": "承诺"
         },
         {
-          "word": "automation trends",
-          "zh": "自动化趋势"
+          "word": "industries",
+          "zh": "工业部门"
         }
       ],
       "category": "ai",
       "tags": [
-        "robotics",
-        "ai_trends",
-        "automation",
-        "tech_news"
+        "climate change",
+        "ai ethics",
+        "un conference",
+        "technology policy"
       ],
-      "id": "humanoid-robots-clean-homes-as-samsung-preps-for",
+      "id": "the-case-for-ai-in-climate-action-remains-unclea",
       "source": "MIT Tech Review",
-      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/"
+      "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
+    },
+    {
+      "title_en": "Federal Reserve Releases 2025 Survey on American Family Finances",
+      "summary_en": [
+        "The Federal Reserve Board has released the 2025 Survey of Consumer Finances, which offers detailed information about the financial situation of American households.",
+        "This data helps both the public and government officials understand economic trends and challenges faced by families."
+      ],
+      "key_points_en": [
+        "The 2025 Survey of Consumer Finances was released by the Federal Reserve.",
+        "It provides detailed financial insights into American families.",
+        "The findings aid policymakers and the public in understanding economic conditions."
+      ],
+      "translation_zh": [
+        "美联储发布了2025年消费者财务调查结果，该调查提供了关于美国家庭财务状况的详细信息。",
+        "这些数据帮助公众和政府官员了解经济趋势以及家庭面临的挑战。"
+      ],
+      "vocab": [
+        {
+          "word": "detailed insights",
+          "zh": "详细的见解"
+        },
+        {
+          "word": "economic condition",
+          "zh": "经济状况"
+        },
+        {
+          "word": "public and policymakers",
+          "zh": "公众和政策制定者"
+        },
+        {
+          "word": "releases results",
+          "zh": "发布结果"
+        },
+        {
+          "word": "provides... information",
+          "zh": "提供...信息"
+        }
+      ],
+      "category": "policy",
+      "tags": [
+        "federal reserve",
+        "consumer finance",
+        "economic data",
+        "policy analysis"
+      ],
+      "id": "federal-reserve-releases-2025-survey-on-american",
+      "source": "Fed Press",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm"
     }
   ]
 }

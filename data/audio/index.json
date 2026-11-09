@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-08T07:02:36+08:00",
+  "generated_at": "2026-11-10T07:28:52+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-08",
-      "file": "data/audio/2026-11-08-briefing.mp3",
-      "script": "Here is your daily briefing. The Pentagon has conditionally approved a $250 million loan to help 6K expand its battery production. This article discusses how reverse game theory might help manage powerful AI systems by creating incentives for cooperation. Anthropic is set to become the first AI-focused company to go public as public trust in AI declines. Berkshire Hathaway increased its share repurchases by more than double in the third quarter. This happened even though the company's operating and overall profits decreased.",
-      "duration": "201 KB"
+      "date": "2026-11-10",
+      "file": "data/audio/2026-11-10-briefing.mp3",
+      "script": "Here is your daily briefing. Goldman Sachs CEO David Solomon reports continued investor interest in AI infrastructure despite recent declines in AI stock prices and political concerns about data centers. Prediction markets show low chances of Nvidia's CEO leaving soon. A startup called Nominal, which provides AI tools for hardware engineering, has increased its value three times to $3 billion in just eight months. Companies face challenges linking AI and cloud computing to reliable data and scientific expertise in the chemicals sector.",
+      "duration": "207 KB"
     }
   ]
 }

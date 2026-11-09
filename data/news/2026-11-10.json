@@ -1,0 +1,440 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T07:28:52+08:00",
+  "items": [
+    {
+      "title_en": "Goldman CEO States AI Investment Stays Strong Amid Market Uncertainty",
+      "summary_en": [
+        "Goldman Sachs CEO David Solomon reports continued investor interest in AI infrastructure despite recent declines in AI stock prices and political concerns about data centers.",
+        "Market volatility and regulatory issues have not reduced funding for artificial intelligence development according to the bank's leader."
+      ],
+      "key_points_en": [
+        "AI infrastructure investment remains robust",
+        "AI stock prices have declined recently",
+        "Political uncertainty affects data center regulations"
+      ],
+      "translation_zh": [
+        "高盛首席执行官大卫·所罗门表示，尽管人工智能股票价格近期下跌且数据中心存在政治不确定性，投资者对人工智能基础设施的兴趣依然强劲。",
+        "市场波动和监管问题并未减少对人工智能开发的资金投入，据该银行负责人称。"
+      ],
+      "vocab": [
+        {
+          "word": "investor appetite",
+          "zh": "投资者兴趣"
+        },
+        {
+          "word": "AI infrastructure",
+          "zh": "人工智能基础设施"
+        },
+        {
+          "word": "market reset",
+          "zh": "市场调整"
+        },
+        {
+          "word": "political uncertainty",
+          "zh": "政治不确定性"
+        },
+        {
+          "word": "data centers",
+          "zh": "数据中心"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "AI",
+        "investor behavior",
+        "market trends"
+      ],
+      "id": "goldman-ceo-states-ai-investment-stays-strong-am",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html"
+    },
+    {
+      "title_en": "Nvidia CEO's Departure Odds Remain Low in Prediction Markets",
+      "summary_en": [
+        "Prediction markets show low chances of Nvidia's CEO leaving soon.",
+        "A recent probe has not increased traders' belief that he will exit.",
+        "Traders continue to bet against his near-term departure."
+      ],
+      "key_points_en": [
+        "Low odds for CEO exit in prediction markets",
+        "Probe hasn't increased departure expectations",
+        "Traders price low probability of near-term exit"
+      ],
+      "translation_zh": [
+        "预测市场显示英伟达CEO短期内离职的可能性较低",
+        "最近的调查并未增加交易员对其离职的预期",
+        "交易员继续押注其不会短期内离职"
+      ],
+      "vocab": [
+        {
+          "word": "prediction markets",
+          "zh": "预测市场，用于交易未来事件概率的平台"
+        },
+        {
+          "word": "low odds",
+          "zh": "低赔率，表示事件可能性小"
+        },
+        {
+          "word": "depart",
+          "zh": "离职，离开职位"
+        },
+        {
+          "word": "probe",
+          "zh": "调查，官方审查"
+        },
+        {
+          "word": "traders price",
+          "zh": "交易员定价，指市场参与者对事件概率的评估"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ceo",
+        "prediction markets",
+        "stock analysis",
+        "corporate governance"
+      ],
+      "id": "nvidia-ceo-s-departure-odds-remain-low-in-predic",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html"
+    },
+    {
+      "title_en": "AI Hardware Startup Nominal Triples Valuation to $3 Billion in 8 Months",
+      "summary_en": [
+        "A startup called Nominal, which provides AI tools for hardware engineering, has increased its value three times to $3 billion in just eight months.",
+        "The company, which counts Anduril as a major client, recently secured significant funding"
+      ],
+      "key_points_en": [
+        "Triples valuation to $3 billion in 8 months",
+        "Offers AI platform for hardware engineering",
+        "Anduril is a major customer"
+      ],
+      "translation_zh": [
+        "一家名为Nominal的初创公司，提供用于硬件工程的AI工具，其估值在八个月内翻了三倍达到30亿美元。",
+        "该公司最近获得了大量资金，其主要客户包括Anduril。"
+      ],
+      "vocab": [
+        {
+          "word": "AI platform",
+          "zh": "人工智能平台"
+        },
+        {
+          "word": "hardware engineering",
+          "zh": "硬件工程"
+        },
+        {
+          "word": "triples valuation",
+          "zh": "估值翻三倍"
+        },
+        {
+          "word": "major customer",
+          "zh": "主要客户"
+        },
+        {
+          "word": "big round of financing",
+          "zh": "大额融资轮次"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "startup",
+        "valuation",
+        "hardware"
+      ],
+      "id": "ai-hardware-startup-nominal-triples-valuation-to",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/"
+    },
+    {
+      "title_en": "AI Drives Innovation in Specialty Chemicals Industry",
+      "summary_en": [
+        "Companies face challenges linking AI and cloud computing to reliable data and scientific expertise in the chemicals sector.",
+        "Lubrizol focuses on digital tools to speed up research and improve decision-making for product development."
+      ],
+      "key_points_en": [
+        "Connecting AI to reliable data is a major challenge",
+        "Digital transformation aids faster testing of ideas",
+        "Better-informed decisions require practical market insights"
+      ],
+      "translation_zh": [
+        "公司面临将人工智能和云计算与可靠数据和科学专业知识联系起来的挑战",
+        "路博润专注于数字工具，以加快研究并改进产品开发的决策过程"
+      ],
+      "vocab": [
+        {
+          "word": "digital transformation",
+          "zh": "数字化转型"
+        },
+        {
+          "word": "scientific expertise",
+          "zh": "科学专业知识"
+        },
+        {
+          "word": "practical realities",
+          "zh": "实际现实情况"
+        },
+        {
+          "word": "advanced modeling",
+          "zh": "高级建模"
+        },
+        {
+          "word": "better-informed decisions",
+          "zh": "更明智的决策"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "chemicals",
+        "innovation",
+        "digital transformation"
+      ],
+      "id": "ai-drives-innovation-in-specialty-chemicals-indu",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
+    },
+    {
+      "title_en": "Lucid Fails to Meet Earnings Goals, Secures Larger Loan from Saudi Fund",
+      "summary_en": [
+        "Lucid Group missed Wall Street's earnings expectations in its latest quarterly report. The company also increased its loan from a Saudi Arabian investment fund as part of its financial strategy.",
+        "CEO Silvio Napoli, who took leadership in June, introduced a restructuring plan to address the company's challenges."
+      ],
+      "key_points_en": [
+        "Lucid's quarterly earnings fell below expectations",
+        "Loan from Saudi fund was expanded",
+        "New CEO announced restructuring plan"
+      ],
+      "translation_zh": [
+        "Lucid集团最新季度报告显示，其收益未达华尔街预期。公司还扩大了来自沙特阿拉伯投资基金的贷款作为财务策略的一部分。",
+        "首席执行官西尔维奥·纳波利于今年6月上任，推出了重组计划以应对公司的挑战。"
+      ],
+      "vocab": [
+        {
+          "word": "miss expectations",
+          "zh": "未达到预期"
+        },
+        {
+          "word": "expand loan",
+          "zh": "扩大贷款"
+        },
+        {
+          "word": "restructuring plan",
+          "zh": "重组计划"
+        },
+        {
+          "word": "quarterly results",
+          "zh": "季度业绩"
+        },
+        {
+          "word": "Wall Street's expectations",
+          "zh": "华尔街预期"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "earnings",
+        "loan",
+        "restructuring",
+        "CEO"
+      ],
+      "id": "lucid-fails-to-meet-earnings-goals-secures-large",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html"
+    },
+    {
+      "title_en": "Waymo robotaxis still break rules by passing school buses after software update",
+      "summary_en": [
+        "Waymo's self-driving cars kept illegally passing school buses even after a software fix was applied a year ago.",
+        "Federal regulators say the update did not solve the problem.",
+        "The company is under scrutiny for ongoing traffic violations."
+      ],
+      "key_points_en": [
+        "Software update rolled out nearly a year ago",
+        "Robotaxis continued illegal passing",
+        "Federal authorities are investigating"
+      ],
+      "translation_zh": [
+        "Waymo的自动驾驶汽车在一年前安装软件修复后，仍然违法超车校车。",
+        "联邦监管机构表示，这次更新未能解决问题。",
+        "该公司因持续违反交通法规而受到调查。"
+      ],
+      "vocab": [
+        {
+          "word": "software update",
+          "zh": "软件更新"
+        },
+        {
+          "word": "illegal passing",
+          "zh": "非法超车"
+        },
+        {
+          "word": "self-driving system",
+          "zh": "自动驾驶系统"
+        },
+        {
+          "word": "federal authorities",
+          "zh": "联邦当局"
+        },
+        {
+          "word": "traffic violations",
+          "zh": "交通违规"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "self-driving cars",
+        "software update",
+        "traffic laws",
+        "federal regulation"
+      ],
+      "id": "waymo-robotaxis-still-break-rules-by-passing-sch",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/"
+    },
+    {
+      "title_en": "Automattic launches a new platform for vibe-coding apps as the internet evolves",
+      "summary_en": [
+        "Automattic has launched a new platform to create vibe-coding apps, aiming to compete with companies like Lovable and Spacefast.",
+        "This move comes as the internet undergoes significant changes, prompting companies to adapt their strategies."
+      ],
+      "key_points_en": [
+        "Automattic introduced a platform for vibe-coding apps",
+        "Competes with Lovable and Spacefast",
+        "Internet changes drive new business strategies"
+      ],
+      "translation_zh": [
+        "Automattic推出了一个新平台来创建vibe-coding应用，旨在与Lovable和Spacefast等公司竞争。",
+        "随着互联网发生重大变化，公司正在调整策略。"
+      ],
+      "vocab": [
+        {
+          "word": "launches a platform",
+          "zh": "推出一个平台"
+        },
+        {
+          "word": "vibe-coding apps",
+          "zh": "基于氛围编码的应用程序"
+        },
+        {
+          "word": "changing internet",
+          "zh": "变化中的互联网"
+        },
+        {
+          "word": "compete with",
+          "zh": "与...竞争"
+        },
+        {
+          "word": "evolving internet",
+          "zh": "不断发展的互联网"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "startup",
+        "competition",
+        "internet trends"
+      ],
+      "id": "automattic-launches-a-new-platform-for-vibe-codi",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"
+    },
+    {
+      "title_en": "The Case for AI in Climate Action Remains Unclear",
+      "summary_en": [
+        "As countries meet in Antalya for the UN climate conference, artificial intelligence is a major topic of discussion.",
+        "The host nation urges AI to support climate goals, but industries globally have not yet made clear commitments."
+      ],
+      "key_points_en": [
+        "UN climate conference is happening in Antalya, Turkey",
+        "Host country wants AI to help with climate action",
+        "Industries have not committed to climate-friendly AI"
+      ],
+      "translation_zh": [
+        "随着各国在土耳其安塔利亚召开联合国气候会议，人工智能成为讨论的主要话题。",
+        "东道国呼吁人工智能支持气候目标，但全球行业尚未做出明确承诺。"
+      ],
+      "vocab": [
+        {
+          "word": "climate action",
+          "zh": "应对气候变化的行动"
+        },
+        {
+          "word": "artificial intelligence",
+          "zh": "人工智能"
+        },
+        {
+          "word": "deployed",
+          "zh": "部署（技术）"
+        },
+        {
+          "word": "commitments",
+          "zh": "承诺"
+        },
+        {
+          "word": "industries",
+          "zh": "工业部门"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "climate change",
+        "ai ethics",
+        "un conference",
+        "technology policy"
+      ],
+      "id": "the-case-for-ai-in-climate-action-remains-unclea",
+      "source": "MIT Tech Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
+    },
+    {
+      "title_en": "Federal Reserve Releases 2025 Survey on American Family Finances",
+      "summary_en": [
+        "The Federal Reserve Board has released the 2025 Survey of Consumer Finances, which offers detailed information about the financial situation of American households.",
+        "This data helps both the public and government officials understand economic trends and challenges faced by families."
+      ],
+      "key_points_en": [
+        "The 2025 Survey of Consumer Finances was released by the Federal Reserve.",
+        "It provides detailed financial insights into American families.",
+        "The findings aid policymakers and the public in understanding economic conditions."
+      ],
+      "translation_zh": [
+        "美联储发布了2025年消费者财务调查结果，该调查提供了关于美国家庭财务状况的详细信息。",
+        "这些数据帮助公众和政府官员了解经济趋势以及家庭面临的挑战。"
+      ],
+      "vocab": [
+        {
+          "word": "detailed insights",
+          "zh": "详细的见解"
+        },
+        {
+          "word": "economic condition",
+          "zh": "经济状况"
+        },
+        {
+          "word": "public and policymakers",
+          "zh": "公众和政策制定者"
+        },
+        {
+          "word": "releases results",
+          "zh": "发布结果"
+        },
+        {
+          "word": "provides... information",
+          "zh": "提供...信息"
+        }
+      ],
+      "category": "policy",
+      "tags": [
+        "federal reserve",
+        "consumer finance",
+        "economic data",
+        "policy analysis"
+      ],
+      "id": "federal-reserve-releases-2025-survey-on-american",
+      "source": "Fed Press",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm"
+    }
+  ]
+}

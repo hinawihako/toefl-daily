@@ -1,20 +1,6 @@
 {
- "updated": "2026-11-08T07:02:36+08:00",
+ "updated": "2026-11-10T07:28:52+08:00",
  "seen": {
-  "https://www.cnbc.com/2026/10/24/stock-picking-could-hurt-investors-warns-former-hedge-fund-manager.html": "2026-10-25",
-  "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html": "2026-10-25",
-  "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/": "2026-10-25",
-  "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/": "2026-10-25",
-  "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/": "2026-10-25",
-  "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html": "2026-10-26",
-  "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html": "2026-10-26",
-  "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html": "2026-10-26",
-  "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/": "2026-10-26",
-  "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/": "2026-10-26",
-  "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/": "2026-10-26",
-  "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm": "2026-10-26",
-  "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm": "2026-10-26",
-  "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm": "2026-10-26",
   "https://arxiv.org/abs/2610.34585": "2026-10-27",
   "https://arxiv.org/abs/2601.11619": "2026-10-27",
   "https://arxiv.org/abs/2610.33592": "2026-10-27",
@@ -112,6 +98,15 @@
   "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/": "2026-11-08",
   "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/": "2026-11-08",
   "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/": "2026-11-08",
-  "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/": "2026-11-08"
+  "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/": "2026-11-08",
+  "https://www.cnbc.com/2026/11/09/goldman-ceo-ai-financing-market.html": "2026-11-10",
+  "https://www.cnbc.com/2026/11/09/jensen-huang-nvidia-exit-prediction-markets.html": "2026-11-10",
+  "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/": "2026-11-10",
+  "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/": "2026-11-10",
+  "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html": "2026-11-10",
+  "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/": "2026-11-10",
+  "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/": "2026-11-10",
+  "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/": "2026-11-10",
+  "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm": "2026-11-10"
  }
 }
