@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T07:28:52+08:00",
+  "generated_at": "2026-11-11T07:04:43+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-10",
-      "file": "data/audio/2026-11-10-briefing.mp3",
-      "script": "Here is your daily briefing. Goldman Sachs CEO David Solomon reports continued investor interest in AI infrastructure despite recent declines in AI stock prices and political concerns about data centers. Prediction markets show low chances of Nvidia's CEO leaving soon. A startup called Nominal, which provides AI tools for hardware engineering, has increased its value three times to $3 billion in just eight months. Companies face challenges linking AI and cloud computing to reliable data and scientific expertise in the chemicals sector.",
-      "duration": "207 KB"
+      "date": "2026-11-11",
+      "file": "data/audio/2026-11-11-briefing.mp3",
+      "script": "Here is your daily briefing. Anthropic is preparing for an IPO that could value the company at over $1.4 trillion. CoreWeave's stock fell sharply before its Q3 earnings report. The 10-year Treasury yield has risen to 5% due to higher-than-expected inflation data and comments from Federal Reserve official John Waller. Google has released the Pixel Tag, a $30 tracking device for Android users, offering similar functionality to Apple's AirTag.",
+      "duration": "177 KB"
     }
   ]
 }
