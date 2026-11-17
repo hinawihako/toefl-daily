@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T07:04:43+08:00",
+  "generated_at": "2026-11-17T11:18:31+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-11",
-      "file": "data/audio/2026-11-11-briefing.mp3",
-      "script": "Here is your daily briefing. Anthropic is preparing for an IPO that could value the company at over $1.4 trillion. CoreWeave's stock fell sharply before its Q3 earnings report. The 10-year Treasury yield has risen to 5% due to higher-than-expected inflation data and comments from Federal Reserve official John Waller. Google has released the Pixel Tag, a $30 tracking device for Android users, offering similar functionality to Apple's AirTag.",
-      "duration": "177 KB"
+      "date": "2026-11-17",
+      "file": "data/audio/2026-11-17-briefing.mp3",
+      "script": "Here is your daily briefing. Studies show that training AI systems to follow rules works for single models but fails when multiple AI agents work together. Neural networks are good at predictions but hard to explain, which limits their use in science. A new approach called iWSP creates interpretable models by programming weights directly in code, avoiding traditional training methods. Kernel optimization is crucial for efficient AI training and inference on Ascend NPUs. Current benchmarks focus more on kernel generation than on improving existing implementations with real-world data. Investors are heavily focused on Nvidia stocks, possibly missing opportunities in other companies like Disney.",
+      "duration": "260 KB"
     }
   ]
 }

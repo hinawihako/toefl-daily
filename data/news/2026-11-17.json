@@ -1,0 +1,446 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T11:18:31+08:00",
+  "items": [
+    {
+      "title_en": "Challenges in Aligning AI Teams",
+      "summary_en": [
+        "Studies show that training AI systems to follow rules works for single models but fails when multiple AI agents work together.",
+        "Researchers tested this on tasks like medical triage and news recommendation, finding that more capable models don't always perform better in team settings.",
+        "Some methods to fix alignment issues work, while others don't consistently improve team performance"
+      ],
+      "key_points_en": [
+        "AI alignment problems vary unpredictably with model capability",
+        "Mythos Preview showed both largest and smallest safety gaps across different tasks",
+        "Simple interventions sometimes help but often fail in multi-agent teams"
+      ],
+      "translation_zh": [
+        "研究表明，训练AI系统遵守规则对单个模型有效，但多个AI代理协作时会失败。",
+        "研究人员在医疗分诊和新闻推荐任务中测试发现，能力更强的模型在团队设置中表现并不一定更好。",
+        "一些解决对齐问题的方法有效，但其他方法在多代理团队中经常失败"
+      ],
+      "vocab": [
+        {
+          "word": "alignment training",
+          "zh": "使AI遵循规则的训练方法"
+        },
+        {
+          "word": "multi-agent settings",
+          "zh": "多个AI协作的环境"
+        },
+        {
+          "word": "safety gap",
+          "zh": "AI团队中出现的安全性能差异"
+        },
+        {
+          "word": "natural interventions",
+          "zh": "简单的改进措施"
+        },
+        {
+          "word": "consulting-proposal generation",
+          "zh": "生成咨询建议的任务"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai_alignment",
+        "llm_teams",
+        "research_findings",
+        "software_engineering"
+      ],
+      "id": "challenges-in-aligning-ai-teams",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.17820"
+    },
+    {
+      "title_en": "New Method Makes AI Models More Transparent",
+      "summary_en": [
+        "Neural networks are good at predictions but hard to explain, which limits their use in science. A new approach called iWSP creates interpretable models by programming weights directly in code, avoiding traditional training methods.",
+        "This method helps explain brain activity predictions in neuroscience by making model features clear.",
+        "The technique uses code instead of gradient-based training to build models that are easier to understand."
+      ],
+      "key_points_en": [
+        "Neural networks lack transparency for scientific use",
+        "iWSP builds models without backpropagation",
+        "Method reveals which features drive predictions"
+      ],
+      "translation_zh": [
+        "神经网络擅长预测但难以解释，这限制了其在科学中的应用。一种名为iWSP的新方法通过直接在代码中编程权重来创建可解释的模型，避免使用传统训练方法。",
+        "该方法通过使模型特征清晰，帮助解释神经科学中的大脑活动预测。",
+        "该技术使用代码而非基于梯度的训练来构建更易理解的模型。"
+      ],
+      "vocab": [
+        {
+          "word": "interpretable models",
+          "zh": "可解释的模型"
+        },
+        {
+          "word": "gradient-based training",
+          "zh": "基于梯度的训练"
+        },
+        {
+          "word": "brain activity",
+          "zh": "大脑活动"
+        },
+        {
+          "word": "natural stimuli",
+          "zh": "自然刺激"
+        },
+        {
+          "word": "deep encoding models",
+          "zh": "深度编码模型"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "neuroscience",
+        "model transparency",
+        "machine learning"
+      ],
+      "id": "new-method-makes-ai-models-more-transparent",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.18114"
+    },
+    {
+      "title_en": "AscendGYM: A New Benchmark for Optimizing AI Kernels on Ascend NPUs",
+      "summary_en": [
+        "Kernel optimization is crucial for efficient AI training and inference on Ascend NPUs. Current benchmarks focus more on kernel generation than on improving existing implementations with real-world data.",
+        "AscendGYM introduces 48 test kernels across three difficulty levels, using real training and inference data to measure optimization effectiveness."
+      ],
+      "key_points_en": [
+        "Focuses on optimizing existing kernel implementations",
+        "Uses 48 kernels from real AI workloads",
+        "Measures performance improvements for real tasks"
+      ],
+      "translation_zh": [
+        "内核优化对于在Ascend NPUs上高效进行AI训练和推理至关重要。当前的基准测试更关注内核生成，而不是用真实数据改进现有实现。",
+        "AscendGYM引入了三个难度级别的48个测试内核，使用真实训练和推理数据来衡量优化效果。"
+      ],
+      "vocab": [
+        {
+          "word": "kernel optimization",
+          "zh": "内核优化（提升AI计算效率的技术）"
+        },
+        {
+          "word": "real-world workloads",
+          "zh": "真实工作负载（实际应用中的计算任务）"
+        },
+        {
+          "word": "performance improvements",
+          "zh": "性能提升（系统运行效率的提高）"
+        },
+        {
+          "word": "input configurations",
+          "zh": "输入配置（影响计算的参数设置）"
+        },
+        {
+          "word": "test cases",
+          "zh": "测试用例（验证系统表现的实例）"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "benchmark",
+        "npu",
+        "kernel optimization"
+      ],
+      "id": "ascendgym-a-new-benchmark-for-optimizing-ai-kern",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.17621"
+    },
+    {
+      "title_en": "Investors Overlook Disney Earnings Amid Nvidia Focus",
+      "summary_en": [
+        "Investors are heavily focused on Nvidia stocks, possibly missing opportunities in other companies like Disney.",
+        "Disney's recent earnings report might indicate growth potential that is being ignored.",
+        "Market attention is heavily skewed toward AI-related stocks."
+      ],
+      "key_points_en": [
+        "Investors are fixated on Nvidia's performance",
+        "Disney's earnings could signal overlooked opportunities",
+        "Market focus may be missing broader trends"
+      ],
+      "translation_zh": [
+        "投资者过于关注英伟达股票，可能忽略了迪士尼等公司的机会",
+        "迪士尼最近的财报可能显示被忽视的增长潜力",
+        "市场关注可能忽略了更广泛的趋势"
+      ],
+      "vocab": [
+        {
+          "word": "obsessing over",
+          "zh": "过度关注"
+        },
+        {
+          "word": "overlooking",
+          "zh": "忽视"
+        },
+        {
+          "word": "earnings",
+          "zh": "财报"
+        },
+        {
+          "word": "opportunity",
+          "zh": "机会"
+        },
+        {
+          "word": "skewing focus",
+          "zh": "使关注点偏离"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "investor behavior",
+        "earnings report",
+        "market trends"
+      ],
+      "id": "investors-overlook-disney-earnings-amid-nvidia-f",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html"
+    },
+    {
+      "title_en": "Anthropic IPO Sparks Trader Interest in Derivatives Market",
+      "summary_en": [
+        "Traders are showing optimism about Anthropic's upcoming IPO, particularly in the derivatives market.",
+        "The derivatives market is seen as a key indicator of investor confidence in the company's future.",
+        "Analysts believe this could influence broader market trends."
+      ],
+      "key_points_en": [
+        "Bullish signs in derivatives market",
+        "Traders closely watching IPO developments",
+        "Potential impact on market trends"
+      ],
+      "translation_zh": [
+        "交易员对Anthropic即将进行的IPO表现出乐观情绪，特别是在衍生品市场。",
+        "衍生品市场被视为投资者对公司未来信心的关键指标。",
+        "分析师认为这可能会影响更广泛的市场趋势。"
+      ],
+      "vocab": [
+        {
+          "word": "bullish signs",
+          "zh": "看涨信号"
+        },
+        {
+          "word": "derivatives market",
+          "zh": "衍生品市场"
+        },
+        {
+          "word": "traders' attention",
+          "zh": "交易员的关注"
+        },
+        {
+          "word": "proxy play",
+          "zh": "代理交易策略"
+        },
+        {
+          "word": "IPO",
+          "zh": "首次公开募股"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ipo",
+        "derivatives",
+        "trading",
+        "market trends"
+      ],
+      "id": "anthropic-ipo-sparks-trader-interest-in-derivati",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html"
+    },
+    {
+      "title_en": "Prediction Market Odds for Tesla-SpaceX Merger Reach 62% by April 2027",
+      "summary_en": [
+        "Prediction market odds for a Tesla-SpaceX merger have risen to 62% since Thursday, up from 27%",
+        "Speculation about integrating the two companies under Elon Musk's ownership is growing"
+      ],
+      "key_points_en": [
+        "Merger odds reached 62% as of the latest update",
+        "Probability increased significantly since Thursday",
+        "Speculation focuses on combining Tesla and SpaceX"
+      ],
+      "translation_zh": [
+        "特斯拉与SpaceX合并的预测市场赔率已升至62%，较周四的27%大幅上涨",
+        "关于将两家公司整合的猜测正在增加"
+      ],
+      "vocab": [
+        {
+          "word": "prediction market odds",
+          "zh": "预测市场赔率"
+        },
+        {
+          "word": "merger",
+          "zh": "合并"
+        },
+        {
+          "word": "speculation",
+          "zh": "猜测"
+        },
+        {
+          "word": "integrate",
+          "zh": "整合"
+        },
+        {
+          "word": "climb",
+          "zh": "上涨"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "merger speculation",
+        "tesla",
+        "spaceX",
+        "elon musk"
+      ],
+      "id": "prediction-market-odds-for-tesla-spacex-merger-r",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html"
+    },
+    {
+      "title_en": "Apple Introduces New Mac Security Features to Address AI Privacy Risks",
+      "summary_en": [
+        "Apple is adding new security features to macOS 27.3 to protect user privacy from AI agents.",
+        "These updates include permission controls, warnings, and transparency tools to help users manage app access."
+      ],
+      "key_points_en": [
+        "macOS 27.3 will include new security controls",
+        "AI agents pose privacy risks according to Apple",
+        "Transparency features will help users monitor app activity"
+      ],
+      "translation_zh": [
+        "苹果将在macOS 27.3中添加新安全功能以保护用户隐私免受AI代理影响",
+        "这些更新包括权限控制、警告和透明工具，帮助用户管理应用程序访问"
+      ],
+      "vocab": [
+        {
+          "word": "permission controls",
+          "zh": "权限管理设置"
+        },
+        {
+          "word": "transparency features",
+          "zh": "透明度功能"
+        },
+        {
+          "word": "privacy risks",
+          "zh": "隐私风险"
+        },
+        {
+          "word": "security features",
+          "zh": "安全功能"
+        },
+        {
+          "word": "AI agents",
+          "zh": "人工智能代理"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "apple",
+        "ai",
+        "privacy",
+        "security"
+      ],
+      "id": "apple-introduces-new-mac-security-features-to-ad",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/"
+    },
+    {
+      "title_en": "AI Cybersecurity Startup Corma Achieves $1 Billion Valuation in Three Months",
+      "summary_en": [
+        "AI cybersecurity company Corma reached a $1 billion valuation just three months after launching its product.",
+        "The startup raised $125 million in a Series A funding round led by investment firm NEA."
+      ],
+      "key_points_en": [
+        "Corma achieved a $1B valuation in 3 months",
+        "Series A funding was $125 million",
+        "NEA led the investment"
+      ],
+      "translation_zh": [
+        "人工智能网络安全公司Corma在推出产品三个月后估值达到10亿美元",
+        "该初创公司筹集了1.25亿美元的A轮融资，由投资公司NEA领投"
+      ],
+      "vocab": [
+        {
+          "word": "valuation",
+          "zh": "估值"
+        },
+        {
+          "word": "Series A",
+          "zh": "A轮融资"
+        },
+        {
+          "word": "led by",
+          "zh": "由...领投"
+        },
+        {
+          "word": "cybersecurity",
+          "zh": "网络安全"
+        },
+        {
+          "word": "AI startup",
+          "zh": "人工智能初创公司"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "cybersecurity",
+        "ai",
+        "startup",
+        "valuation"
+      ],
+      "id": "ai-cybersecurity-startup-corma-achieves-1-billio",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+    },
+    {
+      "title_en": "Uber Reports Data Breach Affecting 150,000 Driver Licenses",
+      "summary_en": [
+        "Uber says hackers stole driver license information from Fireworks AI, a cloud company that stores data for Uber.",
+        "The breach involved a security incident that exposed details from nearly 150,000 licenses."
+      ],
+      "key_points_en": [
+        "150,000 driver licenses affected",
+        "Data stored by Fireworks AI was stolen",
+        "Hackers accessed information through a security incident"
+      ],
+      "translation_zh": [
+        "Uber表示黑客从云公司Fireworks AI窃取了司机驾照信息，该公司为Uber存储数据。",
+        "此次数据泄露涉及一起安全事件，导致近15万份驾照信息外泄。"
+      ],
+      "vocab": [
+        {
+          "word": "data breach",
+          "zh": "数据泄露"
+        },
+        {
+          "word": "security incident",
+          "zh": "安全事件"
+        },
+        {
+          "word": "stole information",
+          "zh": "窃取信息"
+        },
+        {
+          "word": "stored by",
+          "zh": "由...存储"
+        },
+        {
+          "word": "hacked",
+          "zh": "被入侵"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "data breach",
+        "cybersecurity",
+        "hack",
+        "Uber"
+      ],
+      "id": "uber-reports-data-breach-affecting-150-000-drive",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+    }
+  ]
+}
