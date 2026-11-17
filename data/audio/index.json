@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T11:18:31+08:00",
+  "generated_at": "2026-11-17T11:23:26+08:00",
   "items": [
     {
       "title": "Daily Briefing",
       "date": "2026-11-17",
       "file": "data/audio/2026-11-17-briefing.mp3",
-      "script": "Here is your daily briefing. Studies show that training AI systems to follow rules works for single models but fails when multiple AI agents work together. Neural networks are good at predictions but hard to explain, which limits their use in science. A new approach called iWSP creates interpretable models by programming weights directly in code, avoiding traditional training methods. Kernel optimization is crucial for efficient AI training and inference on Ascend NPUs. Current benchmarks focus more on kernel generation than on improving existing implementations with real-world data. Investors are heavily focused on Nvidia stocks, possibly missing opportunities in other companies like Disney.",
-      "duration": "260 KB"
+      "script": "Here is your daily briefing. Web platforms store data in different database formats, making it hard to reuse AI models between them. Researchers created MoREGT, a new system that uses graph transformers to improve model transfer with less training data. Running large language models locally protects data privacy, reduces costs, and works without internet. Superfluid solves challenges of sharing models on single devices and using underused hardware across multiple devices. Current AI security checks focus on static data like model weights, not real-time GPU processes. Anthropic's IPO is seen as crucial for the tech industry, which has heavily invested in the AI lab.",
+      "duration": "265 KB"
     }
   ]
 }

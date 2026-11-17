@@ -1,446 +1,441 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T11:18:31+08:00",
+  "generated_at": "2026-11-17T11:23:26+08:00",
   "items": [
     {
-      "title_en": "Challenges in Aligning AI Teams",
+      "title_en": "New AI Model Helps Predictive Models Work Across Different Databases",
       "summary_en": [
-        "Studies show that training AI systems to follow rules works for single models but fails when multiple AI agents work together.",
-        "Researchers tested this on tasks like medical triage and news recommendation, finding that more capable models don't always perform better in team settings.",
-        "Some methods to fix alignment issues work, while others don't consistently improve team performance"
+        "Web platforms store data in different database formats, making it hard to reuse AI models between them. Researchers created MoREGT, a new system that uses graph transformers to improve model transfer with less training data.",
+        "The system represents database rows and cells as tokens and adds features like row age to enhance performance."
       ],
       "key_points_en": [
-        "AI alignment problems vary unpredictably with model capability",
-        "Mythos Preview showed both largest and smallest safety gaps across different tasks",
-        "Simple interventions sometimes help but often fail in multi-agent teams"
+        "Different database schemas create transfer challenges",
+        "MREGT uses graph transformers for cross-database learning",
+        "The model requires less pretraining data than previous methods"
       ],
       "translation_zh": [
-        "研究表明，训练AI系统遵守规则对单个模型有效，但多个AI代理协作时会失败。",
-        "研究人员在医疗分诊和新闻推荐任务中测试发现，能力更强的模型在团队设置中表现并不一定更好。",
-        "一些解决对齐问题的方法有效，但其他方法在多代理团队中经常失败"
+        "网络平台使用不同格式的数据库，使得AI模型难以在不同平台间复用。研究人员开发了MREGT系统，利用图变压器在较少训练数据下提升模型迁移能力。",
+        "该系统将数据库行和单元格表示为标记，并添加如行年龄等特征来增强性能。"
       ],
       "vocab": [
         {
-          "word": "alignment training",
-          "zh": "使AI遵循规则的训练方法"
+          "word": "relational databases",
+          "zh": "关系型数据库"
         },
         {
-          "word": "multi-agent settings",
-          "zh": "多个AI协作的环境"
+          "word": "cross-database pretraining",
+          "zh": "跨数据库预训练"
         },
         {
-          "word": "safety gap",
-          "zh": "AI团队中出现的安全性能差异"
+          "word": "graph transformer",
+          "zh": "图变压器"
         },
         {
-          "word": "natural interventions",
-          "zh": "简单的改进措施"
+          "word": "mixture-of-experts",
+          "zh": "专家混合模型"
         },
         {
-          "word": "consulting-proposal generation",
-          "zh": "生成咨询建议的任务"
-        }
-      ],
-      "category": "ai",
-      "tags": [
-        "ai_alignment",
-        "llm_teams",
-        "research_findings",
-        "software_engineering"
-      ],
-      "id": "challenges-in-aligning-ai-teams",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.17820"
-    },
-    {
-      "title_en": "New Method Makes AI Models More Transparent",
-      "summary_en": [
-        "Neural networks are good at predictions but hard to explain, which limits their use in science. A new approach called iWSP creates interpretable models by programming weights directly in code, avoiding traditional training methods.",
-        "This method helps explain brain activity predictions in neuroscience by making model features clear.",
-        "The technique uses code instead of gradient-based training to build models that are easier to understand."
-      ],
-      "key_points_en": [
-        "Neural networks lack transparency for scientific use",
-        "iWSP builds models without backpropagation",
-        "Method reveals which features drive predictions"
-      ],
-      "translation_zh": [
-        "神经网络擅长预测但难以解释，这限制了其在科学中的应用。一种名为iWSP的新方法通过直接在代码中编程权重来创建可解释的模型，避免使用传统训练方法。",
-        "该方法通过使模型特征清晰，帮助解释神经科学中的大脑活动预测。",
-        "该技术使用代码而非基于梯度的训练来构建更易理解的模型。"
-      ],
-      "vocab": [
-        {
-          "word": "interpretable models",
-          "zh": "可解释的模型"
-        },
-        {
-          "word": "gradient-based training",
-          "zh": "基于梯度的训练"
-        },
-        {
-          "word": "brain activity",
-          "zh": "大脑活动"
-        },
-        {
-          "word": "natural stimuli",
-          "zh": "自然刺激"
-        },
-        {
-          "word": "deep encoding models",
-          "zh": "深度编码模型"
+          "word": "pretraining data",
+          "zh": "预训练数据"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "neuroscience",
-        "model transparency",
-        "machine learning"
+        "database",
+        "machine learning",
+        "transformer models"
       ],
-      "id": "new-method-makes-ai-models-more-transparent",
+      "id": "new-ai-model-helps-predictive-models-work-across",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.18114"
+      "link": "https://arxiv.org/abs/2611.18315"
     },
     {
-      "title_en": "AscendGYM: A New Benchmark for Optimizing AI Kernels on Ascend NPUs",
+      "title_en": "Superfluid: A New Local AI Server for Efficient LLM Inference",
       "summary_en": [
-        "Kernel optimization is crucial for efficient AI training and inference on Ascend NPUs. Current benchmarks focus more on kernel generation than on improving existing implementations with real-world data.",
-        "AscendGYM introduces 48 test kernels across three difficulty levels, using real training and inference data to measure optimization effectiveness."
+        "Running large language models locally protects data privacy, reduces costs, and works without internet. Superfluid solves challenges of sharing models on single devices and using underused hardware across multiple devices.",
+        "The system supports both single-device and multi-device setups while optimizing resource usage across different machines."
       ],
       "key_points_en": [
-        "Focuses on optimizing existing kernel implementations",
-        "Uses 48 kernels from real AI workloads",
-        "Measures performance improvements for real tasks"
+        "Local LLMs keep data private and reduce costs",
+        "Superfluid handles both single-device and multi-device scenarios",
+        "It utilizes idle machines across different vendors"
       ],
       "translation_zh": [
-        "内核优化对于在Ascend NPUs上高效进行AI训练和推理至关重要。当前的基准测试更关注内核生成，而不是用真实数据改进现有实现。",
-        "AscendGYM引入了三个难度级别的48个测试内核，使用真实训练和推理数据来衡量优化效果。"
+        "在本地运行大型语言模型可以保护数据隐私，降低成本，并且无需联网。Superfluid解决了在单个设备上共享模型以及跨多个设备使用未充分利用的硬件的挑战。",
+        "该系统支持单设备和多设备设置，同时优化不同机器上的资源使用。"
       ],
       "vocab": [
         {
-          "word": "kernel optimization",
-          "zh": "内核优化（提升AI计算效率的技术）"
+          "word": "local inference",
+          "zh": "本地推理"
         },
         {
-          "word": "real-world workloads",
-          "zh": "真实工作负载（实际应用中的计算任务）"
+          "word": "data privacy",
+          "zh": "数据隐私"
         },
         {
-          "word": "performance improvements",
-          "zh": "性能提升（系统运行效率的提高）"
+          "word": "network latency",
+          "zh": "网络延迟"
         },
         {
-          "word": "input configurations",
-          "zh": "输入配置（影响计算的参数设置）"
+          "word": "distributed systems",
+          "zh": "分布式系统"
         },
         {
-          "word": "test cases",
-          "zh": "测试用例（验证系统表现的实例）"
+          "word": "idle machines",
+          "zh": "闲置设备"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "benchmark",
-        "npu",
-        "kernel optimization"
+        "llm",
+        "local computing",
+        "distributed systems"
       ],
-      "id": "ascendgym-a-new-benchmark-for-optimizing-ai-kern",
+      "id": "superfluid-a-new-local-ai-server-for-efficient-l",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.17621"
+      "link": "https://arxiv.org/abs/2611.17753"
     },
     {
-      "title_en": "Investors Overlook Disney Earnings Amid Nvidia Focus",
+      "title_en": "Tracking AI Behavior in Real Time: New Method Revealed",
       "summary_en": [
-        "Investors are heavily focused on Nvidia stocks, possibly missing opportunities in other companies like Disney.",
-        "Disney's recent earnings report might indicate growth potential that is being ignored.",
-        "Market attention is heavily skewed toward AI-related stocks."
+        "Current AI security checks focus on static data like model weights, not real-time GPU processes.",
+        "Researchers developed a way to analyze live LLM behavior without stopping or changing the model.",
+        "The method uses a six-step process with platform-specific tools to capture hidden states."
       ],
       "key_points_en": [
-        "Investors are fixated on Nvidia's performance",
-        "Disney's earnings could signal overlooked opportunities",
-        "Market focus may be missing broader trends"
+        "Uses non-modifying debugger to examine live GPU data",
+        "Works without knowing model architecture details",
+        "Captures per-layer residual-stream activations"
       ],
       "translation_zh": [
-        "投资者过于关注英伟达股票，可能忽略了迪士尼等公司的机会",
-        "迪士尼最近的财报可能显示被忽视的增长潜力",
-        "市场关注可能忽略了更广泛的趋势"
+        "当前AI安全检查关注静态数据如模型权重，而非实时GPU进程。",
+        "研究人员开发出在不中断或修改模型情况下分析LLM行为的方法。",
+        "该方法使用六步骤流程和平台特定工具捕获隐藏状态。"
       ],
       "vocab": [
         {
-          "word": "obsessing over",
-          "zh": "过度关注"
+          "word": "non-modifying debugger",
+          "zh": "不修改系统的调试工具"
         },
         {
-          "word": "overlooking",
-          "zh": "忽视"
+          "word": "residual-stream activations",
+          "zh": "残差流激活值"
         },
         {
-          "word": "earnings",
-          "zh": "财报"
+          "word": "platform-specific adapter",
+          "zh": "平台特定适配器"
         },
         {
-          "word": "opportunity",
-          "zh": "机会"
+          "word": "live inference process",
+          "zh": "实时推理过程"
         },
         {
-          "word": "skewing focus",
-          "zh": "使关注点偏离"
+          "word": "six-stage process",
+          "zh": "六阶段流程"
         }
       ],
-      "category": "finance",
+      "category": "ai",
       "tags": [
-        "stock market",
-        "investor behavior",
-        "earnings report",
-        "market trends"
+        "ai",
+        "debugging",
+        "llm",
+        "forensics"
       ],
-      "id": "investors-overlook-disney-earnings-amid-nvidia-f",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html"
+      "id": "tracking-ai-behavior-in-real-time-new-method-rev",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.18272"
     },
     {
-      "title_en": "Anthropic IPO Sparks Trader Interest in Derivatives Market",
+      "title_en": "Anthropic's IPO Offers Hope for Struggling AI Sector",
       "summary_en": [
-        "Traders are showing optimism about Anthropic's upcoming IPO, particularly in the derivatives market.",
-        "The derivatives market is seen as a key indicator of investor confidence in the company's future.",
-        "Analysts believe this could influence broader market trends."
+        "Anthropic's IPO is seen as crucial for the tech industry, which has heavily invested in the AI lab.",
+        "The industry is seeking positive momentum after facing challenges in the AI trade."
       ],
       "key_points_en": [
-        "Bullish signs in derivatives market",
-        "Traders closely watching IPO developments",
-        "Potential impact on market trends"
+        "Anthropic's IPO has outsized importance",
+        "Tech industry is heavily invested in the AI lab",
+        "Market needs positive momentum after struggles"
       ],
       "translation_zh": [
-        "交易员对Anthropic即将进行的IPO表现出乐观情绪，特别是在衍生品市场。",
-        "衍生品市场被视为投资者对公司未来信心的关键指标。",
-        "分析师认为这可能会影响更广泛的市场趋势。"
+        "Anthropic的IPO被视为对科技行业至关重要的事件，该行业已大量投资于这家人工智能实验室。",
+        "在人工智能交易遭遇挑战后，市场亟需积极的动量。"
       ],
       "vocab": [
         {
-          "word": "bullish signs",
-          "zh": "看涨信号"
+          "word": "outsized importance",
+          "zh": "异常重要的意义"
         },
         {
-          "word": "derivatives market",
-          "zh": "衍生品市场"
+          "word": "heavily invested",
+          "zh": "大量投资"
         },
         {
-          "word": "traders' attention",
-          "zh": "交易员的关注"
+          "word": "desperate for",
+          "zh": "急需"
         },
         {
-          "word": "proxy play",
-          "zh": "代理交易策略"
+          "word": "positive momentum",
+          "zh": "积极的发展势头"
         },
         {
-          "word": "IPO",
-          "zh": "首次公开募股"
+          "word": "AI lab",
+          "zh": "人工智能实验室"
         }
       ],
-      "category": "finance",
+      "category": "ai",
       "tags": [
         "ipo",
-        "derivatives",
-        "trading",
-        "market trends"
+        "ai",
+        "tech industry",
+        "market momentum"
       ],
-      "id": "anthropic-ipo-sparks-trader-interest-in-derivati",
+      "id": "anthropic-s-ipo-offers-hope-for-struggling-ai-se",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/16/anthropic-proxy-destiny-tech100-fund.html"
+      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html"
     },
     {
-      "title_en": "Prediction Market Odds for Tesla-SpaceX Merger Reach 62% by April 2027",
+      "title_en": "Trump's accounts sold up to $1 million in Nvidia stock after White House briefing",
       "summary_en": [
-        "Prediction market odds for a Tesla-SpaceX merger have risen to 62% since Thursday, up from 27%",
-        "Speculation about integrating the two companies under Elon Musk's ownership is growing"
+        "Trump's accounts sold up to $1 million in Nvidia stock five days after being briefed about Jensen Huang's ties to a suspected Chinese spy.",
+        "The timing suggests potential influence from the White House meeting on stock trading decisions."
       ],
       "key_points_en": [
-        "Merger odds reached 62% as of the latest update",
-        "Probability increased significantly since Thursday",
-        "Speculation focuses on combining Tesla and SpaceX"
+        "Up to $1 million in Nvidia stock sold",
+        "Sale occurred five days after briefing",
+        "Linked to Huang's relationship with suspected spy"
       ],
       "translation_zh": [
-        "特斯拉与SpaceX合并的预测市场赔率已升至62%，较周四的27%大幅上涨",
-        "关于将两家公司整合的猜测正在增加"
+        "特朗普的账户在被简·黄与疑似中国间谍的关系简报后五天内出售了价值高达100万美元的英伟达股票。",
+        "交易时间表明白宫会议可能影响了股票交易决策。"
       ],
       "vocab": [
         {
-          "word": "prediction market odds",
-          "zh": "预测市场赔率"
+          "word": "traded up to",
+          "zh": "交易金额高达"
         },
         {
-          "word": "merger",
-          "zh": "合并"
+          "word": "briefed on",
+          "zh": "就...进行简报"
         },
         {
-          "word": "speculation",
-          "zh": "猜测"
+          "word": "suspected spy",
+          "zh": "疑似间谍"
         },
         {
-          "word": "integrate",
-          "zh": "整合"
+          "word": "White House access",
+          "zh": "白宫接触机会"
         },
         {
-          "word": "climb",
-          "zh": "上涨"
+          "word": "stock sale",
+          "zh": "股票出售"
         }
       ],
       "category": "finance",
       "tags": [
-        "merger speculation",
-        "tesla",
-        "spaceX",
-        "elon musk"
+        "stock trading",
+        "white house",
+        "nvidia",
+        "trump"
       ],
-      "id": "prediction-market-odds-for-tesla-spacex-merger-r",
+      "id": "trump-s-accounts-sold-up-to-1-million-in-nvidia",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/16/prediction-market-odds-for-tesla-spacex-merger-by-april-2027-top-60percent.html"
+      "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
     },
     {
-      "title_en": "Apple Introduces New Mac Security Features to Address AI Privacy Risks",
+      "title_en": "Hedge Fund Bets on AI Stocks Before Market Drop",
       "summary_en": [
-        "Apple is adding new security features to macOS 27.3 to protect user privacy from AI agents.",
-        "These updates include permission controls, warnings, and transparency tools to help users manage app access."
+        "A hedge fund nearly collapsed in summer but bought AI stocks before their prices fell.",
+        "The fund made investments in AI companies ahead of a market downturn in October."
       ],
       "key_points_en": [
-        "macOS 27.3 will include new security controls",
-        "AI agents pose privacy risks according to Apple",
-        "Transparency features will help users monitor app activity"
+        "Hedge fund faced near collapse over summer",
+        "Purchased AI stocks before share prices dropped",
+        "Investments made before October market rout"
       ],
       "translation_zh": [
-        "苹果将在macOS 27.3中添加新安全功能以保护用户隐私免受AI代理影响",
-        "这些更新包括权限控制、警告和透明工具，帮助用户管理应用程序访问"
+        "对冲基金在夏季几乎破产，但在此之前购买了人工智能股票。",
+        "该基金在十月股市下跌前投资了人工智能公司。"
       ],
       "vocab": [
         {
-          "word": "permission controls",
-          "zh": "权限管理设置"
+          "word": "hedge fund",
+          "zh": "对冲基金"
         },
         {
-          "word": "transparency features",
-          "zh": "透明度功能"
+          "word": "bought AI stocks",
+          "zh": "购买人工智能股票"
         },
         {
-          "word": "privacy risks",
-          "zh": "隐私风险"
+          "word": "tumbling shares",
+          "zh": "暴跌的股票"
         },
         {
-          "word": "security features",
-          "zh": "安全功能"
+          "word": "before the downturn",
+          "zh": "在下跌之前"
         },
         {
-          "word": "AI agents",
-          "zh": "人工智能代理"
+          "word": "almost collapsed",
+          "zh": "几乎破产"
         }
       ],
-      "category": "tech",
+      "category": "finance",
       "tags": [
-        "apple",
         "ai",
-        "privacy",
-        "security"
+        "finance",
+        "investments",
+        "market"
       ],
-      "id": "apple-introduces-new-mac-security-features-to-ad",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/"
+      "id": "hedge-fund-bets-on-ai-stocks-before-market-drop",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html"
     },
     {
-      "title_en": "AI Cybersecurity Startup Corma Achieves $1 Billion Valuation in Three Months",
+      "title_en": "Apple Introduces Face Unlock Feature for iPhone Duo, Not Face ID",
       "summary_en": [
-        "AI cybersecurity company Corma reached a $1 billion valuation just three months after launching its product.",
-        "The startup raised $125 million in a Series A funding round led by investment firm NEA."
+        "Apple has introduced a limited face unlock feature in the iOS 27.3 developer beta for the iPhone Duo.",
+        "This feature is distinct from Face ID and is part of ongoing improvements to the operating system."
       ],
       "key_points_en": [
-        "Corma achieved a $1B valuation in 3 months",
-        "Series A funding was $125 million",
-        "NEA led the investment"
+        "iOS 27.3 beta includes face unlock for iPhone Duo",
+        "Feature differs from Face ID technology",
+        "Update is part of iOS development improvements"
       ],
       "translation_zh": [
-        "人工智能网络安全公司Corma在推出产品三个月后估值达到10亿美元",
-        "该初创公司筹集了1.25亿美元的A轮融资，由投资公司NEA领投"
+        "苹果在iOS 27.3开发者预览版中为iPhone Duo引入了有限的面部解锁功能。",
+        "该功能不同于Face ID，是操作系统持续改进的一部分。"
       ],
       "vocab": [
         {
-          "word": "valuation",
-          "zh": "估值"
+          "word": "face unlock",
+          "zh": "面部解锁"
         },
         {
-          "word": "Series A",
-          "zh": "A轮融资"
+          "word": "developer beta",
+          "zh": "开发者预览版"
         },
         {
-          "word": "led by",
-          "zh": "由...领投"
+          "word": "limited feature",
+          "zh": "有限功能"
         },
         {
-          "word": "cybersecurity",
-          "zh": "网络安全"
+          "word": "improvements",
+          "zh": "改进"
         },
         {
-          "word": "AI startup",
-          "zh": "人工智能初创公司"
+          "word": "iPhone Duo",
+          "zh": "iPhone Duo型号"
         }
       ],
       "category": "tech",
       "tags": [
-        "cybersecurity",
-        "ai",
-        "startup",
-        "valuation"
+        "ios update",
+        "face recognition",
+        "iphone features",
+        "developer beta"
       ],
-      "id": "ai-cybersecurity-startup-corma-achieves-1-billio",
+      "id": "apple-introduces-face-unlock-feature-for-iphone",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/"
+      "link": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/"
     },
     {
-      "title_en": "Uber Reports Data Breach Affecting 150,000 Driver Licenses",
+      "title_en": "Instagram Expands Affiliate Link Options for Creators",
       "summary_en": [
-        "Uber says hackers stole driver license information from Fireworks AI, a cloud company that stores data for Uber.",
-        "The breach involved a security incident that exposed details from nearly 150,000 licenses."
+        "Instagram now allows creators to include Amazon affiliate links in Reels and feed posts, expanding previous options like stories and DMs.",
+        "This update helps creators promote products more directly through their main content areas.",
+        "The feature aims to increase sales opportunities for content creators."
       ],
       "key_points_en": [
-        "150,000 driver licenses affected",
-        "Data stored by Fireworks AI was stolen",
-        "Hackers accessed information through a security incident"
+        "Affiliate links can now be added to Reels and feed posts",
+        "Previously used in stories and DMs",
+        "Helps creators boost product sales"
       ],
       "translation_zh": [
-        "Uber表示黑客从云公司Fireworks AI窃取了司机驾照信息，该公司为Uber存储数据。",
-        "此次数据泄露涉及一起安全事件，导致近15万份驾照信息外泄。"
+        "Instagram现在允许创作者在Reels和动态帖子中添加亚马逊联盟链接，扩展了之前的故事和私信功能",
+        "此更新帮助创作者通过主要内容区域更直接地推广产品",
+        "该功能旨在增加内容创作者的销售机会"
       ],
       "vocab": [
         {
-          "word": "data breach",
-          "zh": "数据泄露"
+          "word": "affiliate links",
+          "zh": "推广链接"
         },
         {
-          "word": "security incident",
-          "zh": "安全事件"
+          "word": "integration",
+          "zh": "整合功能"
         },
         {
-          "word": "stole information",
-          "zh": "窃取信息"
+          "word": "expands",
+          "zh": "扩展"
         },
         {
-          "word": "stored by",
-          "zh": "由...存储"
+          "word": "new parts of the app",
+          "zh": "应用新区域"
         },
         {
-          "word": "hacked",
-          "zh": "被入侵"
+          "word": "creator bios",
+          "zh": "创作者简介"
         }
       ],
       "category": "tech",
       "tags": [
-        "data breach",
-        "cybersecurity",
-        "hack",
-        "Uber"
+        "social media",
+        "affiliate marketing",
+        "content creation"
       ],
-      "id": "uber-reports-data-breach-affecting-150-000-drive",
+      "id": "instagram-expands-affiliate-link-options-for-cre",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+      "link": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/"
+    },
+    {
+      "title_en": "Robotics startup with Eric Trump support fails to pay employees, risks bankruptcy",
+      "summary_en": [
+        "A robotics company backed by Eric Trump failed to pay its employees' salaries, one year after its CEO used company funds to buy a luxury home.",
+        "The startup is now facing possible collapse due to financial mismanagement."
+      ],
+      "key_points_en": [
+        "Startup missed employee payroll payments",
+        "CEO spent funds on a luxury home",
+        "Company risks bankruptcy"
+      ],
+      "translation_zh": [
+        "一家获得埃里克·特朗普支持的机器人公司未能支付员工工资，这发生在CEO一年前用公司资金购买豪华住宅之后。",
+        "由于财务管理不善，该公司现在面临破产风险。"
+      ],
+      "vocab": [
+        {
+          "word": "miss payroll",
+          "zh": "未支付工资"
+        },
+        {
+          "word": "luxury home",
+          "zh": "豪华住宅"
+        },
+        {
+          "word": "financial trouble",
+          "zh": "财务困境"
+        },
+        {
+          "word": "risk bankruptcy",
+          "zh": "面临破产风险"
+        },
+        {
+          "word": "startup collapse",
+          "zh": "初创公司倒闭"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "startup failure",
+        "financial management",
+        "robotics",
+        "bankruptcy"
+      ],
+      "id": "robotics-startup-with-eric-trump-support-fails-t",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/"
     }
   ]
 }
