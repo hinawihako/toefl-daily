@@ -1,0 +1,446 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T18:51:16+08:00",
+  "items": [
+    {
+      "title_en": "Can AI Skip Transformers in Weight-Space Programming?",
+      "summary_en": [
+        "This study tests if Transformers are necessary for weight-space programming by having large language models (LLMs) either generate weights for fixed architectures or design new ones.",
+        "Experiments show that LLMs can create effective sparse tables without using Transformers when given limited guidance and a sandbox environment."
+      ],
+      "key_points_en": [
+        "Transformers are typically used for their GPU efficiency and gradient descent compatibility",
+        "LLMs can manually create weights without gradient-based training",
+        "Sparse tables outperformed Transformers in some tasks"
+      ],
+      "translation_zh": [
+        "这项研究通过让大语言模型（LLM）为固定架构生成权重或自行设计架构，测试Transformer在权重空间编程中的必要性",
+        "实验表明，在有限指导和沙盒环境中，LLM可以创建有效的稀疏表而无需使用Transformer"
+      ],
+      "vocab": [
+        {
+          "word": "gradient descent",
+          "zh": "梯度下降（优化算法）"
+        },
+        {
+          "word": "sparse table",
+          "zh": "稀疏表（数据结构）"
+        },
+        {
+          "word": "fixed architecture",
+          "zh": "固定架构（预设模型结构）"
+        },
+        {
+          "word": "weight-space programming",
+          "zh": "权重空间编程（手动设置模型参数）"
+        },
+        {
+          "word": "large language models",
+          "zh": "大语言模型（LLM）"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "neural networks",
+        "llm",
+        "research"
+      ],
+      "id": "can-ai-skip-transformers-in-weight-space-program",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.22055"
+    },
+    {
+      "title_en": "Simulator Collapse in Multi-Agent RL: A Major Challenge for AI Training",
+      "summary_en": [
+        "Multi-agent reinforcement learning (MARL) often trains AI agents against a single large language model (LLM) that simulates human users.",
+        "This approach can lead to 'simulator collapse,' where agents learn narrow strategies that fail to work with real users or new simulators.",
+        "The study proposes solutions like Verbalized Sampling to improve generalization."
+      ],
+      "key_points_en": [
+        "Training against a single LLM causes simulator collapse",
+        "Agents develop strategies that exploit simulator limitations",
+        "Verbalized Sampling helps improve real-world performance"
+      ],
+      "translation_zh": [
+        "多智能体强化学习（MARL）通常训练AI代理对抗一个模拟人类用户的单一大型语言模型（LLM）",
+        "这种方法可能导致‘模拟器崩溃’，即代理学习到的策略无法在真实用户或新模拟器上使用",
+        "研究提出了如‘口语化采样’等解决方案来提高泛化能力"
+      ],
+      "vocab": [
+        {
+          "word": "mode-collapsed",
+          "zh": "陷入单一模式的"
+        },
+        {
+          "word": "narrow strategies",
+          "zh": "狭隘的策略"
+        },
+        {
+          "word": "Verbalized Sampling",
+          "zh": "口语化采样"
+        },
+        {
+          "word": "simulator collapse",
+          "zh": "模拟器崩溃"
+        },
+        {
+          "word": "transfer poorly",
+          "zh": "迁移效果差"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "reinforcement learning",
+        "simulator collapse",
+        "multi-agent systems"
+      ],
+      "id": "simulator-collapse-in-multi-agent-rl-a-major-cha",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2608.12253"
+    },
+    {
+      "title_en": "LMLineage: Tracking AI Agent Outputs and Managing Context",
+      "summary_en": [
+        "AI agents need better interpretability beyond just model weights, focusing on how they use multi-source context for decisions.",
+        "LMLineage tracks each output sentence to its input sources with confidence levels, without needing model access.",
+        "The system detects changes in input documents to manage context efficiently."
+      ],
+      "key_points_en": [
+        "Tracks output sentences to input sources with confidence",
+        "No white-box model access required",
+        "Detects concept-drift in input documents"
+      ],
+      "translation_zh": [
+        "AI代理需要超越模型权重的可解释性，关注其如何利用多源上下文做决策。",
+        "LMLineage通过置信度将每个输出句子追踪到输入来源，无需模型访问权限。",
+        "该系统检测输入文档中的概念漂移以管理上下文。"
+      ],
+      "vocab": [
+        {
+          "word": "multi-source context",
+          "zh": "来自多个来源的上下文信息"
+        },
+        {
+          "word": "out-of-band system",
+          "zh": "独立于主系统的追踪机制"
+        },
+        {
+          "word": "calibrated confidences",
+          "zh": "经过校准的置信度数值"
+        },
+        {
+          "word": "concept-drift detection",
+          "zh": "概念漂移检测技术"
+        },
+        {
+          "word": "lineage metadata",
+          "zh": "来源追踪元数据"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "llm",
+        "interpretability",
+        "context governance"
+      ],
+      "id": "lmlineage-tracking-ai-agent-outputs-and-managing",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.22511"
+    },
+    {
+      "title_en": "Nvidia Stock Rises 4% on Strong Earnings Report",
+      "summary_en": [
+        "Nvidia's stock price increased by nearly 4% after the company reported higher-than-expected earnings.",
+        "This positive performance comes despite ongoing challenges in the tech industry."
+      ],
+      "key_points_en": [
+        "Nvidia's stock rose nearly 4% following strong earnings.",
+        "The company's earnings exceeded analyst expectations.",
+        "The tech industry faces ongoing challenges, affecting Nvidia's operations."
+      ],
+      "translation_zh": [
+        "英伟达的股价上涨了近4%，因为公司报告的收益高于预期。",
+        "尽管科技行业面临持续挑战，但这一积极表现仍出现。"
+      ],
+      "vocab": [
+        {
+          "word": "stock price",
+          "zh": "股价"
+        },
+        {
+          "word": "earnings report",
+          "zh": "收益报告"
+        },
+        {
+          "word": "beat expectations",
+          "zh": "超出预期"
+        },
+        {
+          "word": "tumultuous time",
+          "zh": "动荡时期"
+        },
+        {
+          "word": "surge",
+          "zh": "激增"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "earnings report",
+        "tech industry",
+        "financial performance"
+      ],
+      "id": "nvidia-stock-rises-4-on-strong-earnings-report",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+    },
+    {
+      "title_en": "Anthropic's IPO Expected to Price Above $78 Range",
+      "summary_en": [
+        "Anthropic's initial public offering (IPO) may set a price higher than the $70-$78 range, according to sources.",
+        "The company will list on Nasdaq with the ticker symbol 'ANT' and begin trading on November 19."
+      ],
+      "key_points_en": [
+        "IPO price likely above $78",
+        "Listing on Nasdaq under 'ANT'",
+        "Trading starts November 19"
+      ],
+      "translation_zh": [
+        "Anthropic的首次公开募股（IPO）价格可能高于70至78美元的范围，据消息人士称。",
+        "该公司将在纳斯达克上市，股票代码为'ANT'，并于11月19日开始交易。"
+      ],
+      "vocab": [
+        {
+          "word": "price range",
+          "zh": "价格区间"
+        },
+        {
+          "word": "ticker symbol",
+          "zh": "股票代码"
+        },
+        {
+          "word": "listed on",
+          "zh": "在...上市"
+        },
+        {
+          "word": "start trading",
+          "zh": "开始交易"
+        },
+        {
+          "word": "initial public offering",
+          "zh": "首次公开募股"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ipo",
+        "stock market",
+        "nasdaq",
+        "tech company"
+      ],
+      "id": "anthropic-s-ipo-expected-to-price-above-78-range",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+    },
+    {
+      "title_en": "Nvidia's Earnings Beat May Not Clear Up Long-Term Uncertainty",
+      "summary_en": [
+        "Nvidia's recent quarterly results have reduced short-term worries among investors. However, analysts remain uncertain about the company's ability to maintain long-term leadership in the tech industry.",
+        "The stock price rose after beating earnings expectations, but questions about future growth remain.",
+        "Investors are watching how Nvidia will handle competition and technological changes."
+      ],
+      "key_points_en": [
+        "Q3 results eased short-term concerns",
+        "Uncertainty about long-term leadership persists",
+        "Analysts expect ongoing investor uncertainty"
+      ],
+      "translation_zh": [
+        "英伟达最近的季度财报结果缓解了投资者的短期担忧。然而，分析师对公司能否维持长期技术领导地位仍存疑。",
+        "股价在财报超预期后上涨，但关于未来增长的问题仍然存在。",
+        "投资者正在关注英伟达如何应对竞争和技术变化。"
+      ],
+      "vocab": [
+        {
+          "word": "earnings beat",
+          "zh": "超出预期的财报表现"
+        },
+        {
+          "word": "short-term concerns",
+          "zh": "短期担忧"
+        },
+        {
+          "word": "long-term leadership",
+          "zh": "长期领导地位"
+        },
+        {
+          "word": "uncertainty remains",
+          "zh": "不确定性依然存在"
+        },
+        {
+          "word": "analysts expect",
+          "zh": "分析师预计"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "earnings",
+        "uncertainty",
+        "analysts",
+        "tech leadership"
+      ],
+      "id": "nvidia-s-earnings-beat-may-not-clear-up-long-ter",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
+    },
+    {
+      "title_en": "Apple Services Experience Widespread Outage",
+      "summary_en": [
+        "Apple's services, including iCloud and App Store, are currently experiencing outages.",
+        "The company's status page has not yet identified the cause of the disruption."
+      ],
+      "key_points_en": [
+        "Major Apple services like iCloud and Apple Music are down",
+        "Outage confirmed via official status page",
+        "No official explanation for the problem has been released"
+      ],
+      "translation_zh": [
+        "苹果的iCloud、App Store等服务目前出现中断",
+        "公司状态页面尚未确定中断原因"
+      ],
+      "vocab": [
+        {
+          "word": "facing outages",
+          "zh": "面临中断"
+        },
+        {
+          "word": "confirm the cause",
+          "zh": "确认原因"
+        },
+        {
+          "word": "status page",
+          "zh": "状态页面"
+        },
+        {
+          "word": "hit by outage",
+          "zh": "遭受中断"
+        },
+        {
+          "word": "widespread outage",
+          "zh": "大规模中断"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "apple",
+        "outage",
+        "tech issues",
+        "service disruption"
+      ],
+      "id": "apple-services-experience-widespread-outage",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+    },
+    {
+      "title_en": "Proton Launches Lumo Desktop: A Privacy-Focused AI Tool for Task Automation",
+      "summary_en": [
+        "Proton's new Lumo Desktop app works on Windows, Mac, and Linux to help users automate tasks across files and connected apps.",
+        "The app gives users detailed control over what its AI can access, focusing on privacy protection."
+      ],
+      "key_points_en": [
+        "Lumo is a privacy-focused alternative to ChatGPT and Claude",
+        "Available for Windows, Mac, and Linux desktops",
+        "Offers granular controls over AI data access"
+      ],
+      "translation_zh": [
+        "Proton的新Lumo桌面应用可在Windows、Mac和Linux上运行，帮助用户跨文件和连接的应用程序自动化任务。",
+        "该应用为用户提供详细控制，管理其AI可以访问的内容，注重隐私保护。"
+      ],
+      "vocab": [
+        {
+          "word": "privacy-focused",
+          "zh": "注重隐私的"
+        },
+        {
+          "word": "task automation",
+          "zh": "任务自动化"
+        },
+        {
+          "word": "granular controls",
+          "zh": "精细的控制"
+        },
+        {
+          "word": "desktop app",
+          "zh": "桌面应用"
+        },
+        {
+          "word": "connected apps",
+          "zh": "连接的应用"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "privacy",
+        "ai",
+        "desktop apps",
+        "task automation"
+      ],
+      "id": "proton-launches-lumo-desktop-a-privacy-focused-a",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+    },
+    {
+      "title_en": "Drone Strikes on Data Centers: Implications for the Future",
+      "summary_en": [
+        "A live discussion today explores the impact of drone attacks on data centers.",
+        "Experts will analyze potential risks to technology infrastructure and security.",
+        "The event starts at 1 pm Eastern Time on November 17."
+      ],
+      "key_points_en": [
+        "Live talk happens today, November 17",
+        "Topic focuses on drone attacks on data centers",
+        "Discussion starts at 1 pm EST"
+      ],
+      "translation_zh": [
+        "今天将举行一场直播讨论，探讨无人机攻击数据中心的影响。",
+        "专家将分析对技术基础设施和安全的潜在风险。",
+        "活动于11月17日东部时间下午1点开始。"
+      ],
+      "vocab": [
+        {
+          "word": "drone strikes",
+          "zh": "无人机攻击"
+        },
+        {
+          "word": "data centers",
+          "zh": "数据中心"
+        },
+        {
+          "word": "live discussion",
+          "zh": "直播讨论"
+        },
+        {
+          "word": "future implications",
+          "zh": "未来影响"
+        },
+        {
+          "word": "today at 1 pm",
+          "zh": "今天下午1点"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "drone strikes",
+        "data centers",
+        "future tech",
+        "live event"
+      ],
+      "id": "drone-strikes-on-data-centers-implications-for-t",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/"
+    }
+  ]
+}

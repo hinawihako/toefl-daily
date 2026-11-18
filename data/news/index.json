@@ -1,441 +1,446 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T11:23:26+08:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T18:51:16+08:00",
   "items": [
     {
-      "title_en": "New AI Model Helps Predictive Models Work Across Different Databases",
+      "title_en": "Can AI Skip Transformers in Weight-Space Programming?",
       "summary_en": [
-        "Web platforms store data in different database formats, making it hard to reuse AI models between them. Researchers created MoREGT, a new system that uses graph transformers to improve model transfer with less training data.",
-        "The system represents database rows and cells as tokens and adds features like row age to enhance performance."
+        "This study tests if Transformers are necessary for weight-space programming by having large language models (LLMs) either generate weights for fixed architectures or design new ones.",
+        "Experiments show that LLMs can create effective sparse tables without using Transformers when given limited guidance and a sandbox environment."
       ],
       "key_points_en": [
-        "Different database schemas create transfer challenges",
-        "MREGT uses graph transformers for cross-database learning",
-        "The model requires less pretraining data than previous methods"
+        "Transformers are typically used for their GPU efficiency and gradient descent compatibility",
+        "LLMs can manually create weights without gradient-based training",
+        "Sparse tables outperformed Transformers in some tasks"
       ],
       "translation_zh": [
-        "网络平台使用不同格式的数据库，使得AI模型难以在不同平台间复用。研究人员开发了MREGT系统，利用图变压器在较少训练数据下提升模型迁移能力。",
-        "该系统将数据库行和单元格表示为标记，并添加如行年龄等特征来增强性能。"
+        "这项研究通过让大语言模型（LLM）为固定架构生成权重或自行设计架构，测试Transformer在权重空间编程中的必要性",
+        "实验表明，在有限指导和沙盒环境中，LLM可以创建有效的稀疏表而无需使用Transformer"
       ],
       "vocab": [
         {
-          "word": "relational databases",
-          "zh": "关系型数据库"
+          "word": "gradient descent",
+          "zh": "梯度下降（优化算法）"
         },
         {
-          "word": "cross-database pretraining",
-          "zh": "跨数据库预训练"
+          "word": "sparse table",
+          "zh": "稀疏表（数据结构）"
         },
         {
-          "word": "graph transformer",
-          "zh": "图变压器"
+          "word": "fixed architecture",
+          "zh": "固定架构（预设模型结构）"
         },
         {
-          "word": "mixture-of-experts",
-          "zh": "专家混合模型"
+          "word": "weight-space programming",
+          "zh": "权重空间编程（手动设置模型参数）"
         },
         {
-          "word": "pretraining data",
-          "zh": "预训练数据"
+          "word": "large language models",
+          "zh": "大语言模型（LLM）"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
-        "database",
-        "machine learning",
-        "transformer models"
+        "neural networks",
+        "llm",
+        "research"
       ],
-      "id": "new-ai-model-helps-predictive-models-work-across",
+      "id": "can-ai-skip-transformers-in-weight-space-program",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.18315"
+      "link": "https://arxiv.org/abs/2611.22055"
     },
     {
-      "title_en": "Superfluid: A New Local AI Server for Efficient LLM Inference",
+      "title_en": "Simulator Collapse in Multi-Agent RL: A Major Challenge for AI Training",
       "summary_en": [
-        "Running large language models locally protects data privacy, reduces costs, and works without internet. Superfluid solves challenges of sharing models on single devices and using underused hardware across multiple devices.",
-        "The system supports both single-device and multi-device setups while optimizing resource usage across different machines."
+        "Multi-agent reinforcement learning (MARL) often trains AI agents against a single large language model (LLM) that simulates human users.",
+        "This approach can lead to 'simulator collapse,' where agents learn narrow strategies that fail to work with real users or new simulators.",
+        "The study proposes solutions like Verbalized Sampling to improve generalization."
       ],
       "key_points_en": [
-        "Local LLMs keep data private and reduce costs",
-        "Superfluid handles both single-device and multi-device scenarios",
-        "It utilizes idle machines across different vendors"
+        "Training against a single LLM causes simulator collapse",
+        "Agents develop strategies that exploit simulator limitations",
+        "Verbalized Sampling helps improve real-world performance"
       ],
       "translation_zh": [
-        "在本地运行大型语言模型可以保护数据隐私，降低成本，并且无需联网。Superfluid解决了在单个设备上共享模型以及跨多个设备使用未充分利用的硬件的挑战。",
-        "该系统支持单设备和多设备设置，同时优化不同机器上的资源使用。"
+        "多智能体强化学习（MARL）通常训练AI代理对抗一个模拟人类用户的单一大型语言模型（LLM）",
+        "这种方法可能导致‘模拟器崩溃’，即代理学习到的策略无法在真实用户或新模拟器上使用",
+        "研究提出了如‘口语化采样’等解决方案来提高泛化能力"
       ],
       "vocab": [
         {
-          "word": "local inference",
-          "zh": "本地推理"
+          "word": "mode-collapsed",
+          "zh": "陷入单一模式的"
         },
         {
-          "word": "data privacy",
-          "zh": "数据隐私"
+          "word": "narrow strategies",
+          "zh": "狭隘的策略"
         },
         {
-          "word": "network latency",
-          "zh": "网络延迟"
+          "word": "Verbalized Sampling",
+          "zh": "口语化采样"
         },
         {
-          "word": "distributed systems",
-          "zh": "分布式系统"
+          "word": "simulator collapse",
+          "zh": "模拟器崩溃"
         },
         {
-          "word": "idle machines",
-          "zh": "闲置设备"
+          "word": "transfer poorly",
+          "zh": "迁移效果差"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "reinforcement learning",
+        "simulator collapse",
+        "multi-agent systems"
+      ],
+      "id": "simulator-collapse-in-multi-agent-rl-a-major-cha",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2608.12253"
+    },
+    {
+      "title_en": "LMLineage: Tracking AI Agent Outputs and Managing Context",
+      "summary_en": [
+        "AI agents need better interpretability beyond just model weights, focusing on how they use multi-source context for decisions.",
+        "LMLineage tracks each output sentence to its input sources with confidence levels, without needing model access.",
+        "The system detects changes in input documents to manage context efficiently."
+      ],
+      "key_points_en": [
+        "Tracks output sentences to input sources with confidence",
+        "No white-box model access required",
+        "Detects concept-drift in input documents"
+      ],
+      "translation_zh": [
+        "AI代理需要超越模型权重的可解释性，关注其如何利用多源上下文做决策。",
+        "LMLineage通过置信度将每个输出句子追踪到输入来源，无需模型访问权限。",
+        "该系统检测输入文档中的概念漂移以管理上下文。"
+      ],
+      "vocab": [
+        {
+          "word": "multi-source context",
+          "zh": "来自多个来源的上下文信息"
+        },
+        {
+          "word": "out-of-band system",
+          "zh": "独立于主系统的追踪机制"
+        },
+        {
+          "word": "calibrated confidences",
+          "zh": "经过校准的置信度数值"
+        },
+        {
+          "word": "concept-drift detection",
+          "zh": "概念漂移检测技术"
+        },
+        {
+          "word": "lineage metadata",
+          "zh": "来源追踪元数据"
         }
       ],
       "category": "ai",
       "tags": [
         "ai",
         "llm",
-        "local computing",
-        "distributed systems"
+        "interpretability",
+        "context governance"
       ],
-      "id": "superfluid-a-new-local-ai-server-for-efficient-l",
+      "id": "lmlineage-tracking-ai-agent-outputs-and-managing",
       "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.17753"
+      "link": "https://arxiv.org/abs/2611.22511"
     },
     {
-      "title_en": "Tracking AI Behavior in Real Time: New Method Revealed",
+      "title_en": "Nvidia Stock Rises 4% on Strong Earnings Report",
       "summary_en": [
-        "Current AI security checks focus on static data like model weights, not real-time GPU processes.",
-        "Researchers developed a way to analyze live LLM behavior without stopping or changing the model.",
-        "The method uses a six-step process with platform-specific tools to capture hidden states."
+        "Nvidia's stock price increased by nearly 4% after the company reported higher-than-expected earnings.",
+        "This positive performance comes despite ongoing challenges in the tech industry."
       ],
       "key_points_en": [
-        "Uses non-modifying debugger to examine live GPU data",
-        "Works without knowing model architecture details",
-        "Captures per-layer residual-stream activations"
+        "Nvidia's stock rose nearly 4% following strong earnings.",
+        "The company's earnings exceeded analyst expectations.",
+        "The tech industry faces ongoing challenges, affecting Nvidia's operations."
       ],
       "translation_zh": [
-        "当前AI安全检查关注静态数据如模型权重，而非实时GPU进程。",
-        "研究人员开发出在不中断或修改模型情况下分析LLM行为的方法。",
-        "该方法使用六步骤流程和平台特定工具捕获隐藏状态。"
+        "英伟达的股价上涨了近4%，因为公司报告的收益高于预期。",
+        "尽管科技行业面临持续挑战，但这一积极表现仍出现。"
       ],
       "vocab": [
         {
-          "word": "non-modifying debugger",
-          "zh": "不修改系统的调试工具"
+          "word": "stock price",
+          "zh": "股价"
         },
         {
-          "word": "residual-stream activations",
-          "zh": "残差流激活值"
+          "word": "earnings report",
+          "zh": "收益报告"
         },
         {
-          "word": "platform-specific adapter",
-          "zh": "平台特定适配器"
+          "word": "beat expectations",
+          "zh": "超出预期"
         },
         {
-          "word": "live inference process",
-          "zh": "实时推理过程"
+          "word": "tumultuous time",
+          "zh": "动荡时期"
         },
         {
-          "word": "six-stage process",
-          "zh": "六阶段流程"
+          "word": "surge",
+          "zh": "激增"
         }
       ],
-      "category": "ai",
+      "category": "finance",
       "tags": [
-        "ai",
-        "debugging",
-        "llm",
-        "forensics"
+        "stock market",
+        "earnings report",
+        "tech industry",
+        "financial performance"
       ],
-      "id": "tracking-ai-behavior-in-real-time-new-method-rev",
-      "source": "arXiv cs.AI",
-      "link": "https://arxiv.org/abs/2611.18272"
+      "id": "nvidia-stock-rises-4-on-strong-earnings-report",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
     },
     {
-      "title_en": "Anthropic's IPO Offers Hope for Struggling AI Sector",
+      "title_en": "Anthropic's IPO Expected to Price Above $78 Range",
       "summary_en": [
-        "Anthropic's IPO is seen as crucial for the tech industry, which has heavily invested in the AI lab.",
-        "The industry is seeking positive momentum after facing challenges in the AI trade."
+        "Anthropic's initial public offering (IPO) may set a price higher than the $70-$78 range, according to sources.",
+        "The company will list on Nasdaq with the ticker symbol 'ANT' and begin trading on November 19."
       ],
       "key_points_en": [
-        "Anthropic's IPO has outsized importance",
-        "Tech industry is heavily invested in the AI lab",
-        "Market needs positive momentum after struggles"
+        "IPO price likely above $78",
+        "Listing on Nasdaq under 'ANT'",
+        "Trading starts November 19"
       ],
       "translation_zh": [
-        "Anthropic的IPO被视为对科技行业至关重要的事件，该行业已大量投资于这家人工智能实验室。",
-        "在人工智能交易遭遇挑战后，市场亟需积极的动量。"
+        "Anthropic的首次公开募股（IPO）价格可能高于70至78美元的范围，据消息人士称。",
+        "该公司将在纳斯达克上市，股票代码为'ANT'，并于11月19日开始交易。"
       ],
       "vocab": [
         {
-          "word": "outsized importance",
-          "zh": "异常重要的意义"
+          "word": "price range",
+          "zh": "价格区间"
         },
         {
-          "word": "heavily invested",
-          "zh": "大量投资"
+          "word": "ticker symbol",
+          "zh": "股票代码"
         },
         {
-          "word": "desperate for",
-          "zh": "急需"
+          "word": "listed on",
+          "zh": "在...上市"
         },
         {
-          "word": "positive momentum",
-          "zh": "积极的发展势头"
+          "word": "start trading",
+          "zh": "开始交易"
         },
         {
-          "word": "AI lab",
-          "zh": "人工智能实验室"
+          "word": "initial public offering",
+          "zh": "首次公开募股"
         }
       ],
-      "category": "ai",
+      "category": "finance",
       "tags": [
         "ipo",
-        "ai",
-        "tech industry",
-        "market momentum"
+        "stock market",
+        "nasdaq",
+        "tech company"
       ],
-      "id": "anthropic-s-ipo-offers-hope-for-struggling-ai-se",
+      "id": "anthropic-s-ipo-expected-to-price-above-78-range",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html"
+      "link": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
     },
     {
-      "title_en": "Trump's accounts sold up to $1 million in Nvidia stock after White House briefing",
+      "title_en": "Nvidia's Earnings Beat May Not Clear Up Long-Term Uncertainty",
       "summary_en": [
-        "Trump's accounts sold up to $1 million in Nvidia stock five days after being briefed about Jensen Huang's ties to a suspected Chinese spy.",
-        "The timing suggests potential influence from the White House meeting on stock trading decisions."
+        "Nvidia's recent quarterly results have reduced short-term worries among investors. However, analysts remain uncertain about the company's ability to maintain long-term leadership in the tech industry.",
+        "The stock price rose after beating earnings expectations, but questions about future growth remain.",
+        "Investors are watching how Nvidia will handle competition and technological changes."
       ],
       "key_points_en": [
-        "Up to $1 million in Nvidia stock sold",
-        "Sale occurred five days after briefing",
-        "Linked to Huang's relationship with suspected spy"
+        "Q3 results eased short-term concerns",
+        "Uncertainty about long-term leadership persists",
+        "Analysts expect ongoing investor uncertainty"
       ],
       "translation_zh": [
-        "特朗普的账户在被简·黄与疑似中国间谍的关系简报后五天内出售了价值高达100万美元的英伟达股票。",
-        "交易时间表明白宫会议可能影响了股票交易决策。"
+        "英伟达最近的季度财报结果缓解了投资者的短期担忧。然而，分析师对公司能否维持长期技术领导地位仍存疑。",
+        "股价在财报超预期后上涨，但关于未来增长的问题仍然存在。",
+        "投资者正在关注英伟达如何应对竞争和技术变化。"
       ],
       "vocab": [
         {
-          "word": "traded up to",
-          "zh": "交易金额高达"
+          "word": "earnings beat",
+          "zh": "超出预期的财报表现"
         },
         {
-          "word": "briefed on",
-          "zh": "就...进行简报"
+          "word": "short-term concerns",
+          "zh": "短期担忧"
         },
         {
-          "word": "suspected spy",
-          "zh": "疑似间谍"
+          "word": "long-term leadership",
+          "zh": "长期领导地位"
         },
         {
-          "word": "White House access",
-          "zh": "白宫接触机会"
+          "word": "uncertainty remains",
+          "zh": "不确定性依然存在"
         },
         {
-          "word": "stock sale",
-          "zh": "股票出售"
+          "word": "analysts expect",
+          "zh": "分析师预计"
         }
       ],
       "category": "finance",
       "tags": [
-        "stock trading",
-        "white house",
-        "nvidia",
-        "trump"
+        "earnings",
+        "uncertainty",
+        "analysts",
+        "tech leadership"
       ],
-      "id": "trump-s-accounts-sold-up-to-1-million-in-nvidia",
+      "id": "nvidia-s-earnings-beat-may-not-clear-up-long-ter",
       "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
     },
     {
-      "title_en": "Hedge Fund Bets on AI Stocks Before Market Drop",
+      "title_en": "Apple Services Experience Widespread Outage",
       "summary_en": [
-        "A hedge fund nearly collapsed in summer but bought AI stocks before their prices fell.",
-        "The fund made investments in AI companies ahead of a market downturn in October."
+        "Apple's services, including iCloud and App Store, are currently experiencing outages.",
+        "The company's status page has not yet identified the cause of the disruption."
       ],
       "key_points_en": [
-        "Hedge fund faced near collapse over summer",
-        "Purchased AI stocks before share prices dropped",
-        "Investments made before October market rout"
+        "Major Apple services like iCloud and Apple Music are down",
+        "Outage confirmed via official status page",
+        "No official explanation for the problem has been released"
       ],
       "translation_zh": [
-        "对冲基金在夏季几乎破产，但在此之前购买了人工智能股票。",
-        "该基金在十月股市下跌前投资了人工智能公司。"
+        "苹果的iCloud、App Store等服务目前出现中断",
+        "公司状态页面尚未确定中断原因"
       ],
       "vocab": [
         {
-          "word": "hedge fund",
-          "zh": "对冲基金"
+          "word": "facing outages",
+          "zh": "面临中断"
         },
         {
-          "word": "bought AI stocks",
-          "zh": "购买人工智能股票"
+          "word": "confirm the cause",
+          "zh": "确认原因"
         },
         {
-          "word": "tumbling shares",
-          "zh": "暴跌的股票"
+          "word": "status page",
+          "zh": "状态页面"
         },
         {
-          "word": "before the downturn",
-          "zh": "在下跌之前"
+          "word": "hit by outage",
+          "zh": "遭受中断"
         },
         {
-          "word": "almost collapsed",
-          "zh": "几乎破产"
+          "word": "widespread outage",
+          "zh": "大规模中断"
         }
       ],
-      "category": "finance",
+      "category": "tech",
       "tags": [
+        "apple",
+        "outage",
+        "tech issues",
+        "service disruption"
+      ],
+      "id": "apple-services-experience-widespread-outage",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+    },
+    {
+      "title_en": "Proton Launches Lumo Desktop: A Privacy-Focused AI Tool for Task Automation",
+      "summary_en": [
+        "Proton's new Lumo Desktop app works on Windows, Mac, and Linux to help users automate tasks across files and connected apps.",
+        "The app gives users detailed control over what its AI can access, focusing on privacy protection."
+      ],
+      "key_points_en": [
+        "Lumo is a privacy-focused alternative to ChatGPT and Claude",
+        "Available for Windows, Mac, and Linux desktops",
+        "Offers granular controls over AI data access"
+      ],
+      "translation_zh": [
+        "Proton的新Lumo桌面应用可在Windows、Mac和Linux上运行，帮助用户跨文件和连接的应用程序自动化任务。",
+        "该应用为用户提供详细控制，管理其AI可以访问的内容，注重隐私保护。"
+      ],
+      "vocab": [
+        {
+          "word": "privacy-focused",
+          "zh": "注重隐私的"
+        },
+        {
+          "word": "task automation",
+          "zh": "任务自动化"
+        },
+        {
+          "word": "granular controls",
+          "zh": "精细的控制"
+        },
+        {
+          "word": "desktop app",
+          "zh": "桌面应用"
+        },
+        {
+          "word": "connected apps",
+          "zh": "连接的应用"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "privacy",
         "ai",
-        "finance",
-        "investments",
-        "market"
+        "desktop apps",
+        "task automation"
       ],
-      "id": "hedge-fund-bets-on-ai-stocks-before-market-drop",
-      "source": "CNBC",
-      "link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html"
-    },
-    {
-      "title_en": "Apple Introduces Face Unlock Feature for iPhone Duo, Not Face ID",
-      "summary_en": [
-        "Apple has introduced a limited face unlock feature in the iOS 27.3 developer beta for the iPhone Duo.",
-        "This feature is distinct from Face ID and is part of ongoing improvements to the operating system."
-      ],
-      "key_points_en": [
-        "iOS 27.3 beta includes face unlock for iPhone Duo",
-        "Feature differs from Face ID technology",
-        "Update is part of iOS development improvements"
-      ],
-      "translation_zh": [
-        "苹果在iOS 27.3开发者预览版中为iPhone Duo引入了有限的面部解锁功能。",
-        "该功能不同于Face ID，是操作系统持续改进的一部分。"
-      ],
-      "vocab": [
-        {
-          "word": "face unlock",
-          "zh": "面部解锁"
-        },
-        {
-          "word": "developer beta",
-          "zh": "开发者预览版"
-        },
-        {
-          "word": "limited feature",
-          "zh": "有限功能"
-        },
-        {
-          "word": "improvements",
-          "zh": "改进"
-        },
-        {
-          "word": "iPhone Duo",
-          "zh": "iPhone Duo型号"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "ios update",
-        "face recognition",
-        "iphone features",
-        "developer beta"
-      ],
-      "id": "apple-introduces-face-unlock-feature-for-iphone",
+      "id": "proton-launches-lumo-desktop-a-privacy-focused-a",
       "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/"
+      "link": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
     },
     {
-      "title_en": "Instagram Expands Affiliate Link Options for Creators",
+      "title_en": "Drone Strikes on Data Centers: Implications for the Future",
       "summary_en": [
-        "Instagram now allows creators to include Amazon affiliate links in Reels and feed posts, expanding previous options like stories and DMs.",
-        "This update helps creators promote products more directly through their main content areas.",
-        "The feature aims to increase sales opportunities for content creators."
+        "A live discussion today explores the impact of drone attacks on data centers.",
+        "Experts will analyze potential risks to technology infrastructure and security.",
+        "The event starts at 1 pm Eastern Time on November 17."
       ],
       "key_points_en": [
-        "Affiliate links can now be added to Reels and feed posts",
-        "Previously used in stories and DMs",
-        "Helps creators boost product sales"
+        "Live talk happens today, November 17",
+        "Topic focuses on drone attacks on data centers",
+        "Discussion starts at 1 pm EST"
       ],
       "translation_zh": [
-        "Instagram现在允许创作者在Reels和动态帖子中添加亚马逊联盟链接，扩展了之前的故事和私信功能",
-        "此更新帮助创作者通过主要内容区域更直接地推广产品",
-        "该功能旨在增加内容创作者的销售机会"
+        "今天将举行一场直播讨论，探讨无人机攻击数据中心的影响。",
+        "专家将分析对技术基础设施和安全的潜在风险。",
+        "活动于11月17日东部时间下午1点开始。"
       ],
       "vocab": [
         {
-          "word": "affiliate links",
-          "zh": "推广链接"
+          "word": "drone strikes",
+          "zh": "无人机攻击"
         },
         {
-          "word": "integration",
-          "zh": "整合功能"
+          "word": "data centers",
+          "zh": "数据中心"
         },
         {
-          "word": "expands",
-          "zh": "扩展"
+          "word": "live discussion",
+          "zh": "直播讨论"
         },
         {
-          "word": "new parts of the app",
-          "zh": "应用新区域"
+          "word": "future implications",
+          "zh": "未来影响"
         },
         {
-          "word": "creator bios",
-          "zh": "创作者简介"
+          "word": "today at 1 pm",
+          "zh": "今天下午1点"
         }
       ],
       "category": "tech",
       "tags": [
-        "social media",
-        "affiliate marketing",
-        "content creation"
+        "drone strikes",
+        "data centers",
+        "future tech",
+        "live event"
       ],
-      "id": "instagram-expands-affiliate-link-options-for-cre",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/"
-    },
-    {
-      "title_en": "Robotics startup with Eric Trump support fails to pay employees, risks bankruptcy",
-      "summary_en": [
-        "A robotics company backed by Eric Trump failed to pay its employees' salaries, one year after its CEO used company funds to buy a luxury home.",
-        "The startup is now facing possible collapse due to financial mismanagement."
-      ],
-      "key_points_en": [
-        "Startup missed employee payroll payments",
-        "CEO spent funds on a luxury home",
-        "Company risks bankruptcy"
-      ],
-      "translation_zh": [
-        "一家获得埃里克·特朗普支持的机器人公司未能支付员工工资，这发生在CEO一年前用公司资金购买豪华住宅之后。",
-        "由于财务管理不善，该公司现在面临破产风险。"
-      ],
-      "vocab": [
-        {
-          "word": "miss payroll",
-          "zh": "未支付工资"
-        },
-        {
-          "word": "luxury home",
-          "zh": "豪华住宅"
-        },
-        {
-          "word": "financial trouble",
-          "zh": "财务困境"
-        },
-        {
-          "word": "risk bankruptcy",
-          "zh": "面临破产风险"
-        },
-        {
-          "word": "startup collapse",
-          "zh": "初创公司倒闭"
-        }
-      ],
-      "category": "tech",
-      "tags": [
-        "startup failure",
-        "financial management",
-        "robotics",
-        "bankruptcy"
-      ],
-      "id": "robotics-startup-with-eric-trump-support-fails-t",
+      "id": "drone-strikes-on-data-centers-implications-for-t",
       "source": "Ars Technica",
-      "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/"
+      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/"
     }
   ]
 }

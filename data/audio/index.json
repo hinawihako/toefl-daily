@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T11:23:26+08:00",
+  "generated_at": "2026-11-18T18:51:16+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-17",
-      "file": "data/audio/2026-11-17-briefing.mp3",
-      "script": "Here is your daily briefing. Web platforms store data in different database formats, making it hard to reuse AI models between them. Researchers created MoREGT, a new system that uses graph transformers to improve model transfer with less training data. Running large language models locally protects data privacy, reduces costs, and works without internet. Superfluid solves challenges of sharing models on single devices and using underused hardware across multiple devices. Current AI security checks focus on static data like model weights, not real-time GPU processes. Anthropic's IPO is seen as crucial for the tech industry, which has heavily invested in the AI lab.",
-      "duration": "265 KB"
+      "date": "2026-11-18",
+      "file": "data/audio/2026-11-18-briefing.mp3",
+      "script": "Here is your daily briefing. This study tests if Transformers are necessary for weight-space programming by having large language models (LLMs) either generate weights for fixed architectures or design new ones. Multi-agent reinforcement learning (MARL) often trains AI agents against a single large language model (LLM) that simulates human users. AI agents need better interpretability beyond just model weights, focusing on how they use multi-source context for decisions. Nvidia's stock price increased by nearly 4% after the company reported higher-than-expected earnings.",
+      "duration": "220 KB"
     }
   ]
 }
