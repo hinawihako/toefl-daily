@@ -1,5 +1,442 @@
 {
   "date": "2026-11-23",
-  "generated_at": "2026-11-23T10:43:40+08:00",
-  "items": []
+  "generated_at": "2026-11-23T18:31:26+08:00",
+  "items": [
+    {
+      "title_en": "Framework Helps Make Earth Data AI-Ready",
+      "summary_en": [
+        "AI is becoming important in Earth and environmental research, but current data systems aren't well-suited for AI tasks.",
+        "This article introduces a new framework to improve how research data can support AI training and analysis."
+      ],
+      "key_points_en": [
+        "AI needs better data systems for Earth science research",
+        "FAIR principles don't fully address AI requirements",
+        "New framework helps assess data readiness for AI"
+      ],
+      "translation_zh": [
+        "人工智能在地球和环境研究中的作用越来越重要，但目前的数据系统并不适合AI任务。",
+        "这篇文章介绍了一种新框架，帮助改进研究数据对AI训练和分析的支持。"
+      ],
+      "vocab": [
+        {
+          "word": "AI-ready data",
+          "zh": "适合用于人工智能的数据"
+        },
+        {
+          "word": "research data infrastructures",
+          "zh": "研究数据基础设施"
+        },
+        {
+          "word": "AI workflows",
+          "zh": "人工智能工作流程"
+        },
+        {
+          "word": "training models",
+          "zh": "训练模型"
+        },
+        {
+          "word": "FAIR principles",
+          "zh": "FAIR原则"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "data science",
+        "environment",
+        "machine learning"
+      ],
+      "id": "framework-helps-make-earth-data-ai-ready",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.27313"
+    },
+    {
+      "title_en": "Decision Models vs. LLMs in Emotion Classification: A Multilingual Study",
+      "summary_en": [
+        "This study compares decision models, large language models (LLMs), and fine-tuned encoders for multilingual emotion classification. Decision models offer fast responses and consistent results across different question phrasing, but their effectiveness in multiple languages hasn't been widely tested.",
+        "Researchers tested three decision models, two LLMs, and two encoders using Italian instructions to see if zero-shot systems can match fine-tuned models and what advantages decision formats provide over general-purpose LLMs."
+      ],
+      "key_points_en": [
+        "Three decision models (Jev, OpenAI Decisions, Strands Decider 2B) were compared with two LLMs (GPT-6 Luna, Qwen3.5-2B) and two encoders",
+        "Zero-shot systems were evaluated against fine-tuned models for multilingual emotion classification",
+        "Italian instructions were used to test cross-lingual performance"
+      ],
+      "translation_zh": [
+        "这项研究比较了决策模型、大型语言模型（LLMs）和微调编码器在多语言情绪分类中的表现。决策模型能快速响应且对问题措辞变化有稳定性，但其在多语言环境下的效果尚未被广泛测试。",
+        "研究人员使用意大利语指令测试了三种决策模型、两种LLMs和两种编码器，以评估零样本系统是否能与微调模型媲美，并探讨决策格式相对于通用LLMs的优势。"
+      ],
+      "vocab": [
+        {
+          "word": "zero-shot",
+          "zh": "无需训练数据即可使用"
+        },
+        {
+          "word": "fine-tuned encoders",
+          "zh": "为特定任务调整过的编码器"
+        },
+        {
+          "word": "low latency",
+          "zh": "低延迟响应"
+        },
+        {
+          "word": "robustness to prompt wording",
+          "zh": "对问题措辞变化的稳定性"
+        },
+        {
+          "word": "multilingual emotion classification",
+          "zh": "多语言情绪分类"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "emotion classification",
+        "decision models",
+        "LLM comparison",
+        "zero-shot learning"
+      ],
+      "id": "decision-models-vs-llms-in-emotion-classificatio",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.27721"
+    },
+    {
+      "title_en": "New Method Uses AI to Secretly Control Vision-Language Models",
+      "summary_en": [
+        "Researchers developed a technique called TrojanMaxxing that uses AI to secretly alter vision-language models (VLMs) without training or optimization.",
+        "This method leverages weight-space programming (WSP), where large language models (LLMs) directly edit neural network weights based on natural-language instructions."
+      ],
+      "key_points_en": [
+        "TrojanMaxxing uses WSP to backdoor VLMs",
+        "No training or optimization is needed",
+        "Claude Opus 5.5 and Mythos 5.2 agents are used"
+      ],
+      "translation_zh": [
+        "研究人员开发了一种名为TrojanMaxxing的技术，利用AI在不进行训练或优化的情况下秘密篡改视觉语言模型（VLM）",
+        "该方法利用权重空间编程（WSP），大型语言模型（LLM）可以根据自然语言指令直接编辑神经网络权重"
+      ],
+      "vocab": [
+        {
+          "word": "weight-space programming",
+          "zh": "通过直接修改神经网络权重来实现编程"
+        },
+        {
+          "word": "vision-language models",
+          "zh": "同时处理视觉和语言信息的人工智能模型"
+        },
+        {
+          "word": "backdoor",
+          "zh": "秘密植入恶意功能"
+        },
+        {
+          "word": "large language models",
+          "zh": "能理解和生成自然语言的大型人工智能模型"
+        },
+        {
+          "word": "one-shotting",
+          "zh": "仅需少量示例即可完成任务"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "ai",
+        "backdoor",
+        "neural networks",
+        "llm"
+      ],
+      "id": "new-method-uses-ai-to-secretly-control-vision-la",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.27425"
+    },
+    {
+      "title_en": "Treasury Yields Rise as Stock Futures Rebound, Investors Await Williams' Speech",
+      "summary_en": [
+        "U.S. Treasury yields increased on Monday, reversing some of last week's price changes.",
+        "Stock futures showed a strong rebound, suggesting a positive outlook for Wall Street.",
+        "Investors are waiting for a speech by New York Fed President Williams to gauge future economic moves."
+      ],
+      "key_points_en": [
+        "U.S. Treasury yields increased on Monday.",
+        "Stock futures indicated a strong rebound on Wall Street.",
+        "Investors are awaiting a speech by New York Fed President Williams."
+      ],
+      "translation_zh": [
+        "美国国债收益率周一上涨，部分逆转了上周晚些时候的价格变动。",
+        "股票期货显示华尔街可能出现强劲反弹，预示积极前景。",
+        "投资者正在等待纽约联储主席威廉姆斯的演讲，以评估未来的经济动向。"
+      ],
+      "vocab": [
+        {
+          "word": "unwinding price action",
+          "zh": "逆转价格走势"
+        },
+        {
+          "word": "stock futures rebound",
+          "zh": "股票期货反弹"
+        },
+        {
+          "word": "strong rebound",
+          "zh": "强劲反弹"
+        },
+        {
+          "word": "economic moves",
+          "zh": "经济动向"
+        },
+        {
+          "word": "await speech",
+          "zh": "等待演讲"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "treasury yields",
+        "stock market",
+        "economic indicators",
+        "fed speech"
+      ],
+      "id": "treasury-yields-rise-as-stock-futures-rebound-in",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html"
+    },
+    {
+      "title_en": "Frozen Housing Market Hurts Buyers, Sellers, and Economy",
+      "summary_en": [
+        "Mortgage rates rose sharply in September, causing the real estate market to slow down.",
+        "This has made it harder for buyers and sellers, and is affecting the broader economy."
+      ],
+      "key_points_en": [
+        "Mortgage rates spiked in September",
+        "Real estate sector is in a deep freeze",
+        "Economic impacts are growing"
+      ],
+      "translation_zh": [
+        "抵押贷款利率在9月急剧上升，导致房地产市场放缓。",
+        "这使得买家和卖家更加困难，并影响了整体经济。"
+      ],
+      "vocab": [
+        {
+          "word": "sharp spike",
+          "zh": "急剧上升"
+        },
+        {
+          "word": "mortgage rates",
+          "zh": "抵押贷款利率"
+        },
+        {
+          "word": "real estate sector",
+          "zh": "房地产行业"
+        },
+        {
+          "word": "deep freeze",
+          "zh": "严重停滞"
+        },
+        {
+          "word": "hitting buyers",
+          "zh": "影响买家"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "housing market",
+        "mortgage rates",
+        "economic impact",
+        "real estate"
+      ],
+      "id": "frozen-housing-market-hurts-buyers-sellers-and-e",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/23/housing-market-real-estate-economy.html"
+    },
+    {
+      "title_en": "Bull Market Faces New Challenge as 'Smart Money' Exits",
+      "summary_en": [
+        "Companies are moving away from buying shares back to issuing new stock, increasing market supply.",
+        "Anthropic's $81 billion IPO is testing investor demand in this shifting market environment."
+      ],
+      "key_points_en": [
+        "Firms prefer stock issuance over buybacks now",
+        "Increased supply from new stock offerings",
+        "Anthropic's IPO tests market demand"
+      ],
+      "translation_zh": [
+        "公司现在更倾向于发行新股而非回购股票，增加了市场供应量。",
+        "Anthropic的810亿美元IPO正在测试市场对这种转变的需求。"
+      ],
+      "vocab": [
+        {
+          "word": "share buybacks",
+          "zh": "公司回购股票"
+        },
+        {
+          "word": "stock issuance",
+          "zh": "发行新股"
+        },
+        {
+          "word": "smart money",
+          "zh": "精明投资者"
+        },
+        {
+          "word": "IPO",
+          "zh": "首次公开募股"
+        },
+        {
+          "word": "supply and demand",
+          "zh": "供需关系"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "IPO",
+        "investment trends",
+        "market dynamics"
+      ],
+      "id": "bull-market-faces-new-challenge-as-smart-money-e",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
+    },
+    {
+      "title_en": "Signal Limits Mobile Screenshots to Combat AI Surveillance Threats",
+      "summary_en": [
+        "Signal is restricting users' ability to take screenshots on Android and iOS apps.",
+        "The move aims to address growing concerns about AI-powered surveillance technologies.",
+        "The company calls this an 'existential threat' to user privacy."
+      ],
+      "key_points_en": [
+        "Screenshot feature limited on both Android and iOS",
+        "AI surveillance identified as major threat",
+        "Action framed as critical privacy protection"
+      ],
+      "translation_zh": [
+        "Signal 限制 Android 和 iOS 应用中的截图功能",
+        "此举旨在应对人工智能监控技术带来的担忧",
+        "公司称这是对用户隐私的‘生存威胁’"
+      ],
+      "vocab": [
+        {
+          "word": "existential threat",
+          "zh": "生存威胁"
+        },
+        {
+          "word": "limiting ability",
+          "zh": "限制能力"
+        },
+        {
+          "word": "mobile screenshots",
+          "zh": "手机截图"
+        },
+        {
+          "word": "confronts threat",
+          "zh": "应对威胁"
+        },
+        {
+          "word": "AI surveillance",
+          "zh": "人工智能监控"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "privacy",
+        "ai",
+        "security",
+        "tech"
+      ],
+      "id": "signal-limits-mobile-screenshots-to-combat-ai-su",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    },
+    {
+      "title_en": "Top Apps for Making New Friends in 2023",
+      "summary_en": [
+        "This article lists apps that help people find friends, including platforms like BFF and event-based apps like Timeleft.",
+        "These apps use different methods to connect users with others who share similar interests or attend the same events."
+      ],
+      "key_points_en": [
+        "BFF is a friend discovery platform",
+        "Timeleft focuses on event-based connections",
+        "Apps help users meet people with similar interests"
+      ],
+      "translation_zh": [
+        "这篇文章列举了帮助人们交友的应用程序，包括BFF等平台和Timeleft等以活动为中心的应用程序。",
+        "这些应用程序使用不同的方法，让用户与有共同兴趣或参加相同活动的人建立联系。"
+      ],
+      "vocab": [
+        {
+          "word": "friend discovery",
+          "zh": "交友发现"
+        },
+        {
+          "word": "event-based",
+          "zh": "基于活动的"
+        },
+        {
+          "word": "compile a list",
+          "zh": "整理一份清单"
+        },
+        {
+          "word": "make new friends",
+          "zh": "结交新朋友"
+        },
+        {
+          "word": "similar interests",
+          "zh": "相似的兴趣"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "social apps",
+        "friendship",
+        "technology",
+        "mobile apps"
+      ],
+      "id": "top-apps-for-making-new-friends-in-2023",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/"
+    },
+    {
+      "title_en": "Startup Files Lawsuit Against Apple in India Over Tap-to-Share Feature",
+      "summary_en": [
+        "A U.S. startup is suing Apple in India, demanding $162 million in damages and an injunction to block iPhone and Apple Watch imports.",
+        "The lawsuit centers on Apple's tap-to-share contacts feature, which the startup claims infringes on its technology."
+      ],
+      "key_points_en": [
+        "Startup seeks $162 million in damages",
+        "Injunction could halt iPhone/Apple Watch imports to India",
+        "Dispute focuses on tap-to-share contacts feature"
+      ],
+      "translation_zh": [
+        "一家美国初创公司起诉苹果公司，要求赔偿1.62亿美元并禁止iPhone和Apple Watch进口到印度。",
+        "这起诉讼围绕苹果公司的‘轻触共享联系人’功能，初创公司称该功能侵犯了其技术。"
+      ],
+      "vocab": [
+        {
+          "word": "seeking damages",
+          "zh": "要求赔偿"
+        },
+        {
+          "word": "injunction to impact imports",
+          "zh": "禁止进口的禁令"
+        },
+        {
+          "word": "tap-to-share feature",
+          "zh": "轻触共享功能"
+        },
+        {
+          "word": "lawsuit against Apple",
+          "zh": "对苹果的诉讼"
+        },
+        {
+          "word": "intellectual property dispute",
+          "zh": "知识产权纠纷"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "lawsuit",
+        "intellectual property",
+        "tech dispute",
+        "import restrictions"
+      ],
+      "id": "startup-files-lawsuit-against-apple-in-india-ove",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/"
+    }
+  ]
 }

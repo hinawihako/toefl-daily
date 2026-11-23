@@ -1,4 +1,12 @@
 {
-  "generated_at": "2026-11-23T10:43:40+08:00",
-  "items": []
+  "generated_at": "2026-11-23T18:31:26+08:00",
+  "items": [
+    {
+      "title": "Daily Briefing",
+      "date": "2026-11-23",
+      "file": "data/audio/2026-11-23-briefing.mp3",
+      "script": "Here is your daily briefing. AI is becoming important in Earth and environmental research, but current data systems aren't well-suited for AI tasks. This study compares decision models, large language models (LLMs), and fine-tuned encoders for multilingual emotion classification. Decision models offer fast responses and consistent results across different question phrasing, but their effectiveness in multiple languages hasn't been widely tested. Researchers developed a technique called TrojanMaxxing that uses AI to secretly alter vision-language models (VLMs) without training or optimization. U.S. Treasury yields increased on Monday, reversing some of last week's price changes.",
+      "duration": "257 KB"
+    }
+  ]
 }
