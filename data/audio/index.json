@@ -1,12 +1,4 @@
 {
-  "generated_at": "2026-11-18T18:51:16+08:00",
-  "items": [
-    {
-      "title": "Daily Briefing",
-      "date": "2026-11-18",
-      "file": "data/audio/2026-11-18-briefing.mp3",
-      "script": "Here is your daily briefing. This study tests if Transformers are necessary for weight-space programming by having large language models (LLMs) either generate weights for fixed architectures or design new ones. Multi-agent reinforcement learning (MARL) often trains AI agents against a single large language model (LLM) that simulates human users. AI agents need better interpretability beyond just model weights, focusing on how they use multi-source context for decisions. Nvidia's stock price increased by nearly 4% after the company reported higher-than-expected earnings.",
-      "duration": "220 KB"
-    }
-  ]
+  "generated_at": "2026-11-23T10:38:12+08:00",
+  "items": []
 }
