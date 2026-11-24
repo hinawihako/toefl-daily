@@ -1,0 +1,444 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T09:08:38+08:00",
+  "items": [
+    {
+      "title_en": "Improving Scene Graph Generation with Root-Cause Analysis",
+      "summary_en": [
+        "Scene graph generation (SGG) involves identifying objects in images and their relationships. Current methods show performance drops but not specific failure points. RoHa-SGG uses root-cause analysis to optimize models without retraining.",
+        "RoHa-SGG introduces two LLM agents to identify failure components and optimize inference code around frozen models, improving SGG accuracy."
+      ],
+      "key_points_en": [
+        "Existing SGG methods don't identify where models fail",
+        "RoHa-SGG uses root-cause analysis agents",
+        "Optimizes inference code without retraining models"
+      ],
+      "translation_zh": [
+        "场景图生成（SGG）涉及识别图像中的物体及其关系。当前方法显示性能下降但无法定位具体失败点。RoHa-SGG通过根本原因分析优化模型而无需重新训练。",
+        "RoHa-SGG引入两个LLM代理来识别失败组件并优化冻结模型的推理代码，提高SGG准确性。"
+      ],
+      "vocab": [
+        {
+          "word": "root-cause analysis",
+          "zh": "根本原因分析"
+        },
+        {
+          "word": "scene graph generation",
+          "zh": "场景图生成"
+        },
+        {
+          "word": "agentic harness",
+          "zh": "代理式支架"
+        },
+        {
+          "word": "LLM agents",
+          "zh": "大型语言模型代理"
+        },
+        {
+          "word": "inference code",
+          "zh": "推理代码"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "scene graph generation",
+        "model optimization",
+        "root-cause analysis",
+        "LLM agents"
+      ],
+      "id": "improving-scene-graph-generation-with-root-cause",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.27529"
+    },
+    {
+      "title_en": "LesionAgent: AI Tool for Tracking Tumors Without Training",
+      "summary_en": [
+        "Cancer patients get CT scans every few months to check treatment progress. Current AI models can analyze scans but don't interpret them like radiologists.",
+        "LesionAgent is a new AI system that reads scans end-to-end without special training, following medical rules to track tumors over time"
+      ],
+      "key_points_en": [
+        "Uses 3D models without needing task-specific training",
+        "Tracks lesions across multiple CT scans",
+        "Follows clinical guidelines for tumor assessment"
+      ],
+      "translation_zh": [
+        "癌症患者每隔几个月会进行CT扫描以检查治疗进展。目前的AI模型可以分析扫描结果，但无法像放射科医生一样进行解读。",
+        "LesionAgent是一种新的AI系统，无需特殊训练即可端到端地阅读扫描结果，并遵循医学规则跟踪肿瘤变化"
+      ],
+      "vocab": [
+        {
+          "word": "training-free",
+          "zh": "无需特定训练的"
+        },
+        {
+          "word": "3D foundation models",
+          "zh": "三维基础模型"
+        },
+        {
+          "word": "coordinate-labelled views",
+          "zh": "坐标标记的视图"
+        },
+        {
+          "word": "clinical guideline",
+          "zh": "临床指南"
+        },
+        {
+          "word": "response assessment",
+          "zh": "反应评估"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "medical ai",
+        "llm",
+        "tumor tracking",
+        "clinical guidelines"
+      ],
+      "id": "lesionagent-ai-tool-for-tracking-tumors-without",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2611.27876"
+    },
+    {
+      "title_en": "AgentArk: Combining Multi-Agent Intelligence into One LLM",
+      "summary_en": [
+        "Multi-agent systems improve reasoning but face high costs and errors. AgentArk reduces these issues by distilling multi-agent interactions into a single model.",
+        "This method keeps the intelligence of multiple agents while using less computation.",
+        "The framework tests three distillation strategies across different models and tasks."
+      ],
+      "key_points_en": [
+        "Multi-agent systems have high computational costs and error risks",
+        "AgentArk distills interactions into a single model",
+        "The approach maintains efficiency and multi-agent intelligence"
+      ],
+      "translation_zh": [
+        "多智能体系统虽然能提升推理能力，但存在高成本和错误风险。AgentArk通过将多智能体交互压缩到单一模型中来减少这些问题",
+        "该方法在保持计算效率的同时保留了多智能体的智能",
+        "框架在不同模型和任务中测试了三种蒸馏策略"
+      ],
+      "vocab": [
+        {
+          "word": "distill interactions",
+          "zh": "提炼交互关系"
+        },
+        {
+          "word": "computational efficiency",
+          "zh": "计算效率"
+        },
+        {
+          "word": "error propagation",
+          "zh": "错误传播"
+        },
+        {
+          "word": "hierarchical distillation",
+          "zh": "分层蒸馏"
+        },
+        {
+          "word": "single model",
+          "zh": "单一模型"
+        }
+      ],
+      "category": "ai",
+      "tags": [
+        "llm",
+        "multi-agent",
+        "distillation",
+        "ai research"
+      ],
+      "id": "agentark-combining-multi-agent-intelligence-into",
+      "source": "arXiv cs.AI",
+      "link": "https://arxiv.org/abs/2602.03955"
+    },
+    {
+      "title_en": "Nvidia's Stock Surge: What Investors Should Do Next in the AI Trade",
+      "summary_en": [
+        "Nvidia's stock has risen sharply following CEO Jensen Huang's return, but investors and lawmakers are cautious about the AI trade's future.",
+        "Experts suggest careful evaluation of risks and opportunities in the current market climate."
+      ],
+      "key_points_en": [
+        "Nvidia's stock has surged after CEO Jensen Huang's return.",
+        "Investors and lawmakers are cautious about the AI trade's future.",
+        "Market experts advise evaluating risks and opportunities carefully."
+      ],
+      "translation_zh": [
+        "Nvidia的股价在CEO黄仁勋回归后大幅上涨，但投资者和立法者对人工智能交易的未来持谨慎态度。",
+        "专家建议在当前市场环境下仔细评估风险和机遇。"
+      ],
+      "vocab": [
+        {
+          "word": "stock surge",
+          "zh": "股价大幅上涨"
+        },
+        {
+          "word": "market reaction",
+          "zh": "市场反应"
+        },
+        {
+          "word": "investors' caution",
+          "zh": "投资者的谨慎态度"
+        },
+        {
+          "word": "AI trade",
+          "zh": "人工智能交易"
+        },
+        {
+          "word": "lawmakers' stance",
+          "zh": "立法者的立场"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "stock market",
+        "AI investment",
+        "investor caution",
+        "market trends"
+      ],
+      "id": "nvidia-s-stock-surge-what-investors-should-do-ne",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html"
+    },
+    {
+      "title_en": "Nvidia CEO's Return Boosts Asian Partner Stocks",
+      "summary_en": [
+        "Investors are increasing their investments in technology companies following the reinstatement of Nvidia's CEO, Jensen Huang.",
+        "This move has led to a rise in stock prices for Nvidia's partners and suppliers in Asia."
+      ],
+      "key_points_en": [
+        "Nvidia CEO Jensen Huang was reinstated by the board.",
+        "Investor confidence in tech markets has increased.",
+        "Asian partner stocks rose following the news."
+      ],
+      "translation_zh": [
+        "投资者在Nvidia首席执行官Jensen Huang被董事会重新任命后，增加了对科技公司的投资。",
+        "此举导致亚洲合作伙伴的股票价格上涨。"
+      ],
+      "vocab": [
+        {
+          "word": "reinstatement",
+          "zh": "重新任命"
+        },
+        {
+          "word": "investors piled back",
+          "zh": "投资者重新进入"
+        },
+        {
+          "word": "tech market",
+          "zh": "科技市场"
+        },
+        {
+          "word": "stock prices",
+          "zh": "股票价格"
+        },
+        {
+          "word": "partner and supplier",
+          "zh": "合作伙伴和供应商"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "ceo",
+        "stock market",
+        "asia",
+        "tech investment"
+      ],
+      "id": "nvidia-ceo-s-return-boosts-asian-partner-stocks",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+    },
+    {
+      "title_en": "Fed official suggests higher rates may be needed to control inflation",
+      "summary_en": [
+        "Fed's John Williams believes inflation will approach the 2% target by 2027.",
+        "Higher interest rates are likely over time to manage inflation.",
+        "The Fed aims to keep inflation stable near 2% long-term."
+      ],
+      "key_points_en": [
+        "Fed official predicts 2% inflation target by 2027",
+        "Higher rates expected as inflation control measure",
+        "Central bank focuses on long-term stability"
+      ],
+      "translation_zh": [
+        "美联储官员预测到2027年通胀将接近2%的目标",
+        "为控制通胀可能需要提高利率",
+        "美联储致力于长期稳定"
+      ],
+      "vocab": [
+        {
+          "word": "central banker",
+          "zh": "央行官员"
+        },
+        {
+          "word": "inflation target",
+          "zh": "通胀目标"
+        },
+        {
+          "word": "interest rates",
+          "zh": "利率"
+        },
+        {
+          "word": "over time",
+          "zh": "随着时间推移"
+        },
+        {
+          "word": "economic policy",
+          "zh": "经济政策"
+        }
+      ],
+      "category": "finance",
+      "tags": [
+        "inflation",
+        "interest rates",
+        "Fed policy",
+        "economic forecast"
+      ],
+      "id": "fed-official-suggests-higher-rates-may-be-needed",
+      "source": "CNBC",
+      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+    },
+    {
+      "title_en": "Startup Supertake Secures $20 Million to Use AI in Creating Stock Portfolios from Market Predictions",
+      "summary_en": [
+        "Supertake, a new startup, has raised $20 million to develop AI tools that convert users' market forecasts into automated stock portfolios.",
+        "This technology allows investors to back their financial predictions without manually selecting individual stocks."
+      ],
+      "key_points_en": [
+        "$20 million funding round",
+        "AI converts market predictions into stock portfolios",
+        "Users don't need to select individual stocks manually"
+      ],
+      "translation_zh": [
+        "新创公司Supertake获得2000万美元融资，用于开发将用户市场预测转化为自动股票组合的人工智能工具。",
+        "这项技术使投资者能够基于自己的财务预测进行投资，而无需手动挑选个股。"
+      ],
+      "vocab": [
+        {
+          "word": "market predictions",
+          "zh": "市场预测"
+        },
+        {
+          "word": "stock portfolios",
+          "zh": "股票组合"
+        },
+        {
+          "word": "AI agents",
+          "zh": "人工智能代理"
+        },
+        {
+          "word": "put money behind",
+          "zh": "投入资金支持"
+        },
+        {
+          "word": "without having to pick",
+          "zh": "无需手动挑选"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "fintech",
+        "startup",
+        "investment"
+      ],
+      "id": "startup-supertake-secures-20-million-to-use-ai-i",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+    },
+    {
+      "title_en": "Anthropic Introduces Claude Ship to Streamline Code Review with AI Agents",
+      "summary_en": [
+        "Anthropic's new tool, Claude Ship, uses AI agents to automatically review, fix, and approve code changes.",
+        "This helps reduce delays caused by the growing amount of AI-generated code in development processes."
+      ],
+      "key_points_en": [
+        "Claude Ship automates code approvals using AI",
+        "Handles routine tasks in software development",
+        "Aims to solve bottlenecks from AI-generated code"
+      ],
+      "translation_zh": [
+        "Anthropic的新工具Claude Ship使用人工智能代理自动审查、修复和批准代码更改。",
+        "这有助于减少由越来越多的AI生成代码带来的延误。"
+      ],
+      "vocab": [
+        {
+          "word": "AI agents",
+          "zh": "人工智能代理"
+        },
+        {
+          "word": "code changes",
+          "zh": "代码更改"
+        },
+        {
+          "word": "routine approvals",
+          "zh": "常规审批"
+        },
+        {
+          "word": "eliminate bottlenecks",
+          "zh": "消除瓶颈"
+        },
+        {
+          "word": "AI-generated code",
+          "zh": "AI生成的代码"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "ai",
+        "coding",
+        "automation",
+        "developer-tools"
+      ],
+      "id": "anthropic-introduces-claude-ship-to-streamline-c",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    },
+    {
+      "title_en": "Megaspeed Faces US Blacklist Over Jensen Huang Scandal",
+      "summary_en": [
+        "Megaspeed, linked to Jensen Huang's scandal, may be added to a US blacklist.",
+        "US companies must get a special license to work with Megaspeed.",
+        "The company was previously led by Alice Huang."
+      ],
+      "key_points_en": [
+        "Megaspeed is under investigation for Jensen Huang's scandal.",
+        "US firms need a federal license to do business with Megaspeed.",
+        "Alice Huang previously managed the company."
+      ],
+      "translation_zh": [
+        "因黄仁勋丑闻，Megaspeed可能被列入美国黑名单。",
+        "美国公司必须获得特别许可才能与Megaspeed合作。",
+        "该公司此前由Alice Huang领导。"
+      ],
+      "vocab": [
+        {
+          "word": "blacklist",
+          "zh": "列入黑名单"
+        },
+        {
+          "word": "barred from",
+          "zh": "被禁止"
+        },
+        {
+          "word": "special license",
+          "zh": "特别许可"
+        },
+        {
+          "word": "federal government",
+          "zh": "联邦政府"
+        },
+        {
+          "word": "scandal",
+          "zh": "丑闻"
+        }
+      ],
+      "category": "tech",
+      "tags": [
+        "blacklist",
+        "scandal",
+        "us sanctions",
+        "tech company"
+      ],
+      "id": "megaspeed-faces-us-blacklist-over-jensen-huang-s",
+      "source": "TechCrunch",
+      "link": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+    }
+  ]
+}

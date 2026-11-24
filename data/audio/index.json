@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T18:31:26+08:00",
+  "generated_at": "2026-11-24T09:08:38+08:00",
   "items": [
     {
       "title": "Daily Briefing",
-      "date": "2026-11-23",
-      "file": "data/audio/2026-11-23-briefing.mp3",
-      "script": "Here is your daily briefing. AI is becoming important in Earth and environmental research, but current data systems aren't well-suited for AI tasks. This study compares decision models, large language models (LLMs), and fine-tuned encoders for multilingual emotion classification. Decision models offer fast responses and consistent results across different question phrasing, but their effectiveness in multiple languages hasn't been widely tested. Researchers developed a technique called TrojanMaxxing that uses AI to secretly alter vision-language models (VLMs) without training or optimization. U.S. Treasury yields increased on Monday, reversing some of last week's price changes.",
-      "duration": "257 KB"
+      "date": "2026-11-24",
+      "file": "data/audio/2026-11-24-briefing.mp3",
+      "script": "Here is your daily briefing. Scene graph generation (SGG) involves identifying objects in images and their relationships. Current methods show performance drops but not specific failure points. RoHa-SGG uses root-cause analysis to optimize models without retraining. Cancer patients get CT scans every few months to check treatment progress. Current AI models can analyze scans but don't interpret them like radiologists. Multi-agent systems improve reasoning but face high costs and errors. AgentArk reduces these issues by distilling multi-agent interactions into a single model. Nvidia's stock has risen sharply following CEO Jensen Huang's return, but investors and lawmakers are cautious about the AI trade's future.",
+      "duration": "290 KB"
     }
   ]
 }
